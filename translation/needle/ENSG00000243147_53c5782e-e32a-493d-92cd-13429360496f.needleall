@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 15:42:37
+# Commandline: needle
+#    -outfile needle/ENSG00000243147_53c5782e-e32a-493d-92cd-13429360496f.needleall
+#    -asequence SA/ENSG00000243147.fa
+#    -bsequence SB/53c5782e-e32a-493d-92cd-13429360496f.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000243147_53c5782e-e32a-493d-92cd-13429360496f.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 27771000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 378
+# Identity:     148/378 (39.2%)
+# Similarity:   148/378 (39.2%)
+# Gaps:         201/378 (53.2%)
+# Score: 314.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ----------------------------------ATGTTCCTCTCCGCGG     16
+                                                       ||||||||||||||||
+27771000           1 GGCCGGTGACGGAGACTGCCCAGGTGTGGTCACCATGTTCCTCTCCGCGG     50
+
+EMBOSS_001        17 TCTTCTTTG---CCAAGAG-------------CAAGTCAAAAAACATTC-     49
+                     ||||| |||   |.|||||             .|||   |||||.||.| 
+27771000          51 TCTTC-TTGAAACAAAGAGTCCTCTTCGTGGAAAAG---AAAAAAATACG     96
+
+EMBOSS_001        50 --------------TGG--TGAGAATG---GTG--------AGCGAAG-C     71
+                                   |||  |||.||||   .||        ||.|||| |
+27771000          97 CTCCCTTTAAACGGTGGATTGAAAATGACTTTGATTTATAAAGAGAAGAC    146
+
+EMBOSS_001        72 T--GGGACAGGTTTCTGCTTCA--------------------ACACCAAG     99
+                     |  |||...||.|.|||.||||                    |.|..|||
+27771000         147 TGAGGGCGGGGATACTGATTCAGAAATCCTGTAGCGTGTAATAAAAGAAG    196
+
+EMBOSS_001       100 AGAAACCGACTGC-GGGAAAAACTGACTCTTTTGCATTATGA--TCCAGT    146
+                     ||.||   |..|| .||||..||||.|||.|.|| ||| |||  .||| |
+27771000         197 AGGAA---ATGGCATGGAATCACTGCCTCCTGTG-ATT-TGAAGGCCA-T    240
+
+EMBOSS_001       147 TGTG-----AAACAA-----------AGAGTCCTCTTCGT----GGAAAA    176
+                     ||||     ||||||           |.|||  |||||.|    || |.|
+27771000         241 TGTGAAGGAAAACAATGCAGTGAAAGAAAGT--TCTTCATATTAGG-ACA    287
+
+EMBOSS_001       177 GA------------------------------------------------    178
+                     ||                                                
+27771000         288 GATATCATTGCATCACATTTATTTATCTTTCTGGGTATTTTTATAGCCCT    337
+
+EMBOSS_001       179 ----AAAAAATACGCTCCCTTTAA----    198
+                         ||||||||        ||||    
+27771000         338 TAATAAAAAATA--------TTAAAATA    357
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 00:50:23
+# Commandline: needle
+#    -outfile needle/ENSG00000262902_6338e1ff-52fc-4455-aad0-3b3e6307c2c9.needleall
+#    -asequence SA/ENSG00000262902.fa
+#    -bsequence SB/6338e1ff-52fc-4455-aad0-3b3e6307c2c9.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000262902_6338e1ff-52fc-4455-aad0-3b3e6307c2c9.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 53106000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 290
+# Identity:       4/290 ( 1.4%)
+# Similarity:     7/290 ( 2.4%)
+# Gaps:         271/290 (93.4%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+53106000           1 CCCACAACACTTTCTTGGCCTATCTGGAATACCCCGACGTTACTCGGACT     50
+
+EMBOSS_001         1 -------------------------------------------------S      1
+                                                                      .
+53106000          51 ACCCCGATGCATACACCACATGAAATATCCTATCATCTGTAGGCTCATTC    100
+
+EMBOSS_001         2 equenceunavailable--------------------------------     19
+                       :  | : | |  |                                   
+53106000         101 ATTTCCCTAACAGCAGTAATATTAATAATTTTCATGATTTGAGAAGCCTT    150
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+53106000         151 CGCTTCAAAGCGAAAAGTCCTAATAATAGAAGAACCCTCCATAAACCTGG    200
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+53106000         201 AGTGACTATATGGATGCGCCCCACCCTACCACACATTCGAAGAACCCGTA    250
+
+EMBOSS_001        19 ----------------------------------------     19
+                                                             
+53106000         251 TACATAAAATCTAGACAAAAAAGGAAGGAATCGAACCCCC    290
+
+
+#---------------------------------------
+#---------------------------------------

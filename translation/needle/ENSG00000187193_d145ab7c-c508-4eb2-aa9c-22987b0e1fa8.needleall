@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 23:18:49
+# Commandline: needle
+#    -outfile needle/ENSG00000187193_d145ab7c-c508-4eb2-aa9c-22987b0e1fa8.needleall
+#    -asequence SA/ENSG00000187193.fa
+#    -bsequence SB/d145ab7c-c508-4eb2-aa9c-22987b0e1fa8.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000187193_d145ab7c-c508-4eb2-aa9c-22987b0e1fa8.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 56638000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 406
+# Identity:     178/406 (43.8%)
+# Similarity:   178/406 (43.8%)
+# Gaps:         220/406 (54.2%)
+# Score: 858.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+56638000           1 ACCAAGCCTTCCACGTGCGCCTTATAGCCTCTCAACTTCTTGCTTGGGAT     50
+
+EMBOSS_001         1 -----------------------ATGGACCCCAACTGCTCCTGCTCGCCT     27
+                                            |||||||||||||||||||||.|..||
+56638000          51 CTCCAACCTCACCGCGGCTCGAAATGGACCCCAACTGCTCCTGCGCCACT    100
+
+EMBOSS_001        28 GTTGGCTCCTGTGCCTGTGCCGGCTCCTGCAAATGCAAAGAGTGCAAATG     77
+                     |.|||||||||..||||||||.|||||||||||||||||||||.||||||
+56638000         101 GGTGGCTCCTGCACCTGTGCCAGCTCCTGCAAATGCAAAGAGTACAAATG    150
+
+EMBOSS_001        78 CACCTCCTGCAAGAAGAGCTGCTGCTCCTGCTGCCCTGTGGGCTGTGCCA    127
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+56638000         151 CACCTCCTGCAAGAAGAGCTGCTGCTCCTGCTGCCCTGTGGGCTGTGCCA    200
+
+EMBOSS_001       128 AGTGTGCCCAGGGCTGCATCTGCAAAGGGACGTCAGACAAGTGCAGCTGC    177
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+56638000         201 AGTGTGCCCAGGGCTGCATCTGCAAAGGGACGTCAGACAAGTGCAGCTGC    250
+
+EMBOSS_001       178 TGTGCCTGA-----------------------------------------    186
+                     |||||||||                                         
+56638000         251 TGTGCCTGATGCCAGGACAGCTGTGCTCTCAGATGTAAATAGAGCAACCT    300
+
+EMBOSS_001       186 --------------------------------------------------    186
+                                                                       
+56638000         301 ATATAAACCTGGATTTTTTTTTTTTTTTTTTTTGTACAACCCTGACCCGT    350
+
+EMBOSS_001       186 --------------------------------------------------    186
+                                                                       
+56638000         351 TTGCTACATCTTTTTTTCTATGAAATATGTGAATGGCAATAAATTCATCT    400
+
+EMBOSS_001       186 ------    186
+                           
+56638000         401 AGACTA    406
+
+
+#---------------------------------------
+#---------------------------------------

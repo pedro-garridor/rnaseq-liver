@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 23:50:17
+# Commandline: needle
+#    -outfile needle/ENSG00000167863_012ec8c7-5475-485f-8983-73c967c6ce1a.needleall
+#    -asequence SA/ENSG00000167863.fa
+#    -bsequence SB/012ec8c7-5475-485f-8983-73c967c6ce1a.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000167863_012ec8c7-5475-485f-8983-73c967c6ce1a.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 012ec8c7-5475-485f-8983-73c967c6ce1a_ENSG00000167863.12
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 567
+# Identity:     387/567 (68.3%)
+# Similarity:   387/567 (68.3%)
+# Gaps:         170/567 (30.0%)
+# Score: 1844.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGCTGGGCGAAAACTTGCTCTAAAAACCATTGACTGGGTAGCTTTTGC     50
+                                                                       
+012ec8c7-5475      0 --------------------------------------------------      0
+
+EMBOSS_001        51 AGAGATCATACCCCAGAACCAAAAGGCCATTGCTAGTTCCCTGAAATCCT    100
+                                               ||.||.||.|.|.|          
+012ec8c7-5475      1 --------------------------CCGTTACTTGCTGC----------     14
+
+EMBOSS_001       101 GGAATGAGACCCT---CACC---------TCCAGGTTGGCTGCTTTACCT    138
+                     |||   .||||.|   ||.|         |..||||||||||||||||||
+012ec8c7-5475     15 GGA---GGACCGTGGGCAGCCAGGGTCGGTGAAGGTTGGCTGCTTTACCT     61
+
+EMBOSS_001       139 GAGAATCCACCAGCTATCGACTGGGCTTACTACAAGGCCAATGTGGCCAA    188
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+012ec8c7-5475     62 GAGAATCCACCAGCTATCGACTGGGCTTACTACAAGGCCAATGTGGCCAA    111
+
+EMBOSS_001       189 GGCTGGCTTGGTGGATGACTTTGAGAAGAAGTTTAATGCGCTGAAGGTTC    238
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+012ec8c7-5475    112 GGCTGGCTTGGTGGATGACTTTGAGAAGAAGTTTAATGCGCTGAAGGTTC    161
+
+EMBOSS_001       239 CCGTGCCAGAGGATAAATATACTGCCCAGGTGGATGCCGAAGAAAAAGAA    288
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+012ec8c7-5475    162 CCGTGCCAGAGGATAAATATACTGCCCAGGTGGATGCCGAAGAAAAAGAA    211
+
+EMBOSS_001       289 GATGTGAAATCTTGTGCTGAGTGGGTGTCTCTCTCAAAGGCCAGGATTGT    338
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+012ec8c7-5475    212 GATGTGAAATCTTGTGCTGAGTGGGTGTCTCTCTCAAAGGCCAGGATTGT    261
+
+EMBOSS_001       339 AGAATATGAGAAAGAGATGGAGAAGATGAAGAACTTAATTCCATTTGATC    388
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+012ec8c7-5475    262 AGAATATGAGAAAGAGATGGAGAAGATGAAGAACTTAATTCCATTTGATC    311
+
+EMBOSS_001       389 AGATGACCATTGAGGACTTGAATGAAGCTTTCCCAGAAACCAAATTAGAC    438
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+012ec8c7-5475    312 AGATGACCATTGAGGACTTGAATGAAGCTTTCCCAGAAACCAAATTAGAC    361
+
+EMBOSS_001       439 AAGAAAAAGTATCCCTATTGGCCTCACCAACCAATTGAGAATTTATAA--    486
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+012ec8c7-5475    362 AAGAAAAAGTATCCCTATTGGCCTCACCAACCAATTGAGAATTTATAAAA    411
+
+EMBOSS_001       486 --------------------------------------------------    486
+                                                                       
+012ec8c7-5475    412 TTGAGTCCAGGAGGAAGCTCTGGCCCTTGTATTACACATTCTGGACATTA    461
+
+EMBOSS_001       486 -----------------    486
+                                      
+012ec8c7-5475    462 AAAATAATAATTATACA    478
+
+
+#---------------------------------------
+#---------------------------------------

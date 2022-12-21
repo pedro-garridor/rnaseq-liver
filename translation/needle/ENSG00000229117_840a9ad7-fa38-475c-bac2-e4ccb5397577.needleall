@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 05:44:07
+# Commandline: needle
+#    -outfile needle/ENSG00000229117_840a9ad7-fa38-475c-bac2-e4ccb5397577.needleall
+#    -asequence SA/ENSG00000229117.fa
+#    -bsequence SB/840a9ad7-fa38-475c-bac2-e4ccb5397577.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000229117_840a9ad7-fa38-475c-bac2-e4ccb5397577.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 840a9ad7-fa38-475c-bac2-e4ccb5397577_ENSG00000229117.9
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 436
+# Identity:      78/436 (17.9%)
+# Similarity:    78/436 (17.9%)
+# Gaps:         358/436 (82.1%)
+# Score: 365.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------------------ATGAGAGCCA--------------------     10
+                                         ||||||||||                    
+840a9ad7-fa38      1 CCTGTAGAAACCTCTGCGCCATGAGAGCCAAGGTGAGCGGTTCCTGGTAG     50
+
+EMBOSS_001        11 ----------AGTGGAGGAAGAAGCGAATGCGCAGGCTGAAGCGCAAAAG     50
+                               ||||||||||||||||||||||||||||||||||||||||
+840a9ad7-fa38     51 TAAGCTTGGGAGTGGAGGAAGAAGCGAATGCGCAGGCTGAAGCGCAAAAG    100
+
+EMBOSS_001        51 AAGAAAGATGAGGCAGAGGTCCAAGTAA----------------------     78
+                     ||||||||||||||||||||||||||||                      
+840a9ad7-fa38    101 AAGAAAGATGAGGCAGAGGTCCAAGTAAACCGCTAGCTTGTTGCACCGTG    150
+
+EMBOSS_001        78 --------------------------------------------------     78
+                                                                       
+840a9ad7-fa38    151 GAGGCCACAGGAGCAGAAACATGGAATGCCAGACGCTGGGGATGCTGGTA    200
+
+EMBOSS_001        78 --------------------------------------------------     78
+                                                                       
+840a9ad7-fa38    201 CAAGTTGTGGGACTGCATGCTACTGTCTAGAGCTTGTCTCAATGGATCTA    250
+
+EMBOSS_001        78 --------------------------------------------------     78
+                                                                       
+840a9ad7-fa38    251 GAACTTCATCGCCCTCTGATCGCCGATCACCTCTGAGACCCACCTTGCTC    300
+
+EMBOSS_001        78 --------------------------------------------------     78
+                                                                       
+840a9ad7-fa38    301 ATAAACAAAATGCCCATGTTGGTCCTCTGCCCTGGACCTGTGACATTCTG    350
+
+EMBOSS_001        78 --------------------------------------------------     78
+                                                                       
+840a9ad7-fa38    351 GACTATTTCTGTGTTTATTTGTGGCCGAGTGTAACAACCATATAATAAAT    400
+
+EMBOSS_001        78 ------------------------------------     78
+                                                         
+840a9ad7-fa38    401 CACCTCTTCCGCTGTTTTAGCTGAAGAATTAAATCA    436
+
+
+#---------------------------------------
+#---------------------------------------

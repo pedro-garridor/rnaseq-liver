@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 20:42:58
+# Commandline: needle
+#    -outfile needle/ENSG00000173272_bc5a0db2-1285-45b3-a5a2-da79bf39f429.needleall
+#    -asequence SA/ENSG00000173272.fa
+#    -bsequence SB/bc5a0db2-1285-45b3-a5a2-da79bf39f429.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000173272_bc5a0db2-1285-45b3-a5a2-da79bf39f429.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 131483000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 578
+# Identity:     328/578 (56.7%)
+# Similarity:   328/578 (56.7%)
+# Gaps:         250/578 (43.3%)
+# Score: 1556.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGCGGCGCAGGGCGTAGGGCCTGGGCCGGGGTCGGCGGCGCCCCCGGG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+131483000          1 ATGGCGGCGCAGGGCGTAGGGCCTGGGCCGGGGTCGGCGGCGCCCCCGGG     50
+
+EMBOSS_001        51 GCTGGAGGCGGCCCGGCAGAAGCTGGCGCTGCGGCGCAAGAAGGTGCTGA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+131483000         51 GCTGGAGGCGGCCCGGCAGAAGCTGGCGCTGCGGCGCAAGAAGGTGCTGA    100
+
+EMBOSS_001       101 GCACCGAGGAGATGGAGCTGTACGAGCTGGCTCAGGCGGCGGGCGGCGGT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+131483000        101 GCACCGAGGAGATGGAGCTGTACGAGCTGGCTCAGGCGGCGGGCGGCGGT    150
+
+EMBOSS_001       151 ATCGACCCCGACGTGTTCAAGATCCTGGTGGACCTGCTGAAGCTGAACGT    200
+                     ||||||||||||||||||||                              
+131483000        151 ATCGACCCCGACGTGTTCAA------------------------------    170
+
+EMBOSS_001       201 GGCCCCCCTCGCCGTCTTCCAGATGCTCAAGTCCATGTGTGCCGGGCAGA    250
+                                                                       
+131483000        170 --------------------------------------------------    170
+
+EMBOSS_001       251 GGCTAGCGAGCGAGCCCCAGGACCCTGCGGCCGTGTCTCTGCCCACGTCG    300
+                                                                       
+131483000        170 --------------------------------------------------    170
+
+EMBOSS_001       301 AGCGTGCCCGAGACCCGAGGGAGAGACAAAGGCAGCGCTGCCCTCGGGGG    350
+                                        |||||||||||||||||||||||||||||||
+131483000        171 -------------------GGAGAGACAAAGGCAGCGCTGCCCTCGGGGG    201
+
+EMBOSS_001       351 AGTATTGGCCCTGGCGGAACGCAGCAACCACGAGGGATCCAGCCAGAGGA    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+131483000        202 AGTATTGGCCCTGGCGGAACGCAGCAACCACGAGGGATCCAGCCAGAGGA    251
+
+EMBOSS_001       401 TGCCACGCCAGCCCAGCGCTACCAGGCTGCCCAAGGGGGGCGGGCCTGGG    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+131483000        252 TGCCACGCCAGCCCAGCGCTACCAGGCTGCCCAAGGGGGGCGGGCCTGGG    301
+
+EMBOSS_001       451 AAGAGCCCTACGCAGGGCAGCACCTAG-----------------------    477
+                     |||||||||||||||||||||||||||                       
+131483000        302 AAGAGCCCTACGCAGGGCAGCACCTAGGATGGGGCAGAGACTTGTCACAT    351
+
+EMBOSS_001       477 --------------------------------------------------    477
+                                                                       
+131483000        352 CTTTGTCCCCAGCAAAGGCTACATGTTACCTCCTTCAGTTGATAATAAAC    401
+
+EMBOSS_001       477 ----------------------------    477
+                                                 
+131483000        402 CTTTCTGAGATGCAGAGGGTCCAGGTCA    429
+
+
+#---------------------------------------
+#---------------------------------------

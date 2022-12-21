@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 09:25:57
+# Commandline: needle
+#    -outfile needle/ENSG00000184752_ENST00000684171.needleall
+#    -asequence SA/ENSG00000184752.fa
+#    -bsequence SB/ENST00000684171.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000184752_ENST00000684171.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ENST00000684171.1_ENSG00000184752.14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 677
+# Identity:     438/677 (64.7%)
+# Similarity:   438/677 (64.7%)
+# Gaps:         239/677 (35.3%)
+# Score: 2123.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -----------------ATGGAGTTAGTGCAGGTCCTGAAACGCGGGCTG     33
+                                      |||||||||||||||||||||||||||||||||
+ENST000006841      1 GGGGCCAGCGAGGCAAGATGGAGTTAGTGCAGGTCCTGAAACGCGGGCTG     50
+
+EMBOSS_001        34 CAGCAGATCACCGGCCACGGCGGTCTCCGAGGCTATCTACGGGTTTTTTT     83
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006841     51 CAGCAGATCACCGGCCACGGCGGTCTCCGAGGCTATCTACGGGTTTTTTT    100
+
+EMBOSS_001        84 CAGGACAAATGATGCGAAGGTTGGTACATTAGTGGGGGAAGACAAATATG    133
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006841    101 CAGGACAAATGATGCGAAGGTTGGTACATTAGTGGGGGAAGACAAATATG    150
+
+EMBOSS_001       134 GAAACAAATACTATGAAGACAACAAGCAATTTTTTGGCCGTCACCGATGG    183
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006841    151 GAAACAAATACTATGAAGACAACAAGCAATTTTTTGGCCGTCACCGATGG    200
+
+EMBOSS_001       184 GTTGTATATACTACTGAAATGAATGGCAAAAACACATTCTGGGATGTGGA    233
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006841    201 GTTGTATATACTACTGAAATGAATGGCAAAAACACATTCTGGGATGTGGA    250
+
+EMBOSS_001       234 TGGAAGCATGGTGCCTCCTGA-----------------------------    254
+                     |||||||||||||||||||||                             
+ENST000006841    251 TGGAAGCATGGTGCCTCCTGAATGGTTTTTTTTACTGCTCCTTGTGGACC    300
+
+EMBOSS_001       254 --------------------------------------------------    254
+                                                                       
+ENST000006841    301 AGAGCGGTAGCCTTAATCTCAGCACTTTGGGAGGCCGAGGCGGGCAAATC    350
+
+EMBOSS_001       255 ------------------------------------ATGGCATCGTTGGC    268
+                                                         ||||||||||||||
+ENST000006841    351 ACTGGAGGCCAGGAGTTCGAGACCAGCCTGGACAACATGGCATCGTTGGC    400
+
+EMBOSS_001       269 TTCACAGTATGACTGATGATCCTCCAACAACAAAACCACTTACTGCTCGT    318
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006841    401 TTCACAGTATGACTGATGATCCTCCAACAACAAAACCACTTACTGCTCGT    450
+
+EMBOSS_001       319 AAATTCATTTGGACGAACCATAAATTCAACGTGACTGGCACCCCAGAACA    368
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006841    451 AAATTCATTTGGACGAACCATAAATTCAACGTGACTGGCACCCCAGAACA    500
+
+EMBOSS_001       369 ATATGTACCTTATTCTACCACTAGAAAGAAGATTCAGGAGTGGATCCCAC    418
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006841    501 ATATGTACCTTATTCTACCACTAGAAAGAAGATTCAGGAGTGGATCCCAC    550
+
+EMBOSS_001       419 CTTCAACACCTTACAAGTAA------------------------------    438
+                     ||||||||||||||||||||                              
+ENST000006841    551 CTTCAACACCTTACAAGTAAAGACAATGAAGAACAGTTGAAACATGCAAA    600
+
+EMBOSS_001       438 --------------------------------------------------    438
+                                                                       
+ENST000006841    601 ATATGGAGCTTTTCATGTAATTACTCTTTTACTGTTTACCATTCACTATA    650
+
+EMBOSS_001       438 ---------------------------    438
+                                                
+ENST000006841    651 ATTCACAATTAAAATTGTGTGACTAAA    677
+
+
+#---------------------------------------
+#---------------------------------------

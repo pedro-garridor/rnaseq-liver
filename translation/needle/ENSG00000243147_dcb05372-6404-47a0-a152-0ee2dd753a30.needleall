@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 21:01:54
+# Commandline: needle
+#    -outfile needle/ENSG00000243147_dcb05372-6404-47a0-a152-0ee2dd753a30.needleall
+#    -asequence SA/ENSG00000243147.fa
+#    -bsequence SB/dcb05372-6404-47a0-a152-0ee2dd753a30.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000243147_dcb05372-6404-47a0-a152-0ee2dd753a30.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: dcb05372-6404-47a0-a152-0ee2dd753a30_ENSG00000243147.8
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 449
+# Identity:     175/449 (39.0%)
+# Similarity:   175/449 (39.0%)
+# Gaps:         274/449 (61.0%)
+# Score: 875.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGTTCCTCTCCGCGGTCTTCTTTGCCAAGAGCAAGTCAAAAAACATTCT     50
+                                            |||||||||||||||||||||||||||
+dcb05372-6404      1 -----------------------TGCCAAGAGCAAGTCAAAAAACATTCT     27
+
+EMBOSS_001        51 GGTGAGAATGGTGAGCGAAGCTGGGACAGGTTTCTGCTTCAACACCAAGA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+dcb05372-6404     28 GGTGAGAATGGTGAGCGAAGCTGGGACAGGTTTCTGCTTCAACACCAAGA     77
+
+EMBOSS_001       101 GAAACCGACTGCGGGAAAAACTGACTCTTTTGCATTATGATCCAGTTGTG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+dcb05372-6404     78 GAAACCGACTGCGGGAAAAACTGACTCTTTTGCATTATGATCCAGTTGTG    127
+
+EMBOSS_001       151 AAACAAAGAGTCCTCTTCGTGGAAAAGAAAAAAATACGCTCCCTTTAA--    198
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+dcb05372-6404    128 AAACAAAGAGTCCTCTTCGTGGAAAAGAAAAAAATACGCTCCCTTTAAAC    177
+
+EMBOSS_001       198 --------------------------------------------------    198
+                                                                       
+dcb05372-6404    178 GGTGGATTGAAAATGACTTTGATTTATAAAGAGAAGACTGAGGGCGGGGA    227
+
+EMBOSS_001       198 --------------------------------------------------    198
+                                                                       
+dcb05372-6404    228 TACTGATTCAGAAATCCTGTAGCGTGTAATAAAAGAAGAGGAAATGGCAT    277
+
+EMBOSS_001       198 --------------------------------------------------    198
+                                                                       
+dcb05372-6404    278 GGAATCACTGCCTCCTGTGATTTGAAGGCCATTGTGAAGGAAAACAATGC    327
+
+EMBOSS_001       198 --------------------------------------------------    198
+                                                                       
+dcb05372-6404    328 AGTGAAAGAAAGTTCTTCATATTAGGACAGATATCATTGCATCACATTTA    377
+
+EMBOSS_001       198 -------------------------------------------------    198
+                                                                      
+dcb05372-6404    378 TTTATCTTTCTGGGTATTTTTATAGCCCTTAATAAAAAATATTAAAATA    426
+
+
+#---------------------------------------
+#---------------------------------------

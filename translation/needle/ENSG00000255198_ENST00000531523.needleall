@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 22:00:23
+# Commandline: needle
+#    -outfile needle/ENSG00000255198_ENST00000531523.needleall
+#    -asequence SA/ENSG00000255198.fa
+#    -bsequence SB/ENST00000531523.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000255198_ENST00000531523.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ENST00000531523.2_ENSG00000255198.5
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:       4/195 ( 2.1%)
+# Similarity:     7/195 ( 3.6%)
+# Gaps:         176/195 (90.3%)
+# Score: 9.5
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000005315      1 AACGCCGGCGCCTCCGTCCCCAGCCGCGGCTCGGGAATCCACCCGAAGAG     50
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000005315     51 TGGCTATAAACGTCCGCGCCTCCATTGCGCTCTCCTCTTCACTTAGGACA    100
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000005315    101 CTGGTCCTCCCACGCCTGACACCGACGTCGCCAGGACCGCGGGGTTGGGG    150
+
+EMBOSS_001         1 --------Sequenc------eunavailable------------     19
+                             .  :  |       : | |  |               
+ENST000005315    151 GAACTTGGCTGTCCCACGTCTTTCAAATAAAGCTGTTTTGTCTAA    195
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,217 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 08:56:24
+# Commandline: needle
+#    -outfile needle/ENSG00000160072_47bcaca7-a572-40ca-b992-f677a4cc91ed.needleall
+#    -asequence SA/ENSG00000160072.fa
+#    -bsequence SB/47bcaca7-a572-40ca-b992-f677a4cc91ed.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000160072_47bcaca7-a572-40ca-b992-f677a4cc91ed.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 47bcaca7-a572-40ca-b992-f677a4cc91ed_ENSG00000160072.20
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2248
+# Identity:     921/2248 (41.0%)
+# Similarity:   921/2248 (41.0%)
+# Gaps:        1115/2248 (49.6%)
+# Score: 1893.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGTCGTGGCTCTTCGGCGTTAACAAGGGCCCCAAGGGTGAAGGCGCGGG     50
+                                                                       
+47bcaca7-a572      0 --------------------------------------------------      0
+
+EMBOSS_001        51 GCCGCCGCCGCCTTTGCCGCCCGCGCAGCCCGGGGCCGAGGGCGGCGGGG    100
+                                                                       
+47bcaca7-a572      0 --------------------------------------------------      0
+
+EMBOSS_001       101 ACCGCGGTTTGGGAGACCGGCCGGCGCCCAAGGACAAATGGAGCAACTTC    150
+                                                                       
+47bcaca7-a572      0 --------------------------------------------------      0
+
+EMBOSS_001       151 GACCCCACCGGCCTGGAGCGCGCCGCCAAGGCGGCGCGCGAGCTGGAGCA    200
+                                                                       
+47bcaca7-a572      0 --------------------------------------------------      0
+
+EMBOSS_001       201 CTCGCGTTACGCCAAGGAGGCCCTGAATCTGGCGCAGATGCAGGAGCAGA    250
+                                          ||||...|| ||||     ||||.|..|.
+47bcaca7-a572      1 ---------------------CCTGTCCCT-GCGC-----CAGGCGTGGT     23
+
+EMBOSS_001       251 CGCT----GCAGTTGGAGCAACAGTCCAAGCTCAAAGAGTAT--GAGGCC    294
+                     .|||    ||.||      ||          ||..|||.|.|  ||||| 
+47bcaca7-a572     24 GGCTCACGGCTGT------AA----------TCCCAGACTTTCGGAGGC-     56
+
+EMBOSS_001       295 GCCGTGGA-GCAGCTCAAGAGCGAGCAGATCCGGGCGCAGGCTGAGGAGA    343
+                          ||| ||||           ||||||.||     |||| .||||||
+47bcaca7-a572     57 -----GGAGGCAG-----------GCAGATACG-----AGGC-CAGGAGA     84
+
+EMBOSS_001       344 --GGAGGAAGAC---CCTGAGCGA----GGAGA---CCCGGCAGCACCAG    381
+                       |     ||||   |||| ||.|    ||.||   ||||.|        
+47bcaca7-a572     85 TTG-----AGACCATCCTG-GCTAACTTGGTGAAACCCCGTC--------    120
+
+EMBOSS_001       382 GCCAGGGCCCAGTATCAAGAC---AAGCTGGCCCGGCA--GCGCTACGAG    426
+                            .|.|.||..||.||   ||..|.|||.||||  |.|.|     
+47bcaca7-a572    121 -------TCTACTAAAAATACAAAAAATTAGCCAGGCATGGTGGT-----    158
+
+EMBOSS_001       427 GACCAACTGAAGCAGCAGCAACTTCTCAATGAGGAGAATTTACGGAAGCA    476
+                     |..||.|||.||...||||.||       |.|||||     .|.||.|||
+47bcaca7-a572    159 GGGCACCTGTAGTCCCAGCTAC-------TCAGGAG-----GCTGAGGCA    196
+
+EMBOSS_001       477 GGAGGAGTCCGTGCA-----GAAGCAGGAAGCCATGCGGCGAGCCACCGT    521
+                     ||||.|...||||.|     ||.||||  |||| |||.|.|||||     
+47bcaca7-a572    197 GGAGAATGGCGTGAACCCGGGAGGCAG--AGCC-TGCAGTGAGCC-----    238
+
+EMBOSS_001       522 GGAGCGGGAGATGGAGCTGCGGCACAAGAATGAGATGCTGCGAGTGGAGA    571
+                            |||||     ||||.|||                         
+47bcaca7-a572    239 -------GAGAT-----TGCGCCAC-------------------------    251
+
+EMBOSS_001       572 CCGAGGCCCGGGCGCGCGCCAAGGCCGAGCGGGAGAATGCAGACATCATC    621
+                                 .||.|.|||  |||   .||||||   ||||       
+47bcaca7-a572    252 ------------TGCACTCCA--GCC---TGGGAGA---CAGA-------    274
+
+EMBOSS_001       622 CGCGAGCAGA-TCCGCCTGAA------------------GGCGTCCGAGC    652
+                      |||   ||| ||.|.||.||                  .|| |||..| 
+47bcaca7-a572    275 -GCG---AGACTCTGTCTCAAAAAAAAAAAAAAAGACCCTGC-TCCTTG-    318
+
+EMBOSS_001       653 ACCGTCAGACCGTCTTGGAGTCCATCAGGACGG--CTGGCACCTTGTTTG    700
+                       ||| .|||  |||||         ||.||.|  ||||..|..|||.||
+47bcaca7-a572    319 --CGT-GGAC--TCTTG---------AGCACTGCACTGGGTCGCTGTGTG    354
+
+EMBOSS_001       701 GG-GAAGGATTCCGTGCCTTTGTGACAGACCGGGACAAAG-----TGACA    744
+                     || |||         .|||     .|||..|||     ||     ||.| 
+47bcaca7-a572    355 GGTGAA---------ACCT-----GCAGGGCGG-----AGGCTGTTGCC-    384
+
+EMBOSS_001       745 GCCACG-GTGGCTGGGCTGACGCTGCTGGCTGTCGGGGTCTACTCAGCCA    793
+                      |||.| ||||.||          ||||| |||..||||           
+47bcaca7-a572    385 -CCATGTGTGGTTG----------GCTGG-TGTGTGGGT-----------    411
+
+EMBOSS_001       794 AGAA---TGC--GACAGCCGTCACTGGCC-------------GCTTCATC    825
+                      |||   |||  |.||| .|||..|.|||             |.|||   
+47bcaca7-a572    412 -GAAACCTGCAGGGCAG-AGTCTGTTGCCCCCTGTGTAGTTGGTTTC---    456
+
+EMBOSS_001       826 GAGGCTCGGCTGGGGAAGCCGTCCCTAGTGAGG--GAGACGTCCCGCATC    873
+                           |..|||           |||..|||||  |||||||        
+47bcaca7-a572    457 ------CCACTG-----------CCTTCTGAGGCTGAGACGT--------    481
+
+EMBOSS_001       874 ACGGT--GCTGGAGGCGCTGCGGCACCCCATCCAGGTCAGCCGG--CGGC    919
+                       |||  ||||               ||||  .|||.|||.|.|  ||||
+47bcaca7-a572    482 --GGTCAGCTG---------------CCCA--GAGGCCAGGCTGATCGGC    512
+
+EMBOSS_001       920 TCCTCAGTCGACCCCAGGACGTGCTGGAGGGTGTTGTGCTTAGTCCCAGC    969
+                     |  ||.|||||..||||||                   ||||        
+47bcaca7-a572    513 T--TCTGTCGAGTCCAGGA-------------------CTTA--------    533
+
+EMBOSS_001       970 CTGGAAGCACGGGTGCGCGACATCGCCATAGCAACCAGGAACACCAAGAA   1019
+                                                                       
+47bcaca7-a572    533 --------------------------------------------------    533
+
+EMBOSS_001      1020 GAACCGGGGCCTGTACAGGCACATCCTGCTGTATGGGCCA---CCAGGCA   1066
+                           ||||             |||||    |||||.||   ||.|.|.
+47bcaca7-a572    534 ------GGGC-------------TCCTG----ATGGGGCAGAGCCTGACC    560
+
+EMBOSS_001      1067 CCGGGAAGACGCTGTTTGCCAAGAAACTCGCCCTGCACTCAGGCATGGAC   1116
+                     |||.|..||                  ||..|||||   |.|||.||  |
+47bcaca7-a572    561 CCGTGGGGA------------------TCTGCCTGC---CTGGCCTG--C    587
+
+EMBOSS_001      1117 TAC-GCCATCATGACAGGCGG--GGACGTGGCCCCCATG-GGGCGG--GA   1160
+                     |.| |||          ||||  |||||..||     || ||||.|  ..
+47bcaca7-a572    588 TCCTGCC----------GCGGCCGGACGCTGC-----TGTGGGCTGCTCC    622
+
+EMBOSS_001      1161 AGGCGTGAC---CGCCATGCACAAGCTCTTTGACTGGGCCAATACCAGCC   1207
+                     .|||||.||   ||||.|||.....||||.|  ||.|..||         
+47bcaca7-a572    623 TGGCGTCACTCTCGCCTTGCTTGGCCTCTCT--CTCGTTCA---------    661
+
+EMBOSS_001      1208 GGCGCGGCCTCCTGCTCTTCATGGATGAAGCAGACGCCTTCCTTCGGAAG   1257
+                         |.||||||||||||||||||||||||||||||||||||||||||||
+47bcaca7-a572    662 ----CAGCCTCCTGCTCTTCATGGATGAAGCAGACGCCTTCCTTCGGAAG    707
+
+EMBOSS_001      1258 CGAGCCACTGAGGAGATAAGCAAGGACCTCAGAGCCACACTGAACGCCTT   1307
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+47bcaca7-a572    708 CGAGCCACTGAGGAGATAAGCAAGGACCTCAGAGCCACACTGAACGCCTT    757
+
+EMBOSS_001      1308 CCTGTACCACATGGGCCAACACAGCAACAAATTCATG-----------CT   1346
+                     ||||||||||||||||||||||||||||||    .||           |.
+47bcaca7-a572    758 CCTGTACCACATGGGCCAACACAGCAACAA----GTGAGGGAGCCCCTCG    803
+
+EMBOSS_001      1347 GGTCCTG-GCCAGCAATCTGCCTGAGCAGTTCGACTGTGCCATCAACAGC   1395
+                     ||||||| |||         ||.|.||||   |.|||||       ||||
+47bcaca7-a572    804 GGTCCTGAGCC---------CCCGGGCAG---GGCTGTG-------CAGC    834
+
+EMBOSS_001      1396 CG----CATTG------ACGTGATGGTCCACTTCGACCTGCCGCAGCAGG   1435
+                     ||    |.|||      || |||.||||        ||||.|.|| ||  
+47bcaca7-a572    835 CGTCGCCCTTGGTTCCCAC-TGAGGGTC--------CCTGGCTCA-CA--    872
+
+EMBOSS_001      1436 AGGAGCGGGAGCGCCTGGTGAGACTGCATTTTGACAACTGTGTTCTTAAG   1485
+                       |.||.|| ||.||.|.||           ||.|..|.||||      |
+47bcaca7-a572    873 --GTGCTGG-GCACCAGCTG-----------TGGCCTCAGTGT------G    902
+
+EMBOSS_001      1486 CCGGCCACAGAAGGAAAACGGCGCCT--GAAGCTGGCCCAGTTTGACTAC   1533
+                     ||..||.|||       |.|.|.|||  |||  .|||||||.|      |
+47bcaca7-a572    903 CCCACCTCAG-------ATGTCCCCTGGGAA--CGGCCCAGCT------C    937
+
+EMBOSS_001      1534 GGGAGGAAGTGCTCGGAG-GTCGCTCGGCTGACGGAGG-GCATGTCGGG-   1580
+                     |||    |..||.|||.| |||         |..|||| .||||..||| 
+47bcaca7-a572    938 GGG----ACAGCACGGGGTGTC---------ATTGAGGAACATGCAGGGG    974
+
+EMBOSS_001      1581 ----CCGGG-AGATC---GCTCAG--CT--------GGCCGTGTCCTGGC   1612
+                         ||||| |||.|   |.||||  ||        ||||.|||.|    
+47bcaca7-a572    975 CCTCCCGGGCAGAGCTGGGGTCAGTCCTGTCTTCACGGCCCTGTGC----   1020
+
+EMBOSS_001      1613 AGGCCACGGCATATGCCTCCAAGGACGGGGTCCTCACTGAGGCCATGATG   1662
+                       |||.|.||....||.|.||       ||||| |.|||           
+47bcaca7-a572   1021 --GCCGCCGCCCCAGCTTGCA-------GGTCC-CTCTG-----------   1049
+
+EMBOSS_001      1663 GACGCCTGTGTGCAAGA----TGCTGTCCAGCAGTACCGACAGAAGATGC   1708
+                       |.|||       |||    |||.||||.|                   
+47bcaca7-a572   1050 --CCCCT-------AGATTTCTGCGGTCCTG-------------------   1071
+
+EMBOSS_001      1709 GCTGGCTG-AAGGCGGAGG-GGCCTG------GGCGC---GGGGTC----   1743
+                       ||.||| |||  ||||| ||.|||      |.|||   |.||||    
+47bcaca7-a572   1072 --TGCCTGCAAG--GGAGGTGGTCTGATTGCTGCCGCCCAGAGGTCCCCA   1117
+
+EMBOSS_001      1744 -----GAGCACC--CCCTATCCGGAGTCCAAGGCGAGACCCTC--ACCTC   1784
+                          |.| |||  ||||||     |||| ||||   .|||||  .||||
+47bcaca7-a572   1118 GTAGGGTG-ACCGGCCCTAT-----GTCC-AGGC---TCCCTCTTCCCTC   1157
+
+EMBOSS_001      1785 --------------ATGGAG----CCTGGCCAC--GGACCCCTCCTACC-   1813
+                                   .|.|||    |.|||.|.|  ||.|||||||..|| 
+47bcaca7-a572   1158 CCAAATCCCTTAATTTTGAGTTTTCTTGGTCTCCTGGGCCCCTCCAGCCC   1207
+
+EMBOSS_001      1814 ----------------------------CCTGCCTTGCCGGCC-------   1828
+                                                 |||| ||.|.|||||       
+47bcaca7-a572   1208 CAGTCACGTGTCACACGGAGGATCAAGTCCTG-CTGGTCGGCCGTGGCTG   1256
+
+EMBOSS_001      1829 ------CCTGCACATTTAGGATATGCTCCTGGATGGG------------G   1860
+                           |..||||.||  ||    ||||||||.|..|            |
+47bcaca7-a572   1257 ACTCTTCAGGCACGTT--GG----GCTCCTGGGTCAGCTGCTGCCGTTCG   1300
+
+EMBOSS_001      1861 ACTGGGCTGTGCCCAGG-GCCTCT-------GTCC--CCCAG-GATGTCT   1899
+                     ||   |||   |||.|| ||| ||       ||||  ||||| || |.|.
+47bcaca7-a572   1301 AC---GCT---CCCTGGAGCC-CTGACTCAGGTCCTTCCCAGAGA-GGCA   1342
+
+EMBOSS_001      1900 TGTGGTGGCGGTCGGCCGTTCTGCCCC---------CCAGGGCACCC---   1937
+                     .| |.|||     ||||.|.|||..||         ||.||||.|||   
+47bcaca7-a572   1343 AG-GCTGG-----GGCCCTGCTGAGCCTCTGCTGAACCCGGGCCCCCGAG   1386
+
+EMBOSS_001      1938 --CCTG-TTGTAG-----------------------------------   1947
+                       |||| ||.|.|                                   
+47bcaca7-a572   1387 GTCCTGCTTCTGGCTCGCATGGCCATAATCTTGACAGGGACTCTGGGT   1434
+
+
+#---------------------------------------
+#---------------------------------------

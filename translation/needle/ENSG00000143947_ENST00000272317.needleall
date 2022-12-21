@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 17:29:35
+# Commandline: needle
+#    -outfile needle/ENSG00000143947_ENST00000272317.needleall
+#    -asequence SA/ENSG00000143947.fa
+#    -bsequence SB/ENST00000272317.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000143947_ENST00000272317.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ENST00000272317.11_ENSG00000143947.15
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 551
+# Identity:     471/551 (85.5%)
+# Similarity:   471/551 (85.5%)
+# Gaps:          80/551 (14.5%)
+# Score: 2355.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ------------------------------------------------AT      2
+                                                                     ||
+ENST000002723      1 GGCGTTCTTCCTTTTCGATCCGCCATCTGCGGTGGAGCCGCCACCAAAAT     50
+
+EMBOSS_001         3 GCAGATTTTCGTGAAAACCCTTACGGGGAAGACCATCACCCTCGAGGTTG     52
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723     51 GCAGATTTTCGTGAAAACCCTTACGGGGAAGACCATCACCCTCGAGGTTG    100
+
+EMBOSS_001        53 AACCCTCGGATACGATAGAAAATGTAAAGGCCAAGATCCAGGATAAGGAA    102
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723    101 AACCCTCGGATACGATAGAAAATGTAAAGGCCAAGATCCAGGATAAGGAA    150
+
+EMBOSS_001       103 GGAATTCCTCCTGATCAGCAGAGACTGATCTTTGCTGGCAAGCAGCTGGA    152
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723    151 GGAATTCCTCCTGATCAGCAGAGACTGATCTTTGCTGGCAAGCAGCTGGA    200
+
+EMBOSS_001       153 AGATGGACGTACTTTGTCTGACTACAATATTCAAAAGGAGTCTACTCTTC    202
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723    201 AGATGGACGTACTTTGTCTGACTACAATATTCAAAAGGAGTCTACTCTTC    250
+
+EMBOSS_001       203 ATCTTGTGTTGAGACTTCGTGGTGGTGCTAAGAAAAGGAAGAAGAAGTCT    252
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723    251 ATCTTGTGTTGAGACTTCGTGGTGGTGCTAAGAAAAGGAAGAAGAAGTCT    300
+
+EMBOSS_001       253 TACACCACTCCCAAGAAGAATAAGCACAAGAGAAAGAAGGTTAAGCTGGC    302
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723    301 TACACCACTCCCAAGAAGAATAAGCACAAGAGAAAGAAGGTTAAGCTGGC    350
+
+EMBOSS_001       303 TGTCCTGAAATATTATAAGGTGGATGAGAATGGCAAAATTAGTCGCCTTC    352
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723    351 TGTCCTGAAATATTATAAGGTGGATGAGAATGGCAAAATTAGTCGCCTTC    400
+
+EMBOSS_001       353 GTCGAGAGTGCCCTTCTGATGAATGTGGTGCTGGGGTGTTTATGGCAAGT    402
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723    401 GTCGAGAGTGCCCTTCTGATGAATGTGGTGCTGGGGTGTTTATGGCAAGT    450
+
+EMBOSS_001       403 CACTTTGACAGACATTATTGTGGCAAATGTTGTCTGACTTACTGTTTCAA    452
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000002723    451 CACTTTGACAGACATTATTGTGGCAAATGTTGTCTGACTTACTGTTTCAA    500
+
+EMBOSS_001       453 CAAACCAGAAGACAAGTAA-------------------------------    471
+                     |||||||||||||||||||                               
+ENST000002723    501 CAAACCAGAAGACAAGTAACTGTATGAGTTAATAAAAGACATGAACTAAC    550
+
+EMBOSS_001       471 -    471
+                      
+ENST000002723    551 A    551
+
+
+#---------------------------------------
+#---------------------------------------

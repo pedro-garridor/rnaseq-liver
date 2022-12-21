@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 20:05:07
+# Commandline: needle
+#    -outfile needle/ENSG00000197756_ENST00000491306.needleall
+#    -asequence SA/ENSG00000197756.fa
+#    -bsequence SB/ENST00000491306.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000197756_ENST00000491306.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ENST00000491306.6_ENSG00000197756.10
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 357
+# Identity:     279/357 (78.2%)
+# Similarity:   279/357 (78.2%)
+# Gaps:          78/357 (21.8%)
+# Score: 1395.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------------------ATGGCCAAACGTACCAAGAAAGTCGGGATC     30
+                                         ||||||||||||||||||||||||||||||
+ENST000004913      1 CGGACCTAGGTCGCGGCGACATGGCCAAACGTACCAAGAAAGTCGGGATC     50
+
+EMBOSS_001        31 GTCGGTAAATACGGGACCCGCTATGGGGCCTCCCTCCGGAAAATGGTGAA     80
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004913     51 GTCGGTAAATACGGGACCCGCTATGGGGCCTCCCTCCGGAAAATGGTGAA    100
+
+EMBOSS_001        81 GAAAATTGAAATCAGCCAGCACGCCAAGTACACTTGCTCTTTCTGTGGCA    130
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004913    101 GAAAATTGAAATCAGCCAGCACGCCAAGTACACTTGCTCTTTCTGTGGCA    150
+
+EMBOSS_001       131 AAACCAAGATGAAGAGACGAGCTGTGGGGATCTGGCACTGTGGTTCCTGC    180
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004913    151 AAACCAAGATGAAGAGACGAGCTGTGGGGATCTGGCACTGTGGTTCCTGC    200
+
+EMBOSS_001       181 ATGAAGACAGTGGCTGGCGGTGCCTGGACGTACAATACCACTTCCGCTGT    230
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004913    201 ATGAAGACAGTGGCTGGCGGTGCCTGGACGTACAATACCACTTCCGCTGT    250
+
+EMBOSS_001       231 CACGGTAAAGTCCGCCATCAGAAGACTGAAGGAGTTGAAAGACCAGTAG-    279
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+ENST000004913    251 CACGGTAAAGTCCGCCATCAGAAGACTGAAGGAGTTGAAAGACCAGTAGA    300
+
+EMBOSS_001       279 --------------------------------------------------    279
+                                                                       
+ENST000004913    301 CGCTCCTCTACTCTTTGAGACATCACTGGCCTATAATAAATGGGTTAATT    350
+
+EMBOSS_001       279 -------    279
+                            
+ENST000004913    351 TATGTAA    357
+
+
+#---------------------------------------
+#---------------------------------------

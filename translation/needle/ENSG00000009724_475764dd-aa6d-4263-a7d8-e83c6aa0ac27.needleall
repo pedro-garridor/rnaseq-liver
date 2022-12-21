@@ -1,0 +1,205 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 08:55:23
+# Commandline: needle
+#    -outfile needle/ENSG00000009724_475764dd-aa6d-4263-a7d8-e83c6aa0ac27.needleall
+#    -asequence SA/ENSG00000009724.fa
+#    -bsequence SB/475764dd-aa6d-4263-a7d8-e83c6aa0ac27.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000009724_475764dd-aa6d-4263-a7d8-e83c6aa0ac27.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 475764dd-aa6d-4263-a7d8-e83c6aa0ac27_ENSG00000009724.17
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2089
+# Identity:     649/2089 (31.1%)
+# Similarity:   649/2089 (31.1%)
+# Gaps:        1416/2089 (67.8%)
+# Score: 2884.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --ATGAGGCTGCTGACCCTCCTGGGCCTTCTGTGTGGCTCGGTGGCCACC     48
+                       || |||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d      1 CCAT-AGGCTGCTGACCCTCCTGGGCCTTCTGTGTGGCTCGGTGGCCACC     49
+
+EMBOSS_001        49 CCCTTGGGCCCGAAGTGGCCTGAACCTGTGTTCGGGCGCCTGGCATCCCC     98
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d     50 CCCTTGGGCCCGAAGTGGCCTGAACCTGTGTTCGGGCGCCTGGCATCCCC     99
+
+EMBOSS_001        99 CGGCTTTCCAGGGGAGTATGCCAATGACCAGGAGCGGCGCTGGACCCTGA    148
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d    100 CGGCTTTCCAGGGGAGTATGCCAATGACCAGGAGCGGCGCTGGACCCTGA    149
+
+EMBOSS_001       149 CTGCACCCCCCGGCTACCGCCTGCGCCTCTACTTCACCCACTTCGACCTG    198
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d    150 CTGCACCCCCCGGCTACCGCCTGCGCCTCTACTTCACCCACTTCGACCTG    199
+
+EMBOSS_001       199 GAGCTCTCCCACCTCTGCGAGTACGACTTCGTCAAGCTGAGCTCGGGGGC    248
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d    200 GAGCTCTCCCACCTCTGCGAGTACGACTTCGTCAAGCTGAGCTCGGGGGC    249
+
+EMBOSS_001       249 CAAGGTGCTGGCCACGCTGTGCGGGCAGGAGAGCACAGACACGGAGCGGG    298
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d    250 CAAGGTGCTGGCCACGCTGTGCGGGCAGGAGAGCACAGACACGGAGCGGG    299
+
+EMBOSS_001       299 CCCCTGGCAAGGACACTTTCTACTCGCTGGGCTCCAGCCTGGACATTACC    348
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d    300 CCCCTGGCAAGGACACTTTCTACTCGCTGGGCTCCAGCCTGGACATTACC    349
+
+EMBOSS_001       349 TTCCGCTCCGACTACTCCAACGAGAAGCCGTTCACGGGGTTCGAGGCCTT    398
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d    350 TTCCGCTCCGACTACTCCAACGAGAAGCCGTTCACGGGGTTCGAGGCCTT    399
+
+EMBOSS_001       399 CTATGCAGCCGAGGACATTGACGAGTGCCAGGTGGCCCCGGGAGAGGCGC    448
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d    400 CTATGCAGCCGAGGACATTGACGAGTGCCAGGTGGCCCCGGGAGAGGCGC    449
+
+EMBOSS_001       449 CCACCTGCGACCACCACTGCCACAACCACCTGGGCGGTTTCTACTGCTCC    498
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+475764dd-aa6d    450 CCACCTGCGACCACCACTGCCACAACCACCTGGGCGGTTTCTACTGCTCC    499
+
+EMBOSS_001       499 TGCCGCGCAGGCTACGTCCTGCACCGTAACAAGCGCACCTGCTCAG----    544
+                     ||||||||||||||||||||||||||||||||||||||||||||||    
+475764dd-aa6d    500 TGCCGCGCAGGCTACGTCCTGCACCGTAACAAGCGCACCTGCTCAGAGCA    549
+
+EMBOSS_001       545 --------------CCCT-GTGCTCCGGCCAGGTCTTCACCCAG-AGGTC    578
+                                   |||| |.|||||||||.|       ||||| |||  
+475764dd-aa6d    550 GAGCCTCTAGCCTCCCCTGGAGCTCCGGCCTG-------CCCAGCAGG--    590
+
+EMBOSS_001       579 TGGGGAGCTCAGCAGCCCTGAATACCCACGGCCGTATCCCAAACTCTCCA    628
+                             ||||.||||    |.|.|||                  .||.
+475764dd-aa6d    591 --------TCAGAAGCC----AGAGCCA------------------GCCT    610
+
+EMBOSS_001       629 GTTGCACTTACAGCATCAGCCTGGAGGAGGGGTTCAGTGTCATTCTGGAC    678
+                     |.||        ||.|||||             ||.|.||     |||.|
+475764dd-aa6d    611 GCTG--------GCCTCAGC-------------TCCGGGT-----TGGGC    634
+
+EMBOSS_001       679 TTTGTGGAGTCCTTCGATGTGGAGACACACCCTGAAACCCTGTGTCCCTA    728
+                     |              ||..|||                 |||||.|||.|
+475764dd-aa6d    635 T--------------GAGATGG-----------------CTGTGCCCCAA    653
+
+EMBOSS_001       729 CGACTTTCTCAAGATTCAAACAGACAGAGAAGAACATGG-CCCATTCTGT    777
+                     |     ||.|   |||||..|           |.||||| ||||.|    
+475764dd-aa6d    654 C-----TCCC---ATTCACCC-----------ACCATGGACCCAAT----    680
+
+EMBOSS_001       778 GGGA--AGACATTGCCCCA---CAGGATTGAAACAAAAAGCAACACGGTG    822
+                        |  |.||.|.||||||   ||                          
+475764dd-aa6d    681 ---AATAAACCTGGCCCCACCCCA--------------------------    701
+
+EMBOSS_001       823 ACCATCACCTTTGTCACAGATGAATCAGGAGACCACACAGGCTGGAAGAT    872
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001       873 CCACTACACGAGCACAGCGCAGCCTTGCCCTTATCCGATGGCGCCACCTA    922
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001       923 ATGGCCACGTTTCACCTGTGCAAGCCAAATACATCCTGAAAGACAGCTTC    972
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001       973 TCCATCTTTTGCGAGACTGGCTATGAGCTTCTGCAAGGTCACTTGCCCCT   1022
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1023 GAAATCCTTTACTGCAGTTTGTCAGAAAGATGGATCTTGGGACCGGCCAA   1072
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1073 TGCCCGCGTGCAGCATTGTTGACTGTGGCCCTCCTGATGATCTACCCAGT   1122
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1123 GGCCGAGTGGAGTACATCACAGGTCCTGGAGTGACCACCTACAAAGCTGT   1172
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1173 GATTCAGTACAGCTGTGAAGAGACCTTCTACACAATGAAAGTGAATGATG   1222
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1223 GTAAATATGTGTGTGAGGCTGATGGATTCTGGACGAGCTCCAAAGGAGAA   1272
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1273 AAATCACTCCCAGTCTGTGAGCCTGTTTGTGGACTATCAGCCCGCACAAC   1322
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1323 AGGAGGGCGTATATATGGAGGGCAAAAGGCAAAACCTGGTGATTTTCCTT   1372
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1373 GGCAAGTCCTGATATTAGGTGGAACCACAGCAGCAGGTGCACTTTTATAT   1422
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1423 GACAACTGGGTCCTAACAGCTGCTCATGCCGTCTATGAGCAAAAACATGA   1472
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1473 TGCATCCGCCCTGGACATTCGAATGGGCACCCTGAAAAGACTATCACCTC   1522
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1523 ATTATACACAAGCCTGGTCTGAAGCTGTTTTTATACATGAAGGTTATACT   1572
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1573 CATGATGCTGGCTTTGACAATGACATAGCACTGATTAAATTGAATAACAA   1622
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1623 AGTTGTAATCAATAGCAACATCACGCCTATTTGTCTGCCAAGAAAAGAAG   1672
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1673 CTGAATCCTTTATGAGGACAGATGACATTGGAACTGCATCTGGATGGGGA   1722
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1723 TTAACCCAAAGGGGTTTTCTTGCTAGAAATCTAATGTATGTCGACATACC   1772
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1773 GATTGTTGACCATCAAAAATGTACTGCTGCATATGAAAAGCCACCCTATC   1822
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1823 CAAGGGGAAGTGTAACTGCTAACATGCTTTGTGCTGGCTTAGAAAGTGGG   1872
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1873 GGCAAGGACAGCTGCAGAGGTGACAGCGGAGGGGCACTGGTGTTTCTAGA   1922
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1923 TAGTGAAACAGAGAGGTGGTTTGTGGGAGGAATAGTGTCCTGGGGTTCCA   1972
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      1973 TGAATTGTGGGGAAGCAGGTCAGTATGGAGTCTACACAAAAGTTATTAAC   2022
+                                                                       
+475764dd-aa6d    701 --------------------------------------------------    701
+
+EMBOSS_001      2023 TATATTCCCTGGATCGAGAACATAATTAGTGATTTTTAA   2061
+                                                            
+475764dd-aa6d    701 ---------------------------------------    701
+
+
+#---------------------------------------
+#---------------------------------------

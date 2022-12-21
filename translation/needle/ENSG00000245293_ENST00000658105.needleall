@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 12:40:24
+# Commandline: needle
+#    -outfile needle/ENSG00000245293_ENST00000658105.needleall
+#    -asequence SA/ENSG00000245293.fa
+#    -bsequence SB/ENST00000658105.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000245293_ENST00000658105.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ENST00000658105.2_ENSG00000245293.4
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:       3/283 ( 1.1%)
+# Similarity:     6/283 ( 2.1%)
+# Gaps:         264/283 (93.3%)
+# Score: 13.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000006581      1 AGCCGGAGCCCGAGTGAGCGCGGGCTTGAGACCTGCTGAGCAGCGGGACC     50
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000006581     51 TGGCGGCTGGCGTTCTGGTGTGGGGCCGAGAACAGACCCTTCTTCTGAAA    100
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000006581    101 AGCCACTGGCCCCTTGTTCTATGAAGTCGATTTCTCATTGTCTTCACCAA    150
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000006581    151 TCTTCTGAACCCGTGAATACTTTTTGCATGATGATTTGAAGCAGCCAGGA    200
+
+EMBOSS_001         1 ----------------------------------------------Sequ      4
+                                                                   .  :
+ENST000006581    201 GGCCAAGACAGCGGCCAGGAGAAGCAGCAAGGAATTGAGCCTTGTACATT    250
+
+EMBOSS_001         5 enceunavailable------------------     19
+                       . : | |  |                     
+ENST000006581    251 TTTCTCAAAAAAATAAAAGATGGGGAACCACCA    283
+
+
+#---------------------------------------
+#---------------------------------------

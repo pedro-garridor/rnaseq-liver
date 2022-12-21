@@ -1,0 +1,213 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 17:11:58
+# Commandline: needle
+#    -outfile needle/ENSG00000090273_b612cc80-8b70-42eb-b0fb-cbdedac91ee9.needleall
+#    -asequence SA/ENSG00000090273.fa
+#    -bsequence SB/b612cc80-8b70-42eb-b0fb-cbdedac91ee9.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000090273_b612cc80-8b70-42eb-b0fb-cbdedac91ee9.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: b612cc80-8b70-42eb-b0fb-cbdedac91ee9_ENSG00000090273.14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2157
+# Identity:     709/2157 (32.9%)
+# Similarity:   709/2157 (32.9%)
+# Gaps:        1304/2157 (60.5%)
+# Score: 1768.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ------------ATGGGCGGAGA-------------GCAG------GAGG     19
+                                 ..||||..|.|             .|||      |||.
+b612cc80-8b70      1 AGCCTTGACCTCCCGGGCTCAAACGACCCTCCCACCTCAGCTTCCTGAGT     50
+
+EMBOSS_001        20 A----GGAGCG--------------------------GTT--------CG     31
+                     |    .|||||                          |||        .|
+b612cc80-8b70     51 AACTGCGAGCGCCACCCTACCTGGCTAATTTTTAAATGTTTTTTGTAAAG    100
+
+EMBOSS_001        32 ACGG-----CATGTT------GCTGG---------CCATGGCTCAGCAGC     61
+                     ||.|     ||||||      |||||         ||..||||||     
+b612cc80-8b70    101 ACAGGGTCTCATGTTGCCCAGGCTGGTCTGAAACTCCTGGGCTCA-----    145
+
+EMBOSS_001        62 ACGAGGG------CGGCGT---------------------------GCAG     78
+                        ||||      |.||.|                           |.||
+b612cc80-8b70    146 ---AGGGATCTTCCTGCCTTGGCTTCCCAAAGTGTTGGGATTACAGGTAG    192
+
+EMBOSS_001        79 GAGCTTGTGAACACCT---TCTTCAGCTTCCTTCGACGCAAAACAGACTT    125
+                     ||||...||  |||||   .||||  |.|.|||      ||||   ||||
+b612cc80-8b70    193 GAGCCACTG--CACCTGGCACTTC--CCTGCTT------AAAA---ACTT    229
+
+EMBOSS_001       126 TTTC---ATTGGAGGAGAAG-----------AA------------GGGAT    149
+                     ||||   .|.||.|..|.||           ||            |||| 
+b612cc80-8b70    230 TTTCTGGCTGGGCGTGGTAGCTCATGCCTGTAATCCTAGCGCTTTGGGA-    278
+
+EMBOSS_001       150 GGCAGAG--AAGCTTATCAC----ACA-GACTTT-----CAGCC------    181
+                     |||.|||  ..||..|||||    .|| ||.|||     |||||      
+b612cc80-8b70    279 GGCTGAGGTGGGCAGATCACGAGGTCAGGAGTTTGAGACCAGCCTGGCCA    328
+
+EMBOSS_001       182 ---------ACC---------------------ACAATCAGCT-GGCA--    198
+                              |||                     |.|||.|||| ||||  
+b612cc80-8b70    329 AGATGGCAAACCCCATCTCTAATAAAAATACAAAAAATTAGCTGGGCATG    378
+
+EMBOSS_001       199 -----------CAGAAGACCCGGC-----GGGAG--------AAGAGA--    222
+                                |.|.|..|||.||     |||||        |.||||  
+b612cc80-8b70    379 GTGGTGGGCGCCTGTAATCCCAGCTACTTGGGAGTCTGAGGCAGGAGAAT    428
+
+EMBOSS_001       223 -GC-----CCGGCAGGAGGCCGAGCGGCGGGAGAAGGCGGAGCGGGCGGC    266
+                      ||     ||  |||||||..||  ||..|.||     .||||.|.|.||
+b612cc80-8b70    429 CGCTTGAACC--CAGGAGGTGGA--GGTTGCAG-----TGAGCTGACTGC    469
+
+EMBOSS_001       267 CAGACTGGCCAAGGAAGCCAAGTCAGAGACCTCAGGG----CCCCAGA-T    311
+                     ...||||..||.||..||    ||  |.||||    |    |||.|.| |
+b612cc80-8b70    470 ACCACTGCACATGGTGGC----TC--ACACCT----GTAATCCCAACACT    509
+
+EMBOSS_001       312 CAAGGAGCTAACTGATGAAGAGGCAGA------GAGGCTGCAGCTAGAGA    355
+                     ...||||   |||||.|  .|||||||      ||||  .|||   |||.
+b612cc80-8b70    510 TTGGGAG---ACTGAGG--CAGGCAGATCATCTGAGG--TCAG---GAGT    549
+
+EMBOSS_001       356 TT--GACCAG--------AAAAAGGATGCAGAGAATCATGAGGCCCAG-C    394
+                     ||  ||||||        ||.|.||             |||.||||.| |
+b612cc80-8b70    550 TTGAGACCAGCCTGGCCCAATATGG-------------TGAAGCCCCGTC    586
+
+EMBOSS_001       395 TC----AAGAA----------CGGCA---------------GCCTTGACT    415
+                     ||    ||.||          .|.||               ||||..|.|
+b612cc80-8b70    587 TCTACTAAAAATACAAAAATTAGCCAGGTGTGGTGGTGCATGCCTATAAT    636
+
+EMBOSS_001       416 CCCCAGGGAAGCAGGATACTGAG---GAAGA------TGA-----GGAGG    451
+                      |||||..|..|.|||..|||||   |.|||      |||     |||||
+b612cc80-8b70    637 -CCCAGTTACTCGGGAGGCTGAGGCCGGAGAATTGCTTGAACCCGGGAGG    685
+
+EMBOSS_001       452 AAGA--------TGAGAAG-------GACAAAGGAAAACTGAAGCCCAAC    486
+                     .|||        ||||..|       |.||.||   .|||     |||.|
+b612cc80-8b70    686 CAGAGGTTGCAGTGAGCCGAGATGGTGCCACAG---CACT-----CCAGC    727
+
+EMBOSS_001       487 CTAGGCAACGGGGCAGA---------------------------------    503
+                     ||.|.|||    |.|||                                 
+b612cc80-8b70    728 CTGGACAA----GAAGAACAAGACTCCATCTCAAAAAATATATATATTTA    773
+
+EMBOSS_001       504 ---CCTGCCCA------------ATTACCGCT----------GGACCCAG    528
+                        .||.||||            |.|||.|||          .|||.|||
+b612cc80-8b70    774 TTTTCTTCCCATTTTAAATCTGGAATACTGCTTTGTGTCTTAAGACTCAG    823
+
+EMBOSS_001       529 ACC--------CTGTCGGA--------GCTGGA-CCTGGCGG------TC    555
+                     .||        ||.||..|        .||..| |||||..|      ||
+b612cc80-8b70    824 CCCGAGTGTCACTTTCAAACTTTTCTCCCTCCACCCTGGATGAATATCTC    873
+
+EMBOSS_001       556 CCTTTCTG----------------------------TGTGAACT------    571
+                     ||||||||                            ||| ||||      
+b612cc80-8b70    874 CCTTTCTGCTTTCTTCTTTCCCTTATCACACTGATTTGT-AACTCTTTGC    922
+
+EMBOSS_001       572 ---------TCC---GGCTGAAAGGGAAGGACATGGTGGTGGAC------    603
+                              |||   .||||.|  ||||||.||..||..||.||      
+b612cc80-8b70    923 CTCTGTGTCTCCCCTAGCTGCA--GGAAGGGCACAGTCTTGTACCTCTGG    970
+
+EMBOSS_001       604 ATCCAGCGGCGGCACCTCC--GGGTGGGGCTCAAGGGGCAGCCAGCGATC    651
+                     ||||||.|..||  |||.|  ||||    ||| |||.||||         
+b612cc80-8b70    971 ATCCAGTGTAGG--CCTGCAAGGGT----CTC-AGGTGCAG---------   1004
+
+EMBOSS_001       652 ATTGATGGGGAGCTCTACAATGAAGTGAAGGTGGAGGAGAGCTCGTGGCT    701
+                        ||||.|||                    |||..|||||.|  |||  
+b612cc80-8b70   1005 ---GATGTGGA--------------------TGGGAGAGAGTT--TGG--   1027
+
+EMBOSS_001       702 CATTGAGGACGG--CAAGGTGGTGACT----GTGCA--------------    731
+                       |||.|.|.||  .|||| |||||.|    |||||              
+b612cc80-8b70   1028 --TTGTGAAAGGGTTAAGG-GGTGATTCCTGGTGCACAGAGCAGGCCACC   1074
+
+EMBOSS_001       732 --------TCTGG-----------AGAAGATCAATAAGATGGAGTGGTGG    762
+                             |||||           | .|||||||||||||||||||||||
+b612cc80-8b70   1075 TCCCACCCTCTGGTTGTTCTCTTCA-CAGATCAATAAGATGGAGTGGTGG   1123
+
+EMBOSS_001       763 AGCCGCTTGGTGTCCAGTGACCCTGAGATCAACACCAAGAAGATTAACCC    812
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b612cc80-8b70   1124 AGCCGCTTGGTGTCCAGTGACCCTGAGATCAACACCAAGAAGATTAACCC   1173
+
+EMBOSS_001       813 TGAGAATTCCAAGCTGTCAGACCTGGACAGTGAGACTCGCAGCATGGTGG    862
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b612cc80-8b70   1174 TGAGAATTCCAAGCTGTCAGACCTGGACAGTGAGACTCGCAGCATGGTGG   1223
+
+EMBOSS_001       863 AAAAGATGATGTATGACCAGCGACAGAAGTCCATGGGGCTGCCAACTTCA    912
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b612cc80-8b70   1224 AAAAGATGATGTATGACCAGCGACAGAAGTCCATGGGGCTGCCAACTTCA   1273
+
+EMBOSS_001       913 GACGAACAGAAGAAACAGGAGATTCTGAAGAAGTTCATGGATCAACATCC    962
+                     ||||||||||||||||||||||||||||||||||     ||.||  ||.|
+b612cc80-8b70   1274 GACGAACAGAAGAAACAGGAGATTCTGAAGAAGT-----GAGCA--ATTC   1316
+
+EMBOSS_001       963 GGAGATGGATTT-------------TTCC--AAGGCTAAATTCAACTAG-    996
+                     .||||.||..||             |.||  ..||||         ||| 
+b612cc80-8b70   1317 AGAGACGGGGTTGGGGGACCGTGGGTGCCTGGGGGCT---------TAGA   1357
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1358 CTTCGGTGACAGCAGTGAGTGGATCACTGCGCTGCCTCAGGAGCTGCCCT   1407
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1408 GCCCCCTTTCCAGCCATGTTTATGGCTTTATGGCTTTGGCTTGCCTACTC   1457
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1458 TTGTCATTTGCTGAGGTCATCTTGAGGGCAAGGCCGGCTCATGGTGCATG   1507
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1508 ATAGGAGGGAAGGGGTAACAGGCGGTCATTGCCACCTACAGGAAAACAAT   1557
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1558 GCCAGTGTTGGTGCCTCAGCTTCCAGCCTCGGGACTCAAATGCGTCTCAG   1607
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1608 ATACCCTGGGCCCTGCTCCTGCCCAGCCTGGCTTGGTGTTGCTGAGGTCT   1657
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1658 AAAGAGATTAGACTTGACACGGGGGTGCTGGGAGAAGGGACAGCTTTAGA   1707
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1708 AGAGAAGGATGAGCTGTTTCATCTTGCTTCCGTTTCTCCAGGTTCATGGA   1757
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1758 TCAACATCCGGAGATGGATTTTTCCAAGGCTAAATTCAACTAGCCCCTGT   1807
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1808 TTTTTCCTCCCTGAACTCTTGGGGCTGAGCTGCAACCACCCAACTTTCTT   1857
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1858 TCCCACTCTTCTCTGGGACTTGTGGGCCTCAGGGCTTGGGGCAGGCATGG   1907
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1908 GACTGGCCCAGGCACACAGGTCCCGGGGCATCAGGAGAAAGGCTGGGTCT   1957
+
+EMBOSS_001       996 --------------------------------------------------    996
+                                                                       
+b612cc80-8b70   1958 TGGGACCTTGTCCTCCCCAGTTGGCCTACTGTTACACATTAAAACGATTT   2007
+
+EMBOSS_001       996 -------    996
+                            
+b612cc80-8b70   2008 GCCCAGC   2014
+
+
+#---------------------------------------
+#---------------------------------------

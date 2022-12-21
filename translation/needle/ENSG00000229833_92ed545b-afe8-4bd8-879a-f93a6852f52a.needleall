@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 09:10:22
+# Commandline: needle
+#    -outfile needle/ENSG00000229833_92ed545b-afe8-4bd8-879a-f93a6852f52a.needleall
+#    -asequence SA/ENSG00000229833.fa
+#    -bsequence SB/92ed545b-afe8-4bd8-879a-f93a6852f52a.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000229833_92ed545b-afe8-4bd8-879a-f93a6852f52a.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 92ed545b-afe8-4bd8-879a-f93a6852f52a_ENSG00000229833.10
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 555
+# Identity:     222/555 (40.0%)
+# Similarity:   222/555 (40.0%)
+# Gaps:         333/555 (60.0%)
+# Score: 980.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------------------------ATGGGGGTGAAGCTGGAGATATTTC     25
+                                              |||||||||||||||||||||||||
+92ed545b-afe8      1 GGCTTTGTTGACCGGGAGAAACGAGATGGGGGTGAAGCTGGAGATATTTC     50
+
+EMBOSS_001        26 GGATGATAATCTACCTCACTTTCCCTGTGGCTATGTTCTGGGTTTCCAAT     75
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+92ed545b-afe8     51 GGATGATAATCTACCTCACTTTCCCTGTGGCTATGTTCTGGGTTTCCAAT    100
+
+EMBOSS_001        76 CAGGCCGAGTGGTTTGAGGACGATGTCATACAGCGCAAGAGGGAGCTGTG    125
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+92ed545b-afe8    101 CAGGCCGAGTGGTTTGAGGACGATGTCATACAGCGCAAGAGGGAGCTGTG    150
+
+EMBOSS_001       126 GCCACCTGAGA---------------------------------------    136
+                     |||||||||||                                       
+92ed545b-afe8    151 GCCACCTGAGAAGCCATGAGTAAGGAACCGAGAGCAGAGGAGTAGATGGT    200
+
+EMBOSS_001       136 --------------------------------------------------    136
+                                                                       
+92ed545b-afe8    201 TTCCTTATTGCCTTCTCCTGGAAGAGTGAAGCGGATCCCACGCGGACCCC    250
+
+EMBOSS_001       136 --------------------------------------------------    136
+                                                                       
+92ed545b-afe8    251 TTTGTAATTGGCAGGGGGCTTCCAGTGAAGACACTGAACCCTGAAGCCGT    300
+
+EMBOSS_001       136 --------------------------------------------------    136
+                                                                       
+92ed545b-afe8    301 GGTCTGGGGCAGGGTGGTGGGAGAGGTGGGCGGGGGGGGGTGGTCCCGGC    350
+
+EMBOSS_001       136 --------------------------------------------------    136
+                                                                       
+92ed545b-afe8    351 TCTGAGGTGTGTGCCCCTCCCCCCTTCCTGTCCCACCCGCTTCTCCACCC    400
+
+EMBOSS_001       137 --AGCTTCAAGAGATAGAGGAATTCAAAGAGAGGTTACGGAAGCGGCGGG    184
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+92ed545b-afe8    401 CTAGCTTCAAGAGATAGAGGAATTCAAAGAGAGGTTACGGAAGCGGCGGG    450
+
+EMBOSS_001       185 AGGAGAAGCTCCTTCGCGACGCCCAGCAGAACTCCTGA------------    222
+                     ||||||||||||||||||||||||||||||||||||||            
+92ed545b-afe8    451 AGGAGAAGCTCCTTCGCGACGCCCAGCAGAACTCCTGAGGCCTCCAAGTG    500
+
+EMBOSS_001       222 --------------------------------------------------    222
+                                                                       
+92ed545b-afe8    501 GGAGTCCTAGCCCCTCCCCTGATGAAATATACATATACTCAGTTCCTTGT    550
+
+EMBOSS_001       222 -----    222
+                          
+92ed545b-afe8    551 TATTC    555
+
+
+#---------------------------------------
+#---------------------------------------

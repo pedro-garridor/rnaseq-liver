@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 00:49:44
+# Commandline: needle
+#    -outfile needle/ENSG00000172809_61fc3842-995d-4d44-adb5-e8e8892c8bf4.needleall
+#    -asequence SA/ENSG00000172809.fa
+#    -bsequence SB/61fc3842-995d-4d44-adb5-e8e8892c8bf4.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000172809_61fc3842-995d-4d44-adb5-e8e8892c8bf4.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 61fc3842-995d-4d44-adb5-e8e8892c8bf4_ENSG00000172809.13
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 338
+# Identity:     213/338 (63.0%)
+# Similarity:   213/338 (63.0%)
+# Gaps:         125/338 (37.0%)
+# Score: 1051.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+61fc3842-995d      1 CCCGGTTGCTGCTTGCTGTGAGTGTCTCTAGGGTGATACGTGGGTGAGAA     50
+
+EMBOSS_001         1 ---------------AT---------GCCTCGGAAAATTGAGGAAATCAA     26
+                                    ||         ||||||||||||||||||||||||
+61fc3842-995d     51 AGGTAATCTGGGGCAATCCACTGCCAGCCTCGGAAAATTGAGGAAATCAA    100
+
+EMBOSS_001        27 GGACTTCCTGCTCACAGCCCGACGAAAGGATGCCAAATCTGTCAAGATCA     76
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+61fc3842-995d    101 GGACTTCCTGCTCACAGCCCGACGAAAGGATGCCAAATCTGTCAAGATCA    150
+
+EMBOSS_001        77 AGAAAAATAAGGACAACGTGAAGTTTAAAGTTCGATGCAGCAGATACCTT    126
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+61fc3842-995d    151 AGAAAAATAAGGACAACGTGAAGTTTAAAGTTCGATGCAGCAGATACCTT    200
+
+EMBOSS_001       127 TACACCCTGGTCATCACTGACAAAGAGAAGGCAGAGAAACTGAAGCAGTC    176
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+61fc3842-995d    201 TACACCCTGGTCATCACTGACAAAGAGAAGGCAGAGAAACTGAAGCAGTC    250
+
+EMBOSS_001       177 CCTGCCCCCCGGTTTGGCAGTGAAGGAACTGAAATGA-------------    213
+                     |||||||||||||||||||||||||||||||||||||             
+61fc3842-995d    251 CCTGCCCCCCGGTTTGGCAGTGAAGGAACTGAAATGAACCAGACACACTG    300
+
+EMBOSS_001       213 --------------------------------------    213
+                                                           
+61fc3842-995d    301 ATTGGAACTGTATTATATTAAAATACTAAAAATCCTAA    338
+
+
+#---------------------------------------
+#---------------------------------------

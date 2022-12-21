@@ -1,0 +1,521 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 04:14:39
+# Commandline: needle
+#    -outfile needle/ENSG00000163581_5276672b-191e-436c-8c9c-d9233ae03ee0.needleall
+#    -asequence SA/ENSG00000163581.fa
+#    -bsequence SB/5276672b-191e-436c-8c9c-d9233ae03ee0.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000163581_5276672b-191e-436c-8c9c-d9233ae03ee0.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 5276672b-191e-436c-8c9c-d9233ae03ee0_ENSG00000163581.14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6034
+# Identity:    1308/6034 (21.7%)
+# Similarity:  1308/6034 (21.7%)
+# Gaps:        4659/6034 (77.2%)
+# Score: 4035.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGACAGAAGATAAGGTCACTGGGACCCTGGTTTTCACTGTCATCACTGC     50
+                             |||||                                     
+5276672b-191e      1 --------AGATA-------------------------------------      5
+
+EMBOSS_001        51 TGTGCTGGGTTCCTT-----CCAGTTTGGATATGACATTGGTGTGATCAA     95
+                     |||.|||..||||||     |||                    |||.|  
+5276672b-191e      6 TGTTCTGATTTCCTTTAATCCCA--------------------TGAGC--     33
+
+EMBOSS_001        96 TGCACCTCAACAGGTAATAATATCTCACTAT--AGACATGTTTTGGGTGT    143
+                         |||    |..|||.|||||     |||  |.||||        |.|
+5276672b-191e     34 ----CCT----AATTAAGAATAT-----TATTAAAACAT--------TCT     62
+
+EMBOSS_001       144 TCCA--------CTG--GATGACCGAAAAGCTATCAACAACTATGTTATC    183
+                     ||.|        |||  |||.||| .||.||        |.||||.|.|.
+5276672b-191e     63 TCAATTTCTTTTCTGAAGATAACC-TAAGGC--------ATTATGATGTA    103
+
+EMBOSS_001       184 AACAGTACAGATGAAC-TGCCCACAATCTCATACTCAATGAACCCAAAAC    232
+                     |||  ||.|.||.||| ||     |||.|.| |.|.|||      ||.| 
+5276672b-191e    104 AAC--TAAAAATTAACATG-----AATTTTA-ATTAAAT------AAGA-    138
+
+EMBOSS_001       233 CAACCCCTTGGGCTGAGGAAGAGACTGTGGCAGCTGCTCAACTA-ATCAC    281
+                             ||...|.|.||||| ||||          ||||.|| ||.||
+5276672b-191e    139 --------TGATGTAATGAAGA-ACTG----------TCAAATACATGAC    169
+
+EMBOSS_001       282 CATGC-------TCTGGTCCCTGTCTGTATCCAGCTTTGCAGTTGGTGGA    324
+                     .|.||       |||..||     .|||.||||.||              
+5276672b-191e    170 TAAGCATTTCTTTCTATTC-----ATGTTTCCAACT--------------    200
+
+EMBOSS_001       325 ATGACTGCATCATTCTTTGGTGGGTGGCTTGGGGACA----------CAC    364
+                     |..|||||||                  .||.||.||          |.|
+5276672b-191e    201 ACAACTGCAT------------------ATGAGGTCATATCAAATATCTC    232
+
+EMBOSS_001       365 TTGGAAGAATCAAAGCCATGT-------TAGTAGCAA----ACATTCTGT    403
+                     .||.|     |||| |.||||       |||.|.|||    .|||.||..
+5276672b-191e    233 CTGCA-----CAAA-CTATGTCTATACCTAGGAACAAGGGTTCATCCTTC    276
+
+EMBOSS_001       404 CA-TTAGTT---GGAGCTCTCTTGATGGGGTT---TTCAAAATTGGGACC    446
+                     || |.|.||   ||||          |||.||   |||||.||       
+5276672b-191e    277 CAGTGAATTCAGGGAG----------GGGCTTTCATTCAAGAT-------    309
+
+EMBOSS_001       447 ATCTCATATAC------------------TTATAATTG--------CTGG    470
+                          ||||||                  ||||.||||        ||||
+5276672b-191e    310 -----ATATACTGTACTTAAACCAAATTGTTATTATTGAGATAGTCCTGG    354
+
+EMBOSS_001       471 AAGAAGCATATCAGGACTATAT-----TGT--------GGGCTAATTTCA    507
+                     ..|.|...||.||    |.|||     |||        ||||||||||||
+5276672b-191e    355 TTGCACTTTAACA----TTTATGTTTATGTTTCATGCAGGGCTAATTTCA    400
+
+EMBOSS_001       508 GGCCTGGTTCCTATGTATATCGGTGAAATTGCTCCAACCGCTCTCAGGGG    557
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    401 GGCCTGGTTCCTATGTATATCGGTGAAATTGCTCCAACCGCTCTCAGGGG    450
+
+EMBOSS_001       558 AGCACTTGGCACTTTTCATCAGCTGGCCATCGTCACGGGCATTCTTATTA    607
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    451 AGCACTTGGCACTTTTCATCAGCTGGCCATCGTCACGGGCATTCTTATTA    500
+
+EMBOSS_001       608 GTCAGATTATTGGTCTTGAATTTATCTTGGGCAATTATGATCTGTGGCAC    657
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    501 GTCAGATTATTGGTCTTGAATTTATCTTGGGCAATTATGATCTGTGGCAC    550
+
+EMBOSS_001       658 ATCCTGCTTGGCCTGTCTGGTGTGCGAGCCATCCTTCAGTCTCTGCTACT    707
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    551 ATCCTGCTTGGCCTGTCTGGTGTGCGAGCCATCCTTCAGTCTCTGCTACT    600
+
+EMBOSS_001       708 CTTTTTCTGTCCAGAAAGCCCCAGATACCTTTACATCAAGTTAGATGAGG    757
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    601 CTTTTTCTGTCCAGAAAGCCCCAGATACCTTTACATCAAGTTAGATGAGG    650
+
+EMBOSS_001       758 AAGTCAAAGCAAAACAAAGCTTGAAAAGACTCAGAGGATATGATGATGTC    807
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    651 AAGTCAAAGCAAAACAAAGCTTGAAAAGACTCAGAGGATATGATGATGTC    700
+
+EMBOSS_001       808 ACCAAAGATATTAATGAAATGAGAAAAGAAAGAGAAGAAGCATCGAGTGA    857
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    701 ACCAAAGATATTAATGAAATGAGAAAAGAAAGAGAAGAAGCATCGAGTGA    750
+
+EMBOSS_001       858 GCAGAAAGTCTCTATAATTCAGCTCTTCACCAATTCCAGCTACCGACAGC    907
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    751 GCAGAAAGTCTCTATAATTCAGCTCTTCACCAATTCCAGCTACCGACAGC    800
+
+EMBOSS_001       908 CTATTCTAGTGGCACTGATGCTGCATGTGGCTCAGCAATTTTCCGGAATC    957
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    801 CTATTCTAGTGGCACTGATGCTGCATGTGGCTCAGCAATTTTCCGGAATC    850
+
+EMBOSS_001       958 AATGGCATTTTTTACTACTCAACCAGCATTTTTCAGACGGCTGGTATCAG   1007
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    851 AATGGCATTTTTTACTACTCAACCAGCATTTTTCAGACGGCTGGTATCAG    900
+
+EMBOSS_001      1008 CAAACCTGTTTATGCAACCATTGGAGTTGGCGCTGTAAACATGGTTTTCA   1057
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e    901 CAAACCTGTTTATGCAACCATTGGAGTTGGCGCTGTAAACATGGTTTTCA    950
+
+EMBOSS_001      1058 CTGCTGTCTCT---------------------------------------   1068
+                     |||||||||||                                       
+5276672b-191e    951 CTGCTGTCTCTGTAAGTCAATGCCCTAGATAAATACTCTGCTTGTTCCTT   1000
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1001 AGTCCAGAAATTGCAGGAGGGGTGGGGAACTTCGGCTCTAAAAGCAATCA   1050
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1051 ATGACTTATTGTACACATGCTCTAAGTGTGTAAACCCAAGTGAGTCATGA   1100
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1101 GAAGAGTCCTGTTTGAATAAGCCAACCACTGCATTGAGATTAGGCATAAC   1150
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1151 TGAGGTGAATCGCTGATTCTCTGCACTGCTGGGATGCCATTTAGTCACTC   1200
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1201 ATTTGTGAATTTTTAACTCACTTGGGGACACAGAGAACTTCCTCCTTGTG   1250
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1251 CAGATTCCTAGGTTCCTTCTTTTCTCTGTACATAAACCCCTTGGGAGTAG   1300
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1301 CTGACAGCTTGTCATTTCTATTGATATTGGATGGTCTACTTAGATTCCTC   1350
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1351 TTTTTACATAGTTCAAATTCTTTTTTTTACCATGTGCCTTGGGGGAAACA   1400
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1401 TATAAAAATAAATAAACAAGGCCCTCTCTAACAGACATTTAAGCCTTTAA   1450
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1451 GCAAAGTTAAACAGACTCAGCAAATGGTATTAAGCCATTGAGCAGAGCTT   1500
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1501 CCAAGTAGTTCACAAGGTTGTGGCTTCCGGTGATGCATGAGAGTATGTGT   1550
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1551 GAGATTATGAGGGAAGTGACATAGTAACTAGAAATGTTATTGTTTTCTTC   1600
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1601 CAACAAAAAAAAAAGTCATATACTCTTCTTAAAACCAAATAACTTTATAT   1650
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1651 AAGAAGTGATGGTTCTTATATATTAAGGATATATAAGAAGTGATGGTTCT   1700
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1701 TATATATTAAGGATATATAAGAAGTGATGGTTCTTATATATTAAGGATAT   1750
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1751 ATAAGAACCTGACAACAAGAATATCTAACATAATAATCTAAGAAGTAAAC   1800
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1801 AAACAACAATAAAGACAAAAACTCCCCAACTAATGTAATTCACTGTAGAA   1850
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1851 TGAGAGTCATTGAGCTTATTTTTATCTTTGTTCAACAAGATAAAAACAGC   1900
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1901 AAAAAGTTTATTCTTTTCAATTTTAGTCACAATACTATACTCAATATAAT   1950
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   1951 TTAGTCACTTGTTTTTTATTCTCTGCACATGAACTCTTAACTATTACCTT   2000
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2001 AGGGTGATCAATAAATTACAGCCTGGCTACCCAGATCAAAAGGCAGGTTT   2050
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2051 GTCCAGACCACATTAAACAGTGCTGGACCTTGGAAAGAGCAGGAAAAACA   2100
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2101 GATAATAACGAAACACCAATGGTTCTGTAGACATACCTTTAGAGATAAGG   2150
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2151 CCTGTTTAAACCAAAAGGCCACTCTAAATCAATCAAGACCTGTTTCTGAA   2200
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2201 GTGCAATCCAAGGGACTATTCACCCTTTTGTCTCCTGGAATATTTTTTAC   2250
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2251 AAATTCTTCAACATATTTTTTATGATAGATTATTATTAAAACATTTTGTG   2300
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2301 TATAATAGGATTTTCTATGTAAAGCATCAAATTGTCAAGATTGGGTAGCC   2350
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2351 TAAATTCTGAAAAAATCTAAAGAGGAAACTTCTGTAAAGTTTCATTTTTG   2400
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2401 CACCCTGCTCCCAACCCCACTGATGTGGGAGGAGTTGTTTAAGACAGTGT   2450
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2451 CCTAATTATTTTGAATGTACCTTTTTAGAGTCCATCCTTTGATTCTGTTT   2500
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2501 AAGTTTTTGAACAGGGAAGTGACATAATCTTTTAAAACCAGTCCAAATCA   2550
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2551 TTAATTAAGCCTCCAGGACTACAGATCACATTTAAAATTTTTAATTATAT   2600
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2601 TAATTTTTGAAACATTGTTTTAAAGTTCAAAAAGTATAAAAAGGATAGTC   2650
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2651 CCTCCGTCACCCAGTTTCTCTCCCCAAAATTAACCAATGTTACCAAATTG   2700
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2701 TGTGTGTACTTTCAAATAAAAATATGCAAATAGAAATATGCACTGAATAT   2750
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2751 ATTAATGTTTCACCAAATTGGAAGAACATCAGTTTGTTTTTGGGAAGAGA   2800
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2801 GACTTTCCCAACTCCACACTAATTGTGTTCCACATCCTATATTTTCTTCC   2850
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2851 ACACTAATGGGCTGGTAGAAGAGGGCCTGTAATCTTGAGAGAAAAAAAGC   2900
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2901 AGAAAGAAAATGGAGGGATCTAGGAAGCAGGATGACACTGAGAAAGAAGC   2950
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   2951 GGTGACTACCAAATTGGAACTAAGAGCCCAGGATTTGCGTGAGGCCCTGG   3000
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3001 GGCAAAGATGAGCGTTCTAATTGGGAAGACATCTCCAGCCACTGACCATG   3050
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3051 TCTCACTCCTTGTCACACTCATCCTGAGTGTACACCAGGCCTCAGGGACA   3100
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3101 GAGGCCAACTCAATTTTCAAGATGTTCAGTTTTAGAGTTTATAGTAAGGG   3150
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3151 AGCTTATTCACAAAGAAATGCTTCTATTTTCTTGGTAGCTTGACGTGGTG   3200
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3201 GCACCAAGCCAGTTTTGAACATCATAATAAAAGAGTTAAAATATAGAGAG   3250
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3251 AAATTTAATGAACTTGAGAAAAGTCTGTTTTTTCCAACTTCCTTCTCAAT   3300
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3301 AATTAAATATGTGCTCTTAGCTTATCATCTTATCTGAAGTGATTTAAAAC   3350
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3351 TCTGATATGAGTGTGCCTCTGAGAAACAGGCTTTCACTGTAGGTGAAATG   3400
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3401 TTTCTAAGATGTCTTCAGAGCCAGAGCTCACTATACTAAAGACATTGGAT   3450
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3451 TGCTATTGATTTACTGATAGGCTGATGAGCCAGCCAACTTGCTCACCAGG   3500
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3501 TGCCAAAGTGAGAAATTATGACAGGAAGTTTTGTGGGGGGTGAGGGGGAG   3550
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3551 AGTGACTCACCAGCCTTGGTAATATTCCAAGGATCAGGCAAGAGTATAAC   3600
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3601 AAACTCTGGTCTTGGCTAATTGTAAAACTTAACCATTAATGCAAAGGTCC   3650
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3651 ACAAAACTAAAGGAATCAATGACGTATCTCCTCAGTTAAGATAAGAAAGC   3700
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3701 ATTTTAACCCTTTGCTTTAAAGTGCTAACTTTTAAAACGAATAGTTCACT   3750
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3751 CCCAGCACAAGATACAATTAAGCATACCAGAAAAATGCAGGCCTATTTTG   3800
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3801 GTTCAATTATCAAATTCCACATGTTGCTAGGTGAGTGGTCATAATAGGAC   3850
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3851 TTTATTAAGCAGTGAGAAAATTGGATGAGAATAGTTGACACCTGAACAGT   3900
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3901 TGTACTGTTTCCGGTGTCAATAGTGCACAGACCCTTGTAATTATAACTTA   3950
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   3951 GGATAACTATTAGAAAATAAGTTAATGTCATGTTTAAATGTGGAACCTTC   4000
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   4001 AAATTTTAAATGTACAGGACATCTATTGGAAGAGACCCCAGCTGTACAGT   4050
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   4051 CTGTGAATATTGTACCCAAAGTGATAATCCTGGAGTAGTGGTAACATTAT   4100
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   4101 GGTTCTATCTCTATAATGGTCTATTCAAACCAATGTGACTAAATTAAGCA   4150
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   4151 GATATTTGATCATTACCCGCTGTCCACTGAAACTAGCTCTGCCACCTGGG   4200
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   4201 GCTAGAGTCACTCCCCACCTTGATCTCACTCCTGTAAAATGGAAGGATGG   4250
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   4251 AATTGCCTCTTATCTGTTATATAAATTAAAATGACCTCTTTGGCAGTAAA   4300
+
+EMBOSS_001      1068 --------------------------------------------------   1068
+                                                                       
+5276672b-191e   4301 AATGATTTAAGTAAACAGTCAATATTTTGTGACTCACAAAACTGAGATAA   4350
+
+EMBOSS_001      1069 --------------------GTATTCCTTGTGGAGAAGGCAGGGCGACGT   1098
+                                         ||||||||||||||||||||||||||||||
+5276672b-191e   4351 TTTCTTTAAAATTGTCCTAGGTATTCCTTGTGGAGAAGGCAGGGCGACGT   4400
+
+EMBOSS_001      1099 TCTCTCTTTCTAATTGGAATGAGTGGGATGTTTGTTTGTGCCATCTTCAT   1148
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4401 TCTCTCTTTCTAATTGGAATGAGTGGGATGTTTGTTTGTGCCATCTTCAT   4450
+
+EMBOSS_001      1149 GTCAGTGGGACTTGTGCTGCTGAATAAGTTCTCTTGGATGAGTTATGTGA   1198
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4451 GTCAGTGGGACTTGTGCTGCTGAATAAGTTCTCTTGGATGAGTTATGTGA   4500
+
+EMBOSS_001      1199 GCATGATAGCCATCTTCCTCTTTGTCAGCTTCTTTGAAATTGGGCCAGGC   1248
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4501 GCATGATAGCCATCTTCCTCTTTGTCAGCTTCTTTGAAATTGGGCCAGGC   4550
+
+EMBOSS_001      1249 CCGATCCCCTGGTTCATGGTGGCTGAGTTTTTCAGTCAAGGACCACGTCC   1298
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4551 CCGATCCCCTGGTTCATGGTGGCTGAGTTTTTCAGTCAAGGACCACGTCC   4600
+
+EMBOSS_001      1299 TGCTGCTTTAGCAATAGCTGCATTCAGCAATTGGACCTGCAATTTCATTG   1348
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4601 TGCTGCTTTAGCAATAGCTGCATTCAGCAATTGGACCTGCAATTTCATTG   4650
+
+EMBOSS_001      1349 TAGCTCTGTGTTTCCAGTACATTGCGGACTTCTGTGGACCTTATGTGTTT   1398
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4651 TAGCTCTGTGTTTCCAGTACATTGCGGACTTCTGTGGACCTTATGTGTTT   4700
+
+EMBOSS_001      1399 TTCCTCTTTGCTGGAGTGCTCCTGGCCTTTACCCTGTTCACATTTTTTAA   1448
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4701 TTCCTCTTTGCTGGAGTGCTCCTGGCCTTTACCCTGTTCACATTTTTTAA   4750
+
+EMBOSS_001      1449 AGTTCCAGAAACCAAAGGAAAGTCTTTTGAGGAAATTGCTGCAGAATTCC   1498
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4751 AGTTCCAGAAACCAAAGGAAAGTCTTTTGAGGAAATTGCTGCAGAATTCC   4800
+
+EMBOSS_001      1499 AAAAGAAGAGTGGCTCAGCCCACAGGCCAAAAGCTGCTGTAGAAATGAAA   1548
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5276672b-191e   4801 AAAAGAAGAGTGGCTCAGCCCACAGGCCAAAAGCTGCTGTAGAAATGAAA   4850
+
+EMBOSS_001      1549 TTCCTAGGAGCTACAGAGACTGTGTAA-----------------------   1575
+                     |||||||||||||||||||||||||||                       
+5276672b-191e   4851 TTCCTAGGAGCTACAGAGACTGTGTAAAAAAAAAACCCTGCTTTTTGACA   4900
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   4901 TGAACAGAAACAATAAGGGAACCGTCTGTTTTTAAATGATGATTCCTTGA   4950
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   4951 GCATTTTATATCCACATCTTTAAGTATTGTTTTATTTTTATGTGCTCTCA   5000
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5001 TCAGAAATGTCATCAAATATTACCAAAAAAGTATTTTTTTAAGTTAGAGA   5050
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5051 ATATATTTTTGATGGTAAGACTGTAATTAAGTAAACCAAAAAGGCTAGTT   5100
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5101 TATTTTGTTACACTAAAGGGCAGGTGGTTCTAATATTTTTAGCTCTGTTC   5150
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5151 TTTATAACAAGGTTCTTCTAAAATTGAAGAGATTTCAACATATCATTTTT   5200
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5201 TTAACACATAACTAGAAACCTGAGGATGCAACAAATATTTATATATTTGA   5250
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5251 ATATCATTAAATTGGAATTTTCTTACCCATATATCTTATGTTAAAGGAGA   5300
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5301 TATGGCTAGTGGCAATAAGTTCCATGTTAAAATAGACAACTCTTCCATTT   5350
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5351 ATTGCACTCAGCTTTTTTCTTGAGTACTAGAATTTGTATTTTGCTTAAAA   5400
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5401 TTTTACTTTTGTTCTGTATTTTCATGTGGAATGGATTATAGAGTATACTA   5450
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5451 AAAAATGTCTATAGAGAAAAACTTTCATTTTTGGTAGGCTTATCAAAATC   5500
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5501 TTTCAGCACTCAGAAAAGAAAACCATTTTAGTTCCTTTATTTAATGGCCA   5550
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5551 AATGGTTTTTGCAAGATTTAACACTAAAAAGGTTTCACCTGATCATATAG   5600
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5601 CGTGGGTTATCAGTTAACATTAACATCTATTATAAAACCATGTTGATTCC   5650
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5651 CTTCTGGTACAATCCTTTGAGTTATAGTTTGCTTTGCTTTTTAATTGAGG   5700
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5701 ACAGCCTGGTTTTCACATACACTCAAACAATCATGAGTCAGACATTTGGT   5750
+
+EMBOSS_001      1575 --------------------------------------------------   1575
+                                                                       
+5276672b-191e   5751 ATATTACCTCAAATTCCTAATAAGTTTGATCAAATCTAATGTAAGAAAAT   5800
+
+EMBOSS_001      1575 ----------------------------------   1575
+                                                       
+5276672b-191e   5801 TTGAAGTAAAGGATTGATCACTTTGTTAAAAATA   5834
+
+
+#---------------------------------------
+#---------------------------------------

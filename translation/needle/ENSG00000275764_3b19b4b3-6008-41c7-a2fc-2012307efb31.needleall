@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 05:10:30
+# Commandline: needle
+#    -outfile needle/ENSG00000275764_3b19b4b3-6008-41c7-a2fc-2012307efb31.needleall
+#    -asequence SA/ENSG00000275764.fa
+#    -bsequence SB/3b19b4b3-6008-41c7-a2fc-2012307efb31.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000275764_3b19b4b3-6008-41c7-a2fc-2012307efb31.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 27038000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 327
+# Identity:       4/327 ( 1.2%)
+# Similarity:     6/327 ( 1.8%)
+# Gaps:         308/327 (94.2%)
+# Score: 17.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+27038000           1 GTACACCAGTCTCTCAATAGGGAGATCAAAACCAAATTCACACAGACATG     50
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+27038000          51 AAAAGTTGATTTATGACAGATGATGTTGCAGTCCCTGGGGAAAGAATGGA    100
+
+EMBOSS_001         1 ---------------------------------------------Seque      5
+                                                                     : 
+27038000         101 AATGGTGCTAGAATAATTGGTTTCTATATGTATTTCTATATATTTATATG    150
+
+EMBOSS_001         6 nceunavailable------------------------------------     19
+                      | : | |  |                                       
+27038000         151 CCATTACATTAAAGTCAATGCCTATGGAGTTTGGGAGGAGTGATCAAAAT    200
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+27038000         201 GTTCTGGAATTAGATGTGATGTTTGCACAACTCTGTGAATGTACTAAGAA    250
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+27038000         251 CCACTGAATTGTATATTTTTAAAGCATGGTATGTGAATAATACCTCAATA    300
+
+EMBOSS_001        19 ---------------------------     19
+                                                
+27038000         301 AAGCTGTTATAAAAAATATTTTAAAAA    327
+
+
+#---------------------------------------
+#---------------------------------------

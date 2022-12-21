@@ -1,0 +1,437 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 09:09:12
+# Commandline: needle
+#    -outfile needle/ENSG00000077254_539ca712-4936-4201-92b4-0864534fc90f.needleall
+#    -asequence SA/ENSG00000077254.fa
+#    -bsequence SB/539ca712-4936-4201-92b4-0864534fc90f.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000077254_539ca712-4936-4201-92b4-0864534fc90f.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 539ca712-4936-4201-92b4-0864534fc90f_ENSG00000077254.14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5000
+# Identity:    1676/5000 (33.5%)
+# Similarity:  1676/5000 (33.5%)
+# Gaps:        2947/5000 (58.9%)
+# Score: 3766.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -----------------------ATGTCAGCTTTTCGAAATCA--TTGTC     25
+                                            |.|||||...|||.|.|.||  .||.|
+539ca712-4936      1 GAGGCCAAGGCGGGTGGATCACGAGGTCAGGAGTTCAAGACCAGCCTGGC     50
+
+EMBOSS_001        26 CACATTTGGATTCAGTTGGTGAAA---------TAACAAAAGAAGATTTG     66
+                     ||           ||.||||||||         ||..||||         
+539ca712-4936     51 CA-----------AGATGGTGAAACCCTGTCTCTACTAAAA---------     80
+
+EMBOSS_001        67 ATACAAAAATCCCTTGGTACTTGTCAGGAT---------------TGTAA    101
+                     ||||||||||          |.|||||| |               |||||
+539ca712-4936     81 ATACAAAAAT----------TAGTCAGG-TGTGGTGGCAGGTGCCTGTAA    119
+
+EMBOSS_001       102 AGTCCAAGGACCAAATCT-TTGGGCATGTCT------GGAGAATAGAT--    142
+                       |||.||        || .||||.| |.||      |||||||.|.|  
+539ca712-4936    120 --TCCCAG--------CTACTGGGGA-GGCTGAGGCAGGAGAATCGCTTG    158
+
+EMBOSS_001       143 ----------GTTCATATGTTGGCTGTGGTGAATCACAAGTAGAT-----    177
+                               |      ||..||.||..||||..|     |||||     
+539ca712-4936    159 AACCCGGCGGG------TGGGGGTTGCAGTGAGCC-----TAGATTGCGC    197
+
+EMBOSS_001       178 CACAGCACCATACATTCTCAGGAGACAAAGCATTATCTAACTGTGA-ACC    226
+                     |||.||||  |.||..||| ||..|||.|             |||| || 
+539ca712-4936    198 CACTGCAC--TCCAGCCTC-GGCAACAGA-------------GTGAGAC-    230
+
+EMBOSS_001       227 TTACCACTCTTCG--------AGTATGGTGTTATGCTTGCAGCAAAGAAG    268
+                       .||| |||  |        ||.|                  ||||||.
+539ca712-4936    231 --GCCA-TCT--GAAAAAAAAAGAA------------------AAAGAAA    257
+
+EMBOSS_001       269 TATTTTTGGATAGG----------AAATTAGGAACTCAGCCTTCATTGCC    308
+                     .||       ||||          |||||||       ||.||.||.|.|
+539ca712-4936    258 GAT-------TAGGTTTAATTTAAAAATTAG-------GCATTGATGGTC    293
+
+EMBOSS_001       309 TCATGTAAGACAACCTCACCAAATACAAGAAAACAGTGTCCAGGATTTT-    357
+                     |.|..||||       .|||||                      ||||| 
+539ca712-4936    294 TGAATTAAG-------TACCAA----------------------ATTTTC    314
+
+EMBOSS_001       358 ----AAAATACCCAGTAAT-ACAACATTA----AAAACTCCTCTGGTTGC    398
+                         |||.||.|.|.|||| |.|..||||    ||||.| .|.||.||  
+539ca712-4936    315 TCCCAAAGTAGCTAATAATGAAAGTATTACTATAAAAAT-ATTTGTTT--    361
+
+EMBOSS_001       399 CGTATTTGATGATCTGGATATAGAAGCGGAT----------------GAA    432
+                       |.|||.|..||||   ||||.|||..|||                |||
+539ca712-4936    362 --TTTTTTAGCATCT---TATAAAAGAAGATGCTAGCTTCTGAAACAGAA    406
+
+EMBOSS_001       433 GAAGATGA---ACTTAGGGCCAGAGGTCTTACAGGTTTGAAAAATATTGG    479
+                     |.||||.|   |.|||  ||..||  |||||     ||.|.|||.|||.|
+539ca712-4936    407 GCAGATTAATTATTTA--GCTTGA--TCTTA-----TTAACAAACATTTG    447
+
+EMBOSS_001       480 AA----------------------------ATACTTGT--------TAC-    492
+                     ||                            ||||.|||        ||| 
+539ca712-4936    448 AATGCTTACTGTGTTCCAGTAGTTATGTGGATACCTGTAGGTAAGATACA    497
+
+EMBOSS_001       493 -----------ATG-------AATGCAGCTTTG------------CAGGC    512
+                                |||       ||||.|  ||||            .||..
+539ca712-4936    498 GTTTCATCCCTATGAGTATATAATGTA--TTTGGTGGATAATACAAAGTA    545
+
+EMBOSS_001       513 TCTTTCT-----AATTGCCC---ACCT--TTGACACAGTTTTTTCTTGAT    552
+                     |.|||||     |||| |||   ||||  |..|.|.|||.||....||..
+539ca712-4936    546 TATTTCTCTTGAAATT-CCCAAGACCTAATAAAGATAGTGTTAATATGTG    594
+
+EMBOSS_001       553 TGTGGAGGACTAGCTCGAACAGATAAGAAACCTGCCAT------------    590
+                     |||       ||..||.||.| |.||||||..| ||||            
+539ca712-4936    595 TGT-------TAAGTCTAATA-AGAAGAAAAAT-CCATCTACTAGTAATG    635
+
+EMBOSS_001       591 TTGTAAAA-----GTT--ATCTCAAACTAAT---------------GACA    618
+                     |.||||||     .||  ||.|  |||||||               || |
+539ca712-4936    636 TAGTAAAATGCATATTGAATTT--AACTAATCATTGTCCTTAATAGGA-A    682
+
+EMBOSS_001       619 GAGC-----TGTGGCATAAAAGCAGGCCAGGATCTGTTGTGCCTACTACT    663
+                     ||||     .|.||||.||||..||   ||||                  
+539ca712-4936    683 GAGCAGCGAAGAGGCACAAAAAGAG---AGGA------------------    711
+
+EMBOSS_001       664 CTGTTTCAAGGA-ATTAAA---ACTGTAAAT-------CCAA-CAT--TT    699
+                           .||||| ||.|||   |.||.|.||       |||| |.|  ||
+539ca712-4936    712 ------GAAGGATATCAAATTTATTGAACATAATGGAACCAAGCCTCCTT    755
+
+EMBOSS_001       700 CGGGGGTA---TTCTCAGCAGGAT-GCTCAAGAATT------CCTT---C    736
+                     |.|...||   |||||..|||  | |||.||.||.|      ||||   |
+539ca712-4936    756 CAGTTTTATATTTCTCGACAG--TGGCTTAATAAATTTAAGACCTTTGCC    803
+
+EMBOSS_001       737 GA---------TGTT-----TAATGGATTTGC------TTCATGAAGAAT    766
+                     ||         |.||     |||| ||.||.|      ||||||.||   
+539ca712-4936    804 GAACCTGGCCCTATTTCAAATAAT-GACTTTCTTTGTATTCATGGAG---    849
+
+EMBOSS_001       767 TGAAAGAGCAAGTCATGGAA---------GTAGAAGAAGAT--CCGCAAA    805
+                      |.|||   ||.||.||.||         ||||.|||||.|  |.|.|||
+539ca712-4936    850 -GTAAG---AACTCCTGTAATGCAAACCGGTAGTAGAAGTTTGCTGTAAA    895
+
+EMBOSS_001       806 CCATAA----CCACTGAGGAGACAATGGAAGAAGACAAGAGCCAGTCGGA    851
+                       ||||    |.|.|.|||||           ||.|||||          
+539ca712-4936    896 --ATAATTTGCAAATTAGGAG-----------AGCCAAGA----------    922
+
+EMBOSS_001       852 TGTAGATTTTCAGTCT-------------------------TG---TGAA    873
+                          |||||| .|||                         ||   |.||
+539ca712-4936    923 -----ATTTTC-CTCTCCCACTTATTTCCCATTTCCCCACCTGCATTCAA    966
+
+EMBOSS_001       874 TCTTGTAGCAACAGTG----------ATAGAG---CAGAAAATGA-----    905
+                     .|||      |..|||          |||..|   ||||||.|.|     
+539ca712-4936    967 ACTT------AATGTGTTTTAATTCCATATGGTTTCAGAAATTCACCCTT   1010
+
+EMBOSS_001       906 -------AAATG-------GCTCTAGATGCTTTTCTGAAGATAATA----    937
+                            ||.||       .||||||.|.||||..||||.|| |||    
+539ca712-4936   1011 CCTTTTTAATTGTAGGTAATCTCTAGCTTCTTTATTGAACAT-ATATTTA   1059
+
+EMBOSS_001       938 --------ATG------AAAC------------------------AACAA    949
+                             |||      ||||                        ||.||
+539ca712-4936   1060 CTGAGTACATGCTTTCTAAACTTTTTGCTAGTGCCTAAGGACACTAAAAA   1109
+
+EMBOSS_001       950 ---TGTTAATTCAGGATGATGAAAACAATTCAGAAATGTCAAAG--GATT    994
+                        |.||..|||.|     |||||.|..|     |||.|||.||  ||.|
+539ca712-4936   1110 TCCTTTTTCTTCTG-----TGAAAGCTCT-----AATTTCATAGTAGAGT   1149
+
+EMBOSS_001       995 GGCAAAAAGAGA-------AGATGTGCAATAAGATTA-------------   1024
+                           ||||.|       ||.|||    |.|.||||             
+539ca712-4936   1150 ------AAGATACATAAACAGCTGT----TTACATTACAGTGAGCTCCTC   1189
+
+EMBOSS_001      1025 ----ATAAAGTAAATT-------CTGAAGGCGAATT----------TGA-   1052
+                         |||.| |.|.||       ||| ||||  |||          ||| 
+539ca712-4936   1190 TATTATACA-TCATTTTTCCTACCTG-AGGC--ATTCCTGTGCTGGTGAT   1235
+
+EMBOSS_001      1053 --TAAAGATAGAGACTCTATA--------TCTGAA----ACAGTCGACTT   1088
+                       ||...||.||    |||||        |||.||    |..|||    |
+539ca712-4936   1236 TTTATCTATCGA----CTATATTGGTGGTTCTTAACCCCATTGTC----T   1277
+
+EMBOSS_001      1089 AAACAA----------------CCA-----GGAAA-----CTG---TCAA   1109
+                     |||..|                |||     |||||     |||   |..|
+539ca712-4936   1278 AAATGAATAGCTGGCTTTTTTCCCAAGTATGGAAATGTATCTGGGATTTA   1327
+
+EMBOSS_001      1110 AGTGCAAATACACAGCAGAGCTTCAGAAT---ATATCACTGATGTCC---   1153
+                     ||   |||.|      |.|||.|||.|||   ||||.||| .||.||   
+539ca712-4936   1328 AG---AAAAA------AAAGCCTCATAATTAAATATAACT-TTGGCCCTT   1367
+
+EMBOSS_001      1154 -----ATTCG-------AATG---ACCTGTCTACACCACAGAT----CCT   1184
+                          |||.|       ||||   |  |.||||||  |.|.||    |||
+539ca712-4936   1368 GTGAGATTGGCTGTGTTAATGTTTA--TTTCTACA--ATAAATAGGACCT   1413
+
+EMBOSS_001      1185 T----------CCATCAAA---------TGAAGGTGTTA-ATCCACGTTT   1214
+                     |          |.||.|||         |||||.||..| ||.||.|.| 
+539ca712-4936   1414 TTGTGTGATGCCAATTAAACTTCAAGGTTGAAGATGGGATATTCATGGT-   1462
+
+EMBOSS_001      1215 ATCGGCAAGCCCTCCTAAATCAGGCAATTTGTGG-----CCA----GGAT   1255
+                                      |||.|.|   |||||.|     |||    ||||
+539ca712-4936   1463 -----------------AATTATG---TTTGTAGTGAAACCAGAAGGGAT   1492
+
+EMBOSS_001      1256 TGGCACCACC--------ACACAAAA-----AAGCTCAGTCTG--CATCT   1290
+                     .||.| .|||        |||.|.||     |||.|  ||.||  |||||
+539ca712-4936   1493 AGGGA-TACCTGTATTGGACATAGAAATTTTAAGGT--GTATGTTCATCT   1539
+
+EMBOSS_001      1291 CCAAAGAGAAAAAAACAGCACAAGAAATAC---AGAAGT---GTTATT-T   1333
+                         .|||.|||.|..|.|||.|.||||.|   |.||.|   |||.|| .
+539ca712-4936   1540 ----TGAGGAAACACAATCACCAAAAATGCTTTATAATTACCGTTCTTGG   1585
+
+EMBOSS_001      1334 CAGACATA-TTTGATGGAACAATCATT-AGTTCAGTGCAGTGTCTGACTT   1381
+                     .|||.|.| |.|.|  |||.|||.||| ||.|..||||||||.||.||  
+539ca712-4936   1586 GAGAGAGAGTGTAA--GAATAATGATTGAGCTGGGTGCAGTGGCTCAC--   1631
+
+EMBOSS_001      1382 GTGACAGGGTGTCTGTAACC-------CTC--GAGACCTTT----CAAGA   1418
+                        ||       ||||||.|       |||  |||.|   |    ||.||
+539ca712-4936   1632 ---AC-------CTGTAATCTCATTGTCTCAGGAGGC---TGAGGCAGGA   1668
+
+EMBOSS_001      1419 TCTGTCCTTGCCAATTCCTGGCAAGGAAGACCTTGCTAAGCTGCATTCAT   1468
+                     ....||||||   |..|||        |||..|||  |.|.||||.|.|.
+539ca712-4936   1669 GGACTCCTTG---AGCCCT--------AGAGTTTG--AGGTTGCAGTGAG   1705
+
+EMBOSS_001      1469 CAAGTCATCCAACTTCTATAGTCAAAGCAGGATCATGTGGCGAAGCATAT   1518
+                     |                          ||.|.|||||..||  .|||   
+539ca712-4936   1706 C--------------------------CATGGTCATGCTGC--TGCA---   1724
+
+EMBOSS_001      1519 GCTCCA-CAAGGGTG-------GATAGCTTTTTTCATGGAATATGTG---   1557
+                      ||||| |..|||||       ||.|.|||...|||   ||.|..||   
+539ca712-4936   1725 -CTCCAGCCTGGGTGACAGAGTGAGACCTTGACTCA---AAAAAATGGCC   1770
+
+EMBOSS_001      1558 ------AAGAGGTTTGTTGTCTCATGTGTCCCT---AGCT----GGTTTT   1594
+                           ||         ||.||||||    |||   ||||    ..|||.
+539ca712-4936   1771 AGACACAA---------TGGCTCATG----CCTCTAAGCTCAGCACTTTG   1807
+
+EMBOSS_001      1595 GGGGTC-----CAGTAGTAAC-CTTGCAAGATTGTCTTGCTGCCTTCTTT   1638
+                     ||.|.|     |||.||.|.| ||||  ||   |||.||      ..|||
+539ca712-4936   1808 GGAGGCCAAAGCAGGAGGATCACTTG--AG---GTCATG------AGTTT   1846
+
+EMBOSS_001      1639 G---CCAGAGATG---AACTAAAAGGTGA--CAATATGTACAGTTGTGAA   1680
+                     |   |||| ..||   ||| |.||.|.||  |..|.|.||||      ||
+539ca712-4936   1847 GAGACCAG-CCTGGGCAAC-ATAATGAGAGCCTGTTTCTACA------AA   1888
+
+EMBOSS_001      1681 AAATGCAAAAAGTTGAGAAATGGAGTGAAGTTTTGTAAAGTACAAAACTT   1730
+                     |||   |||||      |||                |||..|.||||.||
+539ca712-4936   1889 AAA---AAAAA------AAA----------------AAAAAAGAAAAGTT   1913
+
+EMBOSS_001      1731 TCCTGAGATTTTGTGCATCCACCTTAAAAGATTCAGACATGAACTAATGT   1780
+                     ..|||.|    ||||                ||.|..||||    ..|||
+539ca712-4936   1914 AGCTGGG----TGTG----------------TTGAAGCATG----CCTGT   1939
+
+EMBOSS_001      1781 TTTCCACCAAAATCAG-TACCCATGTTTCATTTCCGCTAGAAGGCTT---   1826
+                     ..|||        ||| |||.||.|        .||||    ||..|   
+539ca712-4936   1940 AGTCC--------CAGCTACTCAGG--------ACGCT----GGGGTGGG   1969
+
+EMBOSS_001      1827 -GGATCTTCAGCCATTTCTTGCTAAGGATAGTCCAGCTCAAATTGTGACA   1875
+                      ||||     ||     ||||        ||.||||   .||||.|||  
+539ca712-4936   1970 AGGAT-----GC-----CTTG--------AGCCCAG---GAATTTTGA--   1996
+
+EMBOSS_001      1876 TATGATCTTCTGTCAGTCATTTGCCATCATGGAACTGCAAGTAGTGGACA   1925
+                         ..||.||||.||.|||    .||||||..||||           ||
+539ca712-4936   1997 ----GGCTGCTGTGAGCCAT----GATCATGCCACTG-----------CA   2027
+
+EMBOSS_001      1926 CTATATAGCCT-----ACTGCCGAAACAA------TC----TAAATAATC   1960
+                     ||.|.|.|.||     ||.|    |||||      ||    ||||.||.|
+539ca712-4936   2028 CTCTCTGGACTGGGTGACAG----AACAAGACCCTTCCACTTAAAAAAAC   2073
+
+EMBOSS_001      1961 TCTGGTATGAATTTGA-TGATCAGAGTGTCACTGAAGTTTCAGAATCTAC   2009
+                          .||||   ||| |||||    |||||       ||.||       
+539ca712-4936   2074 -----AATGA---TGATTGATC----TGTCA-------TTTAG-------   2097
+
+EMBOSS_001      2010 TGTACAAAATGCAGAAGCTTAC-GTTCTTTTCTATAGGAAGAGCAGCGAA   2058
+                                       |||| |||                        
+539ca712-4936   2098 ------------------TTACTGTT------------------------   2105
+
+EMBOSS_001      2059 GAGGCACAAAAAGAGAGGAGAAGGATATCAAATTTATTGAACATAATGGA   2108
+                            |||||                 |||            ||||  
+539ca712-4936   2106 -------AAAAA-----------------AAA------------AATG--   2117
+
+EMBOSS_001      2109 ACCAAGCCTCCTTCAGTTTTATATTTCTCGACAGTGGCTTAATAAATTTA   2158
+                                   |||||.||.|||   ||.||     .||||.|.|||
+539ca712-4936   2118 --------------AGTTTAATGTTT---GAAAG-----GAATATAATTA   2145
+
+EMBOSS_001      2159 AGACCTTTGCCGAACCTGGCCCTAT-TTCAAATAATGACTTTCTTTGTAT   2207
+                     |.|.|.|    |||.|.|   .||| ||.|.|||     |||.|||    
+539ca712-4936   2146 AAAGCAT----GAAACAG---ATATGTTTATATA-----TTTTTTT----   2179
+
+EMBOSS_001      2208 TCATGGAGGTGTTCCTCCAAGAAAAGCTGGTTATATTGAAGACCTGGTTT   2257
+                           ||||||||||||||||||||||||||||||||||||||||||||
+539ca712-4936   2180 ------AGGTGTTCCTCCAAGAAAAGCTGGTTATATTGAAGACCTGGTTT   2223
+
+EMBOSS_001      2258 TGATGCTGCCTCAGAACATTTGGGATAACCTATATAGCAGGTATGGTGGA   2307
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+539ca712-4936   2224 TGATGCTGCCTCAGAACATTTGGGATAACCTATATAGCAGGTATGGTGGA   2273
+
+EMBOSS_001      2308 GGACCAGCTGTCAACCATCTGTACATTTGTCATACTTGCCAAATTGAGGC   2357
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+539ca712-4936   2274 GGACCAGCTGTCAACCATCTGTACATTTGTCATACTTGCCAAATTGAGGC   2323
+
+EMBOSS_001      2358 GGAGAAAATTGAAAAAAGAAGAAAAACTGAATTGGAAATTTTTATTCGGC   2407
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+539ca712-4936   2324 GGAGAAAATTGAAAAAAGAAGAAAAACTGAATTGGAAATTTTTATTCGGA   2373
+
+EMBOSS_001      2408 T-----------------------TAACAGAGC-GTTCCAAAAAGAG---   2430
+                     |                       |||.|..|| ||..|.|||.|.|   
+539ca712-4936   2374 TCCTCCAGGTCCTATTGACAATACTAAGATTGCAGTCACTAAATGTGGTA   2423
+
+EMBOSS_001      2431 --------------------------GACTC----TCCAGC---TACTTT   2447
+                                               |||||    |..|||   |||||.
+539ca712-4936   2424 ATGTGATGCTTAGGCAAGGTAAGTTTGACTCGTATTTAAGCTTTTACTTG   2473
+
+EMBOSS_001      2448 TTATTG--------------------------CATCAGT-AT-----GCA   2465
+                     |.|.||                          |||.||| ||     |.|
+539ca712-4936   2474 TGAGTGATTTGTCACTGTTAGAAATATGTTATCATTAGTCATCTATAGTA   2523
+
+EMBOSS_001      2466 GTGGTTTA--------GAGAATG---------------------------   2480
+                     .|..||||        .||||||                           
+539ca712-4936   2524 CTTTTTTATTCAACTGAAGAATGTAATCCATACATTAACTAGGGCAAGTA   2573
+
+EMBOSS_001      2481 ------------------------------GGAAAG----------TTTT   2490
+                                                   ||||||          |.||
+539ca712-4936   2574 ATGAAAAGCAGCCACTTTTTTTTTATCTGAGGAAAGGTCTTAAGGCTGTT   2623
+
+EMBOSS_001      2491 GTGAAGGGTAAAG-------------------------------------   2503
+                     ||.|||.|.||||                                     
+539ca712-4936   2624 GTTAAGAGCAAAGCAAAAGCATCTCTGACTTTTTAAGACAAGCCATATGT   2673
+
+EMBOSS_001      2504 ----------------ATGG-------------AGATCC----TCCAG--   2518
+                                     ||||             ||||.|    |||||  
+539ca712-4936   2674 TTCAGCTTATAACAATATGGGCTGGTAGTCTGCAGATTCATGTTCCAGAA   2723
+
+EMBOSS_001      2519 GTCCTATTGACAATACT------AAGATTGCA---------GT-CACTA-   2551
+                     ||.||     ||||..|      |||||| ||         || ||.|| 
+539ca712-4936   2724 GTTCT-----CAATTATCCCGAGAAGATT-CATGCTGGGGGGTACATTAT   2767
+
+EMBOSS_001      2552 -AA---TGTGGTAATGTG-ATGCTTAGG----------------------   2574
+                      ||   |.|.|.|||.|| ||...||||                      
+539ca712-4936   2768 GAACGCTTTTGCAATATGAATATATAGGTTTGTAAACATTATTTCTTCTA   2817
+
+EMBOSS_001      2575 --------CAAGGAGCAGATTCTGGCCAGATTTCTGAAGAAACATGGAAT   2616
+                             .|||||||||||||||||||||||||||||||||||||||||
+539ca712-4936   2818 CGTAATTTTAAGGAGCAGATTCTGGCCAGATTTCTGAAGAAACATGGAAT   2867
+
+EMBOSS_001      2617 TTTCTGCAGTCTATTTATGGTGGAGGGCCTGAAGTTATCCTGCGACCTCC   2666
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+539ca712-4936   2868 TTTCTGCAGTCTATTTATGGTGGAGGGCCTGAAGTTATCCTGCGACCTCC   2917
+
+EMBOSS_001      2667 GGTTGTTCATGTTGATCCAGATATACTTCAAGCAGAAGAAAAAATTGAAG   2716
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+539ca712-4936   2918 GGTTGTTCATGTTGATCCAGATATACTTCAAGCAGAAGAAAAAATTGAAG   2967
+
+EMBOSS_001      2717 TAGAAACTCGGTCTTTGTAA------------------------------   2736
+                     ||||||||||||||||||||                              
+539ca712-4936   2968 TAGAAACTCGGTCTTTGTAATTTTTAGGATGTAGAGAGTTCTAATGAGGA   3017
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3018 ATCATTTTCATGTGCCCTGACATGTACACATGCGAAAACATTCCTAAAAG   3067
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3068 CGTGTTTATTTGCTTTATTTTTTTTCATCATTTATCCCATTTATTTCTTC   3117
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3118 TTAGTGGGCATTATGGAAGAATATATTAAAATGTGTAATATACCACAGGT   3167
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3168 TGGTATATTTAGTTTTAAATACTTACCATAAAGTCTTTCAGTGTAATTTT   3217
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3218 TTTTTGAGACAGAGTCTTGCTTTGTCACCCAGGCTGGAGTGCTGTGGTGT   3267
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3268 TACCTCAGCTCACTGCAGCCTCCACCTCCTGGGTTCAAGCGATTCTCCTG   3317
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3318 CCTCAGCCTCTCGAGTAGCTGGGATTACAGGCACCTGCCACCATGCCCGG   3367
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3368 CTAATTTTTGTATTTTAGTAGAGATGGGGTTTCACCATGTTGGCCAGGCT   3417
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3418 AGTCTCAAACTCCTGACCTCAGGTGATCCACCCACCTCGGCCTCCCAAAG   3467
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3468 TGCTGGGATTACAGGTGTGAGCCACAGCGCCTGGCCCAGTGTAATATTTT   3517
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3518 TGAAAGAGGAGGGACAATTGTGAAATCAGTAGGTTATCTTTAATCTTTAC   3567
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3568 ACTACATGCAGATCCATAGTATCCTTTGTAGTGTTGTAAATACTTTTGCT   3617
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3618 TTGAAAACTTTTTCATTGTCCTAAATCACCCTGACTCTGACCAGTCTTTC   3667
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3668 AGTTCTCCAAAAGCCCAATTTAATTGTATAGTTTTGTCATGGCTTCATAT   3717
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3718 AATAAAGAGCCTATTTTAAGTTGAAAGTAGTAGTCAGAAAATTGTTAATT   3767
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3768 TCCTAAAGCTCAGGAAACTAGGGTGTCACTTTTTTTGCACTGCAGCATAT   3817
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3818 ACACTAACTAGCTTATTAAAATTTACAAAATGTCTTTTTGAATGTATCAA   3867
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3868 GGATATATTTAGTTTGAGTGGAATTTGTCAGCAGATATCAGTAACTTATT   3917
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3918 GCCGCTTATATTGTACAATGTTAAACTTCAATTCCTGTAACCTGGTTAGT   3967
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   3968 ATTAATGTCAGTGACTAAAAAACTTAGAGTTAGTTTTAGGGCACTTTTTA   4017
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   4018 TTTTGAGAGCATGAAGTGTGGAATGTGTCACTACGATTGTTGATAAAGCT   4067
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   4068 GAGGCCACTTGCAACTTGATTTTTTAAATGAAATAGATAAAGTCTTTTTG   4117
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   4118 AATAATATAGTATGCACTGCTATTTGCTTGATTATGTAATGTCAAAAGTT   4167
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   4168 TAACTATATTCCAAGTACAAAAACATACTGGATTACATTGAGGATGTTGA   4217
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   4218 ATAGCATTCATGATGGCTTTGTTTTGGTTTGGGGCAGCTGTCACCAGCTA   4267
+
+EMBOSS_001      2736 --------------------------------------------------   2736
+                                                                       
+539ca712-4936   4268 AAGCAATGTTGTTAAAATTAGCTCAATAAAAATGTCTTTAAAATGTAAAA   4317
+
+
+#---------------------------------------
+#---------------------------------------

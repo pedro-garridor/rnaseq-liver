@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 05:28:31
+# Commandline: needle
+#    -outfile needle/ENSG00000229117_5bf38005-7901-42d0-b297-26f73c2621c7.needleall
+#    -asequence SA/ENSG00000229117.fa
+#    -bsequence SB/5bf38005-7901-42d0-b297-26f73c2621c7.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000229117_5bf38005-7901-42d0-b297-26f73c2621c7.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 56116000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 392
+# Identity:      73/392 (18.6%)
+# Similarity:    73/392 (18.6%)
+# Gaps:         314/392 (80.1%)
+# Score: 262.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------------------ATGAGAGCCAAG------------------     12
+                                         ||||||||||||                  
+56116000           1 CCTGTAGAAACCTCTGCGCCATGAGAGCCAAGGTGAGCGGTTCCTGGTAG     50
+
+EMBOSS_001        13 -------TGGAGGAAGAAG----------------------CGAATGC--     31
+                            .|||||.||.||                      ||||.||  
+56116000          51 TAAGCTTGGGAGGTAGGAGTTGGCGAGTAGTAGCGAGGAGACGAAGGCAA    100
+
+EMBOSS_001        31 --------------------------------------------------     31
+                                                                       
+56116000         101 GTCCGCCATACCTCCTGAACTACTGGGTTTCAAGGGTGCCCAAGAGCTGG    150
+
+EMBOSS_001        32 ---------GCAGGCTGAAGCGCAAAAGAAGAAAGATGAGGCAGAGGTCC     72
+                              |.|||||||||||||||||||||||||||||||||||||||
+56116000         151 TGGGAGAGAGAAGGCTGAAGCGCAAAAGAAGAAAGATGAGGCAGAGGTCC    200
+
+EMBOSS_001        73 AAGTAA--------------------------------------------     78
+                     ||||||                                            
+56116000         201 AAGTAAACCGCTAGCTTGTTGCACCGTGGAGGCCACAGGAGCAGAAACAT    250
+
+EMBOSS_001        78 --------------------------------------------------     78
+                                                                       
+56116000         251 GGAATGCCAGACGCTGGGGATGCTGGTACAAGTTGTGGGACTGCATGCTA    300
+
+EMBOSS_001        78 --------------------------------------------------     78
+                                                                       
+56116000         301 CTGTCTAGAGCTTGTCTCAATGGATCTAGAACTTCATCGCCCTCTGATCG    350
+
+EMBOSS_001        78 ------------------------------------------     78
+                                                               
+56116000         351 CCGATCACCTCTGAGACCCACCTTGCTCATAAACAAAATGCC    392
+
+
+#---------------------------------------
+#---------------------------------------

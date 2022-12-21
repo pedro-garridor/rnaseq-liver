@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 08:56:20
+# Commandline: needle
+#    -outfile needle/ENSG00000105193_80623095-e545-486a-b74e-d7f253bdea38.needleall
+#    -asequence SA/ENSG00000105193.fa
+#    -bsequence SB/80623095-e545-486a-b74e-d7f253bdea38.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000105193_80623095-e545-486a-b74e-d7f253bdea38.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 80623095-e545-486a-b74e-d7f253bdea38_ENSG00000105193.9
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 542
+# Identity:     441/542 (81.4%)
+# Similarity:   441/542 (81.4%)
+# Gaps:         101/542 (18.6%)
+# Score: 2193.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -----------------------------------------ATGCCGTCC      9
+                                                              |||||||||
+80623095-e545      1 CGGCGCCGCGCGGTGAGGTTGTCTAGTCCACGCTCGGAGCCATGCCGTCC     50
+
+EMBOSS_001        10 AAGGGCCCGCTGCAGTCTGTGCAGGTCTTCGGACGCAAGAAGACAGCGAC     59
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80623095-e545     51 AAGGGCCCGCTGCAGTCTGTGCAGGTCTTCGGACGCAAGAAGACAGCGAC    100
+
+EMBOSS_001        60 AGCTGTGGCGCACTGCAAACGCGGCAATGGTCTCATCAAGGTGAACGGGC    109
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80623095-e545    101 AGCTGTGGCGCACTGCAAACGCGGCAATGGTCTCATCAAGGTGAACGGGC    150
+
+EMBOSS_001       110 GGCCCCTGGAGATGATTGAGCCGCGCACGCTACAGTACAAGCTGCTGGAG    159
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80623095-e545    151 GGCCCCTGGAGATGATTGAGCCGCGCACGCTACAGTACAAGCTGCTGGAG    200
+
+EMBOSS_001       160 CCAGTTCTGCTTCTCGGCAAGGAGCGATTTGCTGGTGTAGACATCCGTGT    209
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80623095-e545    201 CCAGTTCTGCTTCTCGGCAAGGAGCGATTTGCTGGTGTAGACATCCGTGT    250
+
+EMBOSS_001       210 CCGTGTAAAGGGTGGTGGTCACGTGGCCCAGATTTATGCTATCCGTCAGT    259
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80623095-e545    251 CCGTGTAAAGGGTGGTGGTCACGTGGCCCAGATTTATGCTATCCGTCAGT    300
+
+EMBOSS_001       260 CCATCTCCAAAGCCCTGGTGGCCTATTACCAGAAAT----ATGTGGATGA    305
+                     ||||||||||||||||||||||||||||||||||||    ||||||||||
+80623095-e545    301 CCATCTCCAAAGCCCTGGTGGCCTATTACCAGAAATGTGAATGTGGATGA    350
+
+EMBOSS_001       306 GGCTTCCAAGAAGGAGATCAAAGACATCCTCATCCAGTATGACCGGACCC    355
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80623095-e545    351 GGCTTCCAAGAAGGAGATCAAAGACATCCTCATCCAGTATGACCGGACCC    400
+
+EMBOSS_001       356 TGCTGGTAGCTGACCCTCGTCGCTGCGAGTCCAAAAAGTTTGGAGGCCCT    405
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+80623095-e545    401 TGCTGGTAGCTGACCCTCGTCGCTGCGAGTCCAAAAAGTTTGGAGGCCCT    450
+
+EMBOSS_001       406 GGTGCCCGCGCTCGCTACCAGAAATCCTACCGATAA--------------    441
+                     ||||||||||||||||||||||||||||||||||||              
+80623095-e545    451 GGTGCCCGCGCTCGCTACCAGAAATCCTACCGATAAGCCCATCGTGACTC    500
+
+EMBOSS_001       441 ------------------------------------------    441
+                                                               
+80623095-e545    501 AAAACTCACTTGTATAATAAACAGTTTTTGAGGGATTTTAAA    542
+
+
+#---------------------------------------
+#---------------------------------------

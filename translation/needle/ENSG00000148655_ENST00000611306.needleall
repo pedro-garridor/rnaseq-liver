@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 21:21:35
+# Commandline: needle
+#    -outfile needle/ENSG00000148655_ENST00000611306.needleall
+#    -asequence SA/ENSG00000148655.fa
+#    -bsequence SB/ENST00000611306.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000148655_ENST00000611306.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ENST00000611306.1_ENSG00000148655.15
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 681
+# Identity:     392/681 (57.6%)
+# Similarity:   392/681 (57.6%)
+# Gaps:         288/681 (42.3%)
+# Score: 1943.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGCCGGGCTCGTGGTGCGTGGAACTCAAGTGTCCTACATAGGCCAGGA     50
+                                                                       
+ENST000006113      0 --------------------------------------------------      0
+
+EMBOSS_001        51 CTGCAGAGAAATTCCAGAGCACCTTGGCAGGGACTGTGGACATTTCGCAA    100
+                                                                       
+ENST000006113      0 --------------------------------------------------      0
+
+EMBOSS_001       101 AGAGGCTTGATCTGAGCTTTAACCTTCTGAGGTCACTGGAAGGACTGAGC    150
+                                                  |||||||||||||||||||||
+ENST000006113      1 -----------------------------AGGTCACTGGAAGGACTGAGC     21
+
+EMBOSS_001       151 GCATTCAGGAGCCTGGAGGAACTCATCTTGGACAACAATCAGCTGGGGGA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006113     22 GCATTCAGGAGCCTGGAGGAACTCATCTTGGACAACAATCAGCTGGGGGA     71
+
+EMBOSS_001       201 CGACCTTGTGTTGCCAGGGTTACCCAGACTGCATACCTTAACCCTCAACA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006113     72 CGACCTTGTGTTGCCAGGGTTACCCAGACTGCATACCTTAACCCTCAACA    121
+
+EMBOSS_001       251 AGAACCGAATCACTGATTTGGAGAACCTGCTGGATCACTTGGCAGAAGTG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006113    122 AGAACCGAATCACTGATTTGGAGAACCTGCTGGATCACTTGGCAGAAGTG    171
+
+EMBOSS_001       301 ACACCAGCTCTGGAGTACCTCAGTCTGCTGGGCAACGTGGCCTGTCCCAA    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006113    172 ACACCAGCTCTGGAGTACCTCAGTCTGCTGGGCAACGTGGCCTGTCCCAA    221
+
+EMBOSS_001       351 CGAGCTGGTCAGCTTGGAAAAGGATGAGGAAGACTACAAGAGATACAGAT    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006113    222 CGAGCTGGTCAGCTTGGAAAAGGATGAGGAAGACTACAAGAGATACAGAT    271
+
+EMBOSS_001       401 GCTTTGTTCTGTACAAGCTGCCCAACTTGAAATTTCTGGATGCCCAGAAA    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006113    272 GCTTTGTTCTGTACAAGCTGCCCAACTTGAAATTTCTGGATGCCCAGAAA    321
+
+EMBOSS_001       451 GTAACCAGACAAGAACGAGAGGAGGCGTTGGTCAGAGGAGTCTTCATGAA    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000006113    322 GTAACCAGACAAGAACGAGAGGAGGCGTTGGTCAGAGGAGTCTTCATGAA    371
+
+EMBOSS_001       501 GGTGGTGAAGCCCAAGGCTTCTAGTGAGGACGTTGCCAGCTCCCCGGAGC    550
+                     ||||||||||||||||       |||||.                     
+ENST000006113    372 GGTGGTGAAGCCCAAG-------GTGAGC---------------------    393
+
+EMBOSS_001       551 GCCACTACACGCCCTTGCCTTCTGCTTCCAGGGAACTCACCAGTCACCAA    600
+                                                                       
+ENST000006113    393 --------------------------------------------------    393
+
+EMBOSS_001       601 GGTGTCCTGGGGAAGTGTCGCTACGTTTACTATGGGAAAAACTCAGAGGG    650
+                                                                       
+ENST000006113    393 --------------------------------------------------    393
+
+EMBOSS_001       651 CAACAGGTTTATCCGAGATGACCAGCTCTGA    681
+                                                    
+ENST000006113    393 -------------------------------    393
+
+
+#---------------------------------------
+#---------------------------------------

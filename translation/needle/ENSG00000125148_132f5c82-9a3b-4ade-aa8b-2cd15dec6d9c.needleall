@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 18:39:22
+# Commandline: needle
+#    -outfile needle/ENSG00000125148_132f5c82-9a3b-4ade-aa8b-2cd15dec6d9c.needleall
+#    -asequence SA/ENSG00000125148.fa
+#    -bsequence SB/132f5c82-9a3b-4ade-aa8b-2cd15dec6d9c.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000125148_132f5c82-9a3b-4ade-aa8b-2cd15dec6d9c.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 132f5c82-9a3b-4ade-aa8b-2cd15dec6d9c_ENSG00000125148.7
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 259
+# Identity:     180/259 (69.5%)
+# Similarity:   180/259 (69.5%)
+# Gaps:          73/259 (28.2%)
+# Score: 876.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+132f5c82-9a3b      1 TCCAAGTCCCAGCGAACCCGCGTGCAACCTGTCCCGACTCTAGCCGCCTC     50
+
+EMBOSS_001         1 -----------ATGGATCCCAACTGCTCCTGCGCCGCCGGTGACTCCTGC     39
+                                |||||||||||||||||||||||||||||||||||||||
+132f5c82-9a3b     51 TTCAGCTCGCCATGGATCCCAACTGCTCCTGCGCCGCCGGTGACTCCTGC    100
+
+EMBOSS_001        40 ACCTGCGCCGGCTCCTGCAAATGCAAAGAGTGCAAATGCACCTCCTGCAA     89
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+132f5c82-9a3b    101 ACCTGCGCCGGCTCCTGCAAATGCAAAGAGTGCAAATGCACCTCCTGCAA    150
+
+EMBOSS_001        90 GAAAAGCTGCTGCTCCTGCTGCCCTGTGGGCTGTGCCAAGTGTGCCCAGG    139
+                     ||||||||||||||||||.|||||..||||||||||||||||||||||||
+132f5c82-9a3b    151 GAAAAGCTGCTGCTCCTGTTGCCCCCTGGGCTGTGCCAAGTGTGCCCAGG    200
+
+EMBOSS_001       140 GCTGCATCTGCAAAGGGGCGTCGGACAAGTGCAGCTGCTGCGCCTGA---    186
+                     ||||||||||||||||||||||.||.||||||||||||||.||||||   
+132f5c82-9a3b    201 GCTGCATCTGCAAAGGGGCGTCAGAGAAGTGCAGCTGCTGTGCCTGATGT    250
+
+EMBOSS_001       186 ---------    186
+                              
+132f5c82-9a3b    251 CGGGACAGC    259
+
+
+#---------------------------------------
+#---------------------------------------

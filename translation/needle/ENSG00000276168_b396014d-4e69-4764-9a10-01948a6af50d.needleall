@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 15:17:43
+# Commandline: needle
+#    -outfile needle/ENSG00000276168_b396014d-4e69-4764-9a10-01948a6af50d.needleall
+#    -asequence SA/ENSG00000276168.fa
+#    -bsequence SB/b396014d-4e69-4764-9a10-01948a6af50d.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000276168_b396014d-4e69-4764-9a10-01948a6af50d.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: b396014d-4e69-4764-9a10-01948a6af50d_ENSG00000276168.1
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 299
+# Identity:       3/299 ( 1.0%)
+# Similarity:     6/299 ( 2.0%)
+# Gaps:         280/299 (93.6%)
+# Score: 16.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+b396014d-4e69      1 GCCGGGCGCGGTGGCGCGTGCCTGTAGTCCCAGCTACTCGGGAGGCTGAG     50
+
+EMBOSS_001         1 ------Sequenceunavailable-------------------------     19
+                           .  :  | : | .  |                            
+b396014d-4e69     51 GCTGGAGGATCGCTTGAGTCCAGGAGTTCTGGGCTGTAGTGCGCTATGCC    100
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+b396014d-4e69    101 GATCGGGTGTCCGCACTAAGTTCGGCATCAATATGGTGACCTCCCGGGAG    150
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+b396014d-4e69    151 CGGGGGACCACCAGGTTGCCTAAGGAGGGGTGAACCGGCCCAGGTCGGAA    200
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+b396014d-4e69    201 ACGGAGCAGGTCAAAACTCCCGTGCTGATCAGTAGTGGGATCGCGCCTGT    250
+
+EMBOSS_001        19 -------------------------------------------------     19
+                                                                      
+b396014d-4e69    251 GAATAGCCACTGCACTCCAGCCTGGGCAACATAGCGAGACCCCGTCTCT    299
+
+
+#---------------------------------------
+#---------------------------------------

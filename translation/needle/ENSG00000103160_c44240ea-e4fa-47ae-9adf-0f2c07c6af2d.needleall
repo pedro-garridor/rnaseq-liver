@@ -1,0 +1,133 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 23:12:29
+# Commandline: needle
+#    -outfile needle/ENSG00000103160_c44240ea-e4fa-47ae-9adf-0f2c07c6af2d.needleall
+#    -asequence SA/ENSG00000103160.fa
+#    -bsequence SB/c44240ea-e4fa-47ae-9adf-0f2c07c6af2d.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000103160_c44240ea-e4fa-47ae-9adf-0f2c07c6af2d.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 84122000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1169
+# Identity:     465/1169 (39.8%)
+# Similarity:   465/1169 (39.8%)
+# Gaps:         581/1169 (49.7%)
+# Score: 705.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGCTGCTGTTGACAGTTTCTACCTCTTGTACAGGGAAATCGCCAGGTC     50
+                                                        |||         || 
+84122000           1 -----------------------------------GGA---------GT-      5
+
+EMBOSS_001        51 TTGCAATTGCTATATGGAA-GCTCTAG-CTTTGGTTGGAGCCTGGTATAC     98
+                           |||||   ||||| .||||.| |||         |.|       
+84122000           6 ------TTGCT---TGGAATCCTCTTGACTT---------CAT-------     30
+
+EMBOSS_001        99 GGCCAGAAAAAGCATCACTGTCATCTGTG-ACTTTTACAGCCTGATCAGG    147
+                      ||||          ||.||.|    ||| |||||              |
+84122000          31 -GCCA----------CATTGAC----GTGAACTTT--------------G     51
+
+EMBOSS_001       148 CTGCATTTTATCCCCCGCCTGGGGAGCAG-AGCAGACT------------    184
+                     .||.||..||              ||||| |||| |||            
+84122000          52 ATGTATAATA--------------AGCAGCAGCA-ACTTCATGTGAAAAT     86
+
+EMBOSS_001       185 -TGATCAAGCAG---TATGGAAGATGGGCCGTTGTCAGCGGTGCAACAG-    229
+                      ||.|||.|.||   ||||.|||  |...|||.|||          ||| 
+84122000          87 ATGGTCAGGTAGTTATATGTAAG--GTTACGTGGTC----------CAGT    124
+
+EMBOSS_001       230 -ATG----GGATTGGAAAAGCCTACGCTGAAGAGTTAGCAAGCCGAGGTC    274
+                      |||    .|||||..|||               ||         |||| 
+84122000         125 AATGTCTTAGATTGATAAA---------------TT---------AGGT-    149
+
+EMBOSS_001       275 TCAATATAATCCTGATTAGTCGGAAC--GAGGAGAAGTTGCAGGTTGTTG    322
+                        ||..|||||  ||.||| |..||  ||.|||||           |.|
+84122000         150 ---ATGGAATCC--ATCAGT-GTTACGTGATGAGAA-----------TAG    182
+
+EMBOSS_001       323 CTAAAGACA--TAGCCGACACGTACAAAGTGGAAACTGATATTATAGTTG    370
+                     .|.||.|||  |.|.|           ||||    .||||.|.|      
+84122000         183 GTGAACACACCTTGTC-----------AGTG----ATGATGTAA------    211
+
+EMBOSS_001       371 CGGACTTCAGCAGCGGTCGTGAGATCTACCTTCCAATTCGAGAAGCCCTG    420
+                        |||||                ||| ||||       |..|.|.|   
+84122000         212 ---ACTTC----------------TCT-CCTT-------GGCAGGAC---    231
+
+EMBOSS_001       421 AAGGACAAAGACGTTGGCATCTTGGT--AAATAACGTGGGTG------TG    462
+                     |.||.||||.|.|.||    .|||||  ||||   || ||||      ||
+84122000         232 ATGGGCAAACATGCTG----ATTGGTGCAAAT---GT-GGTGCCGAGCTG    273
+
+EMBOSS_001       463 TTTTATCCCTACCCGCAGT-----ATTTCACTCAGCTGTCCGAGGA-CAA    506
+                          |||.||.|.|||||     ||               ||.|| |||
+84122000         274 -----TCCATAGCTGCAGTGAAAGAT---------------GAAGAGCAA    303
+
+EMBOSS_001       507 G-----CTCTGGG-----------ACATCATAAATGTGAACA----TTGC    536
+                     |     ||||.||           .|||  |||||||    |    ||.|
+84122000         304 GACCTTCTCTAGGTTTTCTAGCTTTCAT--TAAATGT----ATTTTTTTC    347
+
+EMBOSS_001       537 CGCC---GCTAGTTTGA--------TGGTCC-------ATGTTGTGTTAC    568
+                     | ||   ||||.|||||        |||.||       |||..||||.|.
+84122000         348 C-CCAGAGCTAATTTGAAAGTTGATTGGACCACTGTGGATGGGGTGTCAT    396
+
+EMBOSS_001       569 CGGGAATGGTGGAGAGAAAGAAAGGTGCCATCGTCACGATCTCTTC--TG    616
+                     ...|||| ||||   |||  |.|||.||        |||   .|.|  ||
+84122000         397 TAAGAAT-GTGG---GAA--ATAGGGGC--------CGA---GTGCGGTG    429
+
+EMBOSS_001       617 GCTC-CTGCTGCAAACCCACTCCTCAGCTGGCTGCATTTTCTGCTTCTAA    665
+                     |||| |..|||.||.||||              |||      |.||..||
+84122000         430 GCTCACACCTGTAATCCCA--------------GCA------GTTTGGAA    459
+
+EMBOSS_001       666 GGC----TTATTTAGACCACTT-----CAGCAG---------AGCCTTGC    697
+                     |||    ..|..|.||.|.|||     |||.||         |||||.| 
+84122000         460 GGCCAGGGCAGGTGGATCGCTTGATCCCAGGAGGTCGAGACCAGCCTGG-    508
+
+EMBOSS_001       698 AATATGAATA-----TGCCTCTA-AAGGAATCTTTGTACAGAGTCTAATC    741
+                         .|||.|     ||.||||| ||..||      ||||.|    ||| 
+84122000         509 ----GGAACACATCCTGTCTCTACAAAAAA------TACAAA----AAT-    543
+
+EMBOSS_001       742 CCTTTCTATGTAGCCA-CCA-------GCATGACAGCA--CCCAGCAAC-    780
+                               |||||| .||       |||||.|.|.|  ||||||.|| 
+84122000         544 ----------TAGCCAGGCAGGGTGGTGCATGCCTGTAGTCCCAGCTACT    583
+
+EMBOSS_001       781 ------------------------TTTCTGCACAGG-TGCTCGTGGTTG-    804
+                                             |||..||.|||| ||| .|.||||| 
+84122000         584 TGGGAGGCTGAGGCAGGAGAATTTTTTGAGCCCAGGATGC-AGAGGTTGA    632
+
+EMBOSS_001       805 -GTGCCTTCGCCAAAA----GTCTATGCACATCATGCTGTTTCTACTCTT    849
+                      |||    .|||||.|    |.|..|||||           ||.|..|||
+84122000         633 AGTG----AGCCAAGATCGTGCCACTGCAC-----------TCCAGCCTT    667
+
+EMBOSS_001       850 GGGA-------------TTTC---------CAAAAGGACCACAGGATAT-    876
+                     |.||             |.||         .||||.||.|...|||.|| 
+84122000         668 GAGACAGAGCGAGACCCTGTCTCAAAAAAAAAAAAAGAACGTGGGAAATA    717
+
+EMBOSS_001       877 TGGTCCCATTCTATTCAGTTTCTTTTTGCACAGT--ATATGCCTGAATGG    924
+                     ||..||                  |||| |.|||  ||.||  |||||.|
+84122000         718 TGAACC------------------TTTG-AAAGTTAATCTG--TGAATTG    746
+
+EMBOSS_001       925 CTCTGGGTGTGGGGAGCAAATATTCTCAACCGTTCACTACGTAAGGAAGC    974
+                                      |||..||..|||            |||  ||| 
+84122000         747 -----------------AAAGTTTAACAA------------TAA--AAG-    764
+
+EMBOSS_001       975 CTTATCCTGCACAGCCTGA    993
+                                        
+84122000         764 -------------------    764
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 15:52:19
+# Commandline: needle
+#    -outfile needle/ENSG00000117691_ENST00000479589.needleall
+#    -asequence SA/ENSG00000117691.fa
+#    -bsequence SB/ENST00000479589.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000117691_ENST00000479589.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ENST00000479589.5_ENSG00000117691.10
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 674
+# Identity:     458/674 (68.0%)
+# Similarity:   458/674 (68.0%)
+# Gaps:         216/674 (32.0%)
+# Score: 2250.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ------------------------ATGGTGGGCCCCGCGCCGCGGCGGCG     26
+                                             ||||||||||||||||||||||||||
+ENST000004795      1 CTTGCCTTGCGCTGCGCGCTCACCATGGTGGGCCCCGCGCCGCGGCGGCG     50
+
+EMBOSS_001        27 GCTGCGGCCGCTGGCAGCGCTGGCCCTGGTCCTGGCGCTGGCCCCGGGGC     76
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004795     51 GCTGCGGCCGCTGGCAGCGCTGGCCCTGGTCCTGGCGCTGGCCCCGGGGC    100
+
+EMBOSS_001        77 TGCCCACAGCCCGGGCCGGGCAGACACCGCGCCCTGCCGAGCGGGGGCCC    126
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004795    101 TGCCCACAGCCCGGGCCGGGCAGACACCGCGCCCTGCCGAGCGGGGGCCC    150
+
+EMBOSS_001       127 CCAGTGCGGCTTTTCACCGAGGAGGAGCTGGCCCGCTATGGCGGGGAGGA    176
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004795    151 CCAGTGCGGCTTTTCACCGAGGAGGAGCTGGCCCGCTATGGCGGGGAGGA    200
+
+EMBOSS_001       177 GGAAGATCAGCCCATCTACTTGGCAGTGAAGGGAGTGGTGTTTGATGTCA    226
+                                                                       
+ENST000004795    200 --------------------------------------------------    200
+
+EMBOSS_001       227 CCTCCGGAAAGGAGTTTTATGGACGAGGAGCCCCCTACAATGCCTTGACG    276
+                                |||||||||||||||||||||||||||||||||||||||
+ENST000004795    201 -----------GAGTTTTATGGACGAGGAGCCCCCTACAATGCCTTGACG    239
+
+EMBOSS_001       277 GGGAAGGACTCCACTAGAGGGGTAGCCAAGATGTCCTTGGATCCTGCAGA    326
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004795    240 GGGAAGGACTCCACTAGAGGGGTAGCCAAGATGTCCTTGGATCCTGCAGA    289
+
+EMBOSS_001       327 CCTCACCCATGACACTACGGGTCTCACGGCCAAGGAACTGGAGGCCCTGG    376
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004795    290 CCTCACCCATGACACTACGGGTCTCACGGCCAAGGAACTGGAGGCCCTGG    339
+
+EMBOSS_001       377 ATGAGGTCTTCACCAAAGTGTACAAAGCCAAATACCCCATCGTCGGCTAC    426
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004795    340 ATGAGGTCTTCACCAAAGTGTACAAAGCCAAATACCCCATCGTCGGCTAC    389
+
+EMBOSS_001       427 ACTGCCCGGAGAATTCTCAATGAGGATGGCAGCCCTAACCTGGACTTCAA    476
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENST000004795    390 ACTGCCCGGAGAATTCTCAATGAGGATGGCAGCCCTAACCTGGACTTCAA    439
+
+EMBOSS_001       477 GCCTGAAGACCAGCCCCATTTTGACATCAAGGATGAGTTCTGA-------    519
+                     |||||||||||||||||||||||||||||||||||||||||||       
+ENST000004795    440 GCCTGAAGACCAGCCCCATTTTGACATCAAGGATGAGTTCTGATGTTCCC    489
+
+EMBOSS_001       519 --------------------------------------------------    519
+                                                                       
+ENST000004795    490 CCTGCAGGAGCAGGTTCTTGGGAGCGTGAGGCAGGAAGACACTAGGTGCT    539
+
+EMBOSS_001       519 --------------------------------------------------    519
+                                                                       
+ENST000004795    540 GAATCTCCTGCAAAACTGGCTGCCTGGAGGCCCTGAGCCACCCAGATCTG    589
+
+EMBOSS_001       519 ------------------------    519
+                                             
+ENST000004795    590 AATAAAACAGATGCTTACCCTGGA    613
+
+
+#---------------------------------------
+#---------------------------------------

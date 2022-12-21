@@ -1,0 +1,373 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 05:49:47
+# Commandline: needle
+#    -outfile needle/ENSG00000133027_cf287489-aab3-47c6-9601-bf55f1e27106.needleall
+#    -asequence SA/ENSG00000133027.fa
+#    -bsequence SB/cf287489-aab3-47c6-9601-bf55f1e27106.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000133027_cf287489-aab3-47c6-9601-bf55f1e27106.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: cf287489-aab3-47c6-9601-bf55f1e27106_ENSG00000133027.18
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4167
+# Identity:     645/4167 (15.5%)
+# Similarity:   645/4167 (15.5%)
+# Gaps:        3483/4167 (83.6%)
+# Score: 2667.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGA----AGAGATCT------GGGAACCCGGGAGCC-------GAG---     30
+                     .|||    ||||..||      |.||||||.|.|.||       |||   
+cf287489-aab3      1 CTGACCACAGAGCGCTGCTCCCGAGAACCCTGCACCCCTCAATGGAGTAA     50
+
+EMBOSS_001        31 ------GTAACG-----------------------------AACAGC---     42
+                           .|||.|                             ||||||   
+cf287489-aab3     51 ATTACCATAAAGCCTCTTCCTTACCCATGCTTTGGGGTGTTAACAGCTGA    100
+
+EMBOSS_001        43 ---------TCGGTGGC---AGGGCCT-GA-------CTGCTGC---GGA     69
+                              ||||||.|   .|||.|| ||       ||||.||   |.|
+cf287489-aab3    101 GGCTATTCGTCGGTGACCTGTGGGACTCGAGCTATTCCTGCAGCTCAGCA    150
+
+EMBOSS_001        70 GGCCTC--GGCAATATTGATTTTAGACAGGCAGACTTCTGCGTTATGACC    117
+                     |.||||  |||..|              ||||||||||||||||||||||
+cf287489-aab3    151 GACCTCCTGGCCGT--------------GGCAGACTTCTGCGTTATGACC    186
+
+EMBOSS_001       118 CGGCTGCTGGGCTACGTGGACCCCCTGGATCCCAGCTTTGTGGCTGCCGT    167
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    187 CGGCTGCTGGGCTACGTGGACCCCCTGGATCCCAGCTTTGTGGCTGCCGT    236
+
+EMBOSS_001       168 CATCACCATCACCTTCAATCCGCTCTACTGGAATGTGGTTGCACGATGGG    217
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    237 CATCACCATCACCTTCAATCCGCTCTACTGGAATGTGGTTGCACGATGGG    286
+
+EMBOSS_001       218 AACACAAGACCCGCAAGCTGAGCAGGGCCTTCGGATCCCCCTACCTGGCC    267
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    287 AACACAAGACCCGCAAGCTGAGCAGGGCCTTCGGATCCCCCTACCTGGCC    336
+
+EMBOSS_001       268 TGCTACTCTCTAAGCGTCACCATCCTGCTCCTGAACTTCCTGCGCTCGCA    317
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    337 TGCTACTCTCTAAGCGTCACCATCCTGCTCCTGAACTTCCTGCGCTCGCA    386
+
+EMBOSS_001       318 CTGCTTCACGCAGGCCATGCTGAGCCAGCCCAGGATGGAGAGCCTGGACA    367
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    387 CTGCTTCACGCAGGCCATGCTGAGCCAGCCCAGGATGGAGAGCCTGGACA    436
+
+EMBOSS_001       368 CCCCCGCGGCCTACAGCCTGGGCCTCGCGCTCCTGGGACTGGGCGTCGTG    417
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    437 CCCCCGCGGCCTACAGCCTGGGCCTCGCGCTCCTGGGACTGGGCGTCGTG    486
+
+EMBOSS_001       418 CTCGTGCTCTCCAGCTTCTTTGCACTGGGGTTCGCTGGAACTTTCCTAGG    467
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    487 CTCGTGCTCTCCAGCTTCTTTGCACTGGGGTTCGCTGGAACTTTCCTAGG    536
+
+EMBOSS_001       468 TGATTACTTCGGGATCCTCAAGGAGGCGAGAGTGACCGTGTTCCCCTTCA    517
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    537 TGATTACTTCGGGATCCTCAAGGAGGCGAGAGTGACCGTGTTCCCCTTCA    586
+
+EMBOSS_001       518 ACATCCTGGACAACCCCATGTACTGGGGAAGCACAGCCAACTACCTGGGC    567
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+cf287489-aab3    587 ACATCCTGGACAACCCCATGTACTGGGGAAGCACAGCCAACTACCTGGGC    636
+
+EMBOSS_001       568 TGGGCCATCAT-----------GCACGCCAGCCCCACGGGCCTGCT----    602
+                     |||||||||||           ||..|||| ||||.|.|.||||||    
+cf287489-aab3    637 TGGGCCATCATGTGAGTACCAGGCTTGCCA-CCCCTCTGCCCTGCTGGCC    685
+
+EMBOSS_001       603 -CCT------GACGGTGCTGGTGGCCCTCA-------------------C    626
+                      |||      || ||.|||||||...||||                   |
+cf287489-aab3    686 ACCTCCCGGAGA-GGAGCTGGTGCAGCTCAGGACGCGGGGGCCAGGGCCC    734
+
+EMBOSS_001       627 CT--ACATAGTGGCTCTCCTATACGAAGA---------------------    653
+                     ||  |.|.||.|        |.|.|||||                     
+cf287489-aab3    735 CTGGAGAGAGAG--------AAAGGAAGAACGTGTCATTTGTGGGGGCCT    776
+
+EMBOSS_001       654 ----GCCC---TTCACC---GCTGAG---------ATCTACCGG---CAG    681
+                         ||||   |||.||   .||.||         ||||| .||   |||
+cf287489-aab3    777 AGGCGCCCTGGTTCTCCCTTTCTCAGAAGCGTCTTATCTA-TGGTAACAG    825
+
+EMBOSS_001       682 AA--AGCCTCC-------GGGT----------CCCACAAGAGGAGCTGA-    711
+                     ||  |.|.|||       ||||          .||| |||||| ||||. 
+cf287489-aab3    826 AAACAACATCCCAGAACAGGGTGGTCAGCTTCTCCA-AAGAGG-GCTGGA    873
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3    874 GTGTGGAGGCTCAAAGGCTGCAGGCAGGTCACAGCTGCTCAGCCCTGGTC    923
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3    924 CTGCCACACAAAACAGCTGCAGACGCAGGAAAATGGATGCGCGTCTTTGG    973
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3    974 CGCCAGCACAGCTCCACTTACAGACACTGAAGCCTAAATTTCAGATTCTT   1023
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1024 TTCACGTGTCATGAAACATTCTTTTTGATCCTTTTGCTTTTAACCGTTTA   1073
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1074 AAAATGTAACAGGCGTTCTTGGCCCCTAGGCCGTAGTTTGCGGACCCTTG   1123
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1124 TGCGGGGACATCAGGGCTGGGACCACCCGACCCATCTTCCCCGCAGGAGG   1173
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1174 GGTTGGCCAGAGCCGCCAGGGCCCAGCTCACCCGCAGCTGACAGAACTCC   1223
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1224 CTGTGCCCCAATAGCCTCTGCCCATGTGGCAGATACCCCTTCCCACAGAG   1273
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1274 GGGGCCCCGTGCCATGAGGGAAGCCTAGAACTGCTGTCGGCCTCAGCCAG   1323
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1324 GTACGGGTACTGACAAGGTATGGAGATGTGCTCCCCCGGCGGGTCAGAGG   1373
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1374 ACCTGCGGTCAAGGATGGCACAGCGGGCGCTGCCCTCGGCTTCATACCCA   1423
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1424 GCCCCCACCCCAGCAGTTCTAGTTTAGCCATTTTCTTCCATAGAAGGTTT   1473
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1474 TTTGGCAGACAGTGTTCCACTGCTTTTGTTTAACACTTGAAAACCACTGG   1523
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1524 CCTAGAATTTACAGGTTCTCCACAAGACCTGAGGATCCCAAAGGAGTGAA   1573
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1574 TCGTAAACAGTGAATGTCAAGCGCAAGATGTTGCCTCCTGGCTCCCACCT   1623
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1624 TCAGCAGTTGGGACCGTAGCAGCGGGGGTTGGAGACAGCAGAAGCTAGAA   1673
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1674 GGGGGGCTGTGGGTCTGGCTGGGACCCACCCTACCCCCACCCCACGTCCA   1723
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1724 GGCCAGGCAGTCCCCAGGGACACGTCCTACCTGCCTTCTAGCCTGGTCCC   1773
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1774 TCTGCCTGCTAAGGCCCAGACTATGTGCCCCCAGGCTCACCGGCCATGGA   1823
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1824 GCACCCCCACTGGGGCCACAGGATGAGCCCAAACTCAAAACAATCCCCCC   1873
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1874 CACCCAGGTCGTCCCTGCAGGCTTAGGGTTCCCAACACACCTGGCTCCCC   1923
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1924 CCTCTCCTCTGTGTGCACAAACACATGCATGTATGCACTCACACACTGTT   1973
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   1974 CCCTCGCCTAGAACCCTCCCACTTATGCCCCTTGTCAGTCCTTCCAAACC   2023
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2024 CAACGTCAAGTGTTCCCTCCTGCACGAATCCCTCCCTAACCCCCCAACCT   2073
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2074 TCGGTGCCTCCCCAGTGGCTTAGTGTCCCCAGCAGTGTCTTGTGCCCTGG   2123
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2124 AGTGAGAGTCACCCTTGGGCTCGGGGCAGCCAGGCCAGGGCTCTGGGGGA   2173
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2174 CGCATAAGCCGCCTCCAGAGGACATCAGCCATGCAGCGTGCTGAGAGATG   2223
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2224 GCATCAATGGTCCAGGAGCTCATTAGAGATGAGCCATTATCTGGCCAGAC   2273
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2274 GCTGACACAGCGGGGACCCCCACAGGCCTCCCACGGCCCATCTGTCTCTC   2323
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2324 ACCTGCCAGGGCCCCGGAGATGGGCTTCCAGGTGTCTGAGCTCCCCGGCA   2373
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2374 TGTAGGACCCCAGCAGGCTGTGTGGCAGTGAGCCCGATGCCAGGGGACAG   2423
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2424 ATGGCAGAGGTGGTGGCCTGGCTGTGAGGGACAGGTGGGCCTCCTGCTTC   2473
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2474 GTGTTGTGCAATCAGGGACTCCTGTCCCCCTCGGCGCCCACAGTGGGGTC   2523
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2524 GCTGCTGGTTGCCAGGCCTGGGGTTGGAGCCTGGGCTTGGATCTTTGCTT   2573
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2574 ACGTCTGCCCTGCCTCCTGCAGCTCCCAGACAGGCAGACCAGTGTGAGGT   2623
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2624 CCAGGGGTGGAAGGCAGTGGGCAGGGCAGAGGGTCCCCACGGGGTCCACA   2673
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2674 GGTGTCCTCCAGCCCTCACCTCGATCCAGCCCTGCCTGAGGTTCTTGTGA   2723
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2724 TGGTTTGGCTGGGGAGGGGGCAGCTTGGCACAGGGGCAGCCAAGGAGGGC   2773
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2774 ACAGCCCCTGGCCCAGGCCTGCCCATGCGCCCTCTGTGCCCGCCAGACAG   2823
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2824 CTCCTTTCCTCCCTCTCCTTCCTCTCTTCCTCCCTCCCTCCCTCCTCCCT   2873
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2874 GGCAGCAGCCCAGCACCTGCGGGAGCTGTGGGATCAGAGGTAACTATAGA   2923
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2924 AATAGATTGGGGGACAGCTTGACGGCAGCTATTTCTGGAAACCCAAAGCA   2973
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   2974 GCTGCGCCCGGGCTCCTTGGTGCCGTCACTGACGAGCTGCCGCTGCTTAC   3023
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3024 TGGTGTGGCGGGGTCAGGAGCTGGTCACCAGCAAAGAGCCCCTGGCGATG   3073
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3074 CTCCATCCGGCCTTGGGCCTGCTGTATGCTCTGCCTGGGGCCTCCCGTCC   3123
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3124 TCTGGGCTGGGGTGACCGGGGGCTCCTGGGCGTGGGGCTGCTGTCCCACC   3173
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3174 ACCTGGGAGAGCCCAAGCTGGGCTAGGTGTTGAGGGCTGGGCGGGGCGGC   3223
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3224 AGCTCCTAAGCCCCCTTCCCCACAGCCAGATCCTCCCAGGGCGTGGCCAT   3273
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3274 GGGGTTGCACCTGTGGCCAGGGGCTGGGGACTCAGGGTGGACCAAACTGG   3323
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3324 CTTTGGGGGACCCTGGACTCATTTCTAGAAAACAGCCTTTGTTCCTCAGA   3373
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3374 GCATGGTTTCTGGGAGACGGGAGCACTTTGCCCCAGAATCTCCTCCTGTG   3423
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3424 CGGGAATGAACAGCCCTAGCCACTGGGACTCTTCCGCCTGGGGCTGCGTT   3473
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3474 CCCAGCTCTGGGCTGGCGGCTGGAGACCCGGAAAGAGTGAGCAGGCCCCA   3523
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3524 CCCTGAGGGAACCCAGCCAGGCCAGACAGGCAGACAATGATGATAAATGG   3573
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3574 ATCAGGACCGAGAACATGGGGACCCTGGTCCTGGCACAAAAGCCAGACTC   3623
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3624 AGGAAGGGGCAGTGCTGCCTGGGCTCGGTCGGCCCAAGTGGCCCAGCGTC   3673
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3674 GGCCGGAGGGCCAGGGTCACGGCAGGAAGGGCCAGCCTGGGCAGGTGGGC   3723
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3724 CGTGGCCCTGAGAGACCCTGGCTCCAGCCAGGCCTGACCTGCCTCTGTCC   3773
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3774 TTTCAGGCACGCCAGCCCCACGGGCCTGCTCCTGACGGTGCTGGTGGCCC   3823
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3824 TCACCTACATAGTGGCTCTCCTATACGAAGAGCCCTTCACCGCTGAGATC   3873
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3874 TACCGGCAGAAAGCCTCCGGGTCCCACAAGAGGAGCTGATTGAGCTGCAA   3923
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3924 CAGCTTTGCTGAAGGCCTGGCCAGCCTCCTGGCCTGCCCCAAGTGGCAGG   3973
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   3974 CCCTGCGCAGGGCGAGAATGGTGCCTGCTGCTCAGGGCTCGCCCCCGGCG   4023
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   4024 TGGGCTGCCCCAGTGCCTTGGAACCTGCTGCCTTGGGGACCCTGGACGTG   4073
+
+EMBOSS_001       711 --------------------------------------------------    711
+                                                                       
+cf287489-aab3   4074 CCGACATATGGCCATTGAGCTCCAACCCACACATTCCCATTCACCAATAA   4123
+
+EMBOSS_001       711 -----------------    711
+                                      
+cf287489-aab3   4124 AGGCACCCTGACCCCAA   4140
+
+
+#---------------------------------------
+#---------------------------------------

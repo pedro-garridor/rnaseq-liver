@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 14:29:19
+# Commandline: needle
+#    -outfile needle/ENSG00000224916_e3289890-3ce0-48be-b736-77ad3f849de1.needleall
+#    -asequence SA/ENSG00000224916.fa
+#    -bsequence SB/e3289890-3ce0-48be-b736-77ad3f849de1.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000224916_e3289890-3ce0-48be-b736-77ad3f849de1.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: e3289890-3ce0-48be-b736-77ad3f849de1_ENSG00000234906.11
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 687
+# Identity:     395/687 (57.5%)
+# Similarity:   395/687 (57.5%)
+# Gaps:         292/687 (42.5%)
+# Score: 1894.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ----ATGTCCCTCCTCAGAAACAGGCTCCAGGCCCTGCCTGCCCTGTGCC     46
+                         ||||||||||||||||||||||||||||||||||||||||||||||
+e3289890-3ce0      1 AGAAATGTCCCTCCTCAGAAACAGGCTCCAGGCCCTGCCTGCCCTGTGCC     50
+
+EMBOSS_001        47 TCTGCGTGCTGGTCCTGGCCTGCATTGGGGCATGCCAGCCAGAGGCCCAG     96
+                     |||||||||||||||||||||||||||||                     
+e3289890-3ce0     51 TCTGCGTGCTGGTCCTGGCCTGCATTGGG---------------------     79
+
+EMBOSS_001        97 GAAGGAACCCTGAGCCCCCCACCAAAGCTAAAGATGAGTCGCTGGAGCCT    146
+                                                                       
+e3289890-3ce0     79 --------------------------------------------------     79
+
+EMBOSS_001       147 GGTGAGGGGCAGGATGAAGGAGCTGCTGGAGACAGTGGTGAACAGGACCA    196
+                                                                       
+e3289890-3ce0     79 --------------------------------------------------     79
+
+EMBOSS_001       197 GAGACGGGTGGCAATGGTTCTGGTCTCTGGACACTATGGGCACACGACTC    246
+                                          |||||||||||||||||||||||||||||
+e3289890-3ce0     80 ---------------------GGTCTCTGGACACTATGGGCACACGACTC    108
+
+EMBOSS_001       247 CTCCCAGCTCTGTTTCTTGTCCTCCTGGTATTGGGATTTGAGGTCCAGGG    296
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e3289890-3ce0    109 CTCCCAGCTCTGTTTCTTGTCCTCCTGGTATTGGGATTTGAGGTCCAGGG    158
+
+EMBOSS_001       297 GACCCAACAGCCCCAGCAAGATGAGATGCCTAGCCCGACCTTCCTCACCC    346
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e3289890-3ce0    159 GACCCAACAGCCCCAGCAAGATGAGATGCCTAGCCCGACCTTCCTCACCC    208
+
+EMBOSS_001       347 AGGTGAAGGAATCTCTCTCCAGTTACTGGGAGTCAGCAAAGACAGCCGCC    396
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e3289890-3ce0    209 AGGTGAAGGAATCTCTCTCCAGTTACTGGGAGTCAGCAAAGACAGCCGCC    258
+
+EMBOSS_001       397 CAGAACCTGTACGAGAAGACATACCTGCCCGCTGTAGATGAGAAACTCAG    446
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e3289890-3ce0    259 CAGAACCTGTACGAGAAGACATACCTGCCCGCTGTAGATGAGAAACTCAG    308
+
+EMBOSS_001       447 GGACTTGTACAGCAAAAGCACAGCAGCCATGAGCACTTACACAGGCATTT    496
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e3289890-3ce0    309 GGACTTGTACAGCAAAAGCACAGCAGCCATGAGCACTTACACAGGCATTT    358
+
+EMBOSS_001       497 TTACTGACCAAGTTCTTTCTGTGCTGAAGGGAGAGGAGTAA---------    537
+                     |||||||||||||||||||||||||||||||||||||||||         
+e3289890-3ce0    359 TTACTGACCAAGTTCTTTCTGTGCTGAAGGGAGAGGAGTAACAGCCAGAC    408
+
+EMBOSS_001       537 --------------------------------------------------    537
+                                                                       
+e3289890-3ce0    409 CCCCCATCAGTGGACAAGGGGAGAGTCCCCTACTCCCCTGATCCCCCAGG    458
+
+EMBOSS_001       537 --------------------------------------------------    537
+                                                                       
+e3289890-3ce0    459 TTCAGACTGAGCTCCCCCTTCCCAGTAGCTCTTGCATCCTCCTCCCAACT    508
+
+EMBOSS_001       537 -------------------------------------    537
+                                                          
+e3289890-3ce0    509 CTAGCCTGAATTCTTTTCAATAAAAAATACAATTCAA    545
+
+
+#---------------------------------------
+#---------------------------------------

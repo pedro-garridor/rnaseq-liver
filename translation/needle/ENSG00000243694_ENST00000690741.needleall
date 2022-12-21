@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 08:10:01
+# Commandline: needle
+#    -outfile needle/ENSG00000243694_ENST00000690741.needleall
+#    -asequence SA/ENSG00000243694.fa
+#    -bsequence SB/ENST00000690741.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000243694_ENST00000690741.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ENST00000690741.1_ENSG00000243694.4
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:       4/252 ( 1.6%)
+# Similarity:     6/252 ( 2.4%)
+# Gaps:         235/252 (93.3%)
+# Score: 11.5
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000006907      1 GGCACAACCATTAAGACCCTCATCTATAGTGGACTGGAACAAAGCACAGG     50
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000006907     51 TGACTGTAACACAGATTGATGAAAGATTCTGCAGGACGACAAAGGTTAAA    100
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ENST000006907    101 GATGTAGACCCGGAGCTAGAAGCCAGCACTGACACTGATGGAGTGGACTG    150
+
+EMBOSS_001         1 ------Sequenceunavailable-------------------------     19
+                           .  :  |   | |  |                            
+ENST000006907    151 CGATGAGAATGCCC--ACATTATTGTCCTATCCTCTGATAACCAATGTAA    198
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+ENST000006907    199 TATGAAAACCGACTACAGAAGAAAGGAACAAATTAAATCCATTAATCAAG    248
+
+EMBOSS_001        19 --     19
+                       
+ENST000006907    249 CA    250
+
+
+#---------------------------------------
+#---------------------------------------

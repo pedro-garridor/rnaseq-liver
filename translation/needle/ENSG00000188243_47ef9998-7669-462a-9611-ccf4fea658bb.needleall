@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 10:32:18
+# Commandline: needle
+#    -outfile needle/ENSG00000188243_47ef9998-7669-462a-9611-ccf4fea658bb.needleall
+#    -asequence SA/ENSG00000188243.fa
+#    -bsequence SB/47ef9998-7669-462a-9611-ccf4fea658bb.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000188243_47ef9998-7669-462a-9611-ccf4fea658bb.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 47ef9998-7669-462a-9611-ccf4fea658bb_ENSG00000188243.14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 454
+# Identity:     252/454 (55.5%)
+# Similarity:   252/454 (55.5%)
+# Gaps:         196/454 (43.2%)
+# Score: 1215.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---------------------------------------ATGGAGGCGTC     11
+                                                            |||||||||||
+47ef9998-7669      1 GTTCTCTCGAGTCCGGGCCGCAAGTCCCAGACGCTGCCCATGGAGGCGTC     50
+
+EMBOSS_001        12 CAGCGAGCCGCCGCTGGATGCTAAGTCCGATGTCA---CCAACCAGCTTG     58
+                     |||||||||||||||||||||||||||||||||.|   ||||||.|...|
+47ef9998-7669     51 CAGCGAGCCGCCGCTGGATGCTAAGTCCGATGTGAGTTCCAACCTGGAAG    100
+
+EMBOSS_001        59 TAG-ATTTTCAGTGGAAACTGGGTATGGCTGTGAGCTCAGACACTTGCAG    107
+                     .|| ||||||||||||||||||||||||||||||||||||||||||||||
+47ef9998-7669    101 GAGAATTTTCAGTGGAAACTGGGTATGGCTGTGAGCTCAGACACTTGCAG    150
+
+EMBOSS_001       108 ATCTCTTAAGTATCCTTACGTTGCAGTGATGCTAAAAGTGGCAGATCATT    157
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+47ef9998-7669    151 ATCTCTTAAGTATCCTTACGTTGCAGTGATGCTAAAAGTGGCAGATCATT    200
+
+EMBOSS_001       158 CAGGCCAAGTAAAGACCAAGTGCTTTGAAATGACGATTCCACAGTTTCAG    207
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+47ef9998-7669    201 CAGGCCAAGTAAAGACCAAGTGCTTTGAAATGACGATTCCACAGTTTCAG    250
+
+EMBOSS_001       208 AATTTCTACAGACAGTTCAAGGAAATTGCTGCAGTTATTGAAACGGTGTG    257
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+47ef9998-7669    251 AATTTCTACAGACAGTTCAAGGAAATTGCTGCAGTTATTGAAACGGTGTG    300
+
+EMBOSS_001       258 A-------------------------------------------------    258
+                     |                                                 
+47ef9998-7669    301 AAGACGGATTCTTTGGTTGATAAATTGCTATCATTCTAAAGTCATGGACT    350
+
+EMBOSS_001       258 --------------------------------------------------    258
+                                                                       
+47ef9998-7669    351 TCACTTTCGGCAACAAAACTAAATAAGGATGGAACATTTATTGAATGAAA    400
+
+EMBOSS_001       258 --------------------------------------------------    258
+                                                                       
+47ef9998-7669    401 AATGCACTTTTGTTTTTCCATTTTTTTAAATAATAAAAATCAGACAAACA    450
+
+EMBOSS_001       258 ----    258
+                         
+47ef9998-7669    451 GGAA    454
+
+
+#---------------------------------------
+#---------------------------------------

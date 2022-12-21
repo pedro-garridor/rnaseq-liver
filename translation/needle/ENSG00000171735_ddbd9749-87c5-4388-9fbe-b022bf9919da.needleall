@@ -1,0 +1,453 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 17:50:23
+# Commandline: needle
+#    -outfile needle/ENSG00000171735_ddbd9749-87c5-4388-9fbe-b022bf9919da.needleall
+#    -asequence SA/ENSG00000171735.fa
+#    -bsequence SB/ddbd9749-87c5-4388-9fbe-b022bf9919da.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000171735_ddbd9749-87c5-4388-9fbe-b022bf9919da.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: ddbd9749-87c5-4388-9fbe-b022bf9919da_ENSG00000171735.19
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5198
+# Identity:     657/5198 (12.6%)
+# Similarity:   657/5198 (12.6%)
+# Gaps:        4404/5198 (84.7%)
+# Score: 1436.5
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+ddbd9749-87c5      1 TGGCTGGGCCGGCGGCGGCGGCGGTACGAGGCGCGCGCTCGGGGTCCCGG     50
+
+EMBOSS_001         1 -----------------ATGTGGCGCGCGGAGGGGAAATGGCTGCCGAAA     33
+                                      |||||||||||||||||||||||||||||||||
+ddbd9749-87c5     51 TCGCGAGGAGGAGGAGGATGTGGCGCGCGGAGGGGAAATGGCTGCCGAAA    100
+
+EMBOSS_001        34 ACAAGCCGGAAGAGCGTTTCCCAAAGTGTATTCTGCGGAACTAGCACCTA     83
+                     ||||||||                                          
+ddbd9749-87c5    101 ACAAGCCG------------------------------------------    108
+
+EMBOSS_001        84 CTGTGTTCTCAACACCGTGCCACCTATAGAAGATGATCATGGGAACAGCA    133
+                                                 ||||||||||||||||||||||
+ddbd9749-87c5    109 ----------------------------GAAGATGATCATGGGAACAGCA    130
+
+EMBOSS_001       134 ATAGTAGTCATGTAAAAATCTTTTTACCGAAAAAGCTGCTTGAATGTCTG    183
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ddbd9749-87c5    131 ATAGTAGTCATGTAAAAATCTTTTTACCGAAAAAGCTGCTTGAATGTCTG    180
+
+EMBOSS_001       184 CCGAAATGTTCAAGTTTACCAAAAGAGAGGCACCGCTGGAACACTAATGA    233
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ddbd9749-87c5    181 CCGAAATGTTCAAGTTTACCAAAAGAGAGGCACCGCTGGAACACTAATGA    230
+
+EMBOSS_001       234 GGAAAT-----TGCAG-----CTT----ATTTAATAACATTTGAGAAACA    269
+                      ||.||     |||||     |||    ||||     |.|||        
+ddbd9749-87c5    231 -GAGATCATGATGCAGCCGTCCTTTTGGATTT-----CTTTT--------    266
+
+EMBOSS_001       270 CGAAGAATGGCTAAC----CACC-----TCCCCTAAGA----CAAGACCA    306
+                      .||.||||..|.||    ||||     ||||||  ||    ||..||| 
+ddbd9749-87c5    267 -TAATAATGTGTGACCCTTCACCTTTGATCCCCT--GACCTGCATTACC-    312
+
+EMBOSS_001       307 CAGAATGG-CTCAA-----TGATACTCTACAACAGGAAGAAAGTGAAATA    350
+                         .||| ||.||     ||.|       |.|||.|||.||.||     
+ddbd9749-87c5    313 ----TTGGTCTTAAAATTTTGGT-------AGCAGAAAGCAAATG-----    346
+
+EMBOSS_001       351 CAGGAAAGATGGGTATTGCTGGAAAAAGAGGAAAGATGGGAAAACGA-CC    399
+                                     |||     ||||||.||    .|||||||.| .|
+ddbd9749-87c5    347 ----------------TGC-----AAAGAGCAA----TGGAAAACAAGTC    371
+
+EMBOSS_001       400 AGAGAG-----GACCACATGAAACTCAAGGTCCAG-GGAGTGGAGTGCTT    443
+                     ||| ||     |.|    |||        .||||| |||       .||.
+ddbd9749-87c5    372 AGA-AGCTGCTGTC----TGA--------TTCCAGAGGA-------ACTC    401
+
+EMBOSS_001       444 GTACGGCTGCTATGT-----CCATTCCTCCATCATCCCCAC-CT--TCCA    485
+                     |||    |..|||||     ..|.|.|||  ||| ||.||| ||  |.||
+ddbd9749-87c5    402 GTA----TTTTATGTTAAAAAAAATGCTC--TCA-CCACACACTTGTTCA    444
+
+EMBOSS_001       486 CCGGAGGTGCTACTGGCTCCTTCAGAACCCCGACATCGTCCTGG--TGCA    533
+                     ..||.|..||.|           ||||    ||         ||  |.||
+ddbd9749-87c5    445 TGGGCGCAGCAA-----------AGAA----GA---------GGGATCCA    470
+
+EMBOSS_001       534 C-TACCTGAACGTGCCGGCCATCGAGGACTGCGGCAAGCCTTGCGGCCCC    582
+                     | .|.|||.|       ||||| ||||.|||                   
+ddbd9749-87c5    471 CAGAGCTGGA-------GCCAT-GAGGGCTG-------------------    493
+
+EMBOSS_001       583 ATCCTCTGCTCCATCAACAC---CGACAAGAAGGAG-TGGGCGAAATGGA    628
+                                     ||||   .|| |.|||  || |||..|||.|   
+ddbd9749-87c5    494 ----------------ACACATTGGA-ATGAA--AGCTGGCAGAATT---    521
+
+EMBOSS_001       629 CGAAAGAAGAGCT----CAT-CGGGCAGCTGAAACCCATGTTCCATGGCA    673
+                     ||.|.|.||||||    ||| |.|.||||     |||||||   .||||.
+ddbd9749-87c5    522 CGTAGGGAGAGCTTTCCCATCCTGCCAGC-----CCCATGT---CTGGCT    563
+
+EMBOSS_001       674 TCAAGTGGACCTGCAGCAATGGGAACAGCAGCTCAGGCTTC--TCGGTGG    721
+                     |.|||                   ||||          |||  |..|||.
+ddbd9749-87c5    564 TTAAG-------------------ACAG----------TTCTATTAGTGA    584
+
+EMBOSS_001       722 AACAGCTGGTGCAGCAGATCCTCGACAGCCACCAGACCAAGCCCCAGCCG    771
+                     |..|.|||          |.|||.|                         
+ddbd9749-87c5    585 ATTAACTG----------TTCTCAA-------------------------    599
+
+EMBOSS_001       772 CGGACCCACAACTGCCTCTGCACCGGCAGCCTGGGAGCTGGCGGCAGCGT    821
+                        |.||.|||.|...|.||.||||                    |..||
+ddbd9749-87c5    600 ---AACCCCAAATTAATTTGAACCG--------------------AATGT    626
+
+EMBOSS_001       822 GCATCACAAGTGTAACAGCGCCAAA------CACC-------GCATCATC    858
+                      .|..|.||.||.||.||     ||      .|||       ||.|||||
+ddbd9749-87c5    627 -TACTAAAAATGAAATAG-----AATAAAGTGACCTACTCTTGCCTCATC    670
+
+EMBOSS_001       859 TCGCCCAAGGTGGAGCCACGGACAGGGGGG----TACG--GGAGCCACTC    902
+                                       ||||       |    ||||  |||||..|  
+ddbd9749-87c5    671 ------------------CGGA-------GTTATTACGAAGGAGCTCC--    693
+
+EMBOSS_001       903 GGAGGTGCAGCACAATGACGTGTCGGAGGGCAAGCAC--GAGCACAGCCA    950
+                           |||||   .|||| ||          |||.|  |||   |||  
+ddbd9749-87c5    694 ------GCAGC---CTGAC-TG----------AGCTCTGGAG---AGC--    718
+
+EMBOSS_001       951 CAGCAAGGGCTCCAGCCGTGAGAAGAGGAACGGCAAGGTGGCCAAGCCCG   1000
+                          |||||||                        .|||..||.||   
+ddbd9749-87c5    719 -----AGGGCTC------------------------TGTGCACACGC---    736
+
+EMBOSS_001      1001 TGCTCCTGCACCAGAGCAGCACCGAGGTCTCCTCCACCAACCA-GGTGGA   1049
+                       ||||||..|||          ||||.||||...||||.||| |.||  
+ddbd9749-87c5    737 --CTCCTGGTCCA----------GAGGCCTCCGTGACCATCCATGATG--    772
+
+EMBOSS_001      1050 AGTCCCCGACACCACCCAGAGCTCCCCTGTGTCCATCAGC-AGCGGGCT-   1097
+                                ||||.|.|   |||||        ||||| |||.|.|| 
+ddbd9749-87c5    773 -----------CCACTCTG---TCCCC--------TCAGCAAGCTGCCTT    800
+
+EMBOSS_001      1098 -----------CAACAGCGACCCGGACATGGTGGACAGCCCGGTGGTCAC   1136
+                                ||.|.||  |||.|               |||||||   
+ddbd9749-87c5    801 TTTCTTCCTAGCACCTGC--CCCAG---------------CGGTGGT---    830
+
+EMBOSS_001      1137 AGGTGTGTCCGGTATGGCGGTGGCC-TCTGT-------GATGGGGAGCTT   1178
+                     |.|| |.|||.||    |.||..|| .||||       ||..||.|||| 
+ddbd9749-87c5    831 ATGT-TTTCCAGT----CAGTTACCACCTGTCTCATCAGAATGGAAGCT-    874
+
+EMBOSS_001      1179 GTCCCA-GAGCGCCACGGTGTTCATGTCAGAGGTCACCAATGAGGCC-GT   1226
+                        ||| |||.|               |||             |||| .|
+ddbd9749-87c5    875 ---CCATGAGAG---------------CAG-------------GGCCTTT    893
+
+EMBOSS_001      1227 GTACACCATGTCCCCCACCGCTGGCCCCAACCACCACCTCCTCTCACCTG   1276
+                     ||    |.|||||                       |||..|.||     
+ddbd9749-87c5    894 GT----CTTGTCC-----------------------CCTTGTATC-----    911
+
+EMBOSS_001      1277 ACGCCTCTCAGGGCCTCGTCCTGGCCGTGAGCTCTGATGGCCACAAGTTC   1326
+                           .||||.||.|.|    |.|.|||    ||||    ||| |||  
+ddbd9749-87c5    912 ------TTCAGTGCATAG----GACAGTG----CTGA----CAC-AGT--    940
+
+EMBOSS_001      1327 GCCTTTCCCACCACGGGCAGCTCGGAGAGCCT--GTCCATGCTGCCCACC   1374
+                                            |.||||.||  .|..|.||||      
+ddbd9749-87c5    941 -----------------------GCAGAGTCTAAATAAACGCTG------    961
+
+EMBOSS_001      1375 AACGTGTCCGAAGAGCTGGTCCTCTCCACCACCCTCGACGGTGGCCGGAA   1424
+                        .||..||||                                      
+ddbd9749-87c5    962 ---TTGAACGAA--------------------------------------    970
+
+EMBOSS_001      1425 GATTCCAGAAACCACCATGAACTTTGACCCCGACTGTTTCCTTAATAACC   1474
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1475 CAAAGCAGGGCCAGACGTACGGGGGTGGAGGCCTGAAAGCCGAGATGGTC   1524
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1525 AGCTCCAACATCCGGCACTCGCCACCCGGGGAGCGGAGCTTCAGCTTTAC   1574
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1575 CACCGTCCTCACCAAGGAGATCAAGACCGAGGACACCTCCTTCGAGCAGC   1624
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1625 AGATGGCCAAAGAAGCGTACTCCTCCTCCGCGGCGGCTGTGGCAGCCAGC   1674
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1675 TCCCTCACCCTGACCGCCGGCTCCAGCCTCCTGCCGTCGGGCGGCGGCCT   1724
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1725 GAGTCCCAGCACCACCCTGGAGCAGATGGACTTCAGCGCCATCGACTCCA   1774
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1775 ACAAGGACTACACGTCCAGCTTCAGCCAGACGGGCCACAGCCCCCACATC   1824
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1825 CACCAGACCCCCTCCCCGAGCTTCTTCCTGCAGGACGCCAGCAAACCCCT   1874
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1875 CCCCGTCGAGCAGAACACCCACAGCAGCCTGAGTGACTCTGGGGGCACCT   1924
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1925 TCGTGATGCCCACGGTGAAAACGGAGGCCTCGTCCCAAACCAGCTCCTGC   1974
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      1975 AGCGGTCACGTGGAGACGCGGATCGAGTCCACTTCCTCCCTCCACCTCAT   2024
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2025 GCAGTTCCAGGCCAACTTCCAGGCCATGACGGCAGAAGGGGAGGTCACCA   2074
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2075 TGGAGACCTCGCAGGCGGCGGAAGGGAGCGAGGTCCTGCTCAAGTCTGGG   2124
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2125 GAGCTGCAGGCTTGCAGCTCTGAGCACTACCTGCAGCCGGAGACCAACGG   2174
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2175 GGTAATCCGAAGCGCCGGCGGCGTCCCCATCCTCCCGGGCAACGTGGTGC   2224
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2225 AGGGACTCTACCCCGTGGCCCAGCCCAGCCTCGGCAACGCCTCCAACATG   2274
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2275 GAGCTCAGCCTGGACCACTTTGACATCTCCTTCAGCAACCAGTTCTCCGA   2324
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2325 CCTGATCAACGACTTCATCTCCGTGGAGGGGGGCAGCAGCACCATCTATG   2374
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2375 GGCACCAGCTGGTGTCGGGGGACAGCACGGCGCTCTCACAGTCAGAGGAC   2424
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2425 GGGGCGCGGGCCCCCTTCACCCAGGCAGAGATGTGCCTCCCCTGCTGTAG   2474
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2475 CCCCCAGCAGGGTAGCCTGCAGCTGAGCAGCTCGGAGGGCGGGGCCAGCA   2524
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2525 CCATGGCCTACATGCACGTCGCCGAGGTGGTCTCGGCCGCCTCGGCCCAG   2574
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2575 GGCACCCTAGGCATGCTGCAGCAGAGCGGACGGGTGTTCATGGTGACCGA   2624
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2625 CTACTCCCCAGAGTGGTCTTACCCAGAGGGAGGAGTGAAGGTCCTCATCA   2674
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2675 CAGGCCCGTGGCAAGAAGCCAGCAATAACTACAGCTGCCTGTTTGACCAG   2724
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2725 ATCTCAGTGCCTGCATCCCTGATTCAGCCTGGGGTGCTGCGCTGCTACTG   2774
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2775 CCCAGCCCATGACACTGGTCTTGTGACCCTACAAGTTGCCTTCAACAACC   2824
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2825 AGATCATCTCCAACTCGGTGGTGTTTGAGTACAAAGCCCGGGCTCTGCCC   2874
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2875 ACGCTCCCTTCCTCCCAGCACGACTGGCTGTCGTTGGACGATAACCAGTT   2924
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2925 CAGGATGTCCATCCTGGAACGACTGGAGCAGATGGAGAGGAGGATGGCCG   2974
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      2975 AGATGACGGGGTCCCAGCAGCACAAACAGGCGAGCGGAGGCGGCAGCAGT   3024
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3025 GGAGGCGGCAGCGGGAGCGGGAATGGAGGGAGCCAGGCACAGTGTGCTTC   3074
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3075 TGGGACTGGGGCCTTGGGGAGCTGCTTTGAGAGCCGTGTGGTCGTGGTAT   3124
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3125 GCGAGAAGATGATGAGCCGAGCCTGCTGGGCGAAGTCCAAGCACTTGATC   3174
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3175 CACTCAAAGACTTTCCGCGGAATGACCCTACTCCACCTGGCCGCTGCCCA   3224
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3225 GGGCTATGCCACCCTAATCCAGACCCTCATCAAATGGCGTACAAAGCACG   3274
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3275 CGGATAGCATTGACCTGGAACTGGAAGTTGACCCCTTGAATGTGGACCAC   3324
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3325 TTCTCCTGTACTCCTCTGATGTGGGCGTGTGCCCTAGGGCACTTGGAAGC   3374
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3375 TGCCGTCGTGCTGTACAAGTGGGACCGTCGGGCCATCTCGATTCCCGACT   3424
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3425 CTCTAGGAAGGCTGCCTTTGGGAATTGCCAGGTCACGGGGTCATGTGAAA   3474
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3475 TTAGCAGAGTGTCTGGAGCACCTGCAGAGAGATGAGCAGGCTCAGCTGGG   3524
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3525 ACAGAACCCCAGAATCCACTGTCCTGCAAGCGAAGAGCCCAGCACAGAGA   3574
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3575 GCTGGATGGCCCAGTGGCACAGCGAAGCCATCAGCTCTCCAGAAATACCC   3624
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3625 AAGGGAGTCACTGTTATTGCAAGCACCAACCCAGAGCTGAGAAGACCTCG   3674
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3675 TTCTGAACCCTCTAATTACTACAGCAGTGAGAGCCACAAAGATTATCCGG   3724
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3725 CTCCCAAAAAGCATAAATTGAACCCTGAGTACTTCCAGACAAGGCAGGAG   3774
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3775 AAGCTGCTTCCCACTGCACTGAGTCTGGAAGAGCCAAATATCAGGAAGCA   3824
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3825 AAGCCCTAGTTCTAAGCAGTCTGTCCCCGAGACACTCAGCCCCAGTGAAG   3874
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3875 GAGTGAGGGACTTCAGCCGGGAACTCTCCCCTCCCACTCCAGAGACTGCA   3924
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3925 GCATTTCAAGCCTCTGGATCTCAGCCTGTAGGAAAGTGGAATTCCAAAGA   3974
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      3975 TCTTTACATTGGTGTGTCTACAGTACAGGTGACTGGAAATCCGAAGGGGA   4024
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4025 CCAGTGTAGGAAAGGAGGCAGCACCTTCACAGGTGCGTCCACGGGAACCA   4074
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4075 ATGAGTGTCCTGATGATGGCTAACAGAGAGGTGGTGAATACAGAGCTGGG   4124
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4125 GTCCTACCGTGATAGTGCAGAAAATGAAGAATGCGGCCAGCCCATGGATG   4174
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4175 ACATACAGGTGAACATGATGACCTTGGCAGAACACATTATTGAAGCCACA   4224
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4225 CCTGACCGAATCAAGCAGGAGAATTTTGTGCCCATGGAGTCCTCAGGATT   4274
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4275 GGAAAGAACAGACCCTGCCACCATTAGCAGTACAATGAGCTGGCTGGCCA   4324
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4325 GTTATCTAGCGGATGCTGACTGCCTTCCCAGTGCTGCCCAGATCCGAAGT   4374
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4375 GCATATAACGAGCCTCTAACCCCTTCTTCTAATACCAGCTTGAGCCCTGT   4424
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4425 TGGCTCTCCCGTCAGTGAAATCGCTTTCGAGAAACCTAACCTTCCCTCCG   4474
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4475 CCGCGGATTGGTCAGAATTCCTGAGTGCATCTACCAGTGAGAAGGTAGAG   4524
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4525 AATGAGTTTGCTCAGCTCACTCTGTCTGATCATGAACAGAGAGAACTCTA   4574
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4575 TGAGGCTGCCAGGCTTGTCCAGACAGCTTTCCGGAAATACAAGGGCCGAC   4624
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4625 CCTTGCGGGAACAGCAAGAAGTAGCTGCTGCTGTTATTCAGCGTTGTTAC   4674
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4675 AGAAAATATAAACAGTACGCACTTTATAAAAAGATGACACAGGCTGCCAT   4724
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4725 CCTTATCCAGAGCAAATTCCGAAGTTACTATGAACAAAAAAAATTCCAGC   4774
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4775 AGAGCCGACGGGCTGCTGTGCTCATCCAAAAGTACTACCGAAGTTATAAG   4824
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4825 AAATGTGGCAAAAGACGGCAGGCTCGCCGGACGGCTGTGATTGTACAACA   4874
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4875 GAAACTCAGGAGCAGTTTGCTAACCAAAAAGCAGGATCAAGCTGCTCGAA   4924
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4925 AAATAATGAGGTTTCTTCGCCGCTGTCGCCACAGCCCCCTGGTGGACCAT   4974
+                                                                       
+ddbd9749-87c5    970 --------------------------------------------------    970
+
+EMBOSS_001      4975 AGGCTGTACAAAAGGAGTGAAAGAATTGAAAAAGGCCAAGGAACTTGA   5022
+                                                                     
+ddbd9749-87c5    970 ------------------------------------------------    970
+
+
+#---------------------------------------
+#---------------------------------------

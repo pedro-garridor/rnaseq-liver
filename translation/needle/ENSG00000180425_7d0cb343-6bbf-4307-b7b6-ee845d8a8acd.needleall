@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 23:25:07
+# Commandline: needle
+#    -outfile needle/ENSG00000180425_7d0cb343-6bbf-4307-b7b6-ee845d8a8acd.needleall
+#    -asequence SA/ENSG00000180425.fa
+#    -bsequence SB/7d0cb343-6bbf-4307-b7b6-ee845d8a8acd.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000180425_7d0cb343-6bbf-4307-b7b6-ee845d8a8acd.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 114399000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 441
+# Identity:     141/441 (32.0%)
+# Similarity:   141/441 (32.0%)
+# Gaps:         256/441 (58.0%)
+# Score: 147.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------ATGGCCCTGAACAATGTGTCCCTGTCCTCCGGTGATCAGAGGA     43
+                            |    |.||.|||||           ||||   .||||||..|
+114399000          1 AAACATTA----CTTGTACAAT-----------CTCC---TATCAGAAAA     32
+
+EMBOSS_001        44 GCAGGGTGGCCTACCGCTCTTCCCATGGCGACCTCAGACCGCGGGCGTCA     93
+                                     ||.||  |||  |.||               |||
+114399000         33 ----------------CTGTT--CAT--CTAC---------------TCA     47
+
+EMBOSS_001        94 GCGTTGGCGATGGTCTCC-GGAGACG---GCTTCCTCGTTTCCAGGCCTG    139
+                     ..||.|    ||..|||| .||.|.|   |.||..||             
+114399000         48 CTGTAG----TGCCCTCCTTGAAATGTGTGTTTGTTC-------------     80
+
+EMBOSS_001       140 AAGCGATTCATCTA-----------GGACCTCGGCAG-----GCGGTGCG    173
+                          |||||.|||           |||.|.|.|.||     .|.||..|
+114399000         81 -----ATTCAACTAACAATATTTGGGGATCCCTGTAGTAAACACTGTATG    125
+
+EMBOSS_001       174 ------ACCAAGCGTTCGGGCC-----GAGAGCCGTC---GAGTGGATGG    209
+                           ||..||   ||.||||     ||.||  .||   ||||..||  
+114399000        126 AATTTTACACAG---TCTGGCCATCAAGAAAG--ATCACGGAGTATAT--    168
+
+EMBOSS_001       210 TGGCGGCCGGAGCCCAAGGGAACCAGATGGCCGGGGCCGGA-GCCGCCAA    258
+                                          .|.||||||        ||| ||..|.||
+114399000        169 ---------------------TCTAGATGG--------GGAGGCTACTAA    189
+
+EMBOSS_001       259 GCCAGATTCTCACCTTACCCAATCCCTGCCGTTGAACCCGATCTCCTAAG    308
+                     |                               ||||          ||.|
+114399000        190 G-------------------------------TGAA----------TAGG    198
+
+EMBOSS_001       309 AA--------GTGTGCTGCAACAGCGTTTGATTGCATTAGGAGGTGTTAT    350
+                     ||        .||.|||        ||||      ||||||         
+114399000        199 AATCACCACGCTGGGCT--------GTTT------ATTAGG---------    225
+
+EMBOSS_001       351 CGCAGCTCGAATTTCAGT-TTAA------------------    372
+                                 |.|||| .|||                  
+114399000        226 ------------TACAGTAATAAACATAAGTACTGGTTGCA    254
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 19:54:16
+# Commandline: needle
+#    -outfile needle/ENSG00000198417_9325fbb3-3a04-466f-8d60-e22127690d89.needleall
+#    -asequence SA/ENSG00000198417.fa
+#    -bsequence SB/9325fbb3-3a04-466f-8d60-e22127690d89.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000198417_9325fbb3-3a04-466f-8d60-e22127690d89.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 9325fbb3-3a04-466f-8d60-e22127690d89_ENSG00000198417.7
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 373
+# Identity:     177/373 (47.5%)
+# Similarity:   177/373 (47.5%)
+# Gaps:         187/373 (50.1%)
+# Score: 849.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -----------------------------------------------ATG      3
+                                                                    |||
+9325fbb3-3a04      1 GCTTCTTCGCTTCTCTCTTGGAAAGTCCAGTCTCTCCTCGGCTTGCAATG     50
+
+EMBOSS_001         4 GACCCCAACTGCTCCTGCGCCGCTGGTGTCTCCTGCACCTGCGCTGGTTC     53
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+9325fbb3-3a04     51 GACCCCAACTGCTCCTGCGCCGCTGGTGTCTCCTGCACCTGCGCTGGTTC    100
+
+EMBOSS_001        54 CTGCAAGTGCAAAGAGTGCAAATGCACCTCCTGCAAGAAGAGCTGCTGCT    103
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+9325fbb3-3a04    101 CTGCAAGTGCAAAGAGTGCAAATGCACCTCCTGCAAGAAGAGCTGCTGCT    150
+
+EMBOSS_001       104 CCTGCTGCCCCGTGGGCTGTAGCAAGTGTGCCCAGGGCTGTGTTTGCAAA    153
+                     ||||.||||||.||||||||..||||||||||||||||||..|.||||||
+9325fbb3-3a04    151 CCTGTTGCCCCCTGGGCTGTGCCAAGTGTGCCCAGGGCTGCATCTGCAAA    200
+
+EMBOSS_001       154 GGGGCGTCAGAGAAGTGCAGCTGCTGCGACTGA-----------------    186
+                     ||||||||||||||||||||||||||.|.||||                 
+9325fbb3-3a04    201 GGGGCGTCAGAGAAGTGCAGCTGCTGTGCCTGATGTCGGGACAGCCCTGC    250
+
+EMBOSS_001       186 --------------------------------------------------    186
+                                                                       
+9325fbb3-3a04    251 TGTCAGATGAAAACAGAATGACACGTAAAATCCAGGATTTTTTTTTTCTA    300
+
+EMBOSS_001       186 --------------------------------------------------    186
+                                                                       
+9325fbb3-3a04    301 CAACTCCGACTCATTTGCTACATTCCTTTTTTTCTGTGAAATATGTGAAT    350
+
+EMBOSS_001       186 -----------------------    186
+                                            
+9325fbb3-3a04    351 AATAATTAAACACTTAGACTTGA    373
+
+
+#---------------------------------------
+#---------------------------------------

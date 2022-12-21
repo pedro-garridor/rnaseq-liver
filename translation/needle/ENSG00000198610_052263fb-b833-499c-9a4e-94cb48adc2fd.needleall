@@ -1,0 +1,657 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 18:21:35
+# Commandline: needle
+#    -outfile needle/ENSG00000198610_052263fb-b833-499c-9a4e-94cb48adc2fd.needleall
+#    -asequence SA/ENSG00000198610.fa
+#    -bsequence SB/052263fb-b833-499c-9a4e-94cb48adc2fd.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000198610_052263fb-b833-499c-9a4e-94cb48adc2fd.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 052263fb-b833-499c-9a4e-94cb48adc2fd_ENSG00000198610.11
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7747
+# Identity:     837/7747 (10.8%)
+# Similarity:   837/7747 (10.8%)
+# Gaps:        6844/7747 (88.3%)
+# Score: 3236.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------------------------------ATGGATCCCAAATATCAGC     19
+                                                    |||||||||||||||||||
+052263fb-b833      1 AGGATCTGCTTAGTGAAAGAAGTGGCAAGCAATGGATCCCAAATATCAGC     50
+
+EMBOSS_001        20 GTGTAGAGCTAAATGATGGTCACTTCATGCCCGTATTGGGATTTGGCACC     69
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833     51 GTGTAGAGCTAAATGATGGTCACTTCATGCCCGTATTGGGATTTGGCACC    100
+
+EMBOSS_001        70 TATGCACCTCCAGAGGTTCCGAGGAACAGAGCTGTAGAGGTCACCAAATT    119
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    101 TATGCACCTCCAGAGGTTCCGAGGAACAGAGCTGTAGAGGTCACCAAATT    150
+
+EMBOSS_001       120 AGCAATAGAAGCTGGCTTCCGCCATATTGATTCTGCTTATTTATACAATA    169
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    151 AGCAATAGAAGCTGGCTTCCGCCATATTGATTCTGCTTATTTATACAATA    200
+
+EMBOSS_001       170 ATGAGGAGCAGGTTGGACTGGCCATCCGAAGCAAGATTGCAGATGGCAGT    219
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    201 ATGAGGAGCAGGTTGGACTGGCCATCCGAAGCAAGATTGCAGATGGCAGT    250
+
+EMBOSS_001       220 GTGAAGAGAGAAGACATATTCTACACTTCAAAGCTTTGGTGCACTTTCTT    269
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    251 GTGAAGAGAGAAGACATATTCTACACTTCAAAGCTTTGGTGCACTTTCTT    300
+
+EMBOSS_001       270 TCAACCACAGATGGTCCAACCAGCCTTGGAAAGCTCACTGAAAAAACTTC    319
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    301 TCAACCACAGATGGTCCAACCAGCCTTGGAAAGCTCACTGAAAAAACTTC    350
+
+EMBOSS_001       320 AACTGGACTATGTTGACCTCTATCTTCTTCATTTCCCAATGGCTCTCAAG    369
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    351 AACTGGACTATGTTGACCTCTATCTTCTTCATTTCCCAATGGCTCTCAAG    400
+
+EMBOSS_001       370 CCAGGTGAGACGCCACTACCAAAAGATGAAAATGGAAAAGTAATATTCGA    419
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    401 CCAGGTGAGACGCCACTACCAAAAGATGAAAATGGAAAAGTAATATTCGA    450
+
+EMBOSS_001       420 CACAGTGGATCTCTCTGCCACATGGGAGGTCATGGAGAAGTGTAAGGATG    469
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    451 CACAGTGGATCTCTCTGCCACATGGGAGGTCATGGAGAAGTGTAAGGATG    500
+
+EMBOSS_001       470 CAGGATTGGCCAAGTCCATCGGGGTGTCAAACTTCAACTGCAGGCAGCTG    519
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    501 CAGGATTGGCCAAGTCCATCGGGGTGTCAAACTTCAACTGCAGGCAGCTG    550
+
+EMBOSS_001       520 GAGATGATCCTCAACAAGCCAGGACTCAAGTACAAGCCTGTCTGCAACCA    569
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+052263fb-b833    551 GAGATGATCCTCAACAAGCCAGGACTCAAGTACAAGCCTGTCTGCAACCA    600
+
+EMBOSS_001       570 GGT-AG-AATGTCA--------TCCTTAC----CTCAA----------CC    595
+                     ||| || |...|||        |||||.|    |||||          ||
+052263fb-b833    601 GGTGAGCACCCTCAGCCTCCTCTCCTTTCTCTTCTCAATGTCCATCTTCC    650
+
+EMBOSS_001       596 AGAGCAAACTG-CTGGATTTCTGCAAGTCAAAAGACA-TTGTTCTGGTTG    643
+                     .| .|..|||| ||||.||               .|| ||||| |.|||.
+052263fb-b833    651 TG-TCCTACTGCCTGGCTT---------------CCATTTGTT-TTGTTC    683
+
+EMBOSS_001       644 CCC--ACA---GTG----------CTCTGGGAACCCAACGACAT------    672
+                     |.|  |||   |||          .|||.|.||.|.||  ||||      
+052263fb-b833    684 CACTTACATTTGTGAAACAGAAGATTCTAGAAAGCAAA--ACATCTGTCT    731
+
+EMBOSS_001       673 ------AAACTATGGGTGGACCC--AAACTCCCCAGTTCTT-TTGGAG--    711
+                           ||||    ||..|||||  ||...|.||   |||| ||||||  
+052263fb-b833    732 AGAAGAAAAC----GGAAGACCCTTAATTGCACC---TCTTCTTGGAGAA    774
+
+EMBOSS_001       712 ----------------------GACC--CA-------------GTTCTTT    724
+                                           ||||  ||             ||.||.|
+052263fb-b833    775 GTCTTAATGAAAATGGTACAGAGACCTTCATGCTAAATTGTGTGTACTAT    824
+
+EMBOSS_001       725 -----------GTGCCTT--AGCAAAGA-AACACAAA--------CAAAC    752
+                                |||..||  |.|||.|| .||..|||        ||.|.
+052263fb-b833    825 TTTTGGGGGAGGTGAATTTCATCAAGGAGGACTGAAATGGTTAATCAGAA    874
+
+EMBOSS_001       753 CCCAG-----------------CCC-------TGATTGCCCTGCGCTACC    778
+                     |.|||                 |.|       |||..|.||      |||
+052263fb-b833    875 CTCAGGGAGAAGGTGGACTTATCTCTAAGGTATGAAAGACC------ACC    918
+
+EMBOSS_001       779 AGCTGCAGCGTGG---GGT--------TGTGG------------------    799
+                     ||    ||.||||   |||        |.|||                  
+052263fb-b833    919 AG----AGAGTGGATTGGTAAAGATGATTTGGAGTAGAATGTATATAATT    964
+
+EMBOSS_001       800 -TCCTGGCC--AAGAGCTACA----ATGAGCAGCGGATCAG---------    833
+                      |...||||  ||.|   |||    |||||||....|||||         
+052263fb-b833    965 ATAGAGGCCATAAAA---ACATGGGATGAGCAATAAATCAGGAGACAGTG   1011
+
+EMBOSS_001       834 ------AGAGAACATC-------CAGGTT-----------------TTTG    853
+                           ||||||.|||       |.||||                 |.||
+052263fb-b833   1012 AGAATAAGAGAAGATCGGTACTACGGGTTTAAATAGGGTTTAGATGTCTG   1061
+
+EMBOSS_001       854 AA------TTCCAGTTGACATCAGAGGATATG-----AAAGTTCT--AGA    890
+                     ||      |||   |||.||||      |.||     |.||||||  ||.
+052263fb-b833   1062 AATGCTTTTTC---TTGTCATC------TCTGTTTTCATAGTTCTTGAGC   1102
+
+EMBOSS_001       891 TGGT-CTAAACAGAAATTATC----------GATATGTTGTCAT---GGA    926
+                     .||| ||||    ||||||.|          ||.|    |||||   || 
+052263fb-b833   1103 AGGTACTAA----AAATTAACTGGAAACAATGAAA----GTCATCCAGG-   1143
+
+EMBOSS_001       927 TTTTCTTATGGACCATCCTGA-----TTATCCATTT-TCAGA------TG    964
+                          |||.|||       ||     |||.||.||| |.|||      ||
+052263fb-b833   1144 -----TTAGGGA-------GAGGAAGTTACCCGTTTATGAGAGTTGCTTG   1181
+
+EMBOSS_001       965 A-ATATTAG-----------------------------------------    972
+                     | |.||.||                                         
+052263fb-b833   1182 AGAGATAAGCTGAAAGGATGTGGCGTGCTACCCCCACCCCTGCCTCGTGT   1231
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1232 AGAAAAGCCTGCCAATGTTGCCTCATTTAGACCCAGACTCCAAAACGGGA   1281
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1282 GTCTTATAGCTGGGCCACCTAGGAAGAGAGGTTCTAAAGCATAAAAAAGA   1331
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1332 AAGCATTTCATTTTGGGACATTTATTTGCAGCTGGAAATGGGGGAATGGG   1381
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1382 CTAACTGGCTAAACTACTATCTTGTCCATCCTGCCTTCACTTCAGTCCTT   1431
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1432 CCACATTGTTATTTGGTGTTTGAACTGTGCTAGAAGAACTGTTTTATACA   1481
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1482 GGCTGCTATTCAATAAATTTGTAAATACCATACCCACACCAAAGGATTTA   1531
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1532 ACACTGAAAAGATTAAGGTAATTTTGGAAAATTCTAAAAGTCACTTTTCA   1581
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1582 CTCCTGAGATGTAGGTGGTCAGAAGAAATGAGGAACACTGTAGAAGCCAT   1631
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1632 ATGCAAGATGCACAGATGGCATTGTGTTTGTTGTGGACTGTTGATGTTAA   1681
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1682 CAGGATGGAAGAAGTCAAAACTGAACTTTATAAAATAGGGTATAAGAAAA   1731
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1732 TAAAGATGTCCCTGTACTTACAGGTGCTAAGAAACTAGACTTGAAGAACT   1781
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1782 TGTCTCTCTCAGAAATTGAGAAATTGTTAGCAATGGTTGAACTAAGCTCA   1831
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1832 TCAACTCCTTGGCATTTGCAGCCTACCTGTGCAATCATAGGACATGAAAT   1881
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1882 AAAGGAAGGACTTGAGAAACTCCATGATGTGATAATGAAGAGAAAAATAT   1931
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1932 TGCAGTAATATAAAAAGATGAATATGATACCTTTTCTATATATGTAGAAT   1981
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   1982 AGATTTTCTCTGGTCTGATTTTGACAAATGCAAGACTGTCTACAGCCTAG   2031
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2032 TTTTCCTGTATGCCCTCCTGGGTGCTATCAAAGCTTCATTTCATTGAACA   2081
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2082 ATCAGATGCCCAACTCTGTGGCTTTGTGGAAGATGAGTAAATGCAGTAAT   2131
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2132 GCTTGAAATGGTCTCTTCTCCCTAGCCCACAAATATTTTGGTACTATCAT   2181
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2182 TTTGGGAAGTCAAGCAAGTATAGTAAATTAACCAGAACACAATTGTGGAA   2231
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2232 ATTTGATGCAAAGTTAGTGAAATAAAACTTTAAAGAGTGAAAAAAAGGAA   2281
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2282 AGTTAACTATTTATGGAGATAACTAGTTATGGTGGATGAAATCAACACTG   2331
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2332 AGGAAAATTTAGCAGAACATTGAGCTGACCTTTTGACTGTCCACATCTTA   2381
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2382 TTCTGATGCACTGCTTTGCTTTCTGTCATCAAATCAACTGTTTAGAAGCA   2431
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2432 TTTATTCTGCGTATGGTTCTGTTCTCTTACTCTTTTACTACTTAGAGTCA   2481
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2482 ATGAGTACAGGTCTACAGTTGAAACATGTATTTAAAATTTATGTATTTGG   2531
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2532 TAATATAATACAAAATCATGATTTTCAATTAAAAAGGAATTAATGTGGTT   2581
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2582 TTAATATTAGTTTTACTCAATTATTATTATGACAACTTTCAAATTTTAGA   2631
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2632 GAAATTTGAAGGGATAATACAGGACATCTACATGTTATCATCTATTTCCA   2681
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2682 AAATTGTTGACACTTTGCCAACCTGGCAAGTATATAGGCATATATGAGTA   2731
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2732 TATCTGCATCAATACAGGTAGTATTTGTTGAATCTCTTCAAAATATATTC   2781
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2782 CAATGATCACAATTCACCTCTACAGACCTTTCAAAGCATGGCATAGGAAT   2831
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2832 GAAGATATTCTCCCAGTAACAGTGCAATTATTATATCTAAGGAAATAACA   2881
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2882 ATAATGCCCTCATATCATTGATTATCCAGTCAGTATTCATATTTCCCATT   2931
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2932 GTTTTATTGAAAGATCTCTTATACCTCTATTTTAACCATAAATAGAAGAT   2981
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   2982 GAAAAAATTTAAAGATACCATAAGATATTAAGTACCTGAAATTATACCTA   3031
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3032 ATAAAAGATGTGTATGACCTCTAAGGAGAGAATTATAAAACAATGAAGAA   3081
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3082 TAAATAAAAGATGTATCATGAAAACAAAAACAAAAAAAAAACATCCAATT   3131
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3132 GTGACTTTCAGTTTGTTGTACTTTGGTCCGTTAACTTGTTGTTCCAAGTT   3181
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3182 TTTAAAATTTAAGTTTGTGTAGATTAGAAGTTATACTTGAATGCTTTATA   3231
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3232 TCATAGAAGTTAAACATTTTTGGTGAGAAACTGCCTCTACATTGCTGTAT   3281
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3282 CCCTGAAATTATACCACAGTAGGCAGCATGAAATGACAGATTGTCCCACA   3331
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3332 ATTAGTGATGCTAATTTTGATCACTTGGTTAAACAAGTGGTAACCAGATC   3381
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3382 TAATTTCCAGAGACATGTGTTCTCCCCTTTGTAATTACTGGTAATCTGCT   3431
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3432 GGGTGAAATAAGAGGGAAAGTTATATTACACAGCAAATTTTCACATGATG   3481
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3482 ATTGAGTATACATCAATGATGTTTTAAATTTTTGTATTGTATTATTGTAT   3531
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3532 TTGTTCTTTCCTTGGGGCTTTAAAGTAATTACTTTCAATTTTAACTACAA   3581
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3582 GTTTTACTATTCTTTACGTTTTATTATAAAAAAATTTTTTTCACAAAGTC   3631
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3632 AAGAAAAGAAACAATTACTGCTCTCAGATATGCCAAAAGCTTAACTCCTT   3681
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3682 CCCTTTAATTATTCATTTCCTAGAAAAAAAATTACTGTAATAATCACTAT   3731
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3732 ATTAGTCCATTTTCATGCTACTGATAAAGACACATCCAAGACTGGGACTT   3781
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3782 ATAGTTCCAATATGGCTGAGGAGGTCTCACAATCATGGCAGAAGGCAAGG   3831
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3832 AGGAACAAGTCACATCTTACATAGATGATGGCAGGCAAAGAAAGAGCTTG   3881
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3882 TGCAGGAAATCTCCTCCTTATAAAACCATCAGATCTCATGAGACTTATTC   3931
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3932 ACTATCTCAAGGACATCATGGGAAATATCTGCCCCCATGATTTAATTATC   3981
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   3982 TCCCACCAGGTCCCTCCCACAACACATGGGAATTATGGGAGCTAAAAGAT   4031
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4032 GACATTTGGGTGGGGACACATAGCCAAACCATATCATGCCACCCCTGGCC   4081
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4082 CCTCCCAAATCTCATGTCCTCACAATTCAAAACCAATCATGCATTCCCAA   4131
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4132 TAGTCTTCCAAAGTCTTAACTCATTTCAGCATTAGATCAAAAGTCCACAG   4181
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4182 TCCAAAGTCTCATCTGAGACAAGGCAAGTCCCTTCCACCTATAAGCCTGT   4231
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4232 AAACTCAAAAGCAAGTTAGTTACTTCCAGGATACAATGGCGGTACAGGCA   4281
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4282 TTGGGCAAATACAGCTGTTTCATGTGGGAGAAATGGGCCAAAACAAAGGG   4331
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4332 GCTACATGACCCATGCAAGTCTGAAATCCAGCAGGGCAAATTTTAAAGCT   4381
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4382 TCAAAATGATCTCCTTTGACTCCATGTTTCACATCCAGGAGTCAATGGAA   4431
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4432 CTCCATTTACATCCATGCTGATGTAAGAGGTGGTTCCTATGTTCTTGGGC   4481
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4482 AGCTCCACCACTGTGGCTTTGCAGGGTACAGCCTCCCTTCTGGCTGCTTT   4531
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4532 CATGGGCTGGCATTGAGTGTCTGCAGCTTTTCCAGGTGCACAGTGCAAGC   4581
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4582 TGTCAGTGGATCTACCATTCTAGGGTCTGGAGGATGGTGGCCCTTTTCTC   4631
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4632 AGAGCTCCACTAGGTGGTGCCCCAGCAGGGACTGTGTGGGGGCTCTGACC   4681
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4682 CCAGAGCACTGCCCTAGCAGAAGTTCACCATGAGAGTGCATGCCTAGTGG   4731
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4732 TAAACTTCTGCCTGGACATTCAGGCGTTTCTATACATCCTCTAAAATCTG   4781
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4782 AAATCTAGGTGGAGGTTCCCAAACCTCAATTTTTTTTTTTTTTTTTGAGA   4831
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4832 TGGAGTCTCACTCTGTCACCCAGGCCCAGGCTGGAGTGCAATGGCGCTAT   4881
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4882 CTCAGCTCACTGCAACCTCCGCCTCCCAGGTTCAAGTGATTATCCTGCCT   4931
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4932 CAGCCTCCAGAGTAGCTGGGATTACAGGCACGTGCCACCACACCTGGCTA   4981
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   4982 ATTTTTGCATCTTTAGTAGAGACAGGGTTTCACCATGTTGGTCAGGCTGG   5031
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5032 TCTCAAACTCCTGACTTTGTGATCTGCCTGCCTCAGCCTCCCAAAGTGCT   5081
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5082 GGGATTACAGGCGTGAGCCACCACGACCAGCCCCATACCTCAATTCTTAA   5131
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5132 CTTCTGTGCACACATAGGCTCACTACCACATAGAAGCTGCCAAGGCTTGG   5181
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5182 GACTTGCACCCTGTGCAGCCATGGCCTGAGCTGTACCTTGGCCCCTTTTA   5231
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5232 GTCACGGCAGGAGTGATTGAGATGCAGGGCACCAAGTCCCTAGACTGCAC   5281
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5282 ACAGAATGGAGACCCTGGGCCCAGCCCATGAAACCATTTTTTCCTCCTAG   5331
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5332 ACCTCCACCTCCCTCTGGGCCTGTGATGAGAAGGGCTGACACAAAGGTCT   5381
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5382 CTGACATGCCTTGGAGACATTTTCCCCATTGTCTTGGTGATTAACATTTG   5431
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5432 GCTCCTTGTTACTTATGCAAATTTCTGCAGCTGGCTTGAATTTCTTCTCA   5481
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5482 GAAAATGGGTTTTTAATTTTTACTGCATCATCAGACTGCAAGTTTTCTGA   5531
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5532 ACGTTTATGCTGTTTGCCTTTTAAAACTGGATGCTTTTAACAGCACCCAA   5581
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5582 GTCACTGCTTGAATGCTTTGCTTAGAAATTTCTTTGACCAGATATCCTAA   5631
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5632 ATCATCTCAGGTCCAAAGTTCCACACATCTCTAGGGCAGGGACAAAATGT   5681
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5682 CAATTTCTGCTAAAACATAACAAGAGTCACCTTTGCTCCAGTTCCCAACA   5731
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5732 AGTTCCTCATCTCCATCTGAGACCACCTCAGCCTGGTTACTATCAGTATT   5781
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5782 TTTGTCAAAGACATTCAACAAGTCTCTAGGAAGTTCCGGACCTTCTTATA   5831
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5832 CTTTTCTGTCTTCTCCTGAGCCCTCCAAACTGTCAGAACCTCTACATATT   5881
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5882 ACCTAGTTCCAATGTCACTTCATTTTCAGGTATCTATCTTTCAACAATGC   5931
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5932 CCCACTCTACCATATTAGTCCATTTTCATGCTGCTGATAAAGACATACTC   5981
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   5982 AAGAGTGGGGAAAAAGGGGAGTTTAATGGACTTACAGCTTCACATGGCTG   6031
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6032 GGGACACCTCACAATCATGGCAGAAGGCAAAGAGGAGCAAGTCATGTCTT   6081
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6082 ACATGGACAGCAGCAGGCAAAGAGACAGCTTGTGCAGGGAAACCCATTTT   6131
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6132 TAAAATCATTAGATCTTGAGAGACTTATTCACTATCATGAGAACAACACA   6181
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6182 GGAAAGACCCATTCCCATGATTCAATTATCTCCCCTGGGCCCCTCCTACA   6231
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6232 GCATGTGGGAATTATGAGAGCTACAAAATGAGATTTGGGTGGGGACACAC   6281
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6282 AGCCAAAACATATGAATCACCATTGGTGAAGGCAAATACTTTTGATCACT   6331
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6332 CTGTCTTTTAACCACTCAACACTATGAAGACATGGATTGTTTTGCTATAA   6381
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6382 TTTGTAATTCATTTTATTCATTGTTGGTTTTTGATGCTCAAATCTATGCA   6431
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6432 AATGTTACTGGGATTCCTATAAAACTACTTTTCTCTTTTAAACCTGCCCT   6481
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6482 TATGAGTCTTTAAAGAAATTCTTACATTCTGGCACAATTTGATGTTCAAA   6531
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6532 GCTCAGAATCTTAACCTATCCCAAGTCTAGAATTGGCCATGTGCACTTCT   6581
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6582 AGTGGTCAAAGGTTGTTAGAAACTGGCTCTGGTTCATAGAGTTGCTAATG   6631
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6632 CTCAGAAATAACATTTCTATATATACTTTTAGACCAGTAATATAAACTGT   6681
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6682 ATTTTTATAAAATGATTGTTACTTGACAGTAATATTCTGTTCAAATTTAA   6731
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6732 TGTTATACTTTATTCAGCTTATTTTAATCTTTATATTAACATATCTGTTT   6781
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6782 TGAATTATCTGATGCTTTTCTCTCTTGATCATCTAAAGGTAGAATGTCAT   6831
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6832 CCTTACCTCAACCAGAGCAAACTGCTGGATTTCTGCAAGTCAAAAGACAT   6881
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6882 TGTTCTGGTTGCCCACAGTGCTCTGGGAACCCAACGACATAAACTATGGT   6931
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6932 AATAAGAGCATCAGGAAGTTTACCTAAAATGCCATTTTGATGAAAAATTT   6981
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   6982 TAGTTATAGCATACTCAGTCTCCTAGAGTTCATTCTCAATGGGTCAGGGT   7031
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7032 AAGGGGATAATTTGCATTTCTTATGAGATACCAGGTGATGCTGCTGCTGT   7081
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7082 TCAGGGACCTCACTTGAGAGGCTCTGGTGCAGAATGAACACCTTAGTCTG   7131
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7132 TTTAGGGAGCCTCCTACCAAACTGAATCCAGCCTCAAGACTTCAGCATTT   7181
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7182 CTGGCTTTCCTTCCAGGGTGGACCCAAACTCCCCAGTTCTTTTGGAGGAC   7231
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7232 CCAGTTCTTTGTGCCTTAGCAAAGAAACACAAACAAACCCCAGCCCTGAT   7281
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7282 TGCCCTGCGCTACCAGCTGCAGCGTGGGGTTGTGGTCCTGGCCAAGAGCT   7331
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7332 ACAATGAGCAGCGGATCAGAGAGAACATCCAGGTTTTTGAATTCCAGTTG   7381
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7382 ACATCAGAGGATATGAAAGTTCTAGATGGTCTAAACAGAAATTATCGATA   7431
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7432 TGTTGTCATGGATTTTCTTATGGACCATCCTGATTATCCATTTTCAGATG   7481
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7482 AATATTAGCATAGAGGGTGTTGCACGACATCTAGCAGAAGGCCCTGTGTG   7531
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7532 TGGATGGTGATGCAGAGGATGTCTCTATGCTGGTGACTGGACACACAGCC   7581
+
+EMBOSS_001       972 --------------------------------------------------    972
+                                                                       
+052263fb-b833   7582 TCTGGTTAAATCCCTCCCCTCCTGCTTGGCAACTTCAGCTAGCTAGATAT   7631
+
+EMBOSS_001       972 -----------------------------------------------    972
+                                                                    
+052263fb-b833   7632 ATCCATGGTCCAGAAAGCAAACATAATAAATTTTTATCTTGAAGTAA   7678
+
+
+#---------------------------------------
+#---------------------------------------

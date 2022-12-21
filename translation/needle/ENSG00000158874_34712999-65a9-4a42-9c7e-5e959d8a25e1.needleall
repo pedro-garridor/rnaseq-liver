@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 08:37:57
+# Commandline: needle
+#    -outfile needle/ENSG00000158874_34712999-65a9-4a42-9c7e-5e959d8a25e1.needleall
+#    -asequence SA/ENSG00000158874.fa
+#    -bsequence SB/34712999-65a9-4a42-9c7e-5e959d8a25e1.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000158874_34712999-65a9-4a42-9c7e-5e959d8a25e1.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 34712999-65a9-4a42-9c7e-5e959d8a25e1_ENSG00000158874.11
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 461
+# Identity:     170/461 (36.9%)
+# Similarity:   170/461 (36.9%)
+# Gaps:         291/461 (63.1%)
+# Score: 774.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---------------------------------------------ATGAA      5
+                                                                  |||||
+34712999-65a9      1 AAGGACAGAGACGCTGGCTAGGCCGCCCTCCCCACTGTTACCAACATGAA     50
+
+EMBOSS_001         6 GCTGCTCGCAGCAACTGTGCTACTCCTCACCATCTGCAGCCTTGAAGGAG     55
+                     |||||||||||||||||||||||||||||||||||||||||||||||   
+34712999-65a9     51 GCTGCTCGCAGCAACTGTGCTACTCCTCACCATCTGCAGCCTTGAAG---     97
+
+EMBOSS_001        56 CTTTGGTTCGGAGACAGGCAAAGGAGCCATGTGTGGAGAGCCTGGTTTCT    105
+                                                                       
+34712999-65a9     97 --------------------------------------------------     97
+
+EMBOSS_001       106 CAGTACTTCCAGACCGTGACTGACTATGGCAAGGACCTGATGGAGAAGGT    155
+                                                                       
+34712999-65a9     97 --------------------------------------------------     97
+
+EMBOSS_001       156 CAAGAGCCCAGAGCTTCAGGCCGAGGCCAAGTCTTACTTTGAAAAGTCAA    205
+                                                   ||||||||||||||||||||
+34712999-65a9     98 ------------------------------GTCTTACTTTGAAAAGTCAA    117
+
+EMBOSS_001       206 AGGAGCAGCTGACACCCCTGATCAAGAAGGCTGGAACGGAACTGGTTAAC    255
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+34712999-65a9    118 AGGAGCAGCTGACACCCCTGATCAAGAAGGCTGGAACGGAACTGGTTAAC    167
+
+EMBOSS_001       256 TTCTTGAGCTATTTCGTGGAACTTGGAACACAGCCTGCCACCCAGTGA--    303
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+34712999-65a9    168 TTCTTGAGCTATTTCGTGGAACTTGGAACACAGCCTGCCACCCAGTGAAG    217
+
+EMBOSS_001       303 --------------------------------------------------    303
+                                                                       
+34712999-65a9    218 TGTCCAGACCATTGTCTTCCAACCCCAGCTGGCCTCTAGAACACCCACTG    267
+
+EMBOSS_001       303 --------------------------------------------------    303
+                                                                       
+34712999-65a9    268 GCCAGTCCTAGAGCTCCTGTCCCTACCCACTCTTTGCTACAATAAATGCT    317
+
+EMBOSS_001       303 -----------    303
+                                
+34712999-65a9    318 GAATGAATCCA    328
+
+
+#---------------------------------------
+#---------------------------------------

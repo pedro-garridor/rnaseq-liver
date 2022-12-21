@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Sat  3 Sep 2022 11:36:46
+# Commandline: needle
+#    -outfile needle/ENSG00000131174_985ee1f0-1195-4b00-8b1a-f7afd3e558ad.needleall
+#    -asequence SA/ENSG00000131174.fa
+#    -bsequence SB/985ee1f0-1195-4b00-8b1a-f7afd3e558ad.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000131174_985ee1f0-1195-4b00-8b1a-f7afd3e558ad.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 77899000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 436
+# Identity:     118/436 (27.1%)
+# Similarity:   118/436 (27.1%)
+# Gaps:         318/436 (72.9%)
+# Score: 518.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+77899000           1 AAGGGTACCTGAAGCGAATTGGCACCAAAGCAGCAGCTGTATTGCCGCAG     50
+
+EMBOSS_001         1 -------------------ATGTTTCCCTTGGTCAAAAGCGCACTAAATC     31
+                                        |||||||||||||||||||||||||||||||
+77899000          51 TTCTAGCTTCACCTTCACGATGTTTCCCTTGGTCAAAAGCGCACTAAATC    100
+
+EMBOSS_001        32 GTCTCCAAGTTCGAAGCATTCAGCAAACAATGGCAAGGCAGAGCCACCAG     81
+                     |||||||||                                         
+77899000         101 GTCTCCAAG-----------------------------------------    109
+
+EMBOSS_001        82 AAACGTACACCTGATTTTCATGACAAATACGGTAATGCTGTATTAGCTAG    131
+                                                                       
+77899000         109 --------------------------------------------------    109
+
+EMBOSS_001       132 TGGAGCCACTTTCTGTATTGTTACATGGACATATGTAGCAACACAAGTCG    181
+                                                       ||||||||||||||||
+77899000         110 ----------------------------------GTAGCAACACAAGTCG    125
+
+EMBOSS_001       182 GAATAGAATGGAACCTGTCCCCTGTTGGCAGAGTTACCCCAAAGGAATGG    231
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+77899000         126 GAATAGAATGGAACCTGTCCCCTGTTGGCAGAGTTACCCCAAAGGAATGG    175
+
+EMBOSS_001       232 AGGAATCAGTAA--------------------------------------    243
+                     ||||||||||||                                      
+77899000         176 AGGAATCAGTAATCATCCCAGCTGGTGTAATAATGAATTGTTTAAAAAAC    225
+
+EMBOSS_001       243 --------------------------------------------------    243
+                                                                       
+77899000         226 AGCTCATAATTGATGCCAAATTAAAGCACTGTGTACCCATTAAGATATGG    275
+
+EMBOSS_001       243 ------------------------------------    243
+                                                         
+77899000         276 CATTATTGAAGAAATAAAGTACATTTGAAACCTTCA    311
+
+
+#---------------------------------------
+#---------------------------------------

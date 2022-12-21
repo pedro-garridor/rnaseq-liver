@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 17:37:59
+# Commandline: needle
+#    -outfile needle/ENSG00000237749_d0f1b27f-ef45-4ff7-b5ba-54ea0abf9c8b.needleall
+#    -asequence SA/ENSG00000237749.fa
+#    -bsequence SB/d0f1b27f-ef45-4ff7-b5ba-54ea0abf9c8b.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000237749_d0f1b27f-ef45-4ff7-b5ba-54ea0abf9c8b.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: d0f1b27f-ef45-4ff7-b5ba-54ea0abf9c8b_ENSG00000237749.4
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 303
+# Identity:       3/303 ( 1.0%)
+# Similarity:     6/303 ( 2.0%)
+# Gaps:         284/303 (93.7%)
+# Score: 16.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+d0f1b27f-ef45      1 ACCCACGAGAACATGCCTCTCGCAAAGGATCTCCTTCATCCCTCCCCAGA     50
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+d0f1b27f-ef45     51 AGAGGAGAAGAGGAAACACAAGAAGAAACGCCTGGTGCAGAGCCCCAATT    100
+
+EMBOSS_001         1 --------------------------Sequenceunavailable-----     19
+                                               .  :  . : | |  |        
+d0f1b27f-ef45    101 CCTACTTCATGGATGTGAAATGCCCAGGATGCTATAAAATCACCACAGTC    150
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+d0f1b27f-ef45    151 TTTAGCCATGCACAAACGGCAGTTTTGTGTGTTGGCTGCTCCACTGTCCT    200
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+d0f1b27f-ef45    201 CTGCCAGCCTACAGGAGGAAAAGTAAGGCTTACAGAAGGATGTTCCTTCA    250
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+d0f1b27f-ef45    251 GGAGGAAGCAGCACTAAAAGCACTCTGAATCAAGATGAGTGGGAAACAAT    300
+
+EMBOSS_001        19 ---     19
+                        
+d0f1b27f-ef45    301 CTC    303
+
+
+#---------------------------------------
+#---------------------------------------

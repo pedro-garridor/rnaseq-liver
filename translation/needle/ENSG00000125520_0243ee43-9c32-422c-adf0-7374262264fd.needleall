@@ -1,0 +1,189 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 21:20:36
+# Commandline: needle
+#    -outfile needle/ENSG00000125520_0243ee43-9c32-422c-adf0-7374262264fd.needleall
+#    -asequence SA/ENSG00000125520.fa
+#    -bsequence SB/0243ee43-9c32-422c-adf0-7374262264fd.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000125520_0243ee43-9c32-422c-adf0-7374262264fd.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 0243ee43-9c32-422c-adf0-7374262264fd_ENSG00000125520.14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1857
+# Identity:    1143/1857 (61.6%)
+# Similarity:  1143/1857 (61.6%)
+# Gaps:         702/1857 (37.8%)
+# Score: 5383.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------------------------------------AT----GGAGCGC      9
+                                                          ||    |||.|||
+0243ee43-9c32      1 TCTCCTGCGCCCACACTGGCTGGAGGTGTCCAGGGACATCACCGGACCGC     50
+
+EMBOSS_001        10 ------CCCCC-----------------------GCCCC--GCGCCGCCG     28
+                           |||||                       |||||  ||.|.||||
+0243ee43-9c32     51 AGGCAGCCCCCTCTGCCTTCCCACACCAGGAGCTGCCCCGGGCTCTGCCG    100
+
+EMBOSS_001        29 ------GCCGGGACCCCA--GTGCGCTGCGGGC--CGAGGCGC-------     61
+                           ||.|..|||.||  |||||||   |||  |||||| |       
+0243ee43-9c32    101 GCAGCTGCAGCCACCGCAGGGTGCGCT---GGCCTCGAGGC-CACCTATT    146
+
+EMBOSS_001        62 ----CGT--GGCTGCGCGCGG--------AGGGTC-------CGG-----     85
+                         |||  |||||   ||||        .|||||       |||     
+0243ee43-9c32    147 CCAACGTGGGGCTG---GCGGCCCTTCCCGGGGTCAGCCTGGCGGCCAGC    193
+
+EMBOSS_001        86 --------GGCCG--------CGCGCC-----GCG--------CCCGT--    104
+                             |||||        ||||.|     |||        |||.|  
+0243ee43-9c32    194 CCTGTGGTGGCCGAGTATGCCCGCGTCCAGAAGCGCAAAGGGACCCATCG    243
+
+EMBOSS_001       105 ---------------------------GAC---GGTGCCCACGCCGCCG-    123
+                                                |||   ||||.||.||  |||| 
+0243ee43-9c32    244 CAGTCCCCAAGAGCCACAGCAGGGGAAGACTGAGGTGACCCCG--GCCGC    291
+
+EMBOSS_001       124 -CAGGGCTCTTCCGTGGGCGGCGGCTTCGCGGGCTTGGAGTTCGCGCGGC    172
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    292 TCAGGGCTCTTCCGTGGGCGGCGGCTTCGCGGGCTTGGAGTTCGCGCGGC    341
+
+EMBOSS_001       173 CGCAGGAGTCGGAGCCGCGGGCCTCGGACCTGGGGGCCCCCCGGACGTGG    222
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    342 CGCAGGAGTCGGAGCCGCGGGCCTCGGACCTGGGGGCCCCCCGGACGTGG    391
+
+EMBOSS_001       223 ACGGGGGCGGCGGCGGGGCCCCGGACTCCGTCGGCGCACATCCCCGTCCC    272
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    392 ACGGGGGCGGCGGCGGGGCCCCGGACTCCGTCGGCGCACATCCCCGTCCC    441
+
+EMBOSS_001       273 AGCGCAGAGAGCCACCCCAGGAAAAGCCCGGCTGGACGAGGTCATGGCTG    322
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    442 AGCGCAGAGAGCCACCCCAGGAAAAGCCCGGCTGGACGAGGTCATGGCTG    491
+
+EMBOSS_001       323 CCGCTGCCCTTACAAGCCTGTCCACCAGCCCTCTCCTTCTGGGGGCCCCG    372
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    492 CCGCTGCCCTTACAAGCCTGTCCACCAGCCCTCTCCTTCTGGGGGCCCCG    541
+
+EMBOSS_001       373 GTTGCAGCCTTCAGCCCAGAGCCTGGCCTGGAGCCCTGGAAGGAGGCCCT    422
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    542 GTTGCAGCCTTCAGCCCAGAGCCTGGCCTGGAGCCCTGGAAGGAGGCCCT    591
+
+EMBOSS_001       423 GGTGCGGCCCCCAGGCAGCTACAGCAGCAGCAGCAACAGTGGAGACTGGG    472
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    592 GGTGCGGCCCCCAGGCAGCTACAGCAGCAGCAGCAACAGTGGAGACTGGG    641
+
+EMBOSS_001       473 GATGGGACCTGGCCAGTGACCAGTCCTCTCCGTCCACCCCGTCACCCCCA    522
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    642 GATGGGACCTGGCCAGTGACCAGTCCTCTCCGTCCACCCCGTCACCCCCA    691
+
+EMBOSS_001       523 CTGCCCCCCGAGGCAGCCCACTTTCTGTTTGGGGAGCCCACCCTGAGAAA    572
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    692 CTGCCCCCCGAGGCAGCCCACTTTCTGTTTGGGGAGCCCACCCTGAGAAA    741
+
+EMBOSS_001       573 AAGGAAGAGCCCGGCCCAGGTCATGTTCCAGTGTCTGTGGAAGAGCTGCG    622
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    742 AAGGAAGAGCCCGGCCCAGGTCATGTTCCAGTGTCTGTGGAAGAGCTGCG    791
+
+EMBOSS_001       623 GGAAGGTGCTGAGCACGGCGTCGGCGATGCAGAGACACATCCGCCTGGTG    672
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    792 GGAAGGTGCTGAGCACGGCGTCGGCGATGCAGAGACACATCCGCCTGGTG    841
+
+EMBOSS_001       673 CACCTGGGGAGGCAGGCAGAGCCTGAGCAGAGTGATGGTGAGGAGGACTT    722
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    842 CACCTGGGGAGGCAGGCAGAGCCTGAGCAGAGTGATGGTGAGGAGGACTT    891
+
+EMBOSS_001       723 CTACTACACAGAGCTGGATGTTGGTGTGGACACGCTGACCGACGGGCTGT    772
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    892 CTACTACACAGAGCTGGATGTTGGTGTGGACACGCTGACCGACGGGCTGT    941
+
+EMBOSS_001       773 CCAGCCTGACTCCAGTGTCCCCCACGGCCTCCATGCCGCCTGCCTTCCCC    822
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    942 CCAGCCTGACTCCAGTGTCCCCCACGGCCTCCATGCCGCCTGCCTTCCCC    991
+
+EMBOSS_001       823 CGCCTGGAGCTGCCAGAGCTGCTGGAGCCCCCAGCCCTGCCTAGTCCCCT    872
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32    992 CGCCTGGAGCTGCCAGAGCTGCTGGAGCCCCCAGCCCTGCCTAGTCCCCT   1041
+
+EMBOSS_001       873 GCGGCCGCCTGCCCCGCCCCTGCCCCCGCCCCCTGTCCTGAGCACCGTTG    922
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32   1042 GCGGCCGCCTGCCCCGCCCCTGCCCCCGCCCCCTGTCCTGAGCACCGTTG   1091
+
+EMBOSS_001       923 CTAACCCCCAGTCCTGTCACAGTGACCGTGTCTACCAGGGCTGCCTGACG    972
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32   1092 CTAACCCCCAGTCCTGTCACAGTGACCGTGTCTACCAGGGCTGCCTGACG   1141
+
+EMBOSS_001       973 CCCGCCCGCCTGGAGCCGCAGCCCACGGAGGTCGGAGCCTGCCCACCCGC   1022
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32   1142 CCCGCCCGCCTGGAGCCGCAGCCCACGGAGGTCGGAGCCTGCCCACCCGC   1191
+
+EMBOSS_001      1023 CTTGTCCTCCAGGATCGGAGTCACCCTGAGGAAGCCCCGCGGCGACGCGA   1072
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32   1192 CTTGTCCTCCAGGATCGGAGTCACCCTGAGGAAGCCCCGCGGCGACGCGA   1241
+
+EMBOSS_001      1073 AGAAGTGCCGGAAGGTGTATGGCATGGAGCGCCGGGACCTCTGGTGCACA   1122
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+0243ee43-9c32   1242 AGAAGTGCCGGAAGGTGTATGGCATGGAGCGCCGGGACCTCTGGTGCACA   1291
+
+EMBOSS_001      1123 GCCTGCCGCTGGAAGAAAGCCTGCCAGCGGTTCCTGGACTAA--------   1164
+                     ||||||||||||||||||||||||||||||||||||||||||        
+0243ee43-9c32   1292 GCCTGCCGCTGGAAGAAAGCCTGCCAGCGGTTCCTGGACTAAGTCCGGCT   1341
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1342 CGTTCAAGAACATAAGCTACCACCTTCTCCCTCCCCACCCCCTCCAGGCC   1391
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1392 CGGGGCTGAAACAGCCCGAGGACAGCCCCAGGGGCTGGCTTTCACCAGCT   1441
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1442 GCAGGGTCTGCTTTTACTTGGGGTGGGGGGGCGGGGCTGACCCTGAACCC   1491
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1492 TCCCCCCCGCCAGGTCGGGGAGGGGTCCCACCACTCAAAGTGCCTCTAAA   1541
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1542 GAAACCAGCTTTTTGCACTAAAGCCAAACCACACCGCTGTCCCCTTAGCC   1591
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1592 CCAAGGGCCCTGGGGGCAGCCACCCTCCCGCCTGTCGGCCCGTAGATTTA   1641
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1642 TCAAGGGTGTTATGGGCCCAGCTTTGGGGGGCCAGTCCCGATGCACTTTG   1691
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1692 AGGGGTGTTGGAGAGGGGACTCCCCCACTCGCACTTAACTCAACGGCTCT   1741
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1742 CGGGCCCTGGGGCTGTTTTTACCATGTTTGTTTTTGAAGCTCAGGTGTCT   1791
+
+EMBOSS_001      1164 --------------------------------------------------   1164
+                                                                       
+0243ee43-9c32   1792 CACGTCTGGGCTGCACCAGGCGAAGAGAGAAATTAAAGATTTGAGGTTTT   1841
+
+EMBOSS_001      1164 -------   1164
+                            
+0243ee43-9c32   1842 TCCAGAA   1848
+
+
+#---------------------------------------
+#---------------------------------------

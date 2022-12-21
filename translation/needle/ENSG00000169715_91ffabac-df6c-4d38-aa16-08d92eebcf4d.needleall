@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 19:53:12
+# Commandline: needle
+#    -outfile needle/ENSG00000169715_91ffabac-df6c-4d38-aa16-08d92eebcf4d.needleall
+#    -asequence SA/ENSG00000169715.fa
+#    -bsequence SB/91ffabac-df6c-4d38-aa16-08d92eebcf4d.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000169715_91ffabac-df6c-4d38-aa16-08d92eebcf4d.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 56625000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 461
+# Identity:     132/461 (28.6%)
+# Similarity:   132/461 (28.6%)
+# Gaps:         317/461 (68.8%)
+# Score: 550.5
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+56625000           1 ATTCTGCTTTCCAACTGCCTGACTGCTTGTTCGTCTCACTGGTGTGAGCT     50
+
+EMBOSS_001         1 ---------------------ATGGACCCCAACTGCTCTTGCGCCACTGG     29
+                                          |||||||||||||||||||||||||||||
+56625000          51 CCAGCATCCCCTTTGCTCGAAATGGACCCCAACTGCTCTTGCGCCACTGG    100
+
+EMBOSS_001        30 TGGCTCCTGCACGTGCGCCGGCTCCTGCAAGTGCAAAGAGTGCAAATGCA     79
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+56625000         101 TGGCTCCTGCACGTGCGCCGGCTCCTGCAAGTGCAAAGAGTGCAAATGCA    150
+
+EMBOSS_001        80 CCTCCTGCAAGAAGAGTGAGTGCGGGGCCATCTCCAGGAATCTG------    123
+                     |||||||||||||||   |.|||.|      ||||.|    |||      
+56625000         151 CCTCCTGCAAGAAGA---ACTGCTG------CTCCTG----CTGCCCCAT    187
+
+EMBOSS_001       124 GGGCTGTGGCTCAGGTTGGGAGGGAACTCAAGGCTGGCCCTGAGTGCATC    173
+                     ||||||||.|..|.||         .|.||.|||||..|||||       
+56625000         188 GGGCTGTGCCAAATGT---------GCCCAGGGCTGCACCTGA-------    221
+
+EMBOSS_001       174 CTTCTGGGGAACTGGGCTTTCTTTGCCCTCATTGCCCGTGTCATTCCCTC    223
+                                                                       
+56625000         221 --------------------------------------------------    221
+
+EMBOSS_001       224 TCCAGGCTTTCTGCCCTAAATTCAGATGGGGCAGGACAGCATTTTTCTCG    273
+                                                                       
+56625000         221 --------------------------------------------------    221
+
+EMBOSS_001       274 TGGGACACAAACCCCAACTGTACCCCCTATGGTTTCAGAACAGAGCTGTG    323
+                                                                       
+56625000         221 --------------------------------------------------    221
+
+EMBOSS_001       324 CCAGACGAAAAAAAGCATCCTCTGGGTCTGGGTTCTGAGCTCGAGCCAGG    373
+                                                                       
+56625000         221 --------------------------------------------------    221
+
+EMBOSS_001       374 CTTGCTATTAG    384
+                                
+56625000         221 -----------    221
+
+
+#---------------------------------------
+#---------------------------------------

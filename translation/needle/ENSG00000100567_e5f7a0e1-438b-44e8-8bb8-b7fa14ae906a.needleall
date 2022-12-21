@@ -1,0 +1,345 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 15:34:41
+# Commandline: needle
+#    -outfile needle/ENSG00000100567_e5f7a0e1-438b-44e8-8bb8-b7fa14ae906a.needleall
+#    -asequence SA/ENSG00000100567.fa
+#    -bsequence SB/e5f7a0e1-438b-44e8-8bb8-b7fa14ae906a.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000100567_e5f7a0e1-438b-44e8-8bb8-b7fa14ae906a.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: e5f7a0e1-438b-44e8-8bb8-b7fa14ae906a_ENSG00000100567.13
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3848
+# Identity:     701/3848 (18.2%)
+# Similarity:   701/3848 (18.2%)
+# Gaps:        3108/3848 (80.8%)
+# Score: 3101.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ------------------------------------------------AT      2
+                                                                     ||
+e5f7a0e1-438b      1 AAGCGCTCCGGGCCTGGAATCCCTACGCGTCCCTTTGGGTTTAGCACGAT     50
+
+EMBOSS_001         3 GAGCTCAATCGGCACTGGGTATGACCTGTCAGCCTCTACATTCTCTCCTG     52
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b     51 GAGCTCAATCGGCACTGGGTATGACCTGTCAGCCTCTACATTCTCTCCTG    100
+
+EMBOSS_001        53 ACGGAAGAGTTTTTCAAGTTGAATATGCTATGAAGGCTGTGGAAAATAGT    102
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    101 ACGGAAGAGTTTTTCAAGTTGAATATGCTATGAAGGCTGTGGAAAATAGT    150
+
+EMBOSS_001       103 AGTACAGCTATTGGAATCAGATGCAAAGATGGTGTTGTCTTTGGGGTAGA    152
+                          |||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    151 -----AGCTATTGGAATCAGATGCAAAGATGGTGTTGTCTTTGGGGTAGA    195
+
+EMBOSS_001       153 AAAATTAGTCCTTTCTAAACTTTATGAAGAAGGTTCCAACAAAAGACTTT    202
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    196 AAAATTAGTCCTTTCTAAACTTTATGAAGAAGGTTCCAACAAAAGACTTT    245
+
+EMBOSS_001       203 TTAATGTTGATCGGCATGTTGGAATGGCAGTAGCAGGTTTGTTGGCAGAT    252
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    246 TTAATGTTGATCGGCATGTTGGAATGGCAGTAGCAGGTTTGTTGGCAGAT    295
+
+EMBOSS_001       253 GCTCGTTCTTTAGCAGACATAGCAAGAGAAGAAGCTTCCAACTTCAGATC    302
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    296 GCTCGTTCTTTAGCAGACATAGCAAGAGAAGAAGCTTCCAACTTCAGATC    345
+
+EMBOSS_001       303 TAACTTTGGCTACAACATTCCACTAAAACATCTTGCAGACAGAGTGGCCA    352
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    346 TAACTTTGGCTACAACATTCCACTAAAACATCTTGCAGACAGAGTGGCCA    395
+
+EMBOSS_001       353 TGTATGTGCATGCATATACACTCTACAGTGCTGTTAGACCTTTTGGCTGC    402
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    396 TGTATGTGCATGCATATACACTCTACAGTGCTGTTAGACCTTTTGGCTGC    445
+
+EMBOSS_001       403 AGTTTCATGTTAGGGTCTTACAGTGTGAATGACGGTGCGCAACTCTACAT    452
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    446 AGTTTCATGTTAGGGTCTTACAGTGTGAATGACGGTGCGCAACTCTACAT    495
+
+EMBOSS_001       453 GATTGACCCATCAGGTGTTTCATACGGTTATTGGGGCTGTGCCATCGGCA    502
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    496 GATTGACCCATCAGGTGTTTCATACGGTTATTGGGGCTGTGCCATCGGCA    545
+
+EMBOSS_001       503 AAGCCAGGCAAGCTGCAAAGACGGAAATAGAGAAGCTTCAGATGAAAGAA    552
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+e5f7a0e1-438b    546 AAGCCAGGCAAGCTGCAAAGACGGAAATAGAGAAGCTTCAGATGAAAGAA    595
+
+EMBOSS_001       553 ATGACCTGCCGTGATATCGTTAAAGAAGTTGCAAAAAT---------AAT    593
+                     ||||||||||||||||||||||||||||||||||||||         |||
+e5f7a0e1-438b    596 ATGACCTGCCGTGATATCGTTAAAGAAGTTGCAAAAATGTAAGTTGAAAT    645
+
+EMBOSS_001       594 TT----------------ACATAGTACA--TGACGAAGTTAAGGATAAAG    625
+                     ||                |.|||.|.||  ||||    .|..|.|||.|.
+e5f7a0e1-438b    646 TTTTCTTACCATCCACAAAAATATTTCATTTGAC----CTTTGCATATAT    691
+
+EMBOSS_001       626 CTTTTGAACT-------AGAACTCAGCTGGGTT--GGTGAATTAAC-TAA    665
+                     .|.||..|.|       |||    |||||..||  .||.||.|||| ||.
+e5f7a0e1-438b    692 ATATTACATTAATCCTAAGA----AGCTGTTTTCCTGTAAAATAACTTAG    737
+
+EMBOSS_001       666 TGGAAGACATGAAATTGTTCCAAAAG----ATATAAGA---GAAGAAGC-    707
+                     ||       |..||||.||  |.|||    ||.|||.|   .||||||| 
+e5f7a0e1-438b    738 TG-------TATAATTTTT--AGAAGGTAAATTTAACATTCTAAGAAGCC    778
+
+EMBOSS_001       708 ------AG--AGAAATATG---CTAAGGAATCTCT----GAAGGAAGAAG    742
+                           ||  ||||| |||   .||||.|||.|.|    |.||.|     
+e5f7a0e1-438b    779 TCACGAAGGAAGAAA-ATGTTTTTAAGCAATATTTTTTAGTAGTA-----    822
+
+EMBOSS_001       743 ATGAATCAGATGATGATAATA---TG------TAA---------------    768
+                     ||||||..||||...|.||||   ||      |||               
+e5f7a0e1-438b    823 ATGAATAGGATGGGAAAAATAGCTTGACAAAATAAACTCCTGTTACAGGT    872
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b    873 TAAGGACATATACCATTAGGGTCTTAATTTGTTAGCTCCCAACTTCTCAA    922
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b    923 ATCTCTTAAGTCCTAATAATAGTAATCTTAAGATTGCCTCTATTGTAAGA    972
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b    973 ATGCTTACAAACTTTATAGGTTACAACTAATTATTTCAATACATGATCCA   1022
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1023 TGAAGCTGGCTCATTTATATAATCTGCTATTTATTTGGGAAAGATATGTT   1072
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1073 TCACTTTTTCAGGTTTATTATAAAAGTTCCTATAACAAGGTAAGAAGAGC   1122
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1123 AGTATTACAAAACATTTCAACAACCAGCTTAAGAAACCCTGAATAGTTTA   1172
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1173 TTACAGGTATATAAAGTAGAATACTATTAATATGTAACAGGTATTTGGAC   1222
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1223 AGTAAACAATAAAAAAGTCAATTAACCTGGGTAGTGATGTTTCTAAAATT   1272
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1273 TTGTGATTCTCTAGATCAAAGAGTGTAGACATTTGGTATTACAAAAAGAT   1322
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1323 TCCAACAAAATACGTTGTGTAGCCAGCTTTTTAGATTCAAAAGTTATGGA   1372
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1373 TAATCGTAATTCATAACAACTCTAAGTATTCCACATTAGAACTACATAAA   1422
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1423 CAAGGTCTAGTCAATCACCTGTCTGTATGGTAGTGTATCAGGTTTTACAT   1472
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1473 CTAACAATACGTGGAAGAAAAAAATTCCAATGGGCTCTATTGTTTAATAA   1522
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1523 ACATACTATTTACATCACACTCAGAGTCTCTTATTAACCGGTCCATCATT   1572
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1573 ACTGCTACTGCCTTTACCCCTCTTGCCACCTCCTCCCCTCCGCCCTCCTA   1622
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1623 GTTTCAGTTGTGAAGCAAGCAGAAGCCATTCTATGATTGTCAGTTAATAA   1672
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1673 TGGCAACACTAGGAACCAACATGCAGCAGAGCTGCTAAGAAAGGAAGTCA   1722
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1723 GATATCTTCCTTGAATTGTATAGTATGTTATCATGATATACTCTGTTTCC   1772
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1773 TTCACCGAACCAATCCTTTGAAGTCCTTCTGGAAATCAGTTCTTACCATC   1822
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1823 TTTTATATTTAGGTATAATGGTAGTCATCTGTTAAGTGTTCCATGTTAGG   1872
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1873 AAAGCCATCCCTTCATCATTTAAGAAAATGGAGCAGCATGTTATCTTTTA   1922
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1923 CTTAGTTGTAGAAAATCAAGATCCTCTCATATTATAGCAAGGTTTTAGAA   1972
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   1973 GACCCTCCAAAAAGTAAGGTATGTAACTCAGTGCATAGTATTAGATAAAG   2022
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2023 CTATACTCTGCTACTGTACTTAATTTGATACTTTTTTTTTTTTGAGATGG   2072
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2073 AGTCTCACTCTGTCGTCCAGACTGGAGGGCAGTGGCACGATCTTGGCTCA   2122
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2123 CTGCAACCTCCGCCTCCCGTGTTCAAGCAATTCTCCTGCATCAGCCTCTC   2172
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2173 AAGTAGCTGGGATTACAGGCGCCCACCACCACACCTGGCTAATTTTTGTA   2222
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2223 TTTTTAGTAGAGACAGGCTTTACCATCTTGGCCAGGCTGGTCTTGAACTC   2272
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2273 CTGACCTTGTGATCCACCCACCTTGGCCTCCCAAAGTGCTGGGATTACAG   2322
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2323 ATGTGAACCACCGCACCTGGCCTCTTGATACTTTTTATGTTACTTTAATA   2372
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2373 TGTTGCATGACAGTGCCTCCTTCTTTGCTGTAATTTGTAAGGTACTACAA   2422
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2423 TGTGAAGGCCAGGTTATGTGGCATATATGCCATTATAAAATGGACAAGGA   2472
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2473 GCTTAAAAAGACTACTGCCAAGAAGCTATAGGTTGAAGAGACCACTAATA   2522
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2523 ATTGCAAGCACATAAATTAGTTTTTTTTTTTTTATTTTTTTGAAACAGAG   2572
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2573 TCTCACTCTGTTGCCCAGGCTGGAGTGCAGTGTCGTGATCTCAGCTCACT   2622
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2623 GCAGCCCCTACCTCCTGGGTTCAAGCAAGTCTCCTGCCTCAGTTTCCCGA   2672
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2673 GTAGTTGGGACTACAGGCCTATGGCCACCTCACCTGGCTAATTTTTGTAT   2722
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2723 TTTTAGTAGAGACGTGGGTTCACCATGTTGGCCAGGATGGTCTCGAACTC   2772
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2773 CTGACCTCATGATCCACCCGCCTCTGCCTCCCCAAAGTGCTAGGATTACA   2822
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2823 GGCACGAGCCACCATGTCCAGCCAATTAGTTGGTTTTAAATATATTTAAG   2872
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2873 TTAATGGACAAAATATTCTAAAAGGGCACAGTTAATGACGCCTCTTCCTA   2922
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2923 GTGAATCCGTGTTCTTTATGAGGTATCTTTTATAGTTGTATCTTTTTTTT   2972
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   2973 TTTCTGAGATGGAGTCTCGCTCTACTGTAGCCCAGGATGGAGTGCAGTAG   3022
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3023 TGTGATCTTGGCTCACTGCAACCCCTGCCTCCCGGGTTCAAGGAATTCTC   3072
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3073 CTGCCTTAGCCTCCTGAGTAGCTGAGATTACAGGCGCCCACCACCACACC   3122
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3123 TGGCTGATTTTTGTTTCTTAGTAGAGACAGGGTTTCACCATGTTGGCCAG   3172
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3173 GCTAGTCTCGAACTGACCTCAAGTGATCCATCCGCCTTGGTCTCCCAAAG   3222
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3223 TGTTGGGATTACAGGTGTGAGCCACTGTGCCCAGCCAAGTTATATCTCTA   3272
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3273 AAGCAATGTGCAAAAATAAACTGAACTTGGGTTGATTAGGTATATTCAAC   3322
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3323 ATTTGTCGGGAGAGTAGATGTTTCATTTTATTTCAGTCCCTGTGTAATTT   3372
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3373 GTCTTCTCTAATGTTAAATACTATGTAGAATGTGTCTGTGTAATTTTATA   3422
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3423 GATACTTTTATTATGGATGGACATTCTAATTTGTACTGACTTTGGGTCTG   3472
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3473 TGAACTACTTCAATGTTTGGAGGTTACCAAAATCTTACCTTTCCCTTTTC   3522
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3523 TATTCTAGAATTTACATAGTACATGACGAAGTTAAGGATAAAGCTTTTGA   3572
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3573 ACTAGAACTCAGCTGGGTTGGTGAATTAACTAATGGAAGACATGAAATTG   3622
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3623 TTCCAAAAGATATAAGAGAAGAAGCAGAGAAATATGCTAAGGAATCTCTG   3672
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3673 AAGGAAGAAGATGAATCAGATGATGATAATATGTAACATTTACTCCAGCA   3722
+
+EMBOSS_001       768 --------------------------------------------------    768
+                                                                       
+e5f7a0e1-438b   3723 TCTATTGTATTTTAAATTTCTACTCCAGTCCAATGTAACTATTTAGCCCT   3772
+
+EMBOSS_001       768 ------------------------------------------------    768
+                                                                     
+e5f7a0e1-438b   3773 GGATTATACATACTGTCCAATTTTCATTAAATTTTTGTCTTATAACTA   3820
+
+
+#---------------------------------------
+#---------------------------------------

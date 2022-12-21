@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 21:52:14
+# Commandline: needle
+#    -outfile needle/ENSG00000171858_8a9618a4-a88b-4203-b06f-6219fd3f88e7.needleall
+#    -asequence SA/ENSG00000171858.fa
+#    -bsequence SB/8a9618a4-a88b-4203-b06f-6219fd3f88e7.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000171858_8a9618a4-a88b-4203-b06f-6219fd3f88e7.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 8a9618a4-a88b-4203-b06f-6219fd3f88e7_ENSG00000171858.18
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 338
+# Identity:     180/338 (53.3%)
+# Similarity:   180/338 (53.3%)
+# Gaps:         158/338 (46.7%)
+# Score: 854.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --------------------------------ATGCAGAACGACGCCGGC     18
+                                                     ||||||||||||||||||
+8a9618a4-a88b      1 TGTGGTGGCAGCAGGCGCAGCCCAGCCTCGAAATGCAGAACGACGCCGGC     50
+
+EMBOSS_001        19 GAGTTCGTGGACCTGTACGTGCCGCGGAAATGCTCCGCTAGCAATCGCAT     68
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+8a9618a4-a88b     51 GAGTTCGTGGACCTGTACGTGCCGCGGAAATGCTCCGCTAGCAATCGCAT    100
+
+EMBOSS_001        69 CATCGGTGCCAAGGACCACGCATCCATCCAGATGAACGTGGCCGAGGTTG    118
+                     |||||||||||||||||||||||||||||||||||||||||||||     
+8a9618a4-a88b    101 CATCGGTGCCAAGGACCACGCATCCATCCAGATGAACGTGGCCGA-----    145
+
+EMBOSS_001       119 ACAAGGTCACAGGCAGGTTTAATGGCCAGTTTAAAACTTATGCTATCTGC    168
+                                                                       
+8a9618a4-a88b    145 --------------------------------------------------    145
+
+EMBOSS_001       169 GGGGCCATTCGTAGGATGGGTGAGTCAGATGATTCCATTCTCCGATTGGC    218
+                                      |||||||||||||||||||||||||||||||||
+8a9618a4-a88b    146 -----------------GGGTGAGTCAGATGATTCCATTCTCCGATTGGC    178
+
+EMBOSS_001       219 CAAGGCCGATGGCATCGTCTCAAAGAACTTTTGA----------------    252
+                     ||||||||||||||||||||||||||||||||||                
+8a9618a4-a88b    179 CAAGGCCGATGGCATCGTCTCAAAGAACTTTTGACTGGAGAGAATCACAG    228
+
+EMBOSS_001       252 --------------------------------------    252
+                                                           
+8a9618a4-a88b    229 ATGTGGAATATTTGTCATAAATAAATAATGAAAACCTA    266
+
+
+#---------------------------------------
+#---------------------------------------

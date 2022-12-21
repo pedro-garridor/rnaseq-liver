@@ -1,0 +1,73 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 21:04:33
+# Commandline: needle
+#    -outfile needle/ENSG00000243147_e122171a-136e-4df8-8e0b-fed31ed5fada.needleall
+#    -asequence SA/ENSG00000243147.fa
+#    -bsequence SB/e122171a-136e-4df8-8e0b-fed31ed5fada.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000243147_e122171a-136e-4df8-8e0b-fed31ed5fada.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: e122171a-136e-4df8-8e0b-fed31ed5fada_ENSG00000243147.8
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 449
+# Identity:      69/449 (15.4%)
+# Similarity:    69/449 (15.4%)
+# Gaps:         380/449 (84.6%)
+# Score: 282.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGTTCCTCTCCGCGGTCTTCTTTGCCAAGAGCAAGTCAAAAAACATTCT     50
+                                           |||||||||||||||||||         
+e122171a-136e      1 ----------------------TTGCCAAGAGCAAGTCAAA---------     19
+
+EMBOSS_001        51 GGTGAGAATGGTGAGCGAAGCTGGGACAGGTTTCTGCTTCAACACCAAGA    100
+                                                                       
+e122171a-136e     19 --------------------------------------------------     19
+
+EMBOSS_001       101 GAAACCGACTGCGGGAAAAACTGACTCTTTTGCATTATGATCCAGTTGTG    150
+                                                                     ||
+e122171a-136e     20 ------------------------------------------------TG     21
+
+EMBOSS_001       151 AAACAAAGAGTCCTCTTCGTGGAAAAGAAAAAAATACGCTCCCTTTAA--    198
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+e122171a-136e     22 AAACAAAGAGTCCTCTTCGTGGAAAAGAAAAAAATACGCTCCCTTTAAAC     71
+
+EMBOSS_001       198 --------------------------------------------------    198
+                                                                       
+e122171a-136e     72 GGTGGATTGAAAATGACTTTGATTTATAAAGAGAAGACTGAGGGCGGGGA    121
+
+EMBOSS_001       198 --------------------------------------------------    198
+                                                                       
+e122171a-136e    122 TACTGATTCAGAAATCCTGTAGCGTGTAATAAAAGAAGAGGAAATGGCAT    171
+
+EMBOSS_001       198 --------------------------------------------------    198
+                                                                       
+e122171a-136e    172 GGAATCACTGCCTCCTGTGATTTGAAGGCCATTGTGAAGGAAAACAATGC    221
+
+EMBOSS_001       198 --------------------------------------------------    198
+                                                                       
+e122171a-136e    222 AGTGAAAGAAAGTTCTTCATATTAGGACAGATATCATTGCATCACATTTA    271
+
+EMBOSS_001       198 -------------------------------------------------    198
+                                                                      
+e122171a-136e    272 TTTATCTTTCTGGGTATTTTTATAGCCCTTAATAAAAAATATTAAAATA    320
+
+
+#---------------------------------------
+#---------------------------------------

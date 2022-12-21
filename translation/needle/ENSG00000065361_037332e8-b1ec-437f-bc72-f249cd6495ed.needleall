@@ -1,0 +1,685 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 04:40:27
+# Commandline: needle
+#    -outfile needle/ENSG00000065361_037332e8-b1ec-437f-bc72-f249cd6495ed.needleall
+#    -asequence SA/ENSG00000065361.fa
+#    -bsequence SB/037332e8-b1ec-437f-bc72-f249cd6495ed.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000065361_037332e8-b1ec-437f-bc72-f249cd6495ed.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 037332e8-b1ec-437f-bc72-f249cd6495ed_ENSG00000065361.17
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8056
+# Identity:    2982/8056 (37.0%)
+# Similarity:  2982/8056 (37.0%)
+# Gaps:        4807/8056 (59.7%)
+# Score: 10107.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -----------ATGAGGGCGAACGACGCTCTGCAGGT--GCTGGGCTTGC     37
+                                |.||||..||     |.| ||| |||  ||||.|.||||
+037332e8-b1ec      1 TTCTTGAACCCAGGAGGCAGA-----GGT-TGC-GGTGAGCTGAGATTGC     43
+
+EMBOSS_001        38 TT--------TTCAGCCTGGCCCGGGGCTCCGAG-GTGGGCAACTCTCAG     78
+                     .|        |.||||||      ||||..|.|| ||  |.|||||    
+037332e8-b1ec     44 ATCATTGTACTCCAGCCT------GGGCAACAAGAGT--GAAACTC----     81
+
+EMBOSS_001        79 GCAGTGTGTC-----------------CTGGGACTCTGAATGGCCTGAG-    110
+                         |||.||                 |    ||||       ||  || 
+037332e8-b1ec     82 ----TGTCTCAAAAAAAAAAAAAGAATC----ACTC-------CC--AGC    114
+
+EMBOSS_001       111 TGTG-ACCGGCGA-----TGCTGAGAA--CCAATACCAGACACTGTACAA    152
+                     |||| |   ||||     ||  |||||  ..||.|.|||..||.|.||||
+037332e8-b1ec    115 TGTGTA---GCGAAGGATTG--GAGAAAGGGAAAATCAGTAACAGCACAA    159
+
+EMBOSS_001       153 GCTCT--ACGAGAGGTGTGAGGTGGTGATGGGGAACCTTGAGAT----TG    196
+                     ..| |  ||.|.||.|            |.||||||||.|| ||    |.
+037332e8-b1ec    160 AAT-TACACCACAGTT------------TTGGGAACCTGGA-ATAACCTC    195
+
+EMBOSS_001       197 TGCTCACGGGA----CACA-ATGCCGACCTCTCCTTCCTGCAGTGGATTC    241
+                     .|.|||.||||    |||| |.|                  ||.||.||.
+037332e8-b1ec    196 AGTTCAAGGGAGTTTCACAGAAG------------------AGGGGCTTG    227
+
+EMBOSS_001       242 GAGA-----AGTGACAGGCT--ATGTCCTCGTGGCCATGAATGAATTC--    282
+                     |.||     |||||   |||  |.|   |.|.|||||||       ||  
+037332e8-b1ec    228 GGGAGAGCTAGTGA---GCTGGAGG---TGGAGGCCATG-------TCTT    264
+
+EMBOSS_001       283 ----TCTACTCTACCATTGCCCAACCTCCGCGTGGTGCGAGGGACCCAGG    328
+                         ||..||||                            |||..|||| 
+037332e8-b1ec    265 GGGATCAGCTCT----------------------------GGGCTCCAG-    285
+
+EMBOSS_001       329 TCTACGATGGGAAGTTTGCCATCTTCGTCATGTTGAACTATAACACCAAC    378
+                          |||||||    |||||    ||..|.|||   ||..||||     
+037332e8-b1ec    286 -----GATGGGA----TGCCA----CGGTAAGTT---CTGAAACA-----    314
+
+EMBOSS_001       379 TCCAGC----------CACGCT-------CTGCGCCAGCTCCGCTTGACT    411
+                        |||          .|.|||       .||.||   |||.|| ||.|.
+037332e8-b1ec    315 ---AGCTTTTATATGTTAGGCTGTTGAAATTGAGC---CTCTGC-TGTCC    357
+
+EMBOSS_001       412 CAGCTCACCGAGATTCTGTCAGGGGGTG--TTTATAT-------TGAGAA    452
+                     .|||||.|    |||   |.|||.||||  |||.| |       ||..||
+037332e8-b1ec    358 AAGCTCTC----ATT---TAAGGTGGTGACTTTCT-TCCCTAGGTGTAAA    399
+
+EMBOSS_001       453 GAACGATAAGCTT------TGTCACAT--GGACACAATTGACTGGAGGGA    494
+                     |.||.| .|||||      |||    |  |||||.|   .|||||.|   
+037332e8-b1ec    400 GGACCA-GAGCTTCAAGACTGT----TTAGGACAAA---CACTGGTG---    438
+
+EMBOSS_001       495 C--ATCG----TGA--GGGACCGAGATGCTGAGATAGTGGTGAAGGACA-    535
+                     |  ||||    |||  |||...|||||.||| ||.|.|||    |||.| 
+037332e8-b1ec    439 CTGATCGGGTATGATGGGGTTGGAGATTCTG-GAAACTGG----GGATAT    483
+
+EMBOSS_001       536 ATGGCAGAAGCTGTCCCCCCTGTCATGAGGTTTGCAAGGGGCGATGCTGG    585
+                     .|||.||                        |||   ||.|.|| |.|||
+037332e8-b1ec    484 TTGGGAG------------------------TTG---GGAGAGA-GGTGG    505
+
+EMBOSS_001       586 GGTCCTGGATCAGAAGA------CTGCCAGACATTGACCAAGACC----A    625
+                     ...|||||| .||||||      |||.|     ||.|....|.||    |
+037332e8-b1ec    506 TTACCTGGA-GAGAAGAGGGAGGCTGTC-----TTCATTCTGGCCTTTTA    549
+
+EMBOSS_001       626 TCTGTGC--TCCTCAGTGTAATGGTCACTG----CTTTGGGCCCAACCCC    669
+                     |.|.|||  |||.|    ||    ||||||    |||.||.|.|||    
+037332e8-b1ec    550 TGTATGCAGTCCAC----TA----TCACTGGACACTTGGGACTCAA----    587
+
+EMBOSS_001       670 AACCAGTGCTGCCATGATGAGTGTGCCGGGGGCTGCTCAGGCCCTCAGGA    719
+                                       ||.||              |||| |.||.|||
+037332e8-b1ec    588 ------------------GAATG--------------CAGG-CTTCTGGA    604
+
+EMBOSS_001       720 CACAGACTGCTTTGCCTGCCGGCACTTCAATGACAGTGG----AGCCTGT    765
+                     |          ||.|||.||...|.||.|.|..||||.|    ||.||| 
+037332e8-b1ec    605 C----------TTCCCTTCCTAAAATTAACTTTCAGTAGTCTAAGACTG-    643
+
+EMBOSS_001       766 GTACCTCGCTGTCCACAGCCTCTTGTCTACAACAAGCTAACTTTCCA-GC    814
+                               |||||.|                        |||  | |.
+037332e8-b1ec    644 ----------GTCCAGA------------------------TTT--AGGT    657
+
+EMBOSS_001       815 TGGAACCCAATCCCCACACCAAGTATCAG----TATGGAGGAGTTTGTGT    860
+                     |||       ||||          .||||    ||.|||....|.||||.
+037332e8-b1ec    658 TGG-------TCCC----------TTCAGTGCTTAAGGATATATATGTGA    690
+
+EMBOSS_001       861 AGCCAGCTGT----------CCCCATAACTTTGTGGT--GGATCAAACAT    898
+                     |      |||          |||||         |||  |.||||.||.|
+037332e8-b1ec    691 A------TGTTAATTTCTTGCCCCA---------GGTCAGCATCATACCT    725
+
+EMBOSS_001       899 -------------------CCTGTGTCAGGGCCTGTCCTCCTGACAAGAT    929
+                                        |.|.|||.|||               |||||
+037332e8-b1ec    726 TCAACACAAGTATAGTTGACATTTGTAAGG---------------AAGAT    760
+
+EMBOSS_001       930 GGAAGTA-----GATAAAAATGGGCTCAAGATGTGTGAGCCTTGTGGGGG    974
+                     |.||  |     ||||              ||||          ||||..
+037332e8-b1ec    761 GCAA--ACCCAGGATA--------------ATGT----------TGGGTT    784
+
+EMBOSS_001       975 AC--TATGTCCCAAAGC---------CTGTGAGGGAACA--GGCTCTGGG   1011
+                     .|  |||.|||||.|||         |||       |||  ||||.|   
+037332e8-b1ec    785 TCTATATATCCCATAGCAAAACCCATCTG-------ACAATGGCTTT---    824
+
+EMBOSS_001      1012 AGCCGCTTCCAGACTGTGGACTCGAGCAACATTG--ATGGATTTGTGAAC   1059
+                                |||.|||    ..||||..||||  |..|||||      
+037332e8-b1ec    825 -----------GACAGTG----ATAGCAGGATTGGTAGTGATTT------    853
+
+EMBOSS_001      1060 TGCACCAAGATCCTGGGCAACCTGG-ACTTTCTGATCACCGGCCTC-AAT   1107
+                         .||.|||.||||||     || |||||           .||| |.|
+037332e8-b1ec    854 ----TCATGATGCTGGGC-----GGCACTTT-----------TCTCTACT    883
+
+EMBOSS_001      1108 GGAGACCCCTGGCACAAGATCCCTGCCCTGGACCCAG---AGAAGCTCAA   1154
+                     ||     |.|||            ||.|.|||..|||   |.|||..|.|
+037332e8-b1ec    884 GG-----CGTGG------------GCGCCGGATTCAGAATAAAAGGGCTA    916
+
+EMBOSS_001      1155 TG-------TCTTCCGGACAGTACGG--------GAGATCACAGGTTAC-   1188
+                     ||       .|||  |||    ||||        |||..|..||.|||| 
+037332e8-b1ec    917 TGAGGCGATACTT--GGA----ACGGGGTGAGGTGAGTACTTAGCTTACT    960
+
+EMBOSS_001      1189 ---------------------CTGAACATCCAGTCCTGGCCGCCCCACAT   1217
+                                          .||  |||   |||||||           
+037332e8-b1ec    961 TTTGTTTTTTCTTTTCTTTTTTTG--CAT---GTCCTGG-----------    994
+
+EMBOSS_001      1218 GCACAACTTCAGTGTTTTT-----TCCAATTTGACAACCATTGGAGGCAG   1262
+                              .|||.|.|||     |..|.|||||            |..|
+037332e8-b1ec    995 ---------AAGTCTCTTTATAGCTTAATTTTGA------------GTGG   1023
+
+EMBOSS_001      1263 AAGCCTCTACAACC-GGGGCTTCTCATTGTTGATCATGAAGAACTTGAAT   1311
+                     .|.|||.|.||.|| ||||    |||.||.||    .||      |.|||
+037332e8-b1ec   1024 TACCCTGTGCACCCAGGGG----TCAGTGATG----GGA------TAAAT   1059
+
+EMBOSS_001      1312 GTCACAT------CTCTGGGCTTCC----------GATCCC-----TGAA   1340
+                     ||||| |      ||||    ||||          ||||||     |.||
+037332e8-b1ec   1060 GTCAC-TCCCCTCCTCT----TTCCCCAGAGATTTGATCCCTTTCTTCAA   1104
+
+EMBOSS_001      1341 GGAAATTAGTGCTGGGCGTATCTATATAAGTGCCAATAGGCAGCTCTGCT   1390
+                     || ||.||||| |||.|    |..||.|||                    
+037332e8-b1ec   1105 GG-AAGTAGTG-TGGTC----CCCTAGAAG--------------------   1128
+
+EMBOSS_001      1391 ACCACCACTCTTTGAACTGGACCAAGG--TGC-TTCGGGGGCCTACGGAA   1437
+                     |.|||...||...|||.|||   .|||  ||| ||| ..|.|||      
+037332e8-b1ec   1129 AACACTGGTCAGAGAAATGG---GAGGCATGCATTC-TAGTCCT------   1168
+
+EMBOSS_001      1438 GAGCGA-CTAGACATCAAGCATAATCGGCCGCGCAGA-GACTGCGTGGCA   1485
+                         || .|.|.|||      ||||..||    ||.| ||||   |.|.|
+037332e8-b1ec   1169 ----GATTTTGCCAT------TAATTTGC----CACATGACT---TTGAA   1201
+
+EMBOSS_001      1486 GAGGGCAAAGTGTGTGACC--CACTGTGCTCCTCTGGGGGATGC-TGGGG   1532
+                     |      ||||...|.|.|  |.|||||  |||| ||...|||| |    
+037332e8-b1ec   1202 G------AAGTTACTTATCTTCTCTGTG--CCTC-GGTTTATGCAT----   1238
+
+EMBOSS_001      1533 CCCAGGCCCTGGTCAGTG---------CTTGTCCTGTCGAAATTATAGCC   1573
+                             ||...|||.|         .|||||||             .|
+037332e8-b1ec   1239 --------CTATACAGAGGAAATAACATTTGTCCT-------------TC   1267
+
+EMBOSS_001      1574 GAGGAGGTGTCTGT----GTGACCCACTGCAACTTTCTGAATGGGGAGCC   1619
+                     .||||  ||.||||    ||                   ||.||||    
+037332e8-b1ec   1268 CAGGA--TGGCTGTAAGGGT-------------------AAAGGGG----   1292
+
+EMBOSS_001      1620 TCGAGAATTTGCCCATGAGGCCGAA--TGCTTCTCCTGCCACCCGGAATG   1667
+                       ||..||.|    |||    .|||  |||||           .||||.|
+037332e8-b1ec   1293 --GATGATGT----ATG----TGAAAGTGCTT-----------TGGAAAG   1321
+
+EMBOSS_001      1668 CCAACCCATGGAGGGCACTGCCACATGCAATGG--CTC--GGGCTCTGAT   1713
+                     |  ||      ||.||||||   .|| .||.||  |||  ||    ||.|
+037332e8-b1ec   1322 C--AC------AGAGCACTG---TAT-AAAAGGTACTCAAGG----TGGT   1355
+
+EMBOSS_001      1714 ACTTGTGCT--CAA-----------TGTGCCCATTTTCGAGATGGGCCCC   1750
+                     |.|.||.||  |||           |||.|||.|            ||||
+037332e8-b1ec   1356 AATAGTACTACCAACTCTCCCTAGCTGTCCCCTT------------CCCC   1393
+
+EMBOSS_001      1751 ACTGTGTGAGCAGCTGCCCCCATGGAGTCCTAGGTGCCAAGGG----CCC   1796
+                     |||.|||     ||| ||.||||             |.|||||    |||
+037332e8-b1ec   1394 ACTTTGT-----GCT-CCTCCAT-------------CAAAGGGAAAACCC   1424
+
+EMBOSS_001      1797 AATCTACAAGTACCCAGATGTTCAGAATGAATGTCGGCCCTG---CCATG   1843
+                     |          ||||    .||     |||.|      ||||   .||||
+037332e8-b1ec   1425 A----------ACCC----CTT-----TGATT------CCTGATCTCATG   1449
+
+EMBOSS_001      1844 AG-------AACTGCACCCAG------GGGTGTAAAGGACCAGAGCTTCA   1880
+                     ||       ||||.| |.|||      ||||.|   |.|||      |||
+037332e8-b1ec   1450 AGCACAAATAACTTC-CTCAGTTCTCAGGGTCT---GTACC------TCA   1489
+
+EMBOSS_001      1881 A---GACTGT------TT--AGGACAAACACTGGTGCTGAT-------CG   1912
+                     |   |.||.|      ||  |||||.|||   ||||||  |       |.
+037332e8-b1ec   1490 ATATGCCTATAATCCATTCCAGGACTAAC---GGTGCT--TCCTCTTCCT   1534
+
+EMBOSS_001      1913 GCAAAACC---CATCTGACAATG--GC-TTTGACAGTGA--TAGCAGGA-   1953
+                     ||    ||   ||.|||    ||  || ||||.||.|.|  ||..|||| 
+037332e8-b1ec   1535 GC----CCTTTCAGCTG----TGCTGCTTTTGGCATTCACCTATGAGGAG   1576
+
+EMBOSS_001      1954 ----TTGGTAGT--GATTTTCATG---ATGCTGGGCGGCACTTTTCTCTA   1994
+                         |||| |||  ||    ||||   ||    |||    ||||.||   
+037332e8-b1ec   1577 CGGGTTGG-AGTGGGA----CATGGGAAT----GGC----CTTTCCT---   1610
+
+EMBOSS_001      1995 CTGGCGTGGGCGCCGGATTCAGAATAAAAGGGCT-------ATGAGGCGA   2037
+                                          ||.|||     ||       ||       
+037332e8-b1ec   1611 ---------------------GAGTAA-----CTCCTTCCCAT-------   1627
+
+EMBOSS_001      2038 TACTTGGAACGGGGTGAGAGCATAGAGCCTCTGGACCCCAGTGAGAAGGC   2087
+                        |||...|    |.||||||||||||||||||||||||||||||||||
+037332e8-b1ec   1628 ---TTGCTCC----TCAGAGCATAGAGCCTCTGGACCCCAGTGAGAAGGC   1670
+
+EMBOSS_001      2088 TAACAAAGTCTTGGCCAGAATCTTCAAAGAGACAGAGCTAAGGAAGCTTA   2137
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   1671 TAACAAAGTCTTGGCCAGAATCTTCAAAGAGACAGAGCTAAGGAAGCTTA   1720
+
+EMBOSS_001      2138 AAGTGCTTGGCTCGGGTGTCTTTGGAACTGTGCACAAAGGAGTGTGGATC   2187
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   1721 AAGTGCTTGGCTCGGGTGTCTTTGGAACTGTGCACAAAGGAGTGTGGATC   1770
+
+EMBOSS_001      2188 CCTGAGGGTGAATCAATCAAGATTCCAGTCTGCATTAAAGTCATTGAGGA   2237
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   1771 CCTGAGGGTGAATCAATCAAGATTCCAGTCTGCATTAAAGTCATTGAGGA   1820
+
+EMBOSS_001      2238 CAAGAGTGGACGGCAGAGTTTTCAAGCTGTGACAGATCATATGCTGGCCA   2287
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   1821 CAAGAGTGGACGGCAGAGTTTTCAAGCTGTGACAGATCATATGCTGGCCA   1870
+
+EMBOSS_001      2288 TTGGCAGCCTGGACCATGCCCACATTGTAAGGCTGCTGGGACTATGCCCA   2337
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   1871 TTGGCAGCCTGGACCATGCCCACATTGTAAGGCTGCTGGGACTATGCCCA   1920
+
+EMBOSS_001      2338 GGGTCATCTCTGCAGCTTGTCACTCAATATTTGCCTCTGGGTTCTCTGCT   2387
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   1921 GGGTCATCTCTGCAGCTTGTCACTCAATATTTGCCTCTGGGTTCTCTGCT   1970
+
+EMBOSS_001      2388 GGATCATGTGAGACAACACCGGGGGGCACTGGGGCCACAGCTGCTGCTCA   2437
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   1971 GGATCATGTGAGACAACACCGGGGGGCACTGGGGCCACAGCTGCTGCTCA   2020
+
+EMBOSS_001      2438 ACTGGGGAGTACAAATTGCCA-----------------------------   2458
+                     |||||||||||||||||||||                             
+037332e8-b1ec   2021 ACTGGGGAGTACAAATTGCCAAGGTGAGAGAAGCCTGGAGGAATTCTGTG   2070
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2071 ATAAGAACTGCTTGTCTGGGGGCCAGCCAGGAAAAAGTGAGAAGGTTGAA   2120
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2121 GTTCTGAGAGGTGAGGTCCCCAACCCCCGGGCTGCAGACTGGTACCAGTC   2170
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2171 CATGGCCTGTTAGGAACCAGGCCACAGAGCATGTGAGCGGCAGGCAAGCG   2220
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2221 AGTGAAGCTTCATCTGTATTTACAGTCAGTCCCCATCACTTGCATTACCG   2270
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2271 CCCGAGTTCCGCCTCCTGTCAGATCAGGGGCAGCATTAGATTCTCTTAGG   2320
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2321 AGCTTGACTTCTATTGTGAACTGTGCATGTGAAGGATCTAGGTTGTGCAC   2370
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2371 TCCTTATGAGAATCTAACTAATGCCTGATGATCTGAGGTGGAAAAATTTC   2420
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2421 ATCCCAAAACCAACCCTCCCCTTCCCCTGGAAAAACTGTCTTCCACAAAA   2470
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2471 CCAGTCCCTGGTGCCAAAAAAGGTTGGGGACCACTGCTGAGAGGTACCTT   2520
+
+EMBOSS_001      2458 --------------------------------------------------   2458
+                                                                       
+037332e8-b1ec   2521 CAAGATTTGGGGGAATTCCAGATCTCAGTGACTGATTCCCCCAACCTTAA   2570
+
+EMBOSS_001      2459 -------------------------AGGGAATGTACTACCTTGAGGAACA   2483
+                                              |||||||||||||||||||||||||
+037332e8-b1ec   2571 GAATACTTTCTTCCCCTATACCTACAGGGAATGTACTACCTTGAGGAACA   2620
+
+EMBOSS_001      2484 TGGTATGGTGCATAGAAACCTGGCTGCCCGAAACGTGCTACTCAAGTCAC   2533
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   2621 TGGTATGGTGCATAGAAACCTGGCTGCCCGAAACGTGCTACTCAAGTCAC   2670
+
+EMBOSS_001      2534 CCAGTCAGGTTCAGGTGGCAGATTTTGGTGTGGCTGACCTGCTGCCTCCT   2583
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   2671 CCAGTCAGGTTCAGGTGGCAGATTTTGGTGTGGCTGACCTGCTGCCTCCT   2720
+
+EMBOSS_001      2584 GATGATAAGCAGCTGCTATACAGTGAGGCCAAGACTCCAATTAAGTGGAT   2633
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   2721 GATGATAAGCAGCTGCTATACAGTGAGGCCAAGACTCCAATTAAGTGGAT   2770
+
+EMBOSS_001      2634 GGCCCTTGAGAGTATCCACTTTGGGAAATACACACACCAGAGTGATGTCT   2683
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   2771 GGCCCTTGAGAGTATCCACTTTGGGAAATACACACACCAGAGTGATGTCT   2820
+
+EMBOSS_001      2684 GGAGCTATGGTGTGACAGTTTGGGAGTTGATGACCTTCGGGGCAGAGCCC   2733
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   2821 GGAGCTATGGTGTGACAGTTTGGGAGTTGATGACCTTCGGGGCAGAGCCC   2870
+
+EMBOSS_001      2734 TATGCAGGGCTACGATTGGCTGAAGTACCAGACCTGCTAGAGAAGGGGGA   2783
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   2871 TATGCAGGGCTACGATTGGCTGAAGTACCAGACCTGCTAGAGAAGGGGGA   2920
+
+EMBOSS_001      2784 GCGGTTGGCACAGCCCCAGATCTGCACAATTGATGTCTACATGGTGATGG   2833
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   2921 GCGGTTGGCACAGCCCCAGATCTGCACAATTGATGTCTACATGGTGATGG   2970
+
+EMBOSS_001      2834 TCAAGT--------------------------------------------   2839
+                     ||||||                                            
+037332e8-b1ec   2971 TCAAGTGTGAGTTACCTGCTGAGCCCAACCATTTTCTCTTTTTTTCTTTT   3020
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3021 TTTTTCTTTTTTTTTTTTTTTTGAGACAGAGTCTCACAATTGTCACCCAG   3070
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3071 GCTGGAGTGCAATGGTGCAATCAATCTTGGCTCACTACAACCTCCGCCTC   3120
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3121 TCGGGTTCAAGAGATTCTCCTGCTTCAGCCTCCGGAGTAGCTGGGATTAC   3170
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3171 AGGCGCCCGCCACACCTGGATAACTGTTACACTTTTAGTAGAGATGGGGT   3220
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3221 TTCACCATGTTGGCCAGGCTGGTCTCAAACTCCTGACCTCAGGTGATCCG   3270
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3271 CCTGCCTCAGCTTCCCAAAGTGCTGGGATTACAGGTGTGAGCCATCATGC   3320
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3321 TCGGCCTGACTGCAGCCATTTTCTGACTTCCCTCTGTACTCCTCTTATGG   3370
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3371 CTCTATTCCTTTTTTTTTTATGGAGTCTCGCTCTGTTGCCCATACTGGAG   3420
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3421 TGCAGTAGCGTGACCTTGGCTCACCGTGACCTCCACGTTCCAGGTTTAAG   3470
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3471 TTCTTCTGTCTCAGCCTCCCAGATAGCTGGGACTTTAGGCGTGCACCACC   3520
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3521 ACGCCCAGCTAATTTTTTTTTGTCTTTTTAGTAGAGATGGGGTTTCACTA   3570
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3571 TGTTGGCCAGGCTGGTCTCAAAGTCCCGACCTCAGGTGATCCACCCGCCT   3620
+
+EMBOSS_001      2839 --------------------------------------------------   2839
+                                                                       
+037332e8-b1ec   3621 TGGCCTCCCAAAGTGCTGGGATTATAGGTGTGAGCCACCGCGCCCGGCCA   3670
+
+EMBOSS_001      2840 ------------------------------------------------GT   2841
+                                                                     ||
+037332e8-b1ec   3671 TGGAATGTATTCTCTTTTATGTCTCTACCTCCTACATCTTATCTCCAGGT   3720
+
+EMBOSS_001      2842 TGGATGATTGATGAGAACATTCGCCCAACCTTTAAAGAACTAGCCAATGA   2891
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   3721 TGGATGATTGATGAGAACATTCGCCCAACCTTTAAAGAACTAGCCAATGA   3770
+
+EMBOSS_001      2892 GTTCACCAGGATGGCCCGAGACCCACCACGGTATCTGGTCATAA------   2935
+                     ||||||||||||||||||||||||||||||||||||||||||||      
+037332e8-b1ec   3771 GTTCACCAGGATGGCCCGAGACCCACCACGGTATCTGGTCATAAAGGTGA   3820
+
+EMBOSS_001      2935 --------------------------------------------------   2935
+                                                                       
+037332e8-b1ec   3821 GTAGGGAGTAGGAGGTGCTAAGGAAATTTAGAAAAAGGAGGAGTTGGCTG   3870
+
+EMBOSS_001      2936 ------------------------------------AGAGAGAGAGTGGG   2949
+                                                         ||||||||||||||
+037332e8-b1ec   3871 GAACCAGGATTCCCCCTAACAATCACCTATCGATATAGAGAGAGAGTGGG   3920
+
+EMBOSS_001      2950 CCTGGAATAGCCCCTGGGCCAGAGCCCCATGGTCTGACAAACAAGAAGCT   2999
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   3921 CCTGGAATAGCCCCTGGGCCAGAGCCCCATGGTCTGACAAACAAGAAGCT   3970
+
+EMBOSS_001      3000 AGAGGAAGTAGAGCTGGAGCCAGAACTAGACCTAGACCTAGACTTGGAAG   3049
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   3971 AGAGGAAGTAGAGCTGGAGCCAGAACTAGACCTAGACCTAGACTTGGAAG   4020
+
+EMBOSS_001      3050 CAGAGGAGGACAACCTGGCAACCACCACACTGGGCTCCGCCCTCAGCCTA   3099
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   4021 CAGAGGAGGACAACCTGGCAACCACCACACTGGGCTCCGCCCTCAGCCTA   4070
+
+EMBOSS_001      3100 CCAGTTGGAACACTTAATCGGCCACGTGG---------------------   3128
+                     |||||||||||||||||||||||||||||                     
+037332e8-b1ec   4071 CCAGTTGGAACACTTAATCGGCCACGTGGGGTAAGACAACTTCTAATTAC   4120
+
+EMBOSS_001      3128 --------------------------------------------------   3128
+                                                                       
+037332e8-b1ec   4121 CCAACACTTTGCACCCTGAGCCCTCACAAACCCTACAGATACCCAGATTA   4170
+
+EMBOSS_001      3128 --------------------------------------------------   3128
+                                                                       
+037332e8-b1ec   4171 ACTACTCAAAGGCCCCCATGGTGAATGTAGATTTCTCCCTTCATCTTAAC   4220
+
+EMBOSS_001      3129 -----------------------GAGCCAGAGCCTTTTAAGTCCATCATC   3155
+                                            |||||||||||||||||||||||||||
+037332e8-b1ec   4221 CTTTTCCTTATTTTTTCATCCTAGAGCCAGAGCCTTTTAAGTCCATCATC   4270
+
+EMBOSS_001      3156 TGGATACATGCCCATGAACCAGGGTAATCTTGGGGAGTCTTGCC------   3199
+                     ||||||||||||||||||||||||||||||||||||||||||||      
+037332e8-b1ec   4271 TGGATACATGCCCATGAACCAGGGTAATCTTGGGGAGTCTTGCCAGGTAA   4320
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4321 GTTCTGTTGCTGAGAGGCTGGGTTTTAGGATCAGATTGATACGAGTAGTA   4370
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4371 TGGAAGACATTAGAAACCTCTGAGGTTTAATCAGTGTCCTGCAAAAAAGA   4420
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4421 AGGCAGTGAGGGCCGGGCGAGTTGGCTCACACCTGTAATCCCAGCACTTT   4470
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4471 GGGAGGCCAGAGAGAGTGGATCACCTGAGGTTAGGAGTTTGAGACCAGCC   4520
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4521 TGGCCAACATGGTGAAACCCCGTCTCTACCCAAAATACAAAAATTAGCTG   4570
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4571 GGTGTGGTGGTGCACACCTGTAATCACAGCTACTCAGGAGGCTGAGACAG   4620
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4621 GAGAATCGCTTGAACCCGGGAGGCAGAGGTTGCAGTGAGCTGAGATTGTA   4670
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4671 CCACTGCACTCCAGCCTGGGTGACAGAGCAAGACCCTGTCTCTTAAAAAA   4720
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4721 AAAAAAAAAAGGCCAGGTGCGGTGGCTCACGCCTGTAATCCTAGCACTTT   4770
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4771 GGGAGGCCGAGGTGGGCGGATCATGAGGTCAGGAGTTCGAGACCAGCCTG   4820
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4821 ACCAACATGGCAAAACCCTGTCTGTACTAAAAATACAAAAACTAGCTGCA   4870
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4871 CATGATGGCAGGTGCCTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGA   4920
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4921 GAATCACTTGAACAGGGAAGCAGAGGCTGCAGTGAGCCAAGATAATGCCA   4970
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   4971 CTGCACTCCAGCCTGGGCGACAAGAACAAGACTCCACCTCAAAAAAAAAA   5020
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   5021 AAAAAAAAAAAAAAAGGCAGTGAACAACCCAATATCCTTCTAAACAAATC   5070
+
+EMBOSS_001      3199 --------------------------------------------------   3199
+                                                                       
+037332e8-b1ec   5071 TCTCTTCTTTCCTCATCATGTAAATTTCCTTGCATTATTTTCTGTTTATT   5120
+
+EMBOSS_001      3200 ---------AGGAGTCTGCAGTTTCTGGGAGCAGTGAACGGTGCCCCCGT   3240
+                              |||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5121 TTCTTCCTTAGGAGTCTGCAGTTTCTGGGAGCAGTGAACGGTGCCCCCGT   5170
+
+EMBOSS_001      3241 CCAGTCTCTCTACACCCAATGCCACGGGGATGCCTGGCATCAGAGTCATC   3290
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5171 CCAGTCTCTCTACACCCAATGCCACGGGGATGCCTGGCATCAGAGTCATC   5220
+
+EMBOSS_001      3291 AGAGGGGCATGTAACAGGCTCTGAGGCTGAGCTCCAGGAGAAAGTGTCAA   3340
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5221 AGAGGGGCATGTAACAGGCTCTGAGGCTGAGCTCCAGGAGAAAGTGTCAA   5270
+
+EMBOSS_001      3341 TGTGTAGGAGCCGGAGCAGGAGCCGGAGCCCACGGCCACGCGGAGATAGC   3390
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5271 TGTGTAGGAGCCGGAGCAGGAGCCGGAGCCCACGGCCACGCGGAGATAGC   5320
+
+EMBOSS_001      3391 GCCTACCATTCCCAGCGCCACAGTCTGCTGACTCCTGTTACCCCACTCTC   3440
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5321 GCCTACCATTCCCAGCGCCACAGTCTGCTGACTCCTGTTACCCCACTCTC   5370
+
+EMBOSS_001      3441 CCCACCCGGGTTAGAGGAAGAGGATGTCAACGGTTATGTCATGCCAGATA   3490
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5371 CCCACCCGGGTTAGAGGAAGAGGATGTCAACGGTTATGTCATGCCAGATA   5420
+
+EMBOSS_001      3491 CACACCTCAAAGGTACTCCCTCCTCCCGGGAAGGCACCCTTTCTTCAGTG   3540
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5421 CACACCTCAAAGGTACTCCCTCCTCCCGGGAAGGCACCCTTTCTTCAGTG   5470
+
+EMBOSS_001      3541 GGTCTCAGTTCTGTCCTGGGTACTGAAGAAGAAGATGAAGATGAGGAGTA   3590
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5471 GGTCTCAGTTCTGTCCTGGGTACTGAAGAAGAAGATGAAGATGAGGAGTA   5520
+
+EMBOSS_001      3591 TGAATACATGAACCGGAGGAGAAGGCACAGTCCACCTCATCCCCCTAGGC   3640
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5521 TGAATACATGAACCGGAGGAGAAGGCACAGTCCACCTCATCCCCCTAGGC   5570
+
+EMBOSS_001      3641 CAAGTTCCCTTGAGGAGCTGGGTTATGAGTACATGGATGTGGGGTCAGAC   3690
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5571 CAAGTTCCCTTGAGGAGCTGGGTTATGAGTACATGGATGTGGGGTCAGAC   5620
+
+EMBOSS_001      3691 CTCAGTGCCTCTCTGGGCAGCACACAGAGTTGCCCACTCCACCCTGTACC   3740
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5621 CTCAGTGCCTCTCTGGGCAGCACACAGAGTTGCCCACTCCACCCTGTACC   5670
+
+EMBOSS_001      3741 CATCATGCCCACTGCAGGCACAACTCCAGATGAAGACTATGAATATATGA   3790
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5671 CATCATGCCCACTGCAGGCACAACTCCAGATGAAGACTATGAATATATGA   5720
+
+EMBOSS_001      3791 ATCGGCAACGAGATGGAGGTGGTCCTGGGGGTGATTATGCAGCCATGGGG   3840
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5721 ATCGGCAACGAGATGGAGGTGGTCCTGGGGGTGATTATGCAGCCATGGGG   5770
+
+EMBOSS_001      3841 GCCTGCCCAGCATCTGAGCAAGGGTATGAAGAGATGAGAGCTTTTCAGGG   3890
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5771 GCCTGCCCAGCATCTGAGCAAGGGTATGAAGAGATGAGAGCTTTTCAGGG   5820
+
+EMBOSS_001      3891 GCCTGGACATCAGGCCCCCCATGTCCATTATGCCCGCCTAAAAACTCTAC   3940
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5821 GCCTGGACATCAGGCCCCCCATGTCCATTATGCCCGCCTAAAAACTCTAC   5870
+
+EMBOSS_001      3941 GTAGCTTAGAGGCTACAGACTCTGCCTTTGATAACCCTGATTACTGGCAT   3990
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+037332e8-b1ec   5871 GTAGCTTAGAGGCTACAGACTCTGCCTTTGATAACCCTGATTACTGGCAT   5920
+
+EMBOSS_001      3991 AGCAGGCTTTTCCCCAAGGCTAATGCCCAGAGAACGTAA-----------   4029
+                     |||||||||||||||||||||||||||||||||||||||           
+037332e8-b1ec   5921 AGCAGGCTTTTCCCCAAGGCTAATGCCCAGAGAACGTAACTCCTGCTCCC   5970
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   5971 TGTGGCACTCAGGGAGCATTTAATGGCAGCTAGTGCCTTTAGAGGGTACC   6020
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6021 GTCTTCTCCCTATTCCCTCTCTCTCCCAGGTCCCAGCCCCTTTTCCCCAG   6070
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6071 TCCCAGACAATTCCATTCAATCTTTGGAGGCTTTTAAACATTTTGACACA   6120
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6121 AAATTCTTATGGTATGTAGCCAGCTGTGCACTTTCTTCTCTTTCCCAACC   6170
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6171 CCAGGAAAGGTTTTCCTTATTTTGTGTGCTTTCCCAGTCCCATTCCTCAG   6220
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6221 CTTCTTCACAGGCACTCCTGGAGATATGAAGGATTACTCTCCATATCCCT   6270
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6271 TCCTCTCAGGCTCTTGACTACTTGGAACTAGGCTCTTATGTGTGCCTTTG   6320
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6321 TTTCCCATCAGACTGTCAAGAAGAGGAAAGGGAGGAAACCTAGCAGAGGA   6370
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6371 AAGTGTAATTTTGGTTTATGACTCTTAACCCCCTAGAAAGACAGAAGCTT   6420
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6421 AAAATCTGTGAAGAAAGAGGTTAGGAGTAGATATTGATTACTATCATAAT   6470
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6471 TCAGCACTTAACTATGAGCCAGGCATCATACTAAACTTCACCTACATTAT   6520
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6521 CTCACTTAGTCCTTTATCATCCTTAAAACAATTCTGTGACATACATATTA   6570
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6571 TCTCATTTTACACAAAGGGAAGTCGGGCATGGTGGCTCATGCCTGTAATC   6620
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6621 TCAGCACTTTGGGAGGCTGAGGCAGAAGGATTACCTGAGGCAAGGAGTTT   6670
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6671 GAGACCAGCTTAGCCAACATAGTAAGACCCCCATCTCTTTAAAAAAAAAA   6720
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6721 AAAAAAAAAAAAAAAAAACTTTAGAACTGGGTGCAGTGGCTCATGCCTGT   6770
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6771 AATCCCAGCCAGCACTTTGGGAGGCTGAGATGGGAAGATCACTTGAGCCC   6820
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6821 AGAATTAGAGATAAGCCTATGGAAACATAGCAAGACACTGTCTCTACAGG   6870
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6871 GGAAAAAAAAAAAAGAAACTGAGCCTTAAAGAGATGAAATAAATTAAGCA   6920
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6921 GTAGATCCAGGATGCAAAATCCTCCCAATTCCTGTGCATGTGCTCTTATT   6970
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   6971 GTAAGGTGCCAAGAAAAACTGATTTAAGTTACAGCCCTTGTTTAAGGGGC   7020
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   7021 ACTGTTTCTTGTTTTTGCACTGAATCAAGTCTAACCCCAACAGCCACATC   7070
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   7071 CTCCTATACCTAGACATCTCATCTCAGGAAGTGGTGGTGGGGGTAGTCAG   7120
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   7121 AAGGAAAAATAACTGGACATCTTTGTGTAAACCATAATCCACATGTGCCG   7170
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   7171 TAAATGATCTTCACTCCTTATCCGAGGGCAAATTCACAAGGATCCCCAAG   7220
+
+EMBOSS_001      4029 --------------------------------------------------   4029
+                                                                       
+037332e8-b1ec   7221 ATCCACTTTTAGAAGCCATTCTCATCCAGCAGTGAGAAGCTTCCAGGTAG   7270
+
+EMBOSS_001      4029 ------   4029
+                           
+037332e8-b1ec   7271 GACAGA   7276
+
+
+#---------------------------------------
+#---------------------------------------

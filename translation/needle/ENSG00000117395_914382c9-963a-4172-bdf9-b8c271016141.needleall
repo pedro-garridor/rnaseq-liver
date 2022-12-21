@@ -1,0 +1,121 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 10:09:07
+# Commandline: needle
+#    -outfile needle/ENSG00000117395_914382c9-963a-4172-bdf9-b8c271016141.needleall
+#    -asequence SA/ENSG00000117395.fa
+#    -bsequence SB/914382c9-963a-4172-bdf9-b8c271016141.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000117395_914382c9-963a-4172-bdf9-b8c271016141.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 914382c9-963a-4172-bdf9-b8c271016141_ENSG00000117395.13
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1035
+# Identity:     350/1035 (33.8%)
+# Similarity:   350/1035 (33.8%)
+# Gaps:         580/1035 (56.0%)
+# Score: 517.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGACACTCCCCCGCTCTCGGATTCGGAGTCGGAATCCGATGAATCCCT     50
+                                                                       
+914382c9-963a      0 --------------------------------------------------      0
+
+EMBOSS_001        51 TGTCACAGACAGAGAGTTGCAGGATGCGTTTTCCCGAGGGCTTCTGAAGC    100
+                                                                       
+914382c9-963a      0 --------------------------------------------------      0
+
+EMBOSS_001       101 CAGGCCTCAATGTCGTGCTAGAGGGGCCGAAGAAGGCCGTGAACGACGTG    150
+                                          ||.|..|...|.||.|||        |.|
+914382c9-963a      1 ---------------------AGTGTTCTTTGGAGTCCG--------GGG     21
+
+EMBOSS_001       151 AATGGCCTGAAGCAATGTTTGGC----AGAATTCAAGCGGGATCTGGAAT    196
+                     ||              |||||||    |.||.|||      |.|||..||
+914382c9-963a     22 AA--------------GTTTGGCCTTTAAAAATCA------AACTGCCAT     51
+
+EMBOSS_001       197 GGGTTGAAAGGCTCGATGTGACACTGGGTCCGGTACCGGAGA--------    238
+                     |                  |||||||    |..||||..|.|        
+914382c9-963a     52 G------------------GACACTG----CTTTACCCAAAATTTTGGTT     79
+
+EMBOSS_001       239 --------TCGGTGGATCTGA-----GGCGCCAGCACCTCAGAACAAGG-    274
+                             ||..||||| |.|     ||.||.|.||.|..|.|||.|.| 
+914382c9-963a     80 CACATTCTTCACTGGAT-TAACTATTGGGGCAAACAACGTATAACCATGT    128
+
+EMBOSS_001       275 ---ACCAGAAAGC---TGTTGATCCAGAAGACGACTTCCA--GCGAGAGA    316
+                        |||||.|.||   |.|||           |..||.||  ||.|||| 
+914382c9-963a    129 AAAACCAGTACGCTTGTATTG-----------GCATTTCATGGCTAGAG-    166
+
+EMBOSS_001       317 TGAGTTTCTA--TCGCCAAGC-CCAGGCCGCAGTGCTTGCAGTCTT----    359
+                          |||||  || .||||| ||                  ||||    
+914382c9-963a    167 -----TTCTAAGTC-ACAAGCACC------------------TCTTCGGC    192
+
+EMBOSS_001       360 --ACCCCGCCTCCATCAGCTC---AAAGTCCCTACGAAGCGACCCACTGA    404
+                       |.|||.|||||.|| .|||   ..|.||||  ||  ||.|.||     
+914382c9-963a    193 AAAGCCCACCTCCCTC-TCTCGCTTGATTCCC--CG--GCCATCC-----    232
+
+EMBOSS_001       405 TTATTTTGCGGAAATGGCCAAATCTGATC-TGCAGATGCAGAAGATTCGA    453
+                     ||||              ||||   ||.| |.|||.||            
+914382c9-963a    233 TTAT--------------CAAA---GACCTTCCAGGTG------------    253
+
+EMBOSS_001       454 CAGAAGCTGCAGACTAAACAGGCTGCCATGGAGAGGTCTGAAAAAGCTAA    503
+                                     |||||||.||||                      
+914382c9-963a    254 ----------------AACAGGCAGCCA----------------------    265
+
+EMBOSS_001       504 GCAACTGCGAGCACTTAGGAAATACGGGAAGAAGGTGCAAACGGAGGTTC    553
+                                                                     ||
+914382c9-963a    266 ------------------------------------------------TC    267
+
+EMBOSS_001       554 TTCAGAAG-AGGCAGCAGGAGAAAGCCCATA-TGATGAATGCTATTAAGA    601
+                     .||||.|| ||.||||||||          | ||||              
+914382c9-963a    268 CTCAGCAGCAGTCAGCAGGA----------ACTGAT--------------    293
+
+EMBOSS_001       602 AATATCAGAAAGGCTT-CTCTGAT----AAACTGGA-TTTCCTTGAGGGA    645
+                       .||||.|.|..||| |||||.|    |..||||| |.|..|.|.|.||
+914382c9-963a    294 --CATCAAAGAATCTTGCTCTGTTGCCCAGGCTGGAGTGTAGTGGTGCGA    341
+
+EMBOSS_001       646 -----GATCA--GAAACCTCTGGCACAGCGCAAGAAGGCAGGAGCCAAAG    688
+                          |.|||  ||||||||.|.|.|           .||||..|  |||
+914382c9-963a    342 TCTCGGCTCACTGAAACCTCCGCCTC-----------CCAGGTTC--AAG    378
+
+EMBOSS_001       689 ----------GCC-----------AGCAGATGAGGAAGGGGCC--CAG--    713
+                               |||           ||.||.|       |||.|  |||  
+914382c9-963a    379 CGATTCTCCTGCCTCAGTCTCCCGAGTAGCT-------GGGACTACAGAA    421
+
+EMBOSS_001       714 ---TGCTAAACGACGGTATAAAAACCAGA-AGTTTGG--TTTTGG--TGG    755
+                        |||.|||       |||..|  |||| ||..|||  ||.|||  |||
+914382c9-963a    422 ACTTGCAAAA-------ATAGCA--CAGAGAGAGTGGACTTCTGGAATGG    462
+
+EMBOSS_001       756 AA----AGAAGA-AAGGCTCAAAGTGGAACACTCGGGAGAGCTATGATGA    800
+                     .|    ||.||| |||     |..||    ||||.||||    .|||   
+914382c9-963a    463 CACGCCAGTAGACAAG-----ATTTG----ACTCTGGAG----GTGA---    496
+
+EMBOSS_001       801 TGTATCTAGCTTCCGGGCCAAGACAGCTCATGGCA----GAGGCCTCAAG    846
+                              |.||.|.|||||.|        ||.|    ||         
+914382c9-963a    497 ---------CGTCTGAGCCAATA--------GGTATTTGGA---------    520
+
+EMBOSS_001       847 AGGCCTGGCAAGAAAGGGTCA----AATAA------GAGACCTGGAAAAC    886
+                       |.||||  |||||..|.||    |||||      || ||.|||||..|
+914382c9-963a    521 --GTCTGG--AGAAAAAGCCATGCTAATAAATTTCTGA-ACTTGGAAGTC    565
+
+EMBOSS_001       887 GAACAAGAGAGAAGATGAAGAACAGAACACACTAA    921
+                     .||.                               
+914382c9-963a    566 AAAA-------------------------------    569
+
+
+#---------------------------------------
+#---------------------------------------

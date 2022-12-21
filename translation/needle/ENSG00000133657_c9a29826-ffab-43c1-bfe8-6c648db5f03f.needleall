@@ -1,0 +1,433 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 08:34:16
+# Commandline: needle
+#    -outfile needle/ENSG00000133657_c9a29826-ffab-43c1-bfe8-6c648db5f03f.needleall
+#    -asequence SA/ENSG00000133657.fa
+#    -bsequence SB/c9a29826-ffab-43c1-bfe8-6c648db5f03f.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000133657_c9a29826-ffab-43c1-bfe8-6c648db5f03f.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: c9a29826-ffab-43c1-bfe8-6c648db5f03f_ENSG00000133657.17
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4941
+# Identity:    2084/4941 (42.2%)
+# Similarity:  2084/4941 (42.2%)
+# Gaps:        2275/4941 (46.0%)
+# Score: 3302.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGACAGGGAAGAAA-------GGAAGACCATCA-ATCAGGGTCAAGAA     42
+                                 ||||       .||.||.|||.| ||     .|||.|.
+c9a29826-ffab      1 ------------GAAACCGAACTTGATGAACATAATAT-----ACAAAAT     33
+
+EMBOSS_001        43 GATGAAATGGAGA-----------TTTATGGTTACA-ATTTGAGTCGCT-     79
+                     .||||||   |.|           |||||  ||.|| .|||.|||..|| 
+c9a29826-ffab     34 TATGAAA---ATACCACAGTGTTTTTTAT--TTCCAGTTTTCAGTACCTC     78
+
+EMBOSS_001        80 ------GGAAGCTTGCCATAGTTT--------------CTTTAGG-----    104
+                           |.||  |||||    |||              |||.|||     
+c9a29826-ffab     79 ATAGTGGCAA--TTGCC----TTTTCAAAAGGAAAACCCTTCAGGCAACC    122
+
+EMBOSS_001       105 ----------AGTGATTTGCTCTGGTGGGTTTCTC---------------    129
+                               |.|.||||  |.|.||   |||.||               
+c9a29826-ffab    123 TTGCTACAAAAATTATTT--TTTTGT---TTTTTCTGTGATTTTTTTATA    167
+
+EMBOSS_001       130 -------------CTCCTCCTCCTCTAT-TGGATGCCTGAGTGG--CGGG    163
+                                  .||.||.|..|.||| ..|.|||||..||.|  |.||
+c9a29826-ffab    168 TATTTTTATATTATTCATCATGTTGTATCCAGTTGCCTCTGTTGACCAGG    217
+
+EMBOSS_001       164 T------GAAAGCGACCTGTG-------TCAGAGCTGCAATTAAAGACTG    200
+                     |      ||.||.|   ||||       ||||.|  ||           |
+c9a29826-ffab    218 TTCTTCAGATAGTG---TGTGTACCATATCAGTG--GC-----------G    251
+
+EMBOSS_001       201 TG-AAGTAGTGCTGCTGAGGACTACTGATGAATTCAAAATGTGGTTTT--    247
+                     || ||.||    ||||.|..|.|..|..||   ||||    ||..|||  
+c9a29826-ffab    252 TGTAACTA----TGCTCATCATTGTTCTTG---TCAA----TGCCTTTGT    290
+
+EMBOSS_001       248 ----------GTGCAAAAATTCGCGTTCTTT---------CTTTGGAAAC    278
+                               |||.|.||.|||   |||.||         |||||||||.
+c9a29826-ffab    291 GTCTATCACAGTGGAGAACTTC---TTCCTTGACATGGTCCTTTGGAAAG    337
+
+EMBOSS_001       279 TT-------ACCCA-------------------GTTTCA-----------    291
+                     ||       |||.|                   |.||||           
+c9a29826-ffab    338 TTGTGTTCAACCGAGACAAACAAGGAGAGTATCGGTTCAGCACCACACAG    387
+
+EMBOSS_001       292 ----------AGTC--------------CAAAAT----------------    301
+                               ||||              .|||||                
+c9a29826-ffab    388 CCACCGCAGGAGTCAGTGGATCGGTGGGGAAAATGCTGCTTACCCTGGGC    437
+
+EMBOSS_001       302 -CTATGTCT-----AATAAGCTTTCAAATGGC------CAT---------    330
+                      || .|.||     ||.|||....|||| |||      |||         
+c9a29826-ffab    438 CCT-GGGCTGTAGAAAGAAGACACCAAA-GGCAAAGTACATGTATCTGGC    485
+
+EMBOSS_001       331 GCAG-----TTTGTTTAATTGAGAAT-CCCACTGA------AGAAAATAG    368
+                     ||||     .|||.||.||..||||| .||||..|      |||.||   
+c9a29826-ffab    486 GCAGGAGCTCTTGGTTGATCCAGAATGGCCACCAAAACCTCAGACAA---    532
+
+EMBOSS_001       369 GCACAGGATCAGTAAATATTCA------CAGACTGAATCA---CAA--CA    407
+                     .|||||.|.|  ||||..||.|      .|||.||.||||   |||  ||
+c9a29826-ffab    533 CCACAGAAGC--TAAAGCTTTAGTTAAGGAGAATGGATCATGTCAAATCA    580
+
+EMBOSS_001       408 GATTCGTTATTTCACC-CACCAT---AGTGTAAAATATTTC----TGGAA    449
+                                ||||| .|.|||   ||||   |||...||    |||.|
+c9a29826-ffab    581 -----------TCACCATAACATAGCAGTG---AATCAGTCTCAGTGGTA    616
+
+EMBOSS_001       450 ----TGATACC---ATTCA-CAAT-TTTGATTTCTTAAAGGGACTGGATG    490
+                         |||||.|   ||||| .||| |.||||||                 
+c9a29826-ffab    617 TTGCTGATAGCAGTATTCAGGAATATGTGATTT-----------------    649
+
+EMBOSS_001       491 AAGGTGTTTCT-----TGTACGTCAATTTATGAAAAGCA-TAGTGCAGGA    534
+                     .|||.||||||     |||..||||      |||..||| ||||.|||  
+c9a29826-ffab    650 TAGGAGTTTCTGATCCTGTGTGTCA------GAATGGCACTAGTTCAG--    691
+
+EMBOSS_001       535 CTGACAAAGGGGATGCATG--CCTACAGAAA--------------ACTGC    568
+                                  |..|||  |||.|.||.|              ||.||
+c9a29826-ffab    692 -------------TTTATGTCCCTTCTGATATAGTAGCTTATTTGACAGC    728
+
+EMBOSS_001       569 T----------TTATGGAGTAAATGAAATTGCTGTAAAA------GTGCC    602
+                     |          |||      ||||.|||  .|.|.||||      || ||
+c9a29826-ffab    729 TTTGCTCTTCCTTA------AAATAAAA--ACAGAAAAATATATCGT-CC    769
+
+EMBOSS_001       603 T-TCTGTT--TTTAAGCTTCTAAT---TAAAG------AGGTTC-----T    635
+                     | .|.|||  .||||...|| |||   |||||      |..|||     .
+c9a29826-ffab    770 TAACAGTTAAATTAACAATC-AATCCATAAAGTCCTATATCTTCATTCAG    818
+
+EMBOSS_001       636 CAACCC--ATTTTACAT---TTTCCAG----CTGTTCAGTGTTATACTGT    676
+                     ||||||  ||.||||||   |||||||    .|.||.|.|||  ||||.|
+c9a29826-ffab    819 CAACCCAAATATTACATACATTTCCAGAATTTTCTTGATTGT--TACTTT    866
+
+EMBOSS_001       677 GGAGCACTGATGAATACTATTACTATGCTCTAGCTATTGTG---------    717
+                         ||.|||             |||.||.||  |||||.|         
+c9a29826-ffab    867 ----CAGTGA-------------TATTCTTTA--TATTGGGTACAGGAGA    897
+
+EMBOSS_001       718 -GTTATGTCCATAGTA------TCAATCGTAAGCT-----CACTA-----    750
+                      |||..||...|.|||      |||| |.|.||.|     .||||     
+c9a29826-ffab    898 AGTTTGGTGTTTGGTAGGTTTTTCAA-CATTAGTTTTTGAGACTAGTTTA    946
+
+EMBOSS_001       751 --TATTC-CATTAGAAAGCAATATGTTATGTTGCATGACATGGTGGCAAC    797
+                       |.||| ||||         ||||                        |
+c9a29826-ffab    947 CCTCTTCACATT---------TATG------------------------C    963
+
+EMBOSS_001       798 TCATAGTACCGTAAGAGTTTCAGTTTGTAGAGTAAATGAAGAAATAGAAG    847
+                     |||.|  |||.|           .||||                ||||| 
+c9a29826-ffab    964 TCACA--ACCCT-----------CTTGT----------------TAGAA-    983
+
+EMBOSS_001       848 AAATCT---TTTCTACCGACCTTGTGCCAGGAGATGTCA--TGGTCATTC    892
+                     ||.|||   |||.||          ..|||  |.|||.|  |.||.||| 
+c9a29826-ffab    984 AAGTCTGTGTTTATA----------TACAG--GCTGTAAGTTTGTGATT-   1020
+
+EMBOSS_001       893 CATTAAATGGGACAATAATGCCTTGTGATGCTGTGCTTATTAATGGTA-C    941
+                               ||.||.||        ||.|.||.|  |.|||||  || |
+c9a29826-ffab   1021 ----------GATAAAAA--------GAAGATGAG--TGTTAAT--TAGC   1048
+
+EMBOSS_001       942 CTGCATTGTAAA-----CGAAAGCATGTTAACAGGAGAAAGTGTTCCAGT    986
+                     ||.||.||.|||     .||||||.||||..||...||     |||||.|
+c9a29826-ffab   1049 CTCCAGTGAAAATATACTGAAAGCCTGTTTTCATTTGA-----TTCCAAT   1093
+
+EMBOSS_001       987 G------ACAAAGACT----------AATTTGCCAAATCCTTCAG-TGGA   1019
+                     |      .||||||.|          .||.||||||.|||.|..| ||| 
+c9a29826-ffab   1094 GTTTCTTCCAAAGAATTCTGTATAAACATATGCCAATTCCCTATGATGG-   1142
+
+EMBOSS_001      1020 T---GTGAAAGGAATAGGAG-----ATG-----AATTATATAATCCAGAA   1056
+                     |   |.|..||||||  |||     |||     ..|||||.||     .|
+c9a29826-ffab   1143 TCTAGAGTTAGGAAT--GAGTGTTTATGGTGTTGCTTATAGAA-----CA   1185
+
+EMBOSS_001      1057 ACACA--TAAACGACATACTTTGTTTTGT------GGGAC-AACTG----   1093
+                     ||.||  |||.|..|||...|.|||||.|      .|.|| |||||    
+c9a29826-ffab   1186 ACTCAGGTAATCTCCATTTCTGGTTTTATATTTTCTGTACAAACTGCCTG   1235
+
+EMBOSS_001      1094 ----TTATTCAGACTCGTTTCTA---------------CACTG-------   1117
+                         |||||        ||||||               |||||       
+c9a29826-ffab   1236 GGTTTTATT--------TTTCTAATCAGCAAGGTGCTTCACTGCCTTCTT   1277
+
+EMBOSS_001      1118 GAGA--ACTCGTCAAAGC-CATA---------------------GTTGTT   1143
+                     ||||  .||| ||||||| |.||                     |.||||
+c9a29826-ffab   1278 GAGACGCCTC-TCAAAGCTCTTAAATGGCTCCTGTGCTATGTGTGGTGTT   1326
+
+EMBOSS_001      1144 AGAACAG---GATTTAGTACTTCCAAAGGACAGCTTGTTCGTTCCATATT   1190
+                     .|  |||   .||||                 ||||.|  |||..||.||
+c9a29826-ffab   1327 GG--CAGTCTAATTT-----------------GCTTCT--GTTAAATGTT   1355
+
+EMBOSS_001      1191 GTATCCCAAACC-----AACT---------GATT------TTAAACTCTA   1220
+                     |||    .||||     .|||         ||||      ||    ||..
+c9a29826-ffab   1356 GTA----GAACCTTTTTCACTAGGAAATAAGATTCATTTCTT----TCGG   1397
+
+EMBOSS_001      1221 CAG-AGATGCCTA-------CTT-----GTTTCT---ACTATGTCTTGTG   1254
+                     ||| |||||  ||       |||     ||||||   |.|.||| ||.||
+c9a29826-ffab   1398 CAGTAGATG--TAGATTCATCTTTTAACGTTTCTTCAAATTTGT-TTCTG   1444
+
+EMBOSS_001      1255 GCAGTTGCTGGCATTGGGTTTATCTACACTATTATTAATAGCATTTTAAA   1304
+                     .||      |||.|||.||          ||||.|.|||.|..|||||||
+c9a29826-ffab   1445 TCA------GGCTTTGTGT----------TATTTTAAATGGTTTTTTAAA   1478
+
+EMBOSS_001      1305 ----------------TGAGGTAC---AAG---TTGGGGTCATAATTATC   1332
+                                     |.|..|||   |||   |.||    |||||    
+c9a29826-ffab   1479 ATTTTCTTCTATGTTTTCAATTACCTAAAGACATAGG----ATAAT----   1520
+
+EMBOSS_001      1333 GAGTCTCTTGATATTA--TCACAATTACTGTGCCCCCTGCACTTCCTGCT   1380
+                      |||.|.||    |||  |.|.|||   |.|.||.|.|..|.||..|   
+c9a29826-ffab   1521 -AGTTTTTT----TTAAGTTAGAAT---TTTACCTCATAAAATTTTT---   1559
+
+EMBOSS_001      1381 GCAATGACTGCTGGTATTG-TGTATG-CTCAG-----------AGAAGAC   1417
+                         |||     ||| ||| |||||| |||.|           |..||.|
+c9a29826-ffab   1560 ----TGA-----GGT-TTGATGTATGTCTCTGTCTTATCAATAATGAGGC   1599
+
+EMBOSS_001      1418 TGAAAAAAATCGGTATTT-----TCTGTATCAGTCC------TCAAAG-A   1455
+                     |.||||||..|.|.||||     .|||       ||      |||||| |
+c9a29826-ffab   1600 TTAAAAAATACTGGATTTGAATGGCTG-------CCGTTTTTTCAAAGCA   1642
+
+EMBOSS_001      1456 ATAAATATTTGTGGACAGCTCAATCTTGTTTGCTT--TGACA--------   1495
+                     |||...|||||..||            |||||.||  ||.||        
+c9a29826-ffab   1643 ATATGAATTTGATGA------------GTTTGTTTTATGCCATTAGGTGG   1680
+
+EMBOSS_001      1496 ----AGACTG----GAAC---TCTA-ACTGAA---GATGGT------TTA   1524
+                         |||  |    ||||   |||| ..||||   |||.||      |.|
+c9a29826-ffab   1681 CGCCAGA--GGTCAGAACATGTCTATTTTGAATTGGATCGTTACAAATGA   1728
+
+EMBOSS_001      1525 G-ATCTTTG--GGGGA---TTCAACGAGTGG-------AAAATGCACGA-   1560
+                     | ||.||||  |.|||   |||      |||       |||||..|.|| 
+c9a29826-ffab   1729 GCATATTTGATGCGGAAATTTC------TGGGAGAAAAAAAATTGAGGAA   1772
+
+EMBOSS_001      1561 ------TTTCTTTCACCAGAAGAAAATG--------TGTGC--AATGAGA   1594
+                           ||           ||.|||.||        ||.||  ||.||||
+c9a29826-ffab   1773 ATAAAGTT-----------AAAAAATTGACATTCATTGAGCCAAAAGAGA   1811
+
+EMBOSS_001      1595 TGTTGGTAAAATCCCAGTTT----GTTGCTTGTATGG-CTACTTGTCATT   1639
+                     |||.|..|||    ||.|||    .||.| |||.||| ||..||..||||
+c9a29826-ffab   1812 TGTGGAGAAA----CATTTTTCACCTTTC-TGTTTGGCCTGATTAACATT   1856
+
+EMBOSS_001      1640 CA----CTTACAAAAATTGAAGG-AGTGCTCTCTGGTGATCCACTTGATC   1684
+                     .|    |||.|.|||||| |||| |                 ||||    
+c9a29826-ffab   1857 TAAATTCTTGCCAAAATT-AAGGTA-----------------ACTT----   1884
+
+EMBOSS_001      1685 TGAAAA------TGTTTGAGGCTATTGGAT---GGATTCTGGAAGAAGC-   1724
+                     |.||||      |.||..|||    |||||   |.|.|||||.| |.|| 
+c9a29826-ffab   1885 TTAAAAAACACCTTTTATAGG----TGGATCCAGCAGTCTGGCA-ACGCC   1929
+
+EMBOSS_001      1725 -------AACTGAAGA-AGAAACAGCACT--TC-------ATAATCG---   1754
+                            |.|..||.| |||||    |||  ||       |.|||.|   
+c9a29826-ffab   1930 CACAGTTACCACAACACAGAAA----ACTGATCGTGCTATAAAATGGACG   1975
+
+EMBOSS_001      1755 ---AATTATGCCCACAGTG-------GTTC---GTCCTCCCA--------   1783
+                        ||.||||...||||||       ||||   ||.||.|||        
+c9a29826-ffab   1976 CTAAACTATGAAAACAGTGTGACATTGTTCTCTGTTCTTCCAGAGCCAGT   2025
+
+EMBOSS_001      1784 AACAACTGCTTCCT----GAATCTACCCCTGCAGGAAACCAAGAAATGGA   1829
+                     ||||  |||||.||    ...|||||..||                   |
+c9a29826-ffab   2026 AACA--TGCTTGCTCGTGCTTTCTACTTCT-------------------A   2054
+
+EMBOSS_001      1830 GCTG-------TTTGAACTTCCAGC---TACTTA---------------T   1854
+                     ||||       |||    |.|||.|   ||.|||               |
+c9a29826-ffab   2055 GCTGATCATTCTTT----TCCCAACATATATTTACAAATTTACCAAATTT   2100
+
+EMBOSS_001      1855 GAGATAGGAATTGTTCG--CCA----GTTCCCATTTTCTTCTGCTTTGCA   1898
+                     .|..|| ||||| ||.|  |||    ||||.||.|.| ||.|||  ||||
+c9a29826-ffab   2101 TACCTA-GAATT-TTAGGACCAAATGGTTCTCACTCT-TTATGC--TGCA   2145
+
+EMBOSS_001      1899 A-----CGTATGA-GTGTGGTTGCCAGGGTGCTGGGGGATAGGAAAATGG   1942
+                     |     .|.|||| ||.||||..|             .||||.|||||.|
+c9a29826-ffab   2146 AAGACCTGGATGATGTTTGGTAAC-------------TATAGAAAAATAG   2182
+
+EMBOSS_001      1943 ACGCCTACATGAA--------AGGAGCGC-----CCGAGGCCATTGCCGG   1979
+                     |          ||        ||||.|.|     |   .||.|||||   
+c9a29826-ffab   2183 A----------AATTACACTCAGGATCACTGTTAC---TGCTATTGC---   2216
+
+EMBOSS_001      1980 TCTCTGTAAACCTGAAACAGTTCCTG-----------TCGA--TTTTC--   2014
+                      |.|||     .|||     ||||||           ||||  |||||  
+c9a29826-ffab   2217 -CACTG-----ATGA-----TTCCTGCAAAAATATAATCGAAGTTTTCCA   2255
+
+EMBOSS_001      2015 -AAAACGT----TTTG----GAAGACTTCACTA------AACAGGGCTTC   2049
+                      .|||.||    |.||    .||.|| .||.||      |||||...|||
+c9a29826-ffab   2256 TCAAATGTATAATATGCTATTAATAC-ACATTAGATGATAACAGTTGTTC   2304
+
+EMBOSS_001      2050 CGTG--TGATT----------------------GCTCTT-----------   2064
+                     |.||  |||||                      .|||||           
+c9a29826-ffab   2305 CATGAATGATTCTATGAAGCTATGCATCTTAGACCTCTTGAGCTGTGAAT   2354
+
+EMBOSS_001      2065 --GCAC--------ACAGAAAAT-------TGGAGTC-----AAAACTGA   2092
+                       ||||        |.||..|.|       |||| ||     |.||.|..
+c9a29826-ffab   2355 TAGCACTATTTTCTATAGTTACTTATTCTCTGGA-TCATTTTATAATTTC   2403
+
+EMBOSS_001      2093 CATGGCATAAAGTACAGAATA--------TTA----GCAGAGAT----GC   2126
+                     |||   ||.||.|.|| ||||        |||    .|||.|||    .|
+c9a29826-ffab   2404 CAT---ATTAATTTCA-AATATGCTCGTGTTATTCTTCAGTGATTTCCAC   2449
+
+EMBOSS_001      2127 AATTGAGAACAACATGGATTTTA----TGGGATTAA----------TTAT   2162
+                     |||||         ||.||||||    |.||.||||          .|||
+c9a29826-ffab   2450 AATTG---------TGCATTTTATTCTTTGGTTTAAGTACTGAAGCATAT   2490
+
+EMBOSS_001      2163 AATGCAGAACAAATTAA---------AGCA----AGAAACCCCTGCA---   2196
+                     ||||      |||.|||         ||||    |.|||    |.||   
+c9a29826-ffab   2491 AATG------AAAGTAATTGCTAAGTAGCAGCTTAAAAA----TTCAATT   2530
+
+EMBOSS_001      2197 --------GTA--------CTTGAAG---ATTTGCATAAAGCCAAC-ATT   2226
+                             |||        |||.|||   ||...|||||||  |.| |||
+c9a29826-ffab   2531 ATCCGATTGTATTTAACATCTTTAAGAGCATGATCATAAAG--AGCTATT   2578
+
+EMBOSS_001      2227 --------------CGCACCGT-----CATGGTCACAGGTGACAGTATG-   2256
+                                   |.|||..|     |||  |.|.||.|   ||||.| 
+c9a29826-ffab   2579 TTTGACACCCCCCCCCCACTTTTTTAACAT--TTAGAGTT---AGTAAGG   2623
+
+EMBOSS_001      2257 --TTGACTGCTGTCTC-TGTGGCCAGAGATTGT-------GGAATGATTC   2296
+                       ||.|    |.|||| |.||.||  |.|||||       ||||||    
+c9a29826-ffab   2624 GTTTTA----TATCTCTTCTGTCC--ATATTGTTTTCAAAGGAATG----   2663
+
+EMBOSS_001      2297 TACCTCAGGATAAAGTGATTA--TTGCTG---AAGCATTACCTCCAAAGG   2341
+                                 |.|||.|||  |.||||   |||||||           
+c9a29826-ffab   2664 ------------AGGTGTTTAGGTGGCTGGAAAAGCATT-----------   2690
+
+EMBOSS_001      2342 ATG--GGAA-----AGTTGCCAAAATAAA-----TTGGCATTATGCAGAC   2379
+                      ||  ||||     |.|||  ||.|||.|     |.||  ||||      
+c9a29826-ffab   2691 -TGTAGGAAGTTAGATTTG--AATATAGACAAGGTGGG--TTAT------   2729
+
+EMBOSS_001      2380 TCCCTCACGCAGTGCA-GTCATCCATCAGCAATTGACCCAGAGGCTATTC   2428
+                         |||||..|.|.| ||.||          ||||   |||    ||.|
+c9a29826-ffab   2730 ----TCACGTTGAGAATGTTAT----------TTGA---AGA----ATGC   2758
+
+EMBOSS_001      2429 CGGTTAA-------ATTGGT-----------CCAT-GATAG-CTTAGAGG   2458
+                     |.||.||       .|.|||           |||| ||||| ||.||   
+c9a29826-ffab   2759 CTGTGAAGCCAGGTGTGGGTTCTACTCAGTGCCATAGATAGACTGAG---   2805
+
+EMBOSS_001      2459 ATCTTCAAATGACTC----GTTATCATT---TTGCAA---------TGAA   2492
+                      |||||     .|||    ||||.||||   |.|.||         ||||
+c9a29826-ffab   2806 -TCTTC-----TCTCGTAGGTTACCATTACATAGTAATTTTGATTCTGAA   2849
+
+EMBOSS_001      2493 TGGAAAATCATTCTCAGTGA--TACTGGAGCATTT-TCAAGACCT-----   2534
+                     |         |||.||.|.|  ||.|.|||  ||| |..||||||     
+c9a29826-ffab   2850 T---------TTCACATTAAATTATTTGAG--TTTATACAGACCTAAATT   2888
+
+EMBOSS_001      2535 --------TGTTCCTAAGTTGATGTTGCATGGCACCGTGTTTGCCCGTAT   2576
+                             |||.|.||..|| ||.||| ||                ||||
+c9a29826-ffab   2889 TTAAAATCTGTACATATATT-ATTTTG-AT----------------GTAT   2920
+
+EMBOSS_001      2577 GGCACCTGATCAGAAGACACAGTTGATAGAAGCATTGCAAAATGTTGATT   2626
+                              |.|||.||        ||      |||||       |||||
+c9a29826-ffab   2921 ---------TAAGATGA--------AT------ATTGC-------TGATT   2940
+
+EMBOSS_001      2627 ---ATTTTGTT---------------------GGGATGTGTGGTGATGGC   2652
+                        |||||.||                     |..||||.|||       
+c9a29826-ffab   2941 TAAATTTTATTTATGCACATACTTAAAGGACAGAAATGTCTGG-------   2983
+
+EMBOSS_001      2653 GCAAATGATTGTGGTGCTTTGAA----GAGGGCACACGGAGGCATTTCCT   2698
+                     |.||.|.||||       ||.||    ||                     
+c9a29826-ffab   2984 GAAAGTAATTG-------TTAAATAATGA---------------------   3005
+
+EMBOSS_001      2699 TATCGGAGCTCGAAGCTTCAGTGGCATCTCCCTTTACCTCT---------   2739
+                     |||        |.|.|||              ||||.||.|         
+c9a29826-ffab   3006 TAT--------GTAACTT--------------TTTAACTTTTTAAATAAA   3033
+
+EMBOSS_001      2740 ----AAGACTCCTAGTATTTCCTGTGTGCCAAACCTTATCAGGGAAGGCC   2785
+                         ||||       |.|||..||||||.|                    
+c9a29826-ffab   3034 TAACAAGA-------TTTTTAATGTGTGTC--------------------   3056
+
+EMBOSS_001      2786 GTGCTGCTTTAATAACTTCCTTCTGTG-TGTTTAAA-TTCATGGCATTGT   2833
+                                      |||.||.|.| |||||||| ||       ||.|
+c9a29826-ffab   3057 -----------------TCCCTCAGGGTTGTTTAAAGTT-------TTTT   3082
+
+EMBOSS_001      2834 ACAGCATTATCC----AGTACTTCAGT----GTTACTCTGCTGTATTCTA   2875
+                           ||.|||    ||||  |.|.|    ||.|||.| .|||.||.||
+c9a29826-ffab   3083 ------TTCTCCCTCAAGTA--TAAATAGTGGTAACTAT-ATGTTTTGTA   3123
+
+EMBOSS_001      2876 TCTTAAGTAACCTAGGAGACTTCCAGTTTCTCT---TCATTGATCTGGCA   2922
+                     ||||       ||||.|     |||..|.||.|   .||.||  |||..|
+c9a29826-ffab   3124 TCTT-------CTAGCA-----CCAACTGCTGTAAAGCAATG--CTGCAA   3159
+
+EMBOSS_001      2923 ATCATTTTGG-----TAGTGG-TA----------------------TTTA   2944
+                     ||.||..|.|     .||||| ||                      ||||
+c9a29826-ffab   3160 ATAATGCTTGAATACAAGTGGCTAAGCCAACAACAGAATAAATACTTTTA   3209
+
+EMBOSS_001      2945 CAATGAGTTT--AAATCCTG--CCTGGAAAGAACTT-----GTGGCAC--   2983
+                     .|.| |||||  .|||||||  ..|.|||||  |||     .|.||||  
+c9a29826-ffab   3210 TAGT-AGTTTTATAATCCTGAAATTCGAAAG--CTTTCCCAATTGCACTT   3256
+
+EMBOSS_001      2984 ------AAAGACCAC--CTTCGGGTCTTA---TATCTGGGGCCCTTCTCT   3022
+                           |||.|..||  .|.|.|.|.|||   |||.|      .||.|.|
+c9a29826-ffab   3257 GCATCTAAACAAAACTGTTGCAGTTTTTACTCTATTT------ATTTTGT   3300
+
+EMBOSS_001      3023 TCTCCGTTTT-------GTC--TCAGATTATCATCTGCATTGG-------   3056
+                     ||.||.|.||       |||  .||.|.|.|||...||| |||       
+c9a29826-ffab   3301 TCCCCATGTTTATGAAAGTCCTGCACAGTTTCAAAGGCA-TGGTAAATAA   3349
+
+EMBOSS_001      3057 -ATTTCAATCTTTGGGTTTTTTTTGGGTC--------AAACAGC------   3091
+                      ||.|||||.|||..||        .|||        |||||||      
+c9a29826-ffab   3350 TATATCAATGTTTATGT--------AGTCTGTTACAGAAACAGCTATAGA   3391
+
+EMBOSS_001      3092 -AACCTTGGTATGAAGTGTGGCATCCAAAATCAGATGCTTGTAATACAAC   3140
+                      |||.|   |||..||||        ||.|.||        .|||.||| 
+c9a29826-ffab   3392 TAACAT---TATCCAGTG--------AAGAGCA--------AAATTCAA-   3421
+
+EMBOSS_001      3141 AGGAAGCGGGTTTTGGAATTCTTCA--CACGTAGACAATGAAACCGAACT   3188
+                             |.|||.|.||.|.||||  ||.|    ||||         .|
+c9a29826-ffab   3422 --------GCTTTAGAAAATATTCATGCATG----CAAT---------TT   3450
+
+EMBOSS_001      3189 TGATGAACATAATATACAAAATTATGAAAATACCACAGTGTTTTT---TA   3235
+                     ||    |||||           |.|.||||||      .||||||   ||
+c9a29826-ffab   3451 TG----ACATA-----------TCTAAAAATA------GGTTTTTGTATA   3479
+
+EMBOSS_001      3236 TTTCCAGTTTTCAGTACCTCATAGTGGCAATTGCCTTTTCAAAAGGAAAA   3285
+                     |||                 ||.||||.|..||..|              
+c9a29826-ffab   3480 TTT-----------------ATGGTGGGAGGTGGTT--------------   3498
+
+EMBOSS_001      3286 CCCTTCAGGCAACCTTGCTACAAAAAT----TATT--TTTTTGTTTTTTC   3329
+                            ||.|||.||  ||..|||||    |.||  |||||||....||
+c9a29826-ffab   3499 -------GGGAACTTT--TAACAAAATGGGGTGTTAATTTTTGTACAGTC   3539
+
+EMBOSS_001      3330 TGTG---ATTTTTTTATATATTTTTATAT-TATTCATCATGTTGTATCCA   3375
+                     ||||   |    ||||.|.||||||| || |||| |..||.|.|||    
+c9a29826-ffab   3540 TGTGGGCA----TTTACACATTTTTA-ATGTATT-AAAATTTGGTA----   3579
+
+EMBOSS_001      3376 GTTGCCTCTGTTGACCAGGTTCTTCAGATAGTGTGTGTAC--------CA   3417
+                                                  |.|.|||||||        .|
+c9a29826-ffab   3580 -----------------------------ATTATGTGTACATTAAATTAA   3600
+
+EMBOSS_001      3418 TATCAGTGGCGTGTAACTATGCTCATCATTGTTCTTGTCAATGCCTTTGT   3467
+                     ||..|||..|.|.||..||||.|           ||||.|||.||     
+c9a29826-ffab   3601 TAAAAGTTACTTCTAGTTATGAT-----------TTGTGAATTCC-----   3634
+
+EMBOSS_001      3468 GTCTATCACAGTGGAGAACTTCTTCCTTGACATGGTCCTTTGGAAAGTTG   3517
+                       |||..||..||||    ||.||              ||..|.||.|| 
+c9a29826-ffab   3635 --CTAAGACCTTGGA----TTTTT--------------TTAAGTAACTT-   3663
+
+EMBOSS_001      3518 TGTTCAACCGAGACAAACAAGGAGAGTATCGGTTCAGCACCACACA-GCC   3566
+                                               |||         |.||.|.| |..
+c9a29826-ffab   3664 --------------------------TAT---------ATCAGAAATGAT   3678
+
+EMBOSS_001      3567 ACCGCAGGAGTCAGTGGATCGGTGGGGAAAA------TGCTGCT------   3604
+                     ||.|||    ||..|..||...|    ||||      |||||||      
+c9a29826-ffab   3679 ACTGCA----TCTTTATATTTTT----AAAATTGTATTGCTGCTCAAGAA   3720
+
+EMBOSS_001      3605 ---TACCCTGGGCCCTGGGCTGTAGAAAGAAGACACCAAAGGCAAAGTAC   3651
+                        ||||||     ||    |||..|           |||||||   |||
+c9a29826-ffab   3721 TGGTACCCT-----CT----TGTCAA-----------AAAGGCA---TAC   3747
+
+EMBOSS_001      3652 ATGTATCTGGCGCAGGAGCTCTTGGTTG---ATCCAGAATGGCCACCAAA   3698
+                     ||                 ||.|..|||   ||.|||.||.|..|  |.|
+c9a29826-ffab   3748 AT-----------------TCATAATTGTACATTCAGCATTGTAA--ATA   3778
+
+EMBOSS_001      3699 ACCTCA-GACAACC-------ACAGAAGCT----------AAAGCTTTAG   3730
+                     |.||.| || ||||       |..||||||          |||..||||.
+c9a29826-ffab   3779 ATCTTATGA-AACCTTTTTTGATTGAAGCTATTCAAAATAAAAATTTTAA   3827
+
+EMBOSS_001      3731 TTAAGGAGAATGGATCATGTCAAATCATCACCATAACATAG   3771
+                     |      |||||         |||                 
+c9a29826-ffab   3828 T------GAATG---------AAA-----------------   3836
+
+
+#---------------------------------------
+#---------------------------------------

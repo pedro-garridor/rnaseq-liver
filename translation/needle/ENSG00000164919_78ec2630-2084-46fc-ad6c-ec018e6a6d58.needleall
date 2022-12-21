@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Sat  3 Sep 2022 04:19:17
+# Commandline: needle
+#    -outfile needle/ENSG00000164919_78ec2630-2084-46fc-ad6c-ec018e6a6d58.needleall
+#    -asequence SA/ENSG00000164919.fa
+#    -bsequence SB/78ec2630-2084-46fc-ad6c-ec018e6a6d58.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000164919_78ec2630-2084-46fc-ad6c-ec018e6a6d58.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 78ec2630-2084-46fc-ad6c-ec018e6a6d58_ENSG00000164919.11
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 352
+# Identity:     179/352 (50.9%)
+# Similarity:   179/352 (50.9%)
+# Gaps:         155/352 (44.0%)
+# Score: 664.5
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+78ec2630-2084      1 TGCGCGCGGCTACAGCACGGTTCGTTTTTCCTTTAGTCAGGAAGGACGTT     50
+
+EMBOSS_001         1 ----------------------------------------ATGGCTCCCG     10
+                                                             ||||||||||
+78ec2630-2084     51 GGTGTTGAGGTTAGCATACGTATCAAGGACAGTAACTACCATGGCTCCCG    100
+
+EMBOSS_001        11 AAGTTTTGCCAAAACCTCGGATGCGTGGCCTTCTGGCCAGGCGTCTGCGA     60
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+78ec2630-2084    101 AAGTTTTGCCAAAACCTCGGATGCGTGGCCTTCTGGCCAGGCGTCTGCGA    150
+
+EMBOSS_001        61 AATCATATGGCTGTAGCATTCGTGCTATCCCTGGGGGTTGCAGCTTTGTA    110
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+78ec2630-2084    151 AATCATATGGCTGTAGCATTCGTGCTATCCCTGGGGGTTGCAGCTTTGTA    200
+
+EMBOSS_001       111 TAAG--TTTCGTGTGGCTGATCAAAGAAAGAAGGCA-TACGCAGA--TTT    155
+                     ||||  ||||.|..||.|||               | |||..|||  |||
+78ec2630-2084    201 TAAGAATTTCTTCAGGTTGA---------------ATTACCTAGAAGTTT    235
+
+EMBOSS_001       156 CT-ACAGA------------AACTACGATGTCATGAAAGATTTTGAGGAG    192
+                     .| ||.||            |||||.|| ..||||||    |.||.|| |
+78ec2630-2084    236 GTCACTGACTTGTGTTCCTGAACTATGA-CACATGAA----TATGTGG-G    279
+
+EMBOSS_001       193 ATGAGGAAGGCTGGT--ATCTTTCAGAGTGTAAAGTAA------------    228
+                     .|.||.||   |.||  .||||   ||   |||| |||            
+78ec2630-2084    280 CTAAGAAA---TAGTTCCTCTT---GA---TAAA-TAAACAATTAACAAA    319
+
+EMBOSS_001       228 --    228
+                       
+78ec2630-2084    320 TA    321
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,301 @@
+########################################
+# Program: needle
+# Rundate: Sat  3 Sep 2022 04:26:35
+# Commandline: needle
+#    -outfile needle/ENSG00000173530_91ecc149-e357-4a2e-8337-a3a59dd74ef2.needleall
+#    -asequence SA/ENSG00000173530.fa
+#    -bsequence SB/91ecc149-e357-4a2e-8337-a3a59dd74ef2.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000173530_91ecc149-e357-4a2e-8337-a3a59dd74ef2.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 91ecc149-e357-4a2e-8337-a3a59dd74ef2_ENSG00000173530.6
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3275
+# Identity:    1012/3275 (30.9%)
+# Similarity:  1012/3275 (30.9%)
+# Gaps:        2263/3275 (69.1%)
+# Score: 5060.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGGACTTTGGGGACAAAGCGTCCCGACCGCCTCGAGCGCTCGAGCAGG     50
+                                                                       
+91ecc149-e357      0 --------------------------------------------------      0
+
+EMBOSS_001        51 GCGCTATCCAGGAGCCAGGACAGCGTCGGGAACCAGACCATGGCTCCTGG    100
+                                                                       
+91ecc149-e357      0 --------------------------------------------------      0
+
+EMBOSS_001       101 ACCCCAAGATCCTTAAGTTCGTCGTCTTCATCGTCGCGGTTCTGCTGCCG    150
+                                                                      |
+91ecc149-e357      1 -------------------------------------------------G      1
+
+EMBOSS_001       151 GTCCGGGTTGACTCTGCCACCATCCCCCGGCAGGACGAAGTTCCCCAGCA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357      2 GTCCGGGTTGACTCTGCCACCATCCCCCGGCAGGACGAAGTTCCCCAGCA     51
+
+EMBOSS_001       201 GACAGTGGCCCCACAGCAACAGAGGCGCAGCCTCAAGGAGGAGGAGTGTC    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357     52 GACAGTGGCCCCACAGCAACAGAGGCGCAGCCTCAAGGAGGAGGAGTGTC    101
+
+EMBOSS_001       251 CAGCAGGATCTCATAGATCAGAATATACTGGAGCCTGTAACCCGTGCACA    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    102 CAGCAGGATCTCATAGATCAGAATATACTGGAGCCTGTAACCCGTGCACA    151
+
+EMBOSS_001       301 GAGGGTGTGGATTACACCATTGCTTCCAACAATTTGCCTTCTTGCCTGCT    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    152 GAGGGTGTGGATTACACCATTGCTTCCAACAATTTGCCTTCTTGCCTGCT    201
+
+EMBOSS_001       351 ATGTACAGTTTGTAAATCAGGTCAAACAAATAAAAGTTCCTGTACCACGA    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    202 ATGTACAGTTTGTAAATCAGGTCAAACAAATAAAAGTTCCTGTACCACGA    251
+
+EMBOSS_001       401 CCAGAGACACCGTGTGTCAGTGTGAAAAAGGAAGCTTCCAGGATAAAAAC    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    252 CCAGAGACACCGTGTGTCAGTGTGAAAAAGGAAGCTTCCAGGATAAAAAC    301
+
+EMBOSS_001       451 TCCCCTGAGATGTGCCGGACGTGTAGAACAGGGTGTCCCAGAGGGATGGT    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    302 TCCCCTGAGATGTGCCGGACGTGTAGAACAGGGTGTCCCAGAGGGATGGT    351
+
+EMBOSS_001       501 CAAGGTCAGTAATTGTACGCCCCGGAGTGACATCAAGTGCAAAAATGAAT    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    352 CAAGGTCAGTAATTGTACGCCCCGGAGTGACATCAAGTGCAAAAATGAAT    401
+
+EMBOSS_001       551 CAGCTGCCAGTTCCACTGGGAAAACCCCAGCAGCGGAGGAGACAGTGACC    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    402 CAGCTGCCAGTTCCACTGGGAAAACCCCAGCAGCGGAGGAGACAGTGACC    451
+
+EMBOSS_001       601 ACCATCCTGGGGATGCTTGCCTCTCCCTATCACTACCTTATCATCATAGT    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    452 ACCATCCTGGGGATGCTTGCCTCTCCCTATCACTACCTTATCATCATAGT    501
+
+EMBOSS_001       651 GGTTTTAGTCATCATTTTAGCTGTGGTTGTGGTTGGCTTTTCATGTCGGA    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    502 GGTTTTAGTCATCATTTTAGCTGTGGTTGTGGTTGGCTTTTCATGTCGGA    551
+
+EMBOSS_001       701 AGAAATTCATTTCTTACCTCAAAGGCATCTGCTCAGGTGGTGGAGGAGGT    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    552 AGAAATTCATTTCTTACCTCAAAGGCATCTGCTCAGGTGGTGGAGGAGGT    601
+
+EMBOSS_001       751 CCCGAACGTGTGCACAGAGTCCTTTTCCGGCGGCGTTCATGTCCTTCACG    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    602 CCCGAACGTGTGCACAGAGTCCTTTTCCGGCGGCGTTCATGTCCTTCACG    651
+
+EMBOSS_001       801 AGTTCCTGGGGCGGAGGACAATGCCCGCAACGAGACCCTGAGTAACAGAT    850
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    652 AGTTCCTGGGGCGGAGGACAATGCCCGCAACGAGACCCTGAGTAACAGAT    701
+
+EMBOSS_001       851 ACTTGCAGCCCACCCAGGTCTCTGAGCAGGAAATCCAAGGTCAGGAGCTG    900
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    702 ACTTGCAGCCCACCCAGGTCTCTGAGCAGGAAATCCAAGGTCAGGAGCTG    751
+
+EMBOSS_001       901 GCAGAGCTAACAGGTGTGACTGTAGAGTTGCCAGAGGAGCCACAGCGTCT    950
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    752 GCAGAGCTAACAGGTGTGACTGTAGAGTTGCCAGAGGAGCCACAGCGTCT    801
+
+EMBOSS_001       951 GCTGGAACAGGCAGAAGCTGAAGGGTGTCAGAGGAGGAGGCTGCTGGTTC   1000
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    802 GCTGGAACAGGCAGAAGCTGAAGGGTGTCAGAGGAGGAGGCTGCTGGTTC    851
+
+EMBOSS_001      1001 CAGTGAATGACGCTGACTCCGCTGACATCAGCACCTTGCTGGATGCCTCG   1050
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    852 CAGTGAATGACGCTGACTCCGCTGACATCAGCACCTTGCTGGATGCCTCG    901
+
+EMBOSS_001      1051 GCAACACTGGAAGAAGGACATGCAAAGGAAACAATTCAGGACCAACTGGT   1100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    902 GCAACACTGGAAGAAGGACATGCAAAGGAAACAATTCAGGACCAACTGGT    951
+
+EMBOSS_001      1101 GGGCTCCGAAAAGCTCTTTTATGAAGAAGATGAGGCAGGCTCTGCTACGT   1150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+91ecc149-e357    952 GGGCTCCGAAAAGCTCTTTTATGAAGAAGATGAGGCAGGCTCTGCTACGT   1001
+
+EMBOSS_001      1151 CCTGCCTGTGA---------------------------------------   1161
+                     |||||||||||                                       
+91ecc149-e357   1002 CCTGCCTGTGAAAGAATCTCTTCAGGAAACCAGAGCTTCCCTCATTTACC   1051
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1052 TTTTCTCCTACAAAGGGAAGCAGCCTGGAAGAAACAGTCCAGTACTTGAC   1101
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1102 CCATGCCCCAACAAACTCTACTATCCAATATGGGGCAGCTTACCAATGGT   1151
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1152 CCTAGAACTTTGTTAACGCACTTGGAGTAATTTTTATGAAATACTGCGTG   1201
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1202 TGATAAGCAAACGGGAGAAATTTATATCAGATTCTTGGCTGCATAGTTAT   1251
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1252 ACGATTGTGTATTAAGGGTCGTTTTAGGCCACATGCGGTGGCTCATGCCT   1301
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1302 GTAATCCCAGCACTTTGATAGGCTGAGGCAGGTGGATTGCTTGAGCTCGG   1351
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1352 GAGTTTGAGACCAGCCTCATCAACACAGTGAAACTCCATCTCAATTTAAA   1401
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1402 AAGAAAAAAAGTGGTTTTAGGATGTCATTCTTTGCAGTTCTTCATCATGA   1451
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1452 GACAAGTCTTTTTTTCTGCTTCTTATATTGCAAGCTCCATCTCTACTGGT   1501
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1502 GTGTGCATTTAATGACATCTAACTACAGATGCCGCACAGCCACAATGCTT   1551
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1552 TGCCTTATAGTTTTTTAACTTTAGAACGGGATTATCTTGTTATTACCTGT   1601
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1602 ATTTTCAGTTTCGGATATTTTTGACTTAATGATGAGATTATCAAGACGTA   1651
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1652 GCCCTATGCTAAGTCATGAGCATATGGACTTACGAGGGTTCGACTTAGAG   1701
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1702 TTTTGAGCTTTAAGATAGGATTATTGGGGCTTACCCCCACCTTAATTAGA   1751
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1752 GAAACATTTATATTGCTTACTACTGTAGGCTGTACATCTCTTTTCCGATT   1801
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1802 TTTGTATAATGATGTAAACATGGAAAAACTTTAGGAAATGCACTTATTAG   1851
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1852 GCTGTTTACATGGGTTGCCTGGATACAAATCAGCAGTCAAAAATGACTAA   1901
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1902 AAATATAACTAGTGACGGAGGGAGAAATCCTCCCTCTGTGGGAGGCACTT   1951
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   1952 ACTGCATTCCAGTTCTCCCTCCTGCGCCCTGAGACTGGACCAGGGTTTGA   2001
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2002 TGGCTGGCAGCTTCTCAAGGGGCAGCTTGTCTTACTTGTTAATTTTAGAG   2051
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2052 GTATATAGCCATATTTATTTATAAATAAATATTTATTTATTTATTTATAA   2101
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2102 GTAGATGTTTACATATGCCCAGGATTTTGAAGAGCCTGGTATCTTTGGGA   2151
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2152 AGCCATGTGTCTGGTTTGTCGTGCTGGGACAGTCATGGGACTGCATCTTC   2201
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2202 CGACTTGTCCACAGCAGATGAGGACAGTGAGAATTAAGTTAGATCCGAGA   2251
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2252 CTGCGAAGAGCTTCTCTTTCAAGCGCCATTACAGTTGAACGTTAGTGAAT   2301
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2302 CTTGAGCCTCATTTGGGCTCAGGGCAGAGCAGGTGTTTATCTGCCCCGGC   2351
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2352 ATCTGCCATGGCATCAAGAGGGAAGAGTGGACGGTGCTTGGGAATGGTGT   2401
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2402 GAAATGGTTGCCGACTCAGGCATGGATGGGCCCCTCTCGCTTCTGGTGGT   2451
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2452 CTGTGAACTGAGTCCCTGGGATGCCTTTTAGGGCAGAGATTCCTGAGCTG   2501
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2502 CGTTTTAGGGTACAGATTCCCTGTTTGAGGAGCTTGGCCCCTCTGTAAGC   2551
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2552 ATCTGACTCATCTCAGAGATATCAATTCTTAAACACTGTGACAACAGGAT   2601
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2602 CTAAAATGGCTGACACATTTGTCCTTGTGTCACGTTCCATTATTTTATTT   2651
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2652 AAAAACCTCAGTAATCGTTTTAGCTTCTTTCCAGCAAACTCTTCTCCACA   2701
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2702 GTAGCCCAGTCGTGGTAGGATAAATTACGGATATAGTCATTCTAGGGGTT   2751
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2752 TCAGTCTTTTCCATCTCAAGGCATTGTGTGTTTTGTTCCGGGACTGGTTT   2801
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2802 GGCTGGGACAAAGTTAGAACTGCCTGAAGTTCGCACATTCAGATTGTTGT   2851
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2852 GTCCATGGAGTTTTAGGAGGGGATGGCCTTTCCGGTCTTCGCACTTCCAT   2901
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2902 CCTCTCCCACTTCCATCTGGCGTCCCACACCTTGTCCCCTGCACTTCTGG   2951
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   2952 ATGACACAGGGTGCTGCTGCCTCCTAGTCTTTGCCTTTGCTGGGCCTTCT   3001
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   3002 GTGCAGGAGACTTGGTCTCAAAGCTCAGAGAGAGCCAGTCCGGTCCCAGC   3051
+
+EMBOSS_001      1161 --------------------------------------------------   1161
+                                                                       
+91ecc149-e357   3052 TCCTTTGTCCCTTCCTCAGAGGCCTTCCTTGAAGATGCATCTAGACTACC   3101
+
+EMBOSS_001      1161 -------------------------   1161
+                                              
+91ecc149-e357   3102 AGCCTTATCAGTGTTTAAGCTTATT   3126
+
+
+#---------------------------------------
+#---------------------------------------

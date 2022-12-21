@@ -1,0 +1,381 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 08:41:47
+# Commandline: needle
+#    -outfile needle/ENSG00000269713_38301092-a275-4c14-bcb6-6ecb8ecb8176.needleall
+#    -asequence SA/ENSG00000269713.fa
+#    -bsequence SB/38301092-a275-4c14-bcb6-6ecb8ecb8176.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000269713_38301092-a275-4c14-bcb6-6ecb8ecb8176.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 38301092-a275-4c14-bcb6-6ecb8ecb8176_ENSG00000269713.8
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4272
+# Identity:    1746/4272 (40.9%)
+# Similarity:  1746/4272 (40.9%)
+# Gaps:        2052/4272 (48.0%)
+# Score: 2622.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -----------------ATGGTGGTA--TCAGCCGGCCCTTGGT-CCAGC     30
+                                      |.|.||| |  ||||        |||| |||  
+38301092-a275      1 TTATTTTTTTTTCCCCCAGGCTGG-AGTTCAG--------TGGTGCCA--     39
+
+EMBOSS_001        31 GAGAAGGCAGAGATGAACATTCTAGAAATCAA----CGAGAAAT-----T     71
+                           .||.||.|.|..|..||..||.||||    |.||.|||     |
+38301092-a275     40 ------TCATAGCTCACTAACCTCTAATTCAAGGCTCAAGGAATCCTCCT     83
+
+EMBOSS_001        72 GCGCC------CCCAGTTGGCAGAGA--ACAA-------ACAGCA-GTTC    105
+                     ||..|      ||.|| |.||.||||  ||||       .||.|| |.|.
+38301092-a275     84 GCCTCAACCTTCCGAG-TAGCTGAGACTACAAGTGTGTGCCACCATGCTG    132
+
+EMBOSS_001       106 GGAAACC-------------------TCAAAGAGAGATGTTTTCTAACTC    136
+                     ||   ||                   ||    |||||||...|||.||| 
+38301092-a275    133 GG---CCAATTTTTCATTTTTTATTTTC----AGAGATGGGGTCTTACT-    174
+
+EMBOSS_001       137 AACTGGCC--GGCTTCCTGGCCAACCGACAGAAGA------AATACAAGT    178
+                     |..|.|||  ||    ||||         .||.||      |.||||  |
+38301092-a275    175 ATGTTGCCGAGG----CTGG---------TGAGGACTGTTGATTACA--T    209
+
+EMBOSS_001       179 ATGA-AGAGTGTAAAGACCTCATAAAATT-TA------------------    208
+                     |||| ||        ||.|.||.|.|||| ||                  
+38301092-a275    210 ATGACAG--------GAACCCAAACAATTCTAGTTCCCCACCACCTTTCA    251
+
+EMBOSS_001       209 ---TGCT------------------------GAGGAATGAGCGACAG---    228
+                        ||||                        |     |.|.||.|||   
+38301092-a275    252 ACCTGCTCCTCCCTGGGTCTTCCCAGTCTCCG-----TAAACGGCAGCTC    296
+
+EMBOSS_001       229 -----TTCAAGGAGGAGAAGCTTGCAGAGCAGCTGAAGC----AAGCTGA    269
+                          ||||||          ||        ||.|||||    ||.||  
+38301092-a275    297 CATCCTTCAAG----------TT--------GCCGAAGCCCCAAATCT--    326
+
+EMBOSS_001       270 GGAGCTCAGGCAATATAAAGTCC-TGGTTCACTCTC-----------AGG    307
+                               ||||||.||  || ||.|| .|||||           |||
+38301092-a275    327 ----------CAATATTAA--CCATGATT-TCTCTCTTTTATCTCATAGG    363
+
+EMBOSS_001       308 AACGAGAGCTG-ACGCA------GTTAA-----AGGAGAA-GTTACGGGA    344
+                     .|    |.||| |.|||      |||.|     |||.||| |||.|.|| 
+38301092-a275    364 CA----ATCTGAAAGCAAATCCTGTTTAGATGCAGGCGAAGGTTCCTGG-    408
+
+EMBOSS_001       345 AGGGAGAGATGCCTCCCGCTCATTGAATGAGCATCT--CCAGGCCCT---    389
+                              ||.|.|..||||         .||.||  || |.||||   
+38301092-a275    409 ---------TGACCCAGGCTC---------TCACCTTACC-GTCCCTTAC    439
+
+EMBOSS_001       390 CCTCACTCCGGATGAGCCGGACAAGTCCCAGGGG---CAG----------    426
+                     |.|| ||||   ||||  ||   .|| ||.||.|   |||          
+38301092-a275    440 CGTC-CTCC---TGAG--GG---TGT-CCTGGAGCTTCAGTGCTGTGTGT    479
+
+EMBOSS_001       427 ----GACCTCCAAGAACAGCTGGCTGAGGGGTGTAGACTGGCACAGCACC    472
+                         |.||||||     .||||     ||||||            .||||
+38301092-a275    480 TCTTGGCCTCCA-----TGCTG-----GGGGTG------------CCACC    507
+
+EMBOSS_001       473 TTGTCCAAAAGCTCAGCCCAGAAAATGACGAAGATGAGGATGAAGATGTT    522
+                     ...|||     |.|.|.||||                ||        .||
+38301092-a275    508 AATTCC-----CACTGTCCAG----------------GG--------CTT    528
+
+EMBOSS_001       523 CAAGTTGA-----GGAG-----GATG-AGAAAGTACTGGAATCATCTGCC    561
+                     |.|||.||     .|||     |||| |||||             ||.||
+38301092-a275    529 CCAGTGGACTCTCCGAGGTACTGATGTAGAAA-------------CTTCC    565
+
+EMBOSS_001       562 CCCAGGGA---GGTGCAGAAGGCTGAAGAGAGCAA----AGTCGCTGAGG    604
+                     ||     |   ||||||..|        |||||||    |..||.||.||
+38301092-a275    566 CC-----ATTCGGTGCACCA--------AGAGCAACCTCACACGGTGTGG    602
+
+EMBOSS_001       605 ACTCACTGGAGGAATGTGCCATCACTTGTTCAAATAGCCACGGCCCTTG-    653
+                     .|..|.||.||  |..|||||      |.||      ||||.||||||| 
+38301092-a275    603 GCCAAATGAAG--AGCTGCCA------GATC------CCACAGCCCTTGA    638
+
+EMBOSS_001       654 ---------TGACTCCAACCAGCCTCACAAGAACATC----------AAA    684
+                              || .||.||       ||.||.||.|||          |||
+38301092-a275    639 AGATAAGGATG-GTCAAA-------CAAAATAATATCATACCTGGAGAAA    680
+
+EMBOSS_001       685 ATCACAT-TTGAGGAAGACGAAGTCAACTCAACTCTGGTTGTAGACAGAG    733
+                     .|||.|| |||       |.|||   |.|.|   ||||||       |.|
+38301092-a275    681 CTCAGATCTTG-------CTAAG---ATTTA---CTGGTT-------GGG    710
+
+EMBOSS_001       734 AATCCTCTCATGATGAATGTCAGGATGCTCTAAACATTCTCCCAGTCCCT    783
+                     ||||    ||...|.||||.||.||.|               |||     
+38301092-a275    711 AATC----CAAAGTTAATGCCAAGAAG---------------CAG-----    736
+
+EMBOSS_001       784 GGCCCCACCTCTTCTGCCA--------CAAACGTCAGC--ATGGTGGTAT    823
+                                  |.||||        ||||.||.|||  ||||    ||
+38301092-a275    737 -------------CCGCCAGTTGGGATCAAATGTGAGCCTATGG----AT    769
+
+EMBOSS_001       824 CA----GCCGGCCCTTTGTCCAGCGAGAAGGCAGAGATGAACATTCTAGA    869
+                     ||    ||  |..||     ||     ||..||||   ||.|.|||| ||
+38301092-a275    770 CAAGGTGC--GTACT-----CA-----AACACAGA---GAGCTTTCT-GA    803
+
+EMBOSS_001       870 AATCAATGAGAAATTGCGCCC----------CCAGCTGGCAGAGAAGAAA    909
+                     ||     ||     |||..||          ||||  ||||||||.|   
+38301092-a275    804 AA-----GA-----TGCTACCAGTAGTTTTTCCAG--GGCAGAGATG---    838
+
+EMBOSS_001       910 CAGCAGTTCAGAAACCTCAAAGAGAAATGTTTTCTAACTCAACTGGCC--    957
+                          |.||     |.|.|         .||||||..||.|.||.|||  
+38301092-a275    839 -----GGTC-----CTTTA---------TTTTTCTCTCTAATCTAGCCCA    869
+
+EMBOSS_001       958 --GGCTTCCTGGCCAACCAGCAGA--------------AC---AAAT---    985
+                       .||||           |||.||              ||   ||||   
+38301092-a275    870 TATGCTT-----------AGCTGAGTTTTCTTCGTATCACTTTAAATGAT    908
+
+EMBOSS_001       986 ---------------ACAA--GTATGAAGAGTGTAAAGACCTCATAAAAT   1018
+                                    ||||  .|.|.||.|.|.|..|||  |.|| ||.|
+38301092-a275    909 GATGTCCCTTGTTGAACAATTTTCTAAACATTCTTTAGA--TAAT-AATT    955
+
+EMBOSS_001      1019 TTATGCTGAGGAATGAGCGACAGTTCAAGGAGGAGAAGCTTGCA-GAGCA   1067
+                     |||||    ||.||       ..||.|            ||||| .||  
+38301092-a275    956 TTATG----GGCAT-------TCTTTA------------TTGCATTAG--    980
+
+EMBOSS_001      1068 GCTGAA-------GCAAGCTGAGGAGCTCAGGCAATATAAAGTCCTGGTT   1110
+                     |||.||       |||...|.|||...|...||||.|||..|.|.||.||
+38301092-a275    981 GCTTAAATTTAATGCATCTTAAGGTTTTATTGCAAAATATTGCCTTGTTT   1030
+
+EMBOSS_001      1111 CACGCTCAGGAACGAGAGCTGACCCAGTTAAGGGAGAAGTTGCGGGAAGG   1160
+                     |....|.|        ||.|||..|||||    .|.||..|||       
+38301092-a275   1031 CCTTTTTA--------AGATGATACAGTT----TATAATATGC-------   1061
+
+EMBOSS_001      1161 GAGAGATGCCTCCCGCTCATTGAATGAGCATCTCCAGGCCCTCCTCACTC   1210
+                        |.||         |.||||        |||                 
+38301092-a275   1062 ---AAAT---------TTATTG--------TCT-----------------   1074
+
+EMBOSS_001      1211 CGGATGAGCCGGACAAGTCCCAGGGGCAGGACCTCCAAGAACAGCTGGCT   1260
+                                     ||||           ||||               
+38301092-a275   1075 ----------------GTCC-----------CCTC---------------   1082
+
+EMBOSS_001      1261 GAGGGGTGTAGACTGGCACAGCACCT---TGTCCAAAAGCTCAGCCCAGA   1307
+                                            |||   |||.||           .||.
+38301092-a275   1083 -----------------------CCTTTATGTACA-----------TAGG   1098
+
+EMBOSS_001      1308 AAATGA-CAA--CGATGACGATGA---AGATGTTCA---AATTGAG----   1344
+                     |||||| |||  .|.||.|.||||   |||||.|||   ||||| |    
+38301092-a275   1099 AAATGAGCAAACAGGTGGCCATGAAACAGATGGTCATAGAATTG-GTTCA   1147
+
+EMBOSS_001      1345 GTGGCTGAGAAAGTGCAGAAATCGTCTGCCCCCAGGGAG----ATGCAGA   1390
+                     ||||.||.|  |||||||.||        |||.||.|.|    ||     
+38301092-a275   1148 GTGGTTGTG--AGTGCAGCAA--------CCCAAGAGTGTCTTAT-----   1182
+
+EMBOSS_001      1391 AGGCTGAAGAAA-----AGGAA-GTCCCTGAGGACTCACTGGAGGAATGT   1434
+                        ||||| |.|     ||||| |||    .||||.||.|.|| .||.||
+38301092-a275   1183 ---CTGAA-ATACCACCAGGAATGTC----TGGACACAGTAGA-CAAAGT   1223
+
+EMBOSS_001      1435 GCCATCACTTATTCAAATAGCCATGGCCCTTATGA------CT-------   1471
+                             ||.|||||.|.|.|    .|||||.||      ||       
+38301092-a275   1224 --------TTTTTCAACTGGAC----GCCTTAGGATACATGCTTCCAAAA   1261
+
+EMBOSS_001      1472 -CCAACCAGCCACATAGGAAAACCAAAATCAC---ATTTGAGGAAGACAA   1517
+                      |.||..|||||.|.||  ||||||.|.||||   ||.|.||  ||.|||
+38301092-a275   1262 ACAAAGTAGCCAAAAAG--AAACCAGAGTCACAGAATATCAG--AGCCAA   1307
+
+EMBOSS_001      1518 AGTCGACTCAACTCTCATT----GGCTCAT------CCT-CTCATGTTGA   1556
+                     ||  ||        .||||    || |.||      ||| |||.|.||.|
+38301092-a275   1308 AG--GA--------ACATTTGGAGG-TAATTCAGTACCTCCTCCTTTTCA   1346
+
+EMBOSS_001      1557 AC-----GGGAAGATGCTGTACACATTATTCCAGAAAATGAAAGTGATGA   1601
+                     ||     |||.||||                           |||     
+38301092-a275   1347 ACCTACAGGGGAGAT---------------------------AGT-----   1364
+
+EMBOSS_001      1602 TGAGGAAGAGGAAGAAAAAGGGCCA-GTGTCTCCCAGGAATCTG----CA   1646
+                        |||||    ||||..||||  | |.||||.||    .||||    ||
+38301092-a275   1365 ---GGAAG----AGAAGCAGGG--ATGGGTCTGCC----TTCTGTGCCCA   1401
+
+EMBOSS_001      1647 GGAGTC--TGAAGA---------GGAGGAAGTCCCCCAGGAGTCCTGGGA   1685
+                     ..|.||  ||.|||         .||.|||.|.|        |..|..||
+38301092-a275   1402 CAATTCATTGGAGATTGTTGTGGTGAAGAATTTC--------TTTTATGA   1443
+
+EMBOSS_001      1686 TGAAGG-----TTATTCGACTCCC-------TCAATTC--------CTCC   1715
+                     ||||||     |.|    ||||||       |.|||||        .|..
+38301092-a275   1444 TGAAGGAGAAATAA----ACTCCCATCAGCTTTAATTCAGGCAGGTTTAT   1489
+
+EMBOSS_001      1716 TGAAATGTTGGCCTCGTACAAG-----TCTTACAGCAGCACATTTCACTC   1760
+                     |||||.|.||         |||     ||||.|||.||||.|        
+38301092-a275   1490 TGAAAAGGTG---------AAGAAGCATCTTGCAGAAGCAAA--------   1522
+
+EMBOSS_001      1761 ATTAGAGGAACAGCAAGTCTGCATGGCTGTTGACATAGGCAGACATCGGT   1810
+                                         |||||||||       ||||      ..||
+38301092-a275   1523 --------------------GCATGGCTG-------AGGC------TTGT   1539
+
+EMBOSS_001      1811 GGGATCAAGT---GAAAAAGGAGGACCAAGAGGCAACAGGTCCCAGGCTC   1857
+                     |||.|| .||   ||.|||.|||      .||.|.||||     .|||| 
+38301092-a275   1540 GGGCTC-TGTCTGGACAAATGAG------CAGCCGACAG-----TGGCT-   1576
+
+EMBOSS_001      1858 AGCAGGGAGCTGCTG-----GA---TGAGAAAGGGCC-TGAAGTCT-TGC   1897
+                             |.|||||     ||   ||     ||||| ||..|||| || 
+38301092-a275   1577 --------GATGCTGCCCCTGACTCTG-----GGGCCGTGCGGTCTGTG-   1612
+
+EMBOSS_001      1898 AGGACTCACTGGATAG-ATGT----TATTC-----AAC--TCCTTCAG--   1933
+                      |..|||..||   || ||.|    |||||     .||  |||.||||  
+38301092-a275   1613 -GTTCTCTGTG---AGCATCTCTTCTATTCTCTTGCACCTTCCCTCAGCC   1658
+
+EMBOSS_001      1934 -------------GTTGTCTTGAAC-------TGA------CTGACTCAT   1957
+                                  ||..||||.|||       |||      |||     |
+38301092-a275   1659 TGGCAGTCTCTGTGTACTCTTCAACCCATAATTGAGCGAGGCTG-----T   1703
+
+EMBOSS_001      1958 GCCAGCCCTACAG--AAGT-GCCTTTTACGT---ATTGGAGCAACAGCGT   2001
+                     .|||||||.|..|  |.|| ||..||||.||   |||  ||.||      
+38301092-a275   1704 ACCAGCCCCAATGCCATGTAGCACTTTATGTCAAATT--AGAAA------   1745
+
+EMBOSS_001      2002 GTTGGCTTGGCTGTTGACATGGATGAAATTGAAAAGTACC-------AAG   2044
+                        |||                |||||||   |||.||.|       ||.
+38301092-a275   1746 ---GGC----------------ATGAAAT---AAACTAGCCCTTTATAAT   1773
+
+EMBOSS_001      2045 A----------------AGTGGAAGAAGACCAAGACCCATCATG-CCCCA   2077
+                     |                |||.||| ||.|.|||    .|||.|| |.||.
+38301092-a275   1774 ACAACTGTTGGAACAACAGTTGAA-AATAACAA----TATCTTGACTCCT   1818
+
+EMBOSS_001      2078 GGCTCAGCAGGGAGCTGCT---GGATGAGAAAGAGCCTGAAGTCTT----   2120
+                     ||.|.||        ||||   .|.||||       ||   |||||    
+38301092-a275   1819 GGTTGAG--------TGCTTTACGCTGAG-------CT---GTCTTTTCC   1850
+
+EMBOSS_001      2121 --------GCA-GGACTCACTGGG------------------------TA   2137
+                             ||| .||||   ||||                        ||
+38301092-a275   1851 GAATATGAGCACAGACT---TGGGGATATTAGTGTCACCTAGCGTTATTA   1897
+
+EMBOSS_001      2138 GATGGTATTCGACTCCTTCAGGTT----ATCTTGAAC-TGCCTGACTTAG   2182
+                     |.|.|||||   ||||||..|.||    ||    ||| |.||...||   
+38301092-a275   1898 GCTAGTATT---CTCCTTTTGTTTCCCCAT----AACATCCCCTCCT---   1937
+
+EMBOSS_001      2183 GCCAGCCCTACAG---CAGTGCTGTTTACTCATTGGAGGAACAGTAC---   2226
+                      ||..||| ||||   ||   ||.|..|||||||          |.|   
+38301092-a275   1938 -CCTTCCC-ACAGATCCA---CTCTCCACTCATT----------TCCATC   1972
+
+EMBOSS_001      2227 ----CTT-----------GGCTTGGCTCTTGACTTGGACAGAATTAAAAA   2261
+                         |||           ||||||.|.|||  ||     |||||..|   
+38301092-a275   1973 CTGTCTTATGCCACTTGGGGCTTGTCCCTT--CT-----AGAATGCA---   2012
+
+EMBOSS_001      2262 GGACCAAGAAGAGGAAGAAGACCAAGGCCCACC---ATGCCC--------   2300
+                                         .||..|||.|.||   .|||.|        
+38301092-a275   2013 --------------------TCCCTGGCTCCCCTGTGTGCACACTTGTAG   2042
+
+EMBOSS_001      2301 -CAGGCTCAGCA-----GGGAGCTGCTGGA----GGTAGT-AGAGCCTGA   2339
+                      .|||.|.||||     ||.|.|.|.||||    ||.||| ||||   ||
+38301092-a275   2043 TTAGGTTTAGCAATGGGGGCACCCGATGGAGCCTGGAAGTGAGAG---GA   2089
+
+EMBOSS_001      2340 AG----------------------------------TCTTGCA-GGACTC   2354
+                     ||                                  |||.||| .||.|.
+38301092-a275   2090 AGGTGAGGTCCGTATTTCTTCCCTCTCCCTCCCTGCTCTGGCACTGAGTA   2139
+
+EMBOSS_001      2355 ACTGG--ATAGATGTTAT---TCAACTCCTTCCAGTTG----TCTTGAAC   2395
+                     .||||  ||||.|| .||   ||.|.|.||| ||||.|    ||||..||
+38301092-a275   2140 TCTGGCAATAGCTG-CATCTGTCTATTACTT-CAGTGGCCACTCTTCCAC   2187
+
+EMBOSS_001      2396 AGCCTGACTCCTGCCAG-----CCCTATGGAA------------GTTCCT   2428
+                     ||||..|.|.||  |||     ||| ||.|.|            ||||||
+38301092-a275   2188 AGCCCCAATTCT--CAGTGGGTCCC-ATAGCATTATTTACCTTTGTTCCT   2234
+
+EMBOSS_001      2429 TT------TATGCATTGGAGGAAAAACATGTTGGCTTTTCTCTTGACGTG   2472
+                     ||      .|| ||    |||||.|.|..| .||| .|||||.|.||   
+38301092-a275   2235 TTAGCTCCCAT-CA----AGGAAGACCCAG-AGGC-ATTCTCCTCAC---   2274
+
+EMBOSS_001      2473 GGAGAAATT--GAAAAG-AAGGGGAAGGGGAA-------------GAAAA   2506
+                     ..||..|||  ||||.| |.|||..|||||||             |.|||
+38301092-a275   2275 CAAGGCATTAAGAAATGCATGGGTGAGGGGAACAGCGGTGTGCGTGTAAA   2324
+
+EMBOSS_001      2507 ----------------------GAAGG-----------GGAAGAAGAT--   2521
+                                           |.|||           ||..|.||||  
+38301092-a275   2325 GGTCCTGTGGCACCTCTCCTCTGCAGGCTGGAGGTCATGGCGGGAGATGC   2374
+
+EMBOSS_001      2522 --CAAAGA------------------AGAAAAGAAGAAGG----GGAAGA   2547
+                       ||..||                  ||  ||.||.|.||    ||||| 
+38301092-a275   2375 CGCATGGATTTGCCCTCCCTGCTGTCAG--AACAACAGGGTTCTGGAAG-   2421
+
+EMBOSS_001      2548 AAAGAAGGGGAAGAAAATCAAAACCCACCATGCCCCAGGC--TCAGCAGG   2595
+                       ||.||.|||                        |||||  |     ||
+38301092-a275   2422 --AGTAGAGGA------------------------CAGGCCGT-----GG   2440
+
+EMBOSS_001      2596 GAGCT--GCTGGAT-GAGA-AAGAGCCTGAAGTCTT----------GCAG   2631
+                     || ||  ||||..| |||| ||| ||..||.|..||          ||||
+38301092-a275   2441 GA-CTTGGCTGTCTAGAGACAAG-GCGGGAGGGATTTCCTTGAGAGGCAG   2488
+
+EMBOSS_001      2632 G--------------ACTCA--------------CTGGATAGATGTTATT   2653
+                     |              |||.|              ||||   |||| ||.|
+38301092-a275   2489 GGACATGTGGTGGTTACTAATCATTGTGAGGTGTCTGG---GATG-TAAT   2534
+
+EMBOSS_001      2654 CGA--------CTCCT------TCAGGTTATCTTGAACTGCCTGACTTAG   2689
+                     .||        ||.||      |||..||||.|  ||      .|.||||
+38301092-a275   2535 GGATGGGAAATCTACTAAGAAGTCAACTTATGT--AA------TAATTAG   2576
+
+EMBOSS_001      2690 GCCAGCCCT----------ACAGCAGTGCTGT-----TTACTCATTGGAG   2724
+                     ...|||.||          |||| ||..||||     |.|| |||.|..|
+38301092-a275   2577 AAAAGCTCTAGTTCTGAGGACAG-AGACCTGTTGGAGTCAC-CATAGTGG   2624
+
+EMBOSS_001      2725 GAA----------------CAG------TACCTTG-GCTTGGCTCTTGAC   2751
+                     |||                |||      |||||.| |||    |||||||
+38301092-a275   2625 GAATTTTTGACCTGGCATCCAGTTCAGATACCTGGAGCT----TCTTGAC   2670
+
+EMBOSS_001      2752 -GTGGACAGAATTAAAAAGGACC-----AAGAAGAGGAAGAAGAC--CAA   2793
+                      |.||..|||.|      |||.|     ..||||||  .||||.|  |||
+38301092-a275   2671 TGAGGGGAGATT------GGATCCCTTGGGGAAGAG--TGAAGCCTTCAA   2712
+
+EMBOSS_001      2794 GGC--CCAC------------CATGCCCCAGGCTC----AGCAGGGAGCT   2825
+                     .||  ||||            |.||||.|||.|||    ||        |
+38301092-a275   2713 TGCTGCCACAAGTGTGATCCGCCTGCCTCAGCCTCCCAAAG--------T   2754
+
+EMBOSS_001      2826 GCTGG------AGGTAGTAGAGCC----TGAAGTCTTGCAGGACTCACTG   2865
+                     |||||      ||| .|| |||||    ||       .|.||.|||    
+38301092-a275   2755 GCTGGGATTACAGG-CGT-GAGCCACCATG-------CCCGGCCTC----   2791
+
+EMBOSS_001      2866 GATAGATGT----TATTCAA-----CTCCTTCCAGTTGTCT-TGAACAGC   2905
+                           |.|    ||||.||     .||.||    ||.|.| |.|.||| 
+38301092-a275   2792 ------TTTTTTATATTTAAAAAATATCATT----TTATATATTATCAG-   2830
+
+EMBOSS_001      2906 CTGACTCCTGCC----------AGCCCTATGGAAGTTCCTT-TTATGCAT   2944
+                              |.|          |.||.||||  |.|.|||| |.||.|| 
+38301092-a275   2831 ---------GGCAAAAGAGAAAAACCGTATG--ATTACCTTGTCATACA-   2868
+
+EMBOSS_001      2945 TGGAGGAAAAACATGTTGG------------CTTTTCTCTTGACGTGGGA   2982
+                       .||.||||.||| ||||            |||||.||.||        
+38301092-a275   2869 --CAGTAAAAGCAT-TTGGCAAAATTGAAAACTTTTTTCATG--------   2907
+
+EMBOSS_001      2983 GAAATTGA-AAAGAAGGGGAAGGGGAAGAAA----AGAAGGGGAAGAA-G   3026
+                        |||.| |||             ||.|||    ||||       || |
+38301092-a275   2908 ---ATTTATAAA-------------AACAAACCCCAGAA-------AATG   2934
+
+EMBOSS_001      3027 ATCAAAGAAGGAAAGAAGAAGGGGAAGAAAAGAAGGGGAAGAAGATCAAA   3076
+                     .|||      |.|.||.|       ||||.||||||          |||.
+38301092-a275   2935 CTCA------GCATGATG-------AGAACAGAAGG----------CAAC   2961
+
+EMBOSS_001      3077 AC--CCACCATGCCCCAGGCTCAACGGCGTGCTGATGGAAGTGGAAGAGC   3124
+                     ||  |||    .|||||   |.||.|||                      
+38301092-a275   2962 ACTTCCA----ACCCCA---TTAATGGC----------------------   2982
+
+EMBOSS_001      3125 CTGAAGTCTTGCAGGACTCACTGG--------------ATGG--------   3152
+                         ||..|||.||.||.|||.||              ||||        
+38301092-a275   2983 ----AGATTTGAAGAACCCACAGGTAACATTATATTAAATGGCATAAGAT   3028
+
+EMBOSS_001      3153 ---ATGTTATTCTACTCCGTC-------AATGTACTTTGAACTACCTG--   3190
+                        |||.|.|||||.|...||       ||.|||    ||| ||||||  
+38301092-a275   3029 TGAATGCTTTTCTATTAAATCAGAGAAAAAAGTA----GAA-TACCTGTT   3073
+
+EMBOSS_001      3191 ---ACTCATTC-----CAGCACTACAGAAGTGTGTTTTACTCATTTGAGG   3232
+                        |||| |||     |||||             ||.||||         
+38301092-a275   3074 GTTACTC-TTCTAATTCAGCA-------------TTATACT---------   3100
+
+EMBOSS_001      3233 AACAGC---ACATCAGCTTCGCCCTTTACGTGGACAATAGGTTTTTTACT   3279
+                      |.|||   |.||||            |.|    |||||           
+38301092-a275   3101 -AGAGCTCTAAATCA------------ATG----CAATA-----------   3122
+
+EMBOSS_001      3280 TTGACGGTGACAAGTCTCCACCTGGTGTTCCAGATGGAAGTCATATTCCC   3329
+                                ||||                      |||..|.|||   
+38301092-a275   3123 -----------AAGT----------------------AAGAAAAATT---   3136
+
+EMBOSS_001      3330 ACAATAA---------------   3336
+                       |||||               
+38301092-a275   3137 --AATAAAGTATTGAAAAGAAA   3156
+
+
+#---------------------------------------
+#---------------------------------------

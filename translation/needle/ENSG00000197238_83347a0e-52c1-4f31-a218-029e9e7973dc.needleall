@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 18:49:55
+# Commandline: needle
+#    -outfile needle/ENSG00000197238_83347a0e-52c1-4f31-a218-029e9e7973dc.needleall
+#    -asequence SA/ENSG00000197238.fa
+#    -bsequence SB/83347a0e-52c1-4f31-a218-029e9e7973dc.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000197238_83347a0e-52c1-4f31-a218-029e9e7973dc.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 83347a0e-52c1-4f31-a218-029e9e7973dc_ENSG00000197238.5
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 389
+# Identity:     312/389 (80.2%)
+# Similarity:   312/389 (80.2%)
+# Gaps:          77/389 (19.8%)
+# Score: 1560.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---------------------------------ATGTCTGGCCGCGGCAA     17
+                                                      |||||||||||||||||
+83347a0e-52c1      1 ACAAAGCGTTGGGTGAGACTCCTCTTGCTCGTCATGTCTGGCCGCGGCAA     50
+
+EMBOSS_001        18 AGGCGGGAAGGGTCTTGGCAAAGGCGGCGCTAAGCGCCACCGTAAAGTAC     67
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+83347a0e-52c1     51 AGGCGGGAAGGGTCTTGGCAAAGGCGGCGCTAAGCGCCACCGTAAAGTAC    100
+
+EMBOSS_001        68 TGCGCGACAATATCCAGGGCATCACCAAGCCGGCCATCCGGCGCCTTGCT    117
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+83347a0e-52c1    101 TGCGCGACAATATCCAGGGCATCACCAAGCCGGCCATCCGGCGCCTTGCT    150
+
+EMBOSS_001       118 CGCCGCGGCGGCGTGAAGCGCATCTCCGGCCTCATCTACGAGGAGACTCG    167
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+83347a0e-52c1    151 CGCCGCGGCGGCGTGAAGCGCATCTCCGGCCTCATCTACGAGGAGACTCG    200
+
+EMBOSS_001       168 CGGGGTGCTGAAGGTGTTCCTGGAGAACGTGATCCGGGACGCCGTGACCT    217
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+83347a0e-52c1    201 CGGGGTGCTGAAGGTGTTCCTGGAGAACGTGATCCGGGACGCCGTGACCT    250
+
+EMBOSS_001       218 ATACAGAGCACGCCAAGCGCAAGACGGTCACCGCCATGGATGTGGTCTAC    267
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+83347a0e-52c1    251 ATACAGAGCACGCCAAGCGCAAGACGGTCACCGCCATGGATGTGGTCTAC    300
+
+EMBOSS_001       268 GCGCTCAAGCGCCAGGGCCGCACCCTCTACGGTTTCGGTGGTTGA-----    312
+                     |||||||||||||||||||||||||||||||||||||||||||||     
+83347a0e-52c1    301 GCGCTCAAGCGCCAGGGCCGCACCCTCTACGGTTTCGGTGGTTGAGCGTC    350
+
+EMBOSS_001       312 ---------------------------------------    312
+                                                            
+83347a0e-52c1    351 CCTTTCTATCAATAAAAGGCCCTTTTCAGGGCCACCCTA    389
+
+
+#---------------------------------------
+#---------------------------------------

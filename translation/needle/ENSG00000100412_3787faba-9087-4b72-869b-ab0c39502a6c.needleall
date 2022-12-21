@@ -1,0 +1,381 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 01:21:22
+# Commandline: needle
+#    -outfile needle/ENSG00000100412_3787faba-9087-4b72-869b-ab0c39502a6c.needleall
+#    -asequence SA/ENSG00000100412.fa
+#    -bsequence SB/3787faba-9087-4b72-869b-ab0c39502a6c.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000100412_3787faba-9087-4b72-869b-ab0c39502a6c.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 3787faba-9087-4b72-869b-ab0c39502a6c_ENSG00000100412.17
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4285
+# Identity:    1831/4285 (42.7%)
+# Similarity:  1831/4285 (42.7%)
+# Gaps:        2259/4285 (52.7%)
+# Score: 6290.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---ATGGCGCCCTACAGCCTACTGGTGACTCGGCTGCAGAAAGCTCTGGG     47
+                        |        ||.||            |.|.|||.||||         
+3787faba-9087      1 AAAA--------TAAAG------------TTGTCTGGAGAA---------     21
+
+EMBOSS_001        48 TGTGCGGCAGTACCATGTG------GCCTCAGTCCTGTGCCAACGGGCC-     90
+                        |.|.||.|   |||||      |    |.|.||.|.||..|.|||| 
+3787faba-9087     22 ---GTGACAAT---ATGTGAAAAGAG----ATTTCTATACCGTCTGGCCG     61
+
+EMBOSS_001        91 -----AAGGTGGCGATGA----------GCCACT------TTGAGCCCAA    119
+                          |||  |||.|| |          ||| ||      ||||      
+3787faba-9087     62 AAAATAAG--GGCAAT-ATAATGTGTTCGCC-CTTATTCATTGA------    101
+
+EMBOSS_001       120 CGAGTACATCCATTATGACCTGCTAGAGAAGAACATTAACATT-----GT    164
+                       ||||     |||.|            |||||.|..||.|||     ||
+3787faba-9087    102 --AGTA-----ATTTT------------AAGAAAAAAAATATTTGGTGGT    132
+
+EMBOSS_001       165 T------------CGCAAACGACTGAACCGGCCGCT--------GACACT    194
+                     |            .|.|||..|||.||        |        ||.|||
+3787faba-9087    133 TTAATAATTAGAAAGTAAATTACTAAA--------TTAATAAAAGAAACT    174
+
+EMBOSS_001       195 CTCGGAGAAGATTG------TGTATGGACACCTGGATGACCCCGCCAGCC    238
+                     .||        |||      |.|||||.|...|              |||
+3787faba-9087    175 ATC--------TTGGCTGGTTATATGGGCTTTT--------------GCC    202
+
+EMBOSS_001       239 AGGAA--------------------ATTGAGCGAGGCAAGTCGTAC-CTG    267
+                     ||.||                    .|||||..||   ||||.|.| |||
+3787faba-9087    203 AGTAATCCCAACCCTTTTTTTTTTTTTTGAGACAG---AGTCTTGCTCTG    249
+
+EMBOSS_001       268 CGGCTGCGGCCGGACCGT---GTGGC-CA------------TGCAGGATG    301
+                     ...|...|||.|||  ||   ||||| ||            |||||..|.
+3787faba-9087    250 TCACCCAGGCTGGA--GTGCAGTGGCACAATCTCGGCTCACTGCAGCCTC    297
+
+EMBOSS_001       302 CGACGGCCCAGATGGCCATGCTC---CAGTT---CATCAGC---------    336
+                     || |..|||||        |.||   |||||   |.|||||         
+3787faba-9087    298 CG-CCTCCCAG--------GTTCAAGCAGTTCTGCCTCAGCCTCCCGAGT    338
+
+EMBOSS_001       337 AGCGGGCTGTCCAAGGTGGCTGTGCCATCCACCATCCACTGTGACCATCT    386
+                     |||.||...|.||    |||   |||..|||||||.| |||      .||
+3787faba-9087    339 AGCTGGGACTACA----GGC---GCCCGCCACCATGC-CTG------GCT    374
+
+EMBOSS_001       387 GATT------------GAAGCCCAGGTTGGGGGCGAGAAAGACCTGCGCC    424
+                     .|||            |.||    .|.||||||....|     |||.|  
+3787faba-9087    375 AATTTTTGTATTTTTAGTAG----AGATGGGGGTTTCA-----CTGTG--    413
+
+EMBOSS_001       425 GGGCCAAGGACATCAACCAGG-AAGTTTATAATTTCCTGGCAACTGCAGG    473
+                                 |.|.||||| .|||.|..|| .|||||   ||..||.|
+3787faba-9087    414 ------------TTAGCCAGGCTAGTCTGGAA-CTCCTG---ACCTCAAG    447
+
+EMBOSS_001       474 TGCCAAATATG---GCGTGGGCTTCTGGAAGCCTGGATCTGGAATCATTC    520
+                     ||    ||.||   ||.|.|||.|||..||     |.|.|||        
+3787faba-9087    448 TG----ATCTGCCTGCCTCGGCCTCTCAAA-----GTTGTGG--------    480
+
+EMBOSS_001       521 ACCAGATTATTCTGGAAAACTATGCGTACCCTGGTGTTCTTCTGATTGGC    570
+                         |||||                     |.||||      |||  |.|
+3787faba-9087    481 ----GATTA---------------------CAGGTG------TGA--GCC    497
+
+EMBOSS_001       571 A------CTGACTCCCACACCCCCAATGGTGGCGGCCTTGGGGGCATCTG    614
+                     |      |||.|     ||..|||||                  ||    
+3787faba-9087    498 ACCGCGCCTGGC-----CAGTCCCAA------------------CA----    520
+
+EMBOSS_001       615 CATTG-GAGTTGGGGGTGCCGATGCTGTGGATG-TCATGGCTGGGATCCC    662
+                     |.||| |||        ||.||.||  .|||.| |||    |..||||||
+3787faba-9087    521 CTTTGAGAG--------GCTGAGGC--AGGAGGATCA----TTTGATCCC    556
+
+EMBOSS_001       663 CTGGGAGCTGAAGTGC--CC-------CAAGGTGA----TTGGCGTGAAG    699
+                       .||||.|.|||.||  ||       ||.|||||    |||        
+3787faba-9087    557 --AGGAGTTCAAGAGCAGCCTGGGCAACATGGTGAGACTTTG--------    596
+
+EMBOSS_001       700 CTGACGGGCTCTCTCT------------------------CCGGT----T    721
+                                |||||                        |.|||    |
+3787faba-9087    597 -----------TCTCTACAAAAACAATTTATTGAATTAGCCAGGTGTGGT    635
+
+EMBOSS_001       722 GGTCCTCACCCAAAGATGTGATCCTGAAGGTGGCAGGCATCCTCACGGTG    771
+                     |||.||||||      ||||        |||..|||  .|.||||    |
+3787faba-9087    636 GGTACTCACC------TGTG--------GGTCCCAG--CTACTCA----G    665
+
+EMBOSS_001       772 AAAGGTGGCACAGGTGCAATCG-TGGAATACCACGG-------GCCTG--    811
+                     .|||.||...||||.|.|.|.| |.||...||| ||       |.|||  
+3787faba-9087    666 GAAGTTGAGGCAGGAGGAGTTGCTTGAGCCCCA-GGAGTTAGAGACTGCA    714
+
+EMBOSS_001       812 GTG--------TAGACT---CCAT----CTCCTGCACTGGCATGGCGACA    846
+                     |||        |.||||   ||.|    ||||.|| |||    |||||||
+3787faba-9087    715 GTGAGCAAGCCTCGACTGTGCCCTTGCACTCCAGC-CTG----GGCGACA    759
+
+EMBOSS_001       847 ------------ATCTGCAACA---------------TGGGT--GCAGAA    867
+                                 |||| |||||               ||..|  .|||||
+3787faba-9087    760 GAGCAAGACCCCATCT-CAACAACAACAAAAAGAGACTGTCTAGACAGAA    808
+
+EMBOSS_001       868 ATTGGG-------------------GCC-----------ACCACTT----    883
+                     |.||.|                   |.|           |.|.|||    
+3787faba-9087    809 AGTGCGATGTTATTCAGGTTTTATAGACTTTTTAAAAAGAACTCTTATTG    858
+
+EMBOSS_001       884 CCGTGTT----------CCCTTACAACC-------------ACAGGAT-G    909
+                     ||.||.|          .|.|||.||||             |.||.|| .
+3787faba-9087    859 CCCTGATTATAAAACAATCTTTAAAACCCAGAAAATACTAGAAAGTATAA    908
+
+EMBOSS_001       910 AAGAAGTACCTGAGCAAGACCGGCCGGGAAGACATTGCCAATCTAGCTGA    959
+                     ||||||.|..|.||||...||.|.|    ||.|...|||.|||.||  ||
+3787faba-9087    909 AAGAAGAAAATTAGCATCTCCTGTC----AGCCCCAGCCCATCAAG--GA    952
+
+EMBOSS_001       960 TG--AATTC-AAGGATCACT-TG--GTGCCTGACCC------------TG    991
+                     ||  ..||| .|.||.|.|| ||  |||||| ||.|            |.
+3787faba-9087    953 TGGCTGTTCGTATGAGCCCTCTGACGTGCCT-ACACGTGTACATGATATT   1001
+
+EMBOSS_001       992 GCTG-----------------------------CCATTATGACCAA---C   1009
+                     ||||                             .|||.|||.||||   |
+3787faba-9087   1002 GCTGTAAAAGGGGTCATAGTCCTAATGTGTTCAGCATCATGGCCAATGGC   1051
+
+EMBOSS_001      1010 TA----------ATTGAAATTA----ACCTCAGTGAGCTGAAGCC-----   1040
+                     ||          .||.||||.|    ||.||| ||||.|  ||||     
+3787faba-9087   1052 TACAGCATCTTTCTTCAAATGACGCCACGTCA-TGAGTT--AGCCTGTCC   1098
+
+EMBOSS_001      1041 -----------ACACATC-----------AATGGGCCCT----------T   1058
+                                |.|..||           |.|||.|.||          |
+3787faba-9087   1099 TTTATTGTTGGATATTTCGGTTGCTTGCAACTGGTCTCTGTTAAAAAAGT   1148
+
+EMBOSS_001      1059 CACCCCTGACCTGGCTCACCCTGTGGCAGAAG-----------TGGGCAA   1097
+                     |        .|||||.||.||     ||||.|           |||.|||
+3787faba-9087   1149 C--------TCTGGCCCAGCC-----CAGATGGTGAACTCTTTTGGCCAA   1185
+
+EMBOSS_001      1098 G-GTGGCAGA----GAAGGAAGGATGG---CCTCTGGACA-----TCCGA   1134
+                     | .||| |.|    ||||..||| |||   ||||||..||     |||..
+3787faba-9087   1186 GTCTGG-ATAATTTGAAGTCAGG-TGGAGACCTCTGCTCACTGTCTCCTC   1233
+
+EMBOSS_001      1135 GTG------------------------------GGTCTAATTGGTAGCTG   1154
+                     .||                              |||||||||||||||||
+3787faba-9087   1234 CTGACCCTTAACCCCACCACCCACAATGCACCAGGTCTAATTGGTAGCTG   1283
+
+EMBOSS_001      1155 CACCAATTCAAGCTATGAAGATATGGGGCGCTCAGCAGCTGTGGCCAAGC   1204
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1284 CACCAATTCAAGCTATGAAGATATGGGGCGCTCAGCAGCTGTGGCCAAGC   1333
+
+EMBOSS_001      1205 AGGCACTGGCCCATGGCCTCAAGTGCAAGTCCCAGTTCACCATCACTCCA   1254
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1334 AGGCACTGGCCCATGGCCTCAAGTGCAAGTCCCAGTTCACCATCACTCCA   1383
+
+EMBOSS_001      1255 GGTTCCGAGCAGATCCGCGCCACCATTGAGCGGGACGGCTAT--------   1296
+                     ||||||||||||||||||||||||||||||||||||||||||        
+3787faba-9087   1384 GGTTCCGAGCAGATCCGCGCCACCATTGAGCGGGACGGCTATGTGAGTGC   1433
+
+EMBOSS_001      1296 --------------------------------------------------   1296
+                                                                       
+3787faba-9087   1434 CCATATCCCCCTGCCCATCTCCCCCACCCCATGCTGAGTAATGCCTCCAG   1483
+
+EMBOSS_001      1296 --------------------------------------------------   1296
+                                                                       
+3787faba-9087   1484 GCGGCACAAGCCCAGAGGCCTGTTGGGCCGGGGCTGGGGCAGGTCCCAGT   1533
+
+EMBOSS_001      1296 --------------------------------------------------   1296
+                                                                       
+3787faba-9087   1534 GGCTGCCCTGGGGTTCCAGTACAGCACTTCGTCCTGCAGCCACCACATCA   1583
+
+EMBOSS_001      1296 --------------------------------------------------   1296
+                                                                       
+3787faba-9087   1584 CCCCTTCCCATCAGACTCTCACCCACCCTTGACATTCTGTCTTCCTCTCT   1633
+
+EMBOSS_001      1297 ---------GCACAGATCTTGAGGGATCTGGGTGGCATTGTCCTGGCCAA   1337
+                              |||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1634 CCCTGGCAGGCACAGATCTTGAGGGATCTGGGTGGCATTGTCCTGGCCAA   1683
+
+EMBOSS_001      1338 TGCTTGTGGCCCCTGCATTGGCCAGTGGGACAGGAAGGACATCAAGAAGG   1387
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1684 TGCTTGTGGCCCCTGCATTGGCCAGTGGGACAGGAAGGACATCAAGAAGG   1733
+
+EMBOSS_001      1388 GGGAGAAGAACACAATCGTCACCTCCTACAACAGGAACTTCACGGGCCGC   1437
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1734 GGGAGAAGAACACAATCGTCACCTCCTACAACAGGAACTTCACGGGCCGC   1783
+
+EMBOSS_001      1438 AACGACGCAAACCCCGAGACCCATGCCTTTGTCACGTCCCCAGAGATTGT   1487
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1784 AACGACGCAAACCCCGAGACCCATGCCTTTGTCACGTCCCCAGAGATTGT   1833
+
+EMBOSS_001      1488 CACAGCCCTGGCCATTGCGGGAACCCTCAAGTTCAACCCAGAGACCGACT   1537
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1834 CACAGCCCTGGCCATTGCGGGAACCCTCAAGTTCAACCCAGAGACCGACT   1883
+
+EMBOSS_001      1538 ACCTGACGGGCACGGATGGCAAGAAGTTCAGGCTGGAGGCTCCGGATGCA   1587
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1884 ACCTGACGGGCACGGATGGCAAGAAGTTCAGGCTGGAGGCTCCGGATGCA   1933
+
+EMBOSS_001      1588 GATGAGCTTCCCAAAGGGGAGTTTGACCCAGGGCAGGACACCTACCAGCA   1637
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1934 GATGAGCTTCCCAAAGGGGAGTTTGACCCAGGGCAGGACACCTACCAGCA   1983
+
+EMBOSS_001      1638 CCCACCCAAGGACAGCAGCGGGCAGCATGTGGACGTGAGCCCCACCAGCC   1687
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   1984 CCCACCCAAGGACAGCAGCGGGCAGCATGTGGACGTGAGCCCCACCAGCC   2033
+
+EMBOSS_001      1688 AGCGCCTGCAGCTCCTGGAGCCTTTTGACAAGTGGGATGGCAAGGACCTG   1737
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   2034 AGCGCCTGCAGCTCCTGGAGCCTTTTGACAAGTGGGATGGCAAGGACCTG   2083
+
+EMBOSS_001      1738 GAGGACCTGCAGATCCTCAT------------------------------   1757
+                     ||||||||||||||||||||                              
+3787faba-9087   2084 GAGGACCTGCAGATCCTCATCAAGGTCAGCAGCATGGGGACGGCAGGACA   2133
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2134 GCCCCACCCTGCCAGGGCCCCCCGTCCCCTGAGCATCGGGAAGGGCCATG   2183
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2184 AACCTGGAGGAAGTGAGCACAGTCAAGACGCAGGTGGGAGATGGAAGGGA   2233
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2234 GGTTTGGCTGCAGAGCAGAGAGGGTATCGCAACGCAGTCCAGCGTCCCCC   2283
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2284 TTCTCTGTGGCCCCGAACTGGGCAGAGCTAGATCTGGCCAGCCTCCGTCT   2333
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2334 GGGGCCCTCAGCCATCCAGCAGCAGCTGATCAGAGCCACCTCCAGTGGGT   2383
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2384 GTGGGCAGGTGAGTACAGCTCAGGCTGGGCTGGGACAGTGTGTGTGATTG   2433
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2434 CACAGCAGGCTCCACACCTGGCACGTCCACACAGGCTCTGGAAGCCATGG   2483
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2484 ACAACTCCTGCCCCCACAGTTGGGCACCCGTGGATATGGGATGGCTTGTG   2533
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2534 TTTGGCACCGACCAAAAACAAGCCTTTTTGGTGTGGCCAGAGGCCTCCAA   2583
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2584 TCTGTGTCAGATATTTATTTATGCTGCTTATTAAGGGGTCTCCAGGCACC   2633
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2634 CCTGTGACAGAAGAGACTAATCAGTCATCAGCCAGGACCCAGGCATGTCC   2683
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2684 TGGGCTCCTGTGTCCAGCATGAGGTCTGTGGCTGATCTTGCAGCTGAGGC   2733
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2734 CTGAAGGGTGAGCGAACATTGACCTGTCCCAACTTTGGGCGGCCTCTGCC   2783
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2784 CCATAAGGGAGACTGAGCAGCCAGAGGCCTTTGAGGGGATGAAGGCCTGG   2833
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2834 CCTGAGCCCATGTGGCCTTAGGGTGGAAGCACCAGGACCACAGAACACGT   2883
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2884 GTCTGAAGACTTGCCTGCCTCTCACCCCTCTGTCACCCCTCCTGGGCCCC   2933
+
+EMBOSS_001      1757 --------------------------------------------------   1757
+                                                                       
+3787faba-9087   2934 GGGGCCTGCTGCCTGCCTCTGGAGGGCTTGTCATCCACCCCTCCAGGGCC   2983
+
+EMBOSS_001      1758 ---------------------------------CAAGGTCAAAGGGAAGT   1774
+                                                      |||||||||||||||||
+3787faba-9087   2984 ATGCCCTGACCTCTGTCCTCTCTACTTACCACCCAAGGTCAAAGGGAAGT   3033
+
+EMBOSS_001      1775 GTACCACTGACCACATCTCAGCTGCTGGCCCCTGGCTCAAGTTCCGTGGG   1824
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3034 GTACCACTGACCACATCTCAGCTGCTGGCCCCTGGCTCAAGTTCCGTGGG   3083
+
+EMBOSS_001      1825 CACTTGGATAACATCTCCAACAACCTGCTCATTGGTGCCATCAACATTGA   1874
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3084 CACTTGGATAACATCTCCAACAACCTGCTCATTGGTGCCATCAACATTGA   3133
+
+EMBOSS_001      1875 AAACGGCAAGGCCAACTCCGTGCGCAATGCCGTCACTCAGGAGTTTGGCC   1924
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3134 AAACGGCAAGGCCAACTCCGTGCGCAATGCCGTCACTCAGGAGTTTGGCC   3183
+
+EMBOSS_001      1925 CCGTCCCTGACACTGCCCGCTACTACAAGAAACATGGCATCAGGTGGGTG   1974
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3184 CCGTCCCTGACACTGCCCGCTACTACAAGAAACATGGCATCAGGTGGGTG   3233
+
+EMBOSS_001      1975 GTGATCGGAGACGAGAACTACGGCGAGGGCTCGAGCCGGGAGCATGCAGC   2024
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3234 GTGATCGGAGACGAGAACTACGGCGAGGGCTCGAGCCGGGAGCATGCAGC   3283
+
+EMBOSS_001      2025 TCTGGAGCCTCGCCACCTTGGGGGCCGGGCCATCATCACCAAGAGCTTTG   2074
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3284 TCTGGAGCCTCGCCACCTTGGGGGCCGGGCCATCATCACCAAGAGCTTTG   3333
+
+EMBOSS_001      2075 CCAGGATCCACGAGACCAACCTGAAGAAACAGGGCCTGCTGCCTCTGACC   2124
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3334 CCAGGATCCACGAGACCAACCTGAAGAAACAGGGCCTGCTGCCTCTGACC   3383
+
+EMBOSS_001      2125 TTCGCTGACCCGGCTGACTACAACAAGATTCACCCTGTGGACAAGCTGAC   2174
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3384 TTCGCTGACCCGGCTGACTACAACAAGATTCACCCTGTGGACAAGCTGAC   3433
+
+EMBOSS_001      2175 CATTCAGGGCCTGAAGGACTTCACCCCTGGCAAGCCCCTGAAGTGCATCA   2224
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3434 CATTCAGGGCCTGAAGGACTTCACCCCTGGCAAGCCCCTGAAGTGCATCA   3483
+
+EMBOSS_001      2225 TCAAGCACCCCAACGGGACCCAGGAGACCATCCTCCTGAACCACACCTTC   2274
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3484 TCAAGCACCCCAACGGGACCCAGGAGACCATCCTCCTGAACCACACCTTC   3533
+
+EMBOSS_001      2275 AACGAGACGCAGATTGAGTGGTTCCGCGCTGGCAGTGCCCTCAACAGAAT   2324
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3787faba-9087   3534 AACGAGACGCAGATTGAGTGGTTCCGCGCTGGCAGTGCCCTCAACAGAAT   3583
+
+EMBOSS_001      2325 GAAGGAACTGCAACAGTGA-------------------------------   2343
+                     |||||||||||||||||||                               
+3787faba-9087   3584 GAAGGAACTGCAACAGTGAGGGCAGTGCCTCCCCGCCCCGCCGCTGGCGT   3633
+
+EMBOSS_001      2343 --------------------------------------------------   2343
+                                                                       
+3787faba-9087   3634 CAAGTTCAGCTCCACGTGTGCCATCAGTGGATCCGATCCGTCCAGCCATG   3683
+
+EMBOSS_001      2343 --------------------------------------------------   2343
+                                                                       
+3787faba-9087   3684 GCTTCCTATTCCAAGATGGTGTGACCAGACATGCTTCCTGCTCCCCGCTT   3733
+
+EMBOSS_001      2343 --------------------------------------------------   2343
+                                                                       
+3787faba-9087   3734 AGCCCACGGAGTGACTGTGGTTGTGGTGGGGGGGTTCTTAAAATAACTTT   3783
+
+EMBOSS_001      2343 --------------------------------------------------   2343
+                                                                       
+3787faba-9087   3784 TTAGCCCCCGTCTTCCTATTTTGAGTTTGGTTCAGATCTTAAGCAGCTCC   3833
+
+EMBOSS_001      2343 --------------------------------------------------   2343
+                                                                       
+3787faba-9087   3834 ATGCAACTGTATTTATTTTTGATGACAAGACTCCCATCTAAAGTTTTTCT   3883
+
+EMBOSS_001      2343 --------------------------------------------------   2343
+                                                                       
+3787faba-9087   3884 CCTGCCTGATCATTTCATTGGTGGCTGAAGGATTCTAGAGAACCTTTTGT   3933
+
+EMBOSS_001      2343 -----------------------------------   2343
+                                                        
+3787faba-9087   3934 TCTTGCAAGGAAAACAAGAATCCAAAACCAGTGAC   3968
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,233 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 09:17:15
+# Commandline: needle
+#    -outfile needle/ENSG00000179023_593c42ab-a570-4161-9d25-254003d49c01.needleall
+#    -asequence SA/ENSG00000179023.fa
+#    -bsequence SB/593c42ab-a570-4161-9d25-254003d49c01.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000179023_593c42ab-a570-4161-9d25-254003d49c01.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 18485000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2401
+# Identity:     480/2401 (20.0%)
+# Similarity:   480/2401 (20.0%)
+# Gaps:        1809/2401 (75.3%)
+# Score: 658.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGTTCCCCAGAGGAGCAGAGGCCCAGGACTGGCATTTGGATATGCAGCT     50
+                                                                       
+18485000           0 --------------------------------------------------      0
+
+EMBOSS_001        51 GACCGGCAAGGTGGTGCTGTCAGCCGCTGCCCTGCTCCTGGTGACTGTGG    100
+                                                             |.|...||||
+18485000           1 ----------------------------------------GGGCAGGTGG     10
+
+EMBOSS_001       101 -CCTACAGGCTGTACAAGTCGAGGCCTGC--CCCAGCCCAGCGGTGGGGT    147
+                      ||||.|     |.|||       |||.|  ||   ||.|   |||.|| 
+18485000          11 ACCTAGA-----TCCAA-------CCTTCAACC---CCTA---GTGAGG-     41
+
+EMBOSS_001       148 GGGAATGGCCAGGCAGAAGCCAAGG-----AGGAAGC-AGAGGGCTCAGG    191
+                           |||||||||||.|.|||||     |..|||| ||          
+18485000          42 ------GGCCAGGCAGAGGACAAGGCAACAACTAAGCTAG----------     75
+
+EMBOSS_001       192 GCAGCCTGCTGTACAGGAGGCTTCTCCTGGGGTGCTCCTGAGGGGG----    237
+                               |||.||     ||||                   ||    
+18485000          76 ----------GTAAAG-----TTCT-------------------GGAAAG     91
+
+EMBOSS_001       238 ---CCAAGACGTC-GGAGGAGCAGCAAGCGGGCTGAAGCACCACAGGGCT    283
+                        |||||.|  | ||||||.|             |||.|||||   .||
+18485000          92 TTTCCAAGCC--CAGGAGGAAC-------------AAGGACCAC---TCT    123
+
+EMBOSS_001       284 GCAGCTGTGAGAA----TCCAAGAGGCC----CCTATGTCC--TGGTCAC    323
+                     |       ||.||    ||||| ||.||    |.||   ||  ||||   
+18485000         124 G-------GAAAAACATTCCAA-AGCCCATTGCATA---CCTGTGGT---    159
+
+EMBOSS_001       324 GGGGGCCACTTCCACAGACAGGAAGCCCCAGAGAAAAGGCTCAGGTGAGG    373
+                                                  |||||..|||         ||
+18485000         160 -----------------------------AGAGACTAGG---------GG    171
+
+EMBOSS_001       374 AGCGGGGCGGGCAGGGCT----CGGAC---TCTGAGCAGGTGCCTCCTTG    416
+                     ||.|...|   |||||.|    |||||   |.||             ||.
+18485000         172 AGTGATTC---CAGGGATAAGACGGACAAATGTG-------------TTC    205
+
+EMBOSS_001       417 CTGCCCCAGCCAGGAAACCAGAACAGCTGTTGGCAGTAACCCTGACCCTC    466
+                     |.|.|||                ||||||.|||         ||      
+18485000         206 CAGGCCC----------------CAGCTGATGG---------TG------    224
+
+EMBOSS_001       467 CCCATTTCCCCCGCT-TGGGCAGCGAACCGAAGAGCTCCCCAGCTGGA-C    514
+                                 |.| |||.|..|..|   |.|||      ||.|||| |
+18485000         225 ------------GGTGTGGTCTTCATA---ATGAG------AGGTGGAGC    253
+
+EMBOSS_001       515 TCA---TTGCAGCAGCCGACGGCAGCTGTGCCGGTGGTGAGCCTTCTCCA    561
+                     |.|   |||           |||  |||.||   |||..||         
+18485000         254 TGAGATTTG-----------GGC--CTGGGC---TGGGAAG---------    278
+
+EMBOSS_001       562 TGGCAGGACAGTAAACCCCGTGAGCATCCAGGACTGGGGCAACTAGAACC    611
+                         |||  ||||.||      ||  ||||  .||          ||.||
+18485000         279 ----AGG--AGTACAC------AG--TCCA--TCT----------GATCC    302
+
+EMBOSS_001       612 TCCCCACTGTCACTACGTGGCTCCCTT-GCAAGGCAGCAGTGACATGAAC    660
+                     .||.|.||     ||  |||.|||.|| ||||               ||.
+18485000         303 ACCTCTCT-----TA--TGGTTCCATTGGCAA---------------AAT    330
+
+EMBOSS_001       661 CAGAGCTGGGTCTTCACCCGTGTGATAGGGGTCAGCAGAGAAGAGGCTGG    710
+                     ||          ||||               ||||               
+18485000         331 CA----------TTCA---------------TCAG---------------    340
+
+EMBOSS_001       711 GGCTCTCGAGGCTGCCTCCGATGTTGACCTGACCCTGCATCAGCAGGAGG    760
+                          |||        |||.||.||..|||               ||.|.
+18485000         341 -----TCG--------TCCTATCTTTTCCT---------------GGCGA    362
+
+EMBOSS_001       761 GCGCCCCCAACTCCTCCTATACCTTCTCATCCATAGCCCGCGTCCGAATG    810
+                     ||||.|.||         ||..|||      ||||               
+18485000         363 GCGCTCACA---------ATGGCTT------CATA---------------    382
+
+EMBOSS_001       811 GAGGAGCATTTC-ATACAGAAGGCGGAGGGGGTTGAGCCCCGGC--TCAA    857
+                         ||..|||| ||||||              || .|||.|||  ||| 
+18485000         383 ----AGTGTTTCAATACAG--------------TG-TCCCAGGCAGTCA-    412
+
+EMBOSS_001       858 GGGCAAGGTGTACGACTA---CT-ATGTGGAATCTACCT---CTCAGGCC    900
+                        |.|..|.|| ||.||   || |||||        ||   ||..||| 
+18485000         413 ---CTACCTATA-GATTAGAGCTGATGTG--------CTGGCCTGGGGC-    449
+
+EMBOSS_001       901 ATCTTCCAGGGCAGGCTGGCTCCCAGGACAGCAGCCCTGACTGAGGTTCC    950
+                         ||.||.||.|   |||| .|||||         .||.||.|||   
+18485000         450 ----TCTAGAGCTG---GGCT-TCAGGA---------AGAATGTGGT---    479
+
+EMBOSS_001       951 ATCCCCTAGGCCACCGCCAGGGTCCCTGGGAACAGGG--GCTGCCTCGGG    998
+                          |..|||||   .||||||     ||||||.||  |||        
+18485000         480 -----CAGGGCCA---TCAGGGT-----GGAACAAGGTAGCT--------    508
+
+EMBOSS_001       999 AGGCCAAGCCGGTGACACAAAGGGTGCAGCCGAAAGAGCCGCCTCCCCGC   1048
+                         ||||.|..||                 ||||||     |.|||.| 
+18485000         509 ----CAAGACCTTG-----------------GAAAGA-----CACCCTG-    531
+
+EMBOSS_001      1049 AGACAGGGC-----CGTGGCCCTCCACCCGAGGCTTCAGCCGGAAGGAGA   1093
+                         |||||     |||  ||.|.||      |.||       |||..||
+18485000         532 ----AGGGCACAATCGT--CCTTGCA------GTTT-------AAGATGA    562
+
+EMBOSS_001      1094 GCCTTCTGCAGATAGCGGAGAA------CCCAGAGCTGCAGCTGCAGCCA   1137
+                     ..||| |..|.|||      ||      ||.|                 |
+18485000         563 CACTT-TAAAAATA------AATTCTTTCCTA-----------------A    588
+
+EMBOSS_001      1138 -GATGGCTTCCGGCTCCCCGCTCCACCCTGCCCAGACCCGGGCGCCCTGC   1186
+                      ||||||||                                |.|.|||||
+18485000         589 TGATGGCTT--------------------------------GAGTCCTGC    606
+
+EMBOSS_001      1187 CTGGCTTA--GGCAGAAGCAGCCGGGAGCCCCATGT-GCAGCCGGTGGCC   1233
+                     |  .||.|  ||.||.|.||||  |||.|||   || |||          
+18485000         607 C--ACTCAATGGGAGCATCAGC--GGAACCC---GTAGCA----------    639
+
+EMBOSS_001      1234 GGGACCAATTTCTTCCATATCCCGCTCACCCCTGCTTCAGCCCCACAGGT   1283
+                               ||||                                    
+18485000         640 ----------TCTT------------------------------------    643
+
+EMBOSS_001      1284 CCGCCTGGATCTGGGCAATTGCTATGAGGTGCTGACCTTGGCCAAGAGGC   1333
+                             ||.|||  |||             ||||.||           
+18485000         644 --------ATTTGG--AAT-------------TGACATT-----------    659
+
+EMBOSS_001      1334 AGAACCTGGAGGCCCTGAAAGAGGCGGCCTACAAGGTGATGAGCGAAAAC   1383
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1384 TACCTGCAGGTGCTGCGCAGCCCGGACATCTACGGGTGCCTGAGCGGGGC   1433
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1434 AGAGCGCGAGCTGATCCTGCAGCGCCGGCTCCGGGGCCGCCAGTACCTGG   1483
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1484 TGGTGGCTGACGTGTGCCCCAAGGAAGACTCCGGCGGCCTCTGTTGCTAT   1533
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1534 GACGATGAGCAGGATGTCTGGCGCCCGCTGGCTCGCATGCCCCCCGAGGC   1583
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1584 CGTGTCCCGGGGCTGTGCCATCTGCAGTCTCTTCAATTATCTCTTCGTGG   1633
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1634 TGTCCGGCTGCCAGGGGCCCGGGCACCAGCCCTCCAGCCGCGTCTTCTGC   1683
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1684 TACAACCCGCTCACGGGGATCTGGAGCGAGGTGTGCCCGCTGAACCAGGC   1733
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1734 CCGGCCGCACTGCCGGCTGGTGGCCCTGGACGGGCACCTGTATGCCATCG   1783
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1784 GCGGAGAGTGTCTGAACTCGGTGGAGCGTTACGACCCCCGCCTGGACCGC   1833
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1834 TGGGACTTTGCCCCGCCGCTCCCCAGTGACACGTTCGCCCTGGCGCACAC   1883
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1884 GGCCACGGTGCGTGCCAAGGAAATCTTCGTCACCGGCGGCTCGCTGCGCT   1933
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1934 TCCTGCTGTTCCGCTTCTCTGCGCAGGAGCAGCGCTGGTGGGCCGGCCCC   1983
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      1984 ACCGGGGGCAGCAAGGACCGCACGGCCGAGATGGTGGCGGTCAACGGCTT   2033
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      2034 TCTCTACCGCTTTGACCTCAACCGCAGCCTGGGCATCGCCGTGTACCGCT   2083
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      2084 GCAGCGCCAGCACCCGGCTCTGGTACGAGTGCGCCACGTACCGGACGCCT   2133
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      2134 TACCCGGATGCCTTCCAGTGCGCCGTGGTGGACAACCTCATCTACTGCGT   2183
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      2184 GGGACGCCGGAGCACCCTCTGCTTCCTAGCAGACTCTGTCTCACCCAGGT   2233
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      2234 TTGTGCCCAAGGAGCTGCGGAGTTTCCCGGCCCCGCAGGGCACCCTCCTG   2283
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      2284 CCCACCGTCCTGACCTTGCCCACCCCCGATTTGCCTCAGACCAGGGTCTA   2333
+                                                                       
+18485000         659 --------------------------------------------------    659
+
+EMBOSS_001      2334 G   2334
+                      
+18485000         659 -    659
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Aug 2022 22:35:17
+# Commandline: needle
+#    -outfile needle/ENSG00000173432_2d98428c-8cc8-455b-9d0a-820806326b0d.needleall
+#    -asequence SA/ENSG00000173432.fa
+#    -bsequence SB/2d98428c-8cc8-455b-9d0a-820806326b0d.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000173432_2d98428c-8cc8-455b-9d0a-820806326b0d.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 18266000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 481
+# Identity:     161/481 (33.5%)
+# Similarity:   161/481 (33.5%)
+# Gaps:         309/481 (64.2%)
+# Score: 749.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGAAGCTTCTCACGGGCCTGGTTTTCTGCTCCTTGGTCCTGGGTGTCAG     50
+                                                                       
+18266000           0 --------------------------------------------------      0
+
+EMBOSS_001        51 CAGCCGAAGCTTCTTTTCGTTCCTTGGCGAGGCTTTTGATGGGGCTCGGG    100
+                                                                       
+18266000           0 --------------------------------------------------      0
+
+EMBOSS_001       101 ACATGTGGAGAGCCTACTCTGACATGAGAGAAGCCAATTACATCGGCTCA    150
+                                                                       
+18266000           0 --------------------------------------------------      0
+
+EMBOSS_001       151 GACAAATACTTCCATGCTCGGGGGAACTATGATGCTGCCAAAAGGGGACC    200
+                                                                .||||||
+18266000           1 -------------------------------------------AGGGACC      7
+
+EMBOSS_001       201 TGGGGGTGCCTGGGCTGCAGAAGTGATCACCGATGCCAGAGAGAATATCC    250
+                     .|..|    ||..|||.|||.|..|||||.||||||||||||||||||||
+18266000           8 CGCAG----CTCAGCTACAGCACAGATCAGCGATGCCAGAGAGAATATCC     53
+
+EMBOSS_001       251 AGAGATTCTTTGGCCATGGTGCGGAGGACTCGCTGGCTGATCAGGCTGCC    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+18266000          54 AGAGATTCTTTGGCCATGGTGCGGAGGACTCGCTGGCTGATCAGGCTGCC    103
+
+EMBOSS_001       301 AATGAATGGGGCAGGAGTGGCAAAGACCCCAATCACTTCCGACCTGCTGG    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+18266000         104 AATGAATGGGGCAGGAGTGGCAAAGACCCCAATCACTTCCGACCTGCTGG    153
+
+EMBOSS_001       351 CCTGCCTGAGAAATACTGA-------------------------------    369
+                     |||||||||||||||||||                               
+18266000         154 CCTGCCTGAGAAATACTGAGCTTCCTCTTCACTCTGCTCTCAGGAGATCT    203
+
+EMBOSS_001       369 --------------------------------------------------    369
+                                                                       
+18266000         204 GGCTGTGAGGCCCTCAGGGCAGGGATACAAAGCGGGGAGAGGGTACACAA    253
+
+EMBOSS_001       369 -------------------------------    369
+                                                    
+18266000         254 TGGGTATCTAATAAATACTTAAGAGGTGGAA    284
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 08:59:56
+# Commandline: needle
+#    -outfile needle/ENSG00000011600_82e78216-6032-4e6c-b530-e04714ae73b9.needleall
+#    -asequence SA/ENSG00000011600.fa
+#    -bsequence SB/82e78216-6032-4e6c-b530-e04714ae73b9.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000011600_82e78216-6032-4e6c-b530-e04714ae73b9.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 82e78216-6032-4e6c-b530-e04714ae73b9_ENSG00000011600.12
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 527
+# Identity:     302/527 (57.3%)
+# Similarity:   302/527 (57.3%)
+# Gaps:         225/527 (42.7%)
+# Score: 1480.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -------------------ATGGGGGGACTTGAACCCTGCAGCAGGCTCC     31
+                                        |||||||||||||||||||||||||||||||
+82e78216-6032      1 TCCAGCAGCATCCGGCTTCATGGGGGGACTTGAACCCTGCAGCAGGCTCC     50
+
+EMBOSS_001        32 TGCTCCTGCCTCTCCTGCTGGCTGTAAGTGGTCTCCGTCCTGTCCAGGCC     81
+                     |||||||||||||||||||||||                           
+82e78216-6032     51 TGCTCCTGCCTCTCCTGCTGGCT---------------------------     73
+
+EMBOSS_001        82 CAGGCCCAGAGCGATTGCAGTTGCTCTACGGTGAGCCCGGGCGTGCTGGC    131
+                                  |||||||||||||||||||||||||||||||||||||
+82e78216-6032     74 -------------ATTGCAGTTGCTCTACGGTGAGCCCGGGCGTGCTGGC    110
+
+EMBOSS_001       132 AGGGATCGTGATGGGAGACCTGGTGCTGACAGTGCTCATTGCCCTGGCCG    181
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+82e78216-6032    111 AGGGATCGTGATGGGAGACCTGGTGCTGACAGTGCTCATTGCCCTGGCCG    160
+
+EMBOSS_001       182 TGTACTTCCTGGGCCGGCTGGTCCCTCGGGGGCGAGGGGCTGCGGAGGCA    231
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+82e78216-6032    161 TGTACTTCCTGGGCCGGCTGGTCCCTCGGGGGCGAGGGGCTGCGGAGGCA    210
+
+EMBOSS_001       232 GCGACCCGGAAACAGCGTATCACTGAGACCGAGTCGCCTTATCAGGAGCT    281
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+82e78216-6032    211 GCGACCCGGAAACAGCGTATCACTGAGACCGAGTCGCCTTATCAGGAGCT    260
+
+EMBOSS_001       282 CCAGGGTCAGAGGTCGGATGTCTACAGCGACCTCAACACACAGAGGCCGT    331
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+82e78216-6032    261 CCAGGGTCAGAGGTCGGATGTCTACAGCGACCTCAACACACAGAGGCCGT    310
+
+EMBOSS_001       332 ATTACAAATGA---------------------------------------    342
+                     |||||||||||                                       
+82e78216-6032    311 ATTACAAATGAGCCCGAATCATGACAGTCAGCAACATGATACCTGGATCC    360
+
+EMBOSS_001       342 --------------------------------------------------    342
+                                                                       
+82e78216-6032    361 AGCCATTCCTGAAGCCCACCCTGCACCTCATTCCAACTCCTACCGCGATA    410
+
+EMBOSS_001       342 --------------------------------------------------    342
+                                                                       
+82e78216-6032    411 CAGACCCACAGAGTGCCATCCCTGAGAGACCAGACCGCTCCCCAATACTC    460
+
+EMBOSS_001       342 ---------------------------    342
+                                                
+82e78216-6032    461 TCCTAAAATAAACATGAAGCACAAAAA    487
+
+
+#---------------------------------------
+#---------------------------------------

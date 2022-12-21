@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 08:43:42
+# Commandline: needle
+#    -outfile needle/ENSG00000170906_6ea6f783-5ce5-4043-914a-664904e60e5f.needleall
+#    -asequence SA/ENSG00000170906.fa
+#    -bsequence SB/6ea6f783-5ce5-4043-914a-664904e60e5f.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000170906_6ea6f783-5ce5-4043-914a-664904e60e5f.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 54103000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 314
+# Identity:     167/314 (53.2%)
+# Similarity:   167/314 (53.2%)
+# Gaps:         147/314 (46.8%)
+# Score: 786.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGCTGCGAGAGTCGGCGCCTTCCTCAAGAATGCCTGGGACAAGGAGCC     50
+                               ||||||||||||||||||||||||||||||||||||||||
+54103000           1 ----------GAGTCGGCGCCTTCCTCAAGAATGCCTGGGACAAGGAGCC     40
+
+EMBOSS_001        51 AGTGCTGGTCGTGTCCTTCGTCGTCGGGGGCCTCGCTGTAATTCTGCCCC    100
+                     ||||||||||||||||||||||||||||||||||                
+54103000          41 AGTGCTGGTCGTGTCCTTCGTCGTCGGGGGCCTC----------------     74
+
+EMBOSS_001       101 CATTGAGCCCCTACTTCAAGTACTCCGTCATGATCAACAAGGCCACGCCC    150
+                                                                       
+54103000          74 --------------------------------------------------     74
+
+EMBOSS_001       151 TACAACTACCCAGTGCCCGTCCGTGATGATGGGAACATGCCCGACGTGCC    200
+                                 ||||||||||||||||||||||||||||||||||||||
+54103000          75 ------------GTGCCCGTCCGTGATGATGGGAACATGCCCGACGTGCC    112
+
+EMBOSS_001       201 CAGCCACCCCCAGGACCCTCAGGGCCCCAGCCTGGAGTGGCTGAAGAAAC    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+54103000         113 CAGCCACCCCCAGGACCCTCAGGGCCCCAGCCTGGAGTGGCTGAAGAAAC    162
+
+EMBOSS_001       251 TGTGA---------------------------------------------    255
+                     |||||                                             
+54103000         163 TGTGAGCACCTCCACTGACAGAGGCGGCCCCTCCCACGGCTCCCAATAAA    212
+
+EMBOSS_001       255 --------------    255
+                                   
+54103000         213 AATGTGAAAACCAA    226
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,69 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 19:05:26
+# Commandline: needle
+#    -outfile needle/ENSG00000087250_438df5c7-3f2a-4311-b770-197c3451aac4.needleall
+#    -asequence SA/ENSG00000087250.fa
+#    -bsequence SB/438df5c7-3f2a-4311-b770-197c3451aac4.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000087250_438df5c7-3f2a-4311-b770-197c3451aac4.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 56589000
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 351
+# Identity:     136/351 (38.7%)
+# Similarity:   136/351 (38.7%)
+# Gaps:         200/351 (57.0%)
+# Score: 581.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGACCCTGAGACCTGCCCCTGCCCTTCTGGTGGCTCCTGCACCTGCGC     50
+                                                          |||||||||||||
+56589000           1 -------------------------------------CCTGCACCTGCGC     13
+
+EMBOSS_001        51 GGACTCCTGCAAGTGCGAGGGATGCAAATGCACCTCCTGCAAGAAGAGCT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+56589000          14 GGACTCCTGCAAGTGCGAGGGATGCAAATGCACCTCCTGCAAGAAGAGCT     63
+
+EMBOSS_001       101 GCTGCTCCTGCTGCCCTGCGGAGTGTGAGAAGTGTGCCAAGGACTGTGTG    150
+                     ||||||||||||||||||.||..||||..|||||||||.|||.|||..|.
+56589000          64 GCTGCTCCTGCTGCCCTGTGGGCTGTGCCAAGTGTGCCCAGGGCTGCATC    113
+
+EMBOSS_001       151 TGCAAAGGCGGAGAGGCAGCTGAGGCAGAAG-CAGAGAAGTGCAGCTGCT    199
+                     ||||||||      |||             | |.||.|||||||||||||
+56589000         114 TGCAAAGG------GGC-------------GTCGGACAAGTGCAGCTGCT    144
+
+EMBOSS_001       200 GCCAGTGA------------------------------------------    207
+                     ||...|||                                          
+56589000         145 GCGCCTGATGCTGGGACAGCCCCGCTCCCAGATGTAAAGAACGCGACTTC    194
+
+EMBOSS_001       207 --------------------------------------------------    207
+                                                                       
+56589000         195 CACAAACCTGGATTTTTTATGTACAACCCTGACCGTGACCGTTTGCTATA    244
+
+EMBOSS_001       207 --------------------------------------------------    207
+                                                                       
+56589000         245 TTCCTTTTTCTATGAAATAATGTGAATGATAATAAAACAGCTTTGACTTG    294
+
+EMBOSS_001       207 -    207
+                      
+56589000         295 A    295
+
+
+#---------------------------------------
+#---------------------------------------

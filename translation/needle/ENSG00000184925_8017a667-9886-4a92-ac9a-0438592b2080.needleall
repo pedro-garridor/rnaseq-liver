@@ -1,0 +1,209 @@
+########################################
+# Program: needle
+# Rundate: Sat  3 Sep 2022 07:53:45
+# Commandline: needle
+#    -outfile needle/ENSG00000184925_8017a667-9886-4a92-ac9a-0438592b2080.needleall
+#    -asequence SA/ENSG00000184925.fa
+#    -bsequence SB/8017a667-9886-4a92-ac9a-0438592b2080.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000184925_8017a667-9886-4a92-ac9a-0438592b2080.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 8017a667-9886-4a92-ac9a-0438592b2080_ENSG00000184925.12
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2103
+# Identity:     435/2103 (20.7%)
+# Similarity:   435/2103 (20.7%)
+# Gaps:        1615/2103 (76.8%)
+# Score: 1345.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 --ATGA--------GGCTG----------------CTGTGTGGC--CTGT     22
+                       ||||        .||||                .|||| |||  |||.
+8017a667-9886      1 CAATGACCAAACCCAGCTGGGGAGTATACAAAAAAGTGTG-GGCAGCTGG     49
+
+EMBOSS_001        23 G-GCTGTGGCTCTC-CTTGCTGAAAGTCCT--------------------     50
+                     | ||..||||||.| |   |||.|| ||||                    
+8017a667-9886     50 GCGCGCTGGCTCACAC---CTGTAA-TCCTAGCACTTCGGGGGCCGGGTG     95
+
+EMBOSS_001        51 -GCAGGCCCAGAC-------CCCAAC---------------CCCCCTGCC     77
+                      ||.|||.||.||       ||||.|               |.|.|||.|
+8017a667-9886     96 CGCTGGCTCACACCTGTAATCCCAGCACTTCCGGGGCTGGGCGCGCTGGC    145
+
+EMBOSS_001        78 ----------ACTCCC------------GCC---CCCGATG---CAGAGC     99
+                               |.||||            |||   |.||.||   ||.|.|
+8017a667-9886    146 TCACACCTGTAATCCCAGGACTTCAGGGGCCGGGCGCGCTGGCTCACACC    195
+
+EMBOSS_001       100 T----TCCAAGGAAACCAGTTCCAGGGGGAATGGTTCG------------    133
+                     |    |||.||     ||.||  .|||||...||..||            
+8017a667-9886    196 TGTAATCCTAG-----CACTT--TGGGGGCCGGGCGCGGTCGCGCACACC    238
+
+EMBOSS_001       134 -----TCCT----------GGGCCTGGCG----GGC----------AA--    152
+                          ||||          |||||.||||    |||          ||  
+8017a667-9886    239 TGTAATCCTAGCACTTTGGGGGCCGGGCGCGGTGGCGCACACCTGTAATC    288
+
+EMBOSS_001       153 -CAG--CTTCA--GGCCGGAGCACAG-GGCGC------------------    178
+                      |||  |||.|  |||||| ||.||| |||||                  
+8017a667-9886    289 CCAGCACTTTAGGGGCCGG-GCGCAGTGGCGCACACCTGTAATCCCAGTA    337
+
+EMBOSS_001       179 --------------TGCTGAACGCTTTCACCGCAACT------TTTGAG-    207
+                                   .||.|||.|  .||||...||||      |||||| 
+8017a667-9886    338 CTTCAGGAGGCAGAGGCAGAAGG--ATCACTTGAACTCAGGAGTTTGAGA    385
+
+EMBOSS_001       208 -----CTAAG-------------------------TGATGA----TGGCC    223
+                          ||.||                         |.||||    |||||
+8017a667-9886    386 CCAGCCTGAGCAACATAGTTAGACACCATCTCCACTCATGACGCTTGGCC    435
+
+EMBOSS_001       224 GCT--------------------------------------TTGAGGTG-    234
+                     .||                                      .|||||.| 
+8017a667-9886    436 ACTCCCGCCGTGGGTCCCTCTGAATAAGTGGCTGAAATCTCCTGAGGGGC    485
+
+EMBOSS_001       235 -----------TGGA-ATGCGA---------------TGACTC-------    250
+                                |||| .|||.|               .|.|||       
+8017a667-9886    486 CCACCTCAGCATGGACCTGCCAGCTTCCGGAGCCTTCCGCCTCCACCTGT    535
+
+EMBOSS_001       251 -----------GAGGCCAGCACTGTGACACATGGTCTTATGTGCTGATAC    289
+                                |||||||||||||||||||||||||||||||||||||||
+8017a667-9886    536 CCCCTCCTACAGAGGCCAGCACTGTGACACATGGTCTTATGTGCTGATAC    585
+
+EMBOSS_001       290 CGGCAGCCCAGCCTGGGCAGTTCACTGTGGACCACGGTGTGGAGCCCGGG    339
+                     |||||||||||||||||||||||||||||||||||||||||         
+8017a667-9886    586 CGGCAGCCCAGCCTGGGCAGTTCACTGTGGACCACGGTGTG---------    626
+
+EMBOSS_001       340 GCGGACAGAGAGGAGACCCGGGTGGTGGACAGCGACTACACCCAGTTCGC    389
+                                                                       
+8017a667-9886    626 --------------------------------------------------    626
+
+EMBOSS_001       390 CCTGATGCTGTCCCGCAGACACACGAGCAGGCTGGCCGTCCTCAGGATCA    439
+                                      |||||||||||||||||||||||||||||||||
+8017a667-9886    627 -----------------GACACACGAGCAGGCTGGCCGTCCTCAGGATCA    659
+
+EMBOSS_001       440 GCCTGCTGGGCAGGAGCTGGTTGCTGCCTCCCGGGACGCTGGACCAGTTC    489
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+8017a667-9886    660 GCCTGCTGGGCAGGAGCTGGTTGCTGCCTCCCGGGACGCTGGACCAGTTC    709
+
+EMBOSS_001       490 ATCTGCCTGGGCAGAGCTCAGGGCCTCTCGGATGACAACATCGTCTTCCC    539
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+8017a667-9886    710 ATCTGCCTGGGCAGAGCTCAGGGCCTCTCGGATGACAACATCGTCTTCCC    759
+
+EMBOSS_001       540 AGATGTGACTG------------------------GCTGGTCA-------    558
+                     |||||||||||                        |||||.||       
+8017a667-9886    760 AGATGTGACTGGTAACATGGTTCACCTGCAGGCATGCTGGGCAGTAGGCA    809
+
+EMBOSS_001       559 ------CCCCAGGCCAGCGTCT-GTTGA----------------------    579
+                           ||.||||...|.||.| |||||                      
+8017a667-9886    810 CGGGGCCCGCAGGAATGAGTTTGGTTGACCCTAGAGGAGCTGGACCCAGT    859
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886    860 GTCTACCCAGGGAGCTCAGCCCCAGCCTGCGCTCAGGGGTCTCCAGGCTC    909
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886    910 CTGGGTCCCTGTGCTCAACCCAGGCTCTGAGCCACCTCCTGCCGCCCCGG    959
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886    960 GTCCCCTGTCCTGGGCCACCTCCTCCCACCCCGGGTCTCCTGTCCCGGGC   1009
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1010 CACCTCCTCCCGCCCCAGGTCCCCTGTCCCGGGCCACCTCCCCCTGCCCC   1059
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1060 TCCCGCCCCAGGTCCCCTGTCCCGGCCCACCTCCTCCCACCCCGGGTCTC   1109
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1110 CTGTCCTGGGCTACCTCCTCCCACCCCAGGTCCCCTGTCCCGGGCCATCT   1159
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1160 CCTCCCTCTGGGTCCCCTGTCCTGGGCCACCTCCTCCCCTCACCCATCCC   1209
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1210 TGCTCACAAGGAGCTTGGACTCATCCCAGGAGGTGCCCTGGACCTCAGCA   1259
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1260 GCCTGCCCTGGGTGGCAGCCCCAGCCTGACCACTCAGACAGCCGCGGCCC   1309
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1310 CCAAGGCCTGACTCTTCTTGTGGGAGGGCGAGGTCAGCCTGAGTCCCTCC   1359
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1360 TCTTCCTGGAGGGATGCCCACCGTGCCCTTCTGATTCCCGCCTCTGGTCC   1409
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1410 TTTACATGTGCATAACCACATGCACACACACTCACGCATGAGCAAACGTG   1459
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1460 TACAGACTGGCACATGCCTCCACATGCGAACACCCACTTACACACACGCC   1509
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1510 ACTCACACTGGCACACATGCTGTCTACCCGTGCACAGGCACACGTGCTGG   1559
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1560 TCTGCACACACCTGCACACACCTGCACACTCGCTATGCCAGGCCTCCTGG   1609
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1610 GTCTGCAGTGAGTCTGGGGGCCCATGGGGACAGGGACAGGTGAGGGGCTT   1659
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1660 CCTGAGGACCTGGGGCTGTTGGGAGCCGCTGTGGGCCACATCTTCTGCCC   1709
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1710 CTTCTCAGCCTCCCTCACCCCAGCCCCTTCCCCTAGACCCACTGCTGGTC   1759
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1760 CCCTTTCTCCCTCCTGCTTCTCACCTGAAGCCACCTGCCCCTCCTTTGTG   1809
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1810 CCCTCCCTTGCTTCCTCCTGGGCTCTGTCCCCTGCTCCCCCTTTGTCCTC   1859
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1860 CATCCCGACTCCATCTCCCCCACCAGGCTGGTCACCCCAGGCCAGCGTCT   1909
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1910 GTTGAAGGATGAAGCAGCTCCTGTCCGGCCCAGCCCTGCCTCACAGCTGT   1959
+
+EMBOSS_001       579 --------------------------------------------------    579
+                                                                       
+8017a667-9886   1960 GCGAGCTCTGCCCTCCTCAGCTCTCAAACCTGAATAAATGCACCAAGCCC   2009
+
+EMBOSS_001       579 ---    579
+                        
+8017a667-9886   2010 AGA   2012
+
+
+#---------------------------------------
+#---------------------------------------

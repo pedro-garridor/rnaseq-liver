@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 Aug 2022 10:18:41
+# Commandline: needle
+#    -outfile needle/ENSG00000239881_fc1ce569-7617-4f62-9d93-779390d427c9.needleall
+#    -asequence SA/ENSG00000239881.fa
+#    -bsequence SB/fc1ce569-7617-4f62-9d93-779390d427c9.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000239881_fc1ce569-7617-4f62-9d93-779390d427c9.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: fc1ce569-7617-4f62-9d93-779390d427c9_ENSG00000239881.1
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:       3/301 ( 1.0%)
+# Similarity:     6/301 ( 2.0%)
+# Gaps:         282/301 (93.7%)
+# Score: 16.0
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+fc1ce569-7617      1 ATGCCTCTCGACAGGGATCTCCTTCATCCTTCTCCAGAAGAGAAGAGGAA     50
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+fc1ce569-7617     51 ACAGAAGAAGAAACGCCTGGTGCAGAGTCCCGATTCCTACTTCATGGATA    100
+
+EMBOSS_001         1 -----------Sequenceunavailable--------------------     19
+                                .  :  . : | |  |                       
+fc1ce569-7617    101 TGACATGCCCAGGATGCTATAAAATCACCATGGTCTGTAGCCATGCACAA    150
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+fc1ce569-7617    151 ACGGTAGTTTTGTGTGTTGCCTGCTCCACTGTTCTCTGCCAGCCTACAGG    200
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+fc1ce569-7617    201 AGGAAAAGGAAGGCTACAGAAGGATGTTCCTTCAGGAGGAAGCAGCACCC    250
+
+EMBOSS_001        19 --------------------------------------------------     19
+                                                                       
+fc1ce569-7617    251 AAAGCACTCTGAATCAAGATGAGTGGGAAACCATCTCAATAAACACATTT    300
+
+EMBOSS_001        19 -     19
+                      
+fc1ce569-7617    301 T    301
+
+
+#---------------------------------------
+#---------------------------------------

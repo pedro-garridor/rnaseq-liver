@@ -1,0 +1,665 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 05:30:59
+# Commandline: needle
+#    -outfile needle/ENSG00000108924_b4b4b80c-b1e1-40f9-a443-1c177eac2373.needleall
+#    -asequence SA/ENSG00000108924.fa
+#    -bsequence SB/b4b4b80c-b1e1-40f9-a443-1c177eac2373.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000108924_b4b4b80c-b1e1-40f9-a443-1c177eac2373.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: b4b4b80c-b1e1-40f9-a443-1c177eac2373_ENSG00000108924.14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7808
+# Identity:     635/7808 ( 8.1%)
+# Similarity:   635/7808 ( 8.1%)
+# Gaps:        7124/7808 (91.2%)
+# Score: 2589.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGAGAAAATGTCCCGACCGCTCCCCCTGAATCCCACCTTTATCCCGCC     50
+                                                                       
+b4b4b80c-b1e1      0 --------------------------------------------------      0
+
+EMBOSS_001        51 TCCCTACGGCGTGCTCAGGTCCCTGCTGGAGAACCCGCTGAAGCTCCCCC    100
+                                                                       
+b4b4b80c-b1e1      0 --------------------------------------------------      0
+
+EMBOSS_001       101 TTCACCACGAAGACGCATTTAGTAAAGATAAAGACAAGGAAAAGAAGCTG    150
+                                                                       
+b4b4b80c-b1e1      0 --------------------------------------------------      0
+
+EMBOSS_001       151 GATGATGAGAGTAACAGCCCGACGGTCCCCCAGTCGGCATTCCTGGGGCC    200
+                                                   ||||||||||||||||||||
+b4b4b80c-b1e1      1 ------------------------------CAGTCGGCATTCCTGGGGCC     20
+
+EMBOSS_001       201 TACCTTATGGGACAAAACCCTTCCCTATGACGGAGATACTTTCCAGTTGG    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b4b4b80c-b1e1     21 TACCTTATGGGACAAAACCCTTCCCTATGACGGAGATACTTTCCAGTTGG     70
+
+EMBOSS_001       251 AATACATGGACCTGGAGGAGTTTTTGTCAGAAAATGGCATTCCCCCCAGC    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b4b4b80c-b1e1     71 AATACATGGACCTGGAGGAGTTTTTGTCAGAAAATGGCATTCCCCCCAGC    120
+
+EMBOSS_001       301 CCATCTCAGCATGACCACAGCCCTCACCCTCCTGGGCTGCAGCCAGCTTC    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b4b4b80c-b1e1    121 CCATCTCAGCATGACCACAGCCCTCACCCTCCTGGGCTGCAGCCAGCTTC    170
+
+EMBOSS_001       351 CTCGGCTGCCCCCTCGGTCATGGACCTCAGCAGCCGGGCCTCTGCACCCC    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b4b4b80c-b1e1    171 CTCGGCTGCCCCCTCGGTCATGGACCTCAGCAGCCGGGCCTCTGCACCCC    220
+
+EMBOSS_001       401 TTCACCCTGGCATCCCATCTCCGAACTGTATGCAGAGCCCCATCAGACCA    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+b4b4b80c-b1e1    221 TTCACCCTGGCATCCCATCTCCGAACTGTATGCAGAGCCCCATCAGAC--    268
+
+EMBOSS_001       451 GGTCAGCTGTTGCCAGCAAACCGCAATACACCAAGTCCCATTGATCCTGA    500
+                        |||||||||||||||||||||||||||||||||||||||||||||||
+b4b4b80c-b1e1    269 ---CAGCTGTTGCCAGCAAACCGCAATACACCAAGTCCCATTGATCCTGA    315
+
+EMBOSS_001       501 CACCATCCAGGTCCCAGTGGGTTATGAGCCAGACCCAGCAGATCTTGCCC    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b4b4b80c-b1e1    316 CACCATCCAGGTCCCAGTGGGTTATGAGCCAGACCCAGCAGATCTTGCCC    365
+
+EMBOSS_001       551 TTTCCAGCATCCCTGGCCAGGAAATGTTTGACCCTCGCAAACGCAAGTTC    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b4b4b80c-b1e1    366 TTTCCAGCATCCCTGGCCAGGAAATGTTTGACCCTCGCAAACGCAAGTTC    415
+
+EMBOSS_001       601 TCTGAGGAAGAACTGAAGCCACAGCCCATGATCAAGAAAGCTCGCAAAGT    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+b4b4b80c-b1e1    416 TCTGAGGAAGAACTGAAGCCACAGCCCATGATCAAGAAAGCTCGCAAAGT    465
+
+EMBOSS_001       651 CTTCATCCCTGATGACCTGAAGG---AT---GACAAGTA--------CTG    686
+                     |||||||||||||||||||||||   ||   .||..|||        .||
+b4b4b80c-b1e1    466 CTTCATCCCTGATGACCTGAAGGTAAATTGGAACTGGTAATCAGTCTTTG    515
+
+EMBOSS_001       687 GGCAA--GG-----------CGCAGAAAGAACAACATGG-CAGCCAAGCG    722
+                     |||||  ||           |.||||.|||..||.|.|| .|.||.||  
+b4b4b80c-b1e1    516 GGCAAATGGAGAGTGGGATCCACAGACAGATTAAAAGGGTGACCCCAG--    563
+
+EMBOSS_001       723 CTCCCGCGACG--CCCGGAGGC-------TGAAAGA------------GA    751
+                            ||.|  |||.||.||       ||||.||            ||
+b4b4b80c-b1e1    564 -------GATGATCCCAGAAGCTAGTGCATGAAGGATTTCTGATTTCTGA    606
+
+EMBOSS_001       752 ACCAGAT----------CGCCATCCGGGCC---TCGTTCCT---------    779
+                     .||.|.|          .|.|.||..||||   |..|||||         
+b4b4b80c-b1e1    607 TCCTGTTTCTTGGCATGTGACTTCTAGGCCAGTTGTTTCCTCTCTGGGTA    656
+
+EMBOSS_001       780 --------------------------------------------GGAGAA    785
+                                                                 ||||||
+b4b4b80c-b1e1    657 TTTTTTGAAATGCACTTTTATGTCTTGATGCTGAACAGAAACAAGGAGAA    706
+
+EMBOSS_001       786 GGAG---------------------AACTC-----GG-------CC--CT    800
+                     |.||                     |||.|     ||       ||  ||
+b4b4b80c-b1e1    707 GCAGTAAAATGTTGGAGTGATTTTAAACCCATGAAGGAAACAAACCTGCT    756
+
+EMBOSS_001       801 CC-----GCCAGG----------AGGT-----------------------    812
+                     ||     ||..||          |.||                       
+b4b4b80c-b1e1    757 CCTATCTGCATGGAAACCCACAAAAGTCTAATAAAATTAAACCCCACATC    806
+
+EMBOSS_001       813 ------GGCTGACTTGAGGAAG----------GAGCTGGGCAAATGCAAG    846
+                           ||.|||...|||.|||          |||..|||||..|    |
+b4b4b80c-b1e1    807 TTTCAAGGTTGAGAAGAGAAAGAAAATCATTTGAGAAGGGCATCT----G    852
+
+EMBOSS_001       847 AACATACTTGCC----AAG---TA--------------------------    863
+                     |||.|..|||||    |||   ||                          
+b4b4b80c-b1e1    853 AACCTCATTGCCCTCGAAGGGTTACCTTCCTTTTAGAAAATTTTTGATAA    902
+
+EMBOSS_001       864 -----TGAGGCCAGGCACGGGCCCCTGTAG--------------------    888
+                          ||..||||      ...||||||||                    
+b4b4b80c-b1e1    903 TTTGCTGCTGCCA------TTTCCCTGTAGGCTGCGAGGAATAACAGCCA    946
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1    947 GAGATAGGACCTTCCTCCATATTGCCAACCTTGGATGACCAGGGTGGGAT    996
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1    997 TTTGTGAAGGAAACTGGTAGTTCCCTGACACCATTTATATGTATCTTAAG   1046
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1047 TAACGATCACTTGAATATCTCACCGCTAGATTAATTCTAAGTAGGTTTTC   1096
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1097 TCTGCAGTGTTGAAGGGACACCTTATTTATAAAGGGAAATAGATTTACCT   1146
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1147 TGGAAGTCAAATACAGCTTAAAACAAAATTAACCAGACACAATAATGACA   1196
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1197 TCTTAGGATGAAAATTCTTTCCAAAATTATGCCATGTCTGCTAATGCCAA   1246
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1247 AATAGAACCATTTCTTATTAACCATTGCTTAGAACTTTCATGCTTCTTTC   1296
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1297 CAATCATGTGGGTACTAGAGATATGATTATTATGTAGTCAAGGCCTTGGA   1346
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1347 ACCAGGCATAATTAGCCCTTTTCTACTGTCTGCCCCCCATCTCTCAAACC   1396
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1397 TAACTATTGTTCCTATGTAGAGACACTCCTAGGCTGGGAAATAGGAATTT   1446
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1447 GAGACAACGTCTGAACTGGCTTAGACCAGTTGTTCCTGCTTTACATAGCT   1496
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1497 AGAAAAAATGCTGGAAGCAGAAGTACCTGGCAAATTTAAATCACTGCTGT   1546
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1547 CATCCACATTCCTGAGATTACCTTAATTGATGCAGAATAGGAAAACATCA   1596
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1597 GGGCTGAAGGGGACCTTAGAGATTCATTTGTCCAAAATTACCACTTGCAG   1646
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1647 TTGAGGAAATGCAGAAAATGGAAAGCTGAAGTCAGCGGATCACTACCTGT   1696
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1697 TAGAGAAAGGCTTAGCCTGGCTCCCAGGTTGTCTTGCTTCCCAAAAGGTC   1746
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1747 ACAGCAGCATGTTGGCCCTGACAAGGGCTATAACGGGGGCCCATGGGTGA   1796
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1797 CAAATCAATGGCTGTCACCCTGAGAATCAAAAAAGGAAATCACATGGTAA   1846
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1847 AAACACCAGAAAATCTAAACTAGTCAGGACATTGATGGTTAGACTGAGAT   1896
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1897 GGGGTAAAAAAGGGGCACCATGGGCTCAGGTCTTGGGCAATTAGGTACCT   1946
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1947 TATTTCAATGAGATGCCTTTCCTAGTCTTGTCTTCTTAGTGATCCAATTT   1996
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   1997 TTTATGGTGTTTTTTTTTTTTTTTTTTTTGAGATGGAGTCGCACTCTGTT   2046
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2047 GCCCAGGCTGGAGTGCAGTGGCACGATCTCAGCTCACTGCAAGCTCCGCC   2096
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2097 TCCCCGGTTCAAGCCATCCTCATGCCTTAGCCTCCTGAGTAACTGAGACT   2146
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2147 ACAGGCGCACGCCACCACGCCCGGCTAATTTTTTGTATTTTTAGTAGAGA   2196
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2197 CGGGATTTCACCGTGTTCGCCAGGATGGTCTCGATCTCCTGACCTTGTGA   2246
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2247 TCTGCCCACCTCGGTCTTCCAAAGTGCTGGGATTACAGGTGTAAGCCACC   2296
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2297 GCGCCCGGCCTTTTTTGTGTATTTTAAAGCCTCGTATCTTAAACTAAAGC   2346
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2347 CAGGGATCCTGTTCAACCTGGATTTTCTCTTGAATGGAGGGTAGTTTGAA   2396
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2397 AGGATGCTGCTATGAGTGATAGACAGAACTTCCAGCCAGACTTTCACAAA   2446
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2447 GTCTCCAGATTTATCAAAGAGCAAGATTAGTTAATAACCCAGGTAACCTT   2496
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2497 GGCAACAAAGAGGCCAGACAAAAACCGTCTGTGCTGGAATTACACATATT   2546
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2547 GCTGCTGTCATGGTCAGGCCTGACCTTTCCACATAGCAGGTGGGGAATGG   2596
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2597 GCAGGAACATTGTCCTGCCAGGTGTCCTTGGATATTTTTTAGTTGTGGAC   2646
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2647 GAAGTCTCAAACTAAAGACCATGAGCTAATATAAAGCAGGAAGCAGAGCT   2696
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2697 GTAACATGTTTCTCCTTCTGGCAGAAAGGTCTGAGCTAAGGGTAGATGGA   2746
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2747 GGAGAAGGTGTTTCTGGCCCCCAGCATTGGACAAGTAAACCAGTTCAATG   2796
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2797 AAATGGCCCCACTAAAAATGATCTTCCCTGTAGCTGCCTGAACTTCCTCT   2846
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2847 CTTGAGCCAATCATTAGGGTTAGCATGCATGCGCTGGAGAAAGAAGGGAG   2896
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2897 AATTGAGGTTGACATGCTGGGGTACCTAGCTGAAAATCCATTTAATTACC   2946
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2947 TTGATTTTTTAAATGCTTTTAATGGTCCATTCATTCACTTGATGAATTTT   2996
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   2997 TTCAAATGCTAGTGTGTGCCAACCCTCTAACCCTGTATCAGGGGCTGGGA   3046
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3047 ATACCGAGGTGAGCCAATACTGATACTGTTCCTGCCTTCATGGAACTTGT   3096
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3097 AGTCTGGTGAGAAACAGGGAGTGTTGATCTGTTGGGTGGGGCGGGGCTAA   3146
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3147 GTGGGTCCCTTGTTGCATGGAGGTAACTGGGTAGCCAGATGGCATCAGCA   3196
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3197 ACTGGGAGAGGGAAAGGGGGCAGAGGATGGAGTGCCAAGTTTATCAGCCC   3246
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3247 CGCTCAAAATCCCGCTTCCCCCCTGCCCGCAACCCTTCTGCGATAACAAA   3296
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3297 GGGAGGCGAGCAGGCTTTTCTAGTCCAGGACACTCCTTTCGTCATTCCTG   3346
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3347 CCTTCTGTATCCTCTTCTGGACCCGGTTCCCAGCTCCCCTCCCTCCCACC   3396
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3397 TGAAAGGTTTGTTTTGCATTCCACACCTTGGCTGGCTCATCTGCATGTGT   3446
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3447 GGACAGGTGAGGCTGGGAAATGAGAGCACTTTAGAAGTGAGAAGAGCTCT   3496
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3497 AATAAGTTAGAGAGAAGTTGGTTGTTACCCTGAAGTCAGCTGGTGACTCC   3546
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3547 CTGGTCATTAAGACCTGGTCAGAATTGTCTTACACCACATCAAGCCTGTG   3596
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3597 GCCTATGGTGGGACCCCCCATTCCTCCCCCATCACATACATGCAGTTTCT   3646
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3647 ACAGTGTTCCAGGGGCTTGTTCTTATGTACCCCTTCGCCTCCTGGGCTCC   3696
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3697 TGTTCCCCCGTGTGCAGACTCTGATACATCCTAAATCAAGTCCTCTTTTG   3746
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3747 AGTGCTCTTGGAAACCGCACTCCCAGGCACATTGTTGGGTATAGATTTAC   3796
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3797 TGATACTGTGAAGGGATTGGAACCCAGGCTTCTATCAAAACACAAATAAC   3846
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3847 TTCCATCAGAACTGGAGGCTTCACCACTGTTGTTAACTGGAGGCTTCACC   3896
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3897 ACTTTGGGCCCCCTCACCACCATGACGTCATTGACTCGCCTGACTCCTCC   3946
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3947 CAGCCTCTCCCCTGCCTCCAGCTCCCCTGCTCGCTTTCAGAAGCACAGAC   3996
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   3997 AACAAATTCGGCCAACAACCATTGCACACCTGCCCTAGCTTGCTCACCCA   4046
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4047 GGTATTCTTCAAAGAGCAGCCTCCTCCCTCCTACCCAGAAGAATTCTGGT   4096
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4097 AACATCTATTTTGAAAATCGTTTTTTTACCCTGTTGCATATTGTTATGAA   4146
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4147 ATGTATAAAAAGCTGGGGGTGCTTTATTTAAGATGATAGTACTAGTTTGT   4196
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4197 GGATGGCAGATAGGAGGTATCTACACAGTTTCTATCCCACACTTTCTGTA   4246
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4247 TTTGTGCAGGGCAAATGCCTGTTGAGGGTAATGGGCAGTTTTGGGGGTGG   4296
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4297 ACCGCTGACCTTAGACTTTCCTTGCAGCTTTGGCCCCAACCCATGTGACC   4346
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4347 TCCTTCAATGCCAACTGCCCCTTGGAATTCTGAGGGGTGCAAGCACTGGC   4396
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4397 CTGACCCATTTATTCTGGGTGGCATGTAACTGCAGGTAGTAGCATTGCTA   4446
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4447 GGACTGAGGGATTTGCTGTTGCAAATTGTTGAAAAAGGGGAGTTGCAAAA   4496
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4497 TTCACCAGGTGCCACCATCAGTGAATTGGGAAGATCTAAAAGAAGATCCC   4546
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4547 TGTTTCTTAGTCTTCTTAAGAAGTTTTTCCTTTCTGTCAGGGAGGCAGCA   4596
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4597 GTGGGGGTGGAGGGCAGGGAAGGAGGGATTGTTTTTACACTGACCACAGT   4646
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4647 AAAATATTACTCAGGCTAATTAAGGCCTAGAGAATGGTTAAACAAGAAAT   4696
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4697 TAGAGTAAATTATGTAAATTCTGGCCACCAATATGAGTACATTGATTAGC   4746
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4747 GGCAGGTTGAAGATTTTTTTTTTTAATTTCTATTTTTAATTACCAAAGTG   4796
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4797 TATGTATCTATTATATGATATTGTAATAGTTCAGAATAATATAAAAGGTA   4846
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4847 GAAAGTCTTACATCTTTGCCTCTGCCAATCCCCCTTCTAGAGGCTCCACC   4896
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4897 TTTATAGATTAGTATAAATCTTTTTGCGCCTCTTTCTATGAATATATGAT   4946
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4947 TTTTAATCAAACTGGGATGAGACCATACATATTTGTGTGTAAACTGTCAT   4996
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   4997 TGTTTCCACCCACATAGTGGCATATCATATGAACATCTTTCTGGTGCAGG   5046
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5047 TGGGTCATTATTTTTAACAGCTGCCAAGTATCCCTTTGTATGACTGTATC   5096
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5097 ATAACGTGGTTGTTAAATCTCCTATGCATAGTTTTTCCTCATTTTTTCTA   5146
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5147 CTGCACATAATGCTGCAGTGAACAGTTTATGCTTGTGTGTACATGCACAT   5196
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5197 GTATGGAGATTGCTACAGGACAAAATCCTGGAAGTGGAGTGCTAGATGAA   5246
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5247 TAGTATATCCATTTAAATAGTTGATAGATATTGCCAAATTGCCTTCTAAA   5296
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5297 ATTTTTGTACCAACTCATACCCAAAAAAGCATATGAGTGCCCTTGAAGGA   5346
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5347 AAAGGGTTCTTAAAATGTTGAGCAGGGAGAGTAAAGAAAGTTGAAATGTA   5396
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5397 ATTTAAGGGTGAGGTGAGCCACCTGCTTTCATCCAGCCTCTGATCTCTGC   5446
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5447 TTCACTGAGCACGCCTCTGCTGGGCAAAGAGTAGGAGCCTGTTGGGACAG   5496
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5497 ATCGGTGGGTCCTTGCTCCAAGAAGGAAGTGTGGCTCATGGGCCACACTC   5546
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5547 TCAGACATGCAGAAACTGTAAAGGAAGGAGACACAAGCTAAGAAACCCGG   5596
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5597 GCTGGCACCTCTGCACAATCCTGGAGCCTGCCCGTGCCCTGGCTGGCACT   5646
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5647 GGGCTTTGCTGAAATCTAATATCTTGTTTCTTTTTCCCTTCTGTAACTAA   5696
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5697 TGAGCAGGATGACAAGTACTGGGCAAGGCGCAGAAAGAACAACATGGCAG   5746
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5747 CCAAGCGCTCCCGCGACGCCCGGAGGCTGAAAGAGAACCAGATCGCCATC   5796
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5797 CGGGCCTCGTTCCTGGAGAAGGAGAACTCGGCCCTCCGCCAGGAGGTGGC   5846
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5847 TGACTTGAGGAAGGAGCTGGGCAAATGCAAGAACATACTTGCCAAGTATG   5896
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5897 AGGCCAGGCACGGGCCCCTGTAGGATGGCATTTTTGCAGGCTGGCTTTGG   5946
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5947 AATAGATGGACAGTTTGTTTCCTGTCTGATAGCACCACACGCAAACCAAC   5996
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   5997 CTTTCTGACATCAGCACTTTACCAGAGGCATAAACACAACTGACTCCCAT   6046
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6047 TTTGGTGTGCATCTGTGTGTGTGTGCGTGTATATGTGCTTGTGCTCATGT   6096
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6097 GTGTGGTCAGCGGTATGTGCGTGTGCGTGTTCCTTTGCTCTTGCCATTTT   6146
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6147 AAGGTAGCCCTCTCATCGTCTTTTAGTTCCAACAAAGAAAGGTGCCATGT   6196
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6197 CTTTACTAGACTGAGGAGCCCTCTCGCGGGTCTCCCATCCCCTCCCTCCT   6246
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6247 TCACTCCTGCCTCCTCAGCTTTGCTTCATGTTCGAGCTTACCTACTCTTC   6296
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6297 CAGGACTCTCTGCTTGGATTCACTAAAAAGGGCCCTGGTAAAATAGTGGA   6346
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6347 TCTCAGTTTTTAAGAGTACAAGCTCTTGTTTCTGTTTAGTCCGTAAGTTA   6396
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6397 CCATGCTAATGAGGTGCACACAATAACTTAGCACTACTCCGCAGCTCTAG   6446
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6447 TCCTTTATAAGTTGCTTTCCTCTTACTTTCAGTTTTGGTGATAATCGTCT   6496
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6497 TCAAATTAAAGTGCTGTTTAGATTTATTAGATCCCATATTTACTTACTGC   6546
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6547 TATCTACTAAGTTTCCTTTTAATTCTACCAACCCCAGATAAGTAAGAGTA   6596
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6597 CTATTAATAGAACACAGAGTGTGTTTTTGCACTGTCTGTACCTAAAGCAA   6646
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6647 TAATCCTATTGTACGCTAGAGCATGCTGCCTGAGTATTACTAGTGGACGT   6696
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6697 AGGATATTTTCCCTACCTAAGAATTTCACTGTCTTTTAAAAAACAAAAAG   6746
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6747 TAAAGTAATGCATTTGAGCATGGCCAGACTATTCCCTAGGACAAGGAAGC   6796
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6797 AGAGGGAAATGGGAGGTCTAAGGATGAGGGGTTAATTTATCAGTACATGA   6846
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6847 GCCAAAAACTGCGTCTTGGATTAGCCTTTGACATTGATGTGTTCGGTTTT   6896
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6897 GTTGTTCCCCTTCCCTCACACCCTGCCTCGCCCCCACTTTTCTAGTTAAC   6946
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6947 TTTTTCCATATCCCTCTTGACATTCAAAACAGTTACTTAAGATTCAGTTT   6996
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   6997 TCCCACTTTTTGGTAATATATATATTTTTGTGAATTATACTTTGTTGTTT   7046
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7047 TTAAAAAGAAAATCAGTTGATTAAGTTAATAAGTTGATGTTTTCTAAGGC   7096
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7097 CCTTTTTCCTAGTGGTGTCATTTTTGAATGCCTCATAAATTAATGATTCT   7146
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7147 GAAGCTTATGTTTCTTATTCTCTGTTTGCTTTTGAACGTATGTGCTCTTA   7196
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7197 TAAAGTGGACTTCTGAAAAATGAATGTAAAAGACACTGGTGTATCTCAGA   7246
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7247 AGGGGATGGTGTTGTCACAAACTGTGGTTAATCCAATCAATTTAAATGTT   7296
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7297 TACTATAGACCAAAAGGAGAGATTATTAAATCGTTTAATGTTTATACAGA   7346
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7347 GTAATTATAGGAAGTTCTTTTTTGTACAGTATTTTTCAGATATAAATACT   7396
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7397 GACAATGTATTTTGGAAGACATATATTATATATAGAAAAGAGGAGAGGAA   7446
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7447 AACTATTCCATGTTTTAAAATTATATAGCAAAGATATATATTCACCAATG   7496
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7497 TTGTACAGAGAAGAAGTGCTTGGGGGTTTTTGAAGTCTTTAATATTTTAA   7546
+
+EMBOSS_001       888 --------------------------------------------------    888
+                                                                       
+b4b4b80c-b1e1   7547 GCCCTATCACTGACACATCAGCATGTTTTCTGCTTTAAATTAAAATTTTA   7596
+
+EMBOSS_001       888 --------    888
+                             
+b4b4b80c-b1e1   7597 TGACAGTA   7604
+
+
+#---------------------------------------
+#---------------------------------------

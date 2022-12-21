@@ -1,0 +1,577 @@
+########################################
+# Program: needle
+# Rundate: Thu  1 Sep 2022 23:41:40
+# Commandline: needle
+#    -outfile needle/ENSG00000118705_be69ee18-f700-4603-a6cf-c1e8f340fa9b.needleall
+#    -asequence SA/ENSG00000118705.fa
+#    -bsequence SB/be69ee18-f700-4603-a6cf-c1e8f340fa9b.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000118705_be69ee18-f700-4603-a6cf-c1e8f340fa9b.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: be69ee18-f700-4603-a6cf-c1e8f340fa9b_ENSG00000118705.17
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6727
+# Identity:     917/6727 (13.6%)
+# Similarity:   917/6727 (13.6%)
+# Gaps:        5664/6727 (84.2%)
+# Score: 2407.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGCGCCGCCGGGTTCAAGCACTGTCTTCCTGTTGGCCCTGACAATCAT     50
+                                                                       
+be69ee18-f700      0 --------------------------------------------------      0
+
+EMBOSS_001        51 AGCCAGCACCTGGGCTCTGACGCCCACTCACTACCTCACCAAGCATGACG    100
+                                                                       
+be69ee18-f700      0 --------------------------------------------------      0
+
+EMBOSS_001       101 TGGAGAGACTAAAAGCCTCGCTGGATCGCCCTTTCACAAATTTGGAATCT    150
+                                                   .|||   ||.|.|||||   
+be69ee18-f700      1 ------------------------------GTTT---AACTCTGGAA---     14
+
+EMBOSS_001       151 GCCTTCTACTCCATC---GTGGGACTCAGCAGCCTTGGT-GCTCAGGTGC    196
+                                 |||   ||.||.|    |||.|.|||| |||||.|   
+be69ee18-f700     15 ------------ATCAAAGTTGGGC----CAGGCATGGTGGCTCACG---     45
+
+EMBOSS_001       197 CAGATGCAAAGAAAGCATGTACCTACATCAGATCTAACCTTGATCCCAGC    246
+                                                      |.||.||||        
+be69ee18-f700     46 ---------------------------------CGAATCTTG--------     54
+
+EMBOSS_001       247 AATGTGGATTCCCTCTTCTACGCTGCCCAGGCCAGCCAGGCCCTCTCAGG    296
+                                   |||      ||  ||||   ||||         |||
+be69ee18-f700     55 --------------CTT------TG--CAGG---GCCA---------AGG     70
+
+EMBOSS_001       297 ATGTGA-GATCTCTATTTCAAATGAGACCA-------AAGATCTGCTTCT    338
+                     | |.|| ||||.||        ||||..||       .||||||      
+be69ee18-f700     71 A-GGGAGGATCACT--------TGAGGTCAGGAGTTGGAGATCT------    105
+
+EMBOSS_001       339 GGCAGCTGTCAGTGAGGACTCATCTGTTACCCAGATCTACCATGCAGTTG    388
+                               ||||| |||   |||||       .|||||.|.|.|.||.
+be69ee18-f700    106 ----------AGTGA-GAC---TCTGT-------CTCTACAAAGAATTTA    134
+
+EMBOSS_001       389 CAGCTCTAAG-TGGCTTTGGCCTTCCCTTGGCATCCCAAGAAGC--ACTC    435
+                     .|..| |||| |||.|.|||        ||||          ||  || |
+be69ee18-f700    135 AAAAT-TAAGCTGGGTGTGG--------TGGC----------GCGTAC-C    164
+
+EMBOSS_001       436 AGT-GCCCTTACTGCTC----GTCTCAGCAAGGAGGAGACTGTGCTGGCA    480
+                     .|| |.||..|||.|||    |.||.||..|||||||...|.||      
+be69ee18-f700    165 TGTAGTCCCAACTACTCAGGAGGCTAAGGCAGGAGGATCTTTTG------    208
+
+EMBOSS_001       481 ACAGTCCAGGCTCTGCAGACAGCATCCCACCTGTCCCAGCAGGCTGACCT    530
+                       ||.|||||                     |||              .|
+be69ee18-f700    209 --AGCCCAGG---------------------TGT--------------AT    221
+
+EMBOSS_001       531 GAGG----AGCATCGTGGAGGAGAT-TGAGGACCTTGTTGCT--------    567
+                     ||||    ||||         ||.| |||      ||.||||        
+be69ee18-f700    222 GAGGTTACAGCA---------AGCTATGA------TGGTGCTACTGCACT    256
+
+EMBOSS_001       568 --CGCCTGGATGAACTC---GGGGGCGTGTATCTCCAGTTT--GAAGAAG    610
+                       ..|||||.|| ||.|   |.||.|.|||.||     |||  .||.|||
+be69ee18-f700    257 TCAACCTGGGTG-ACACAGTGAGGTCCTGTCTC-----TTTAAAAAAAAG    300
+
+EMBOSS_001       611 GACTGGAAACAACAGCG------TTATTTGTGGCTGCCACCTACAAGCTC    654
+                     .|...||||..|.||||      |..|||..||||   .|||...||| |
+be69ee18-f700    301 AAAAAGAAATGAGAGCGGGAAGTTCGTTTAGGGCT---TCCTTAGAGC-C    346
+
+EMBOSS_001       655 ATGGATCATGTGGGGACTGAGCCATCCATTA-AGGAGGATCAGGTCATCC    703
+                     ||||.|||    ||||..|||..||..|||| .||.|||           
+be69ee18-f700    347 ATGGCTCA----GGGAGAGAGGGATGAATTATGGGTGGA-----------    381
+
+EMBOSS_001       704 AGCTGATGAACGCGATCTTCAGCAAGAAGAACTTTGAGTCCCTCTCCGAA    753
+                                               ||||.||.|               
+be69ee18-f700    382 --------------------------AAGATCTGT---------------    390
+
+EMBOSS_001       754 GCCTTCAGCGTGGCCTCTG-CAGCTGCT------GTGCTCTCGCATAATC    796
+                           ||.|.|| ||||| .|.||..|      ||        |||.| 
+be69ee18-f700    391 ------AGGGAGG-CTCTGTTACCTTTTAAAAAGGT--------ATAGT-    424
+
+EMBOSS_001       797 GCTACCAC---GTGCCAGTT--GTGG----------TTGTGCCTGAGGGC    831
+                     |.||||||   ..||||.||  ||||          || ||||  |||||
+be69ee18-f700    425 GTTACCACCATTAGCCAATTAAGTGGGGCAGCAGCATT-TGCC--AGGGC    471
+
+EMBOSS_001       832 TCTGCTTCCGACACTCATGAACAGGCTATCTTGCGGTTGCAAGTCACCAA    881
+                      |..|.|..|| ||.||..||||             ||||.|||  |||.
+be69ee18-f700    472 -CACCCTAGGA-ACCCAGAAACA-------------TTGCGAGT--CCAG    504
+
+EMBOSS_001       882 TGTTCTGTCTCAG-CCTCTGACTCAGGCCACTGTTAAACTAGAACATGC-    929
+                     .||.|||.||||| |||.|.|||||.||                |||.| 
+be69ee18-f700    505 CGTCCTGCCTCAGTCCTGTCACTCAAGC----------------CATCCA    538
+
+EMBOSS_001       930 TAAATCTGTTGCTTCCAGAGCCACTGTCCTCCAGAAGACATCCTTCACCC    979
+                     ||.|.|||           |.|||   ||||                   
+be69ee18-f700    539 TATACCTG-----------GGCAC---CCTC-------------------    555
+
+EMBOSS_001       980 CTGTAGGGGATGTTTTTGAACTAAATTTCATGAACGTCAAATTTTCCAGT   1029
+                                  |||.|.||||            |.||||  |.||   
+be69ee18-f700    556 -------------TTTGGCACTA------------GCCAAA--TGCC---    575
+
+EMBOSS_001      1030 GGTTATTATGACTTCCTTGTCGAAGTTGAAGGTGACAACCGGTATATTGC   1079
+                                            |.||||.||             |||||
+be69ee18-f700    576 -----------------------ACTTGATGG-------------ATTGC    589
+
+EMBOSS_001      1080 AAATACCGTAGAGCTCAGAGTCAAGATCT--CCACTGAAGTTGGCATCAC   1127
+                       ||.|                    |||  ||.|||||  |||||    
+be69ee18-f700    590 --ATTC--------------------TCTGGCCTCTGAA--TGGCA----    611
+
+EMBOSS_001      1128 AAATGTTGA-TCTTTCCACCGTGGATAAGGATCAGAGCATTGCACCCAAA   1176
+                          .||| |||||        ||        ||.|.||       |||
+be69ee18-f700    612 -----GTGAGTCTTT--------GA--------AGGGAAT-------AAA    633
+
+EMBOSS_001      1177 ACTACCCGGG-TGACATACCCAGCCAAAGCCAAGGGCACATTCATCGCAG   1225
+                            ||| ||         |||||                   ||||
+be69ee18-f700    634 -------GGGTTG---------GCCAA-------------------GCAG    648
+
+EMBOSS_001      1226 ACAGCCACCAGAACTTCGCCTTGTTCTTCCAGCTGG---TAGATGT----   1268
+                                          ||       ||||||   || ||||    
+be69ee18-f700    649 ---------------------TG-------AGCTGGGGTTA-ATGTAGTC    669
+
+EMBOSS_001      1269 -------------GAACACTGGTGCTGAACTCACTCCTCA----CCAGAC   1301
+                                  ||.|.||||    ||         |||    |||| |
+be69ee18-f700    670 TCTGTGGAAGGGAGACCTCTGG----GA---------TCAAAAGCCAG-C    705
+
+EMBOSS_001      1302 ATTTGTCCGACTCCATAACCAGAAGACTGGCCAGGAAGTGGTGTTTGTTG   1351
+                     |||                .||||||  |||.|  |||           |
+be69ee18-f700    706 ATT----------------GAGAAGA--GGCAA--AAG-----------G    724
+
+EMBOSS_001      1352 CCGAGCCAGACAACAAGAACGTGTACAAGTTTGAACTGGATACCTCTGAA   1401
+                     ||   |||             ||..|        |||.|.|.||     |
+be69ee18-f700    725 CC---CCA-------------TGCCC--------ACTTGTTGCC-----A    745
+
+EMBOSS_001      1402 AGAAAGATTGAATTTGACTCT--GCCTCTGGCACCTACACTCTCT----A   1445
+                     ||  ||.||   ||.|.||||  ||    ||||  ||..|||| |    |
+be69ee18-f700    746 AG--AGGTT---TTAGCCTCTGGGC----GGCA--TATCCTCT-TCATGA    783
+
+EMBOSS_001      1446 CTTAATCATTGGAGATGCCACTTTGAAGAACCCAATCCTCTGGAAT--GT   1493
+                     ||.|  ||||   ||||   |||||         .||| |.||.||  .|
+be69ee18-f700    784 CTGA--CATT---GATG---CTTTG---------GTCC-CCGGTATACAT    815
+
+EMBOSS_001      1494 GGCTGATGTGGTCATCAAGTTCC----CTGAGGAAG-----------AAG   1528
+                     |||||                ||    ||| |||||           |||
+be69ee18-f700    816 GGCTG----------------CCCCTACTG-GGAAGGGCACATTCTTAAG    848
+
+EMBOSS_001      1529 -CTCCCTCGACTGTCTTGTCCCAGAACCTTTTCACTCCAAAACAGGAAAT   1577
+                      ||.|.|.|..|||||| ||                        ||    
+be69ee18-f700    849 TCTTCTTGGTGTGTCTT-TC------------------------GG----    869
+
+EMBOSS_001      1578 TCAGCACCTGTTCCGCGAGCCTGAGAAGAGGCCCCCCACCGTGGTGTCCA   1627
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+be69ee18-f700    870 -CAGCACCTGTTCCGCGAGCCTGAGAAGAGGCCCCCCACCGTGGTGTCCA    918
+
+EMBOSS_001      1628 ATACATTCACTGCCCTGATCCTCTCGCCGTTGCTTCTGCTCTTCGCTCTG   1677
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+be69ee18-f700    919 ATACATTCACTGCCCTGATCCTCTCGCCGTTGCTTCTGCTCTTCGCTCTG    968
+
+EMBOSS_001      1678 TGGATCCGGATTGGTGCCAATGTCTCCAACTTCACTTTTGCTCCTAGCAC   1727
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+be69ee18-f700    969 TGGATCCGGATTGGTGCCAATGTCTCCAACTTCACTTTTGCTCCTAGCAC   1018
+
+EMBOSS_001      1728 GATTATATTTCACCTGGGACATGCTGCTATGCTGGGACTCATGTATGTCT   1777
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+be69ee18-f700   1019 GATTATATTTCACCTGGGACATGCTGCTATGCTGGGACTCATGTATGTCT   1068
+
+EMBOSS_001      1778 ACTGGACTCAGCTCAACATGTTCCAGACCTTGAAGTACCTGGCCATCCTG   1827
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+be69ee18-f700   1069 ACTGGACTCAGCTCAACATGTTCCAGACCTTGAAGTACCTGGCCATCCTG   1118
+
+EMBOSS_001      1828 GGCAGTGTGACGTTTCTGGCTGGCAATCGGATGCTGGCCCAGCAGGCAGT   1877
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+be69ee18-f700   1119 GGCAGTGTGACGTTTCTGGCTGGCAATCGGATGCTGGCCCAGCAGGCAGT   1168
+
+EMBOSS_001      1878 CAAGAG--AA---CAGCACATTAG--------------------------   1896
+                     ||||||  ||   ||| ||||.||                          
+be69ee18-f700   1169 CAAGAGGTAAGGCCAG-ACATGAGCCAGGGATCTAGAGTAGGGTTAGAAA   1217
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1218 TACTCAGCTCTGCCGGCCTAGCTCTTTGAAGGGTAGGTGGCAAAATGATT   1267
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1268 TGTGTTCTTAGGGGCAAGTCTGACACCCTAATCTAGCCCAGTACAGAAGC   1317
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1318 CAGAAGCACTTTGAAGTCAGAAAAGAGCCTTAGTGGTCAGCTTTGAATGT   1367
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1368 ATTACAACCATTGTAATTGATGCCCCAATACAATAGAATGAGAGAGGAAA   1417
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1418 ATTATTAGCTTTATGAAGATGAAAATGCATTCATAGATGTGGCAGAAGAT   1467
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1468 TAATTTGTTAGCTGTGTAAAAATTCTCTGCTGCTACAGAGAATCCTGCCC   1517
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1518 TGCCCTCCCCACCCTCAACATGTCCCCGAGAGCTGCTCCTCTGTAACCCT   1567
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1568 CACAGCTCCAGGAGCTTGTCCCGGAAGCACGAGGTCTGTGTTATTTCCCA   1617
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1618 CAGAAGCTGCAGCAGGTTTTGCAGAGGCTCCCAGCAAGGAGTATCTCCTC   1667
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1668 AGTAGCCTACACCATCTCCCCGGGACCCAGACAACCTTAGAGTCACATGG   1717
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1718 ATGGTCAGACAGACCTTGACATGAGGGCAGCTTGCTGGCAGCTTGACTTT   1767
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1768 CTAAACAGAATTGGAGGCAAATTTAAATGTCACAAAGGTGTTTCTCATTG   1817
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1818 ATTTGACTTTATTAGAACCTGAGTGATTTCAGACACGCAAAGGCCAGTAA   1867
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1868 GAACAGAATTGCTTTCACCTCTGGAAATCGTTTTCAGATGTGCCGCTTTC   1917
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1918 TTCTATCCAGGACGTTTGCTGGAAGAATGTAACTCAATAGTGTACCCTCA   1967
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   1968 ACGTGGCTGCCAGTTAGGGTGCTGGGATCAGAGAGAGGCTTTTTCAGGGA   2017
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2018 GACCATCAGTGGGTGGGAGAAGATGTCTCATCTCCGCCCGAGTCTCCATT   2067
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2068 GTGAGCTTTCTGAGCATTTCACCATGGAGACTCGGCACAGACGTGTTCCT   2117
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2118 TGGCTTTCCTGTAGGAATCCAGGGCCCACCAGAGCTTCCCTTAGCACCAG   2167
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2168 CAGTGGCAGCTGGTTCATTTTGCCACCCTCCAGTAGCCTTTTCCTGGTGG   2217
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2218 TTCTGCATTGTACCTGAGAAAGAGCCAGGACTCAGTTGCTTTTGCAAAGC   2267
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2268 AGAACCCTGTTCCCTTGCAGCACCTGCCTGGGCCCCCAGGGAGCCAAAAG   2317
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2318 ACTGCTCTGCTAAGTTCTCTCTTTTCTGGAAGTTGCTCACTCGAGAAGAA   2367
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2368 TGAAATCTGCCCGCCATGGTGGCTTATGCCTATAATCCCAGCACTTTGGG   2417
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2418 AGGCTAAGGCGGGAGGATCGCTTGAGCTCAGGAGTTGGAGACCAGCCTGG   2467
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2468 GCAACATAGTGAGACCTCGTCTCTCAAAAAATTAATAAAAATTAAGAAAA   2517
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2518 AAATCAAGACAAGAATTGAGTAGAAACCATTTGGTTTATGTTCTGCTTAG   2567
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2568 CAGGAGTTCCTAATCTGGAATCCTAAAGTTGTATGCATTTTATGGGGAGA   2617
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2618 GAGACTATGGTTTTTATCAGAATCCCAGAAGGATCAGTAACTCCTCCCTC   2667
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2668 TCCCCTGCTCATGTATTCGATTCAAAAACTTAAAGCCCACTCTTCTGTGG   2717
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2718 CCCTCTTTGTGAGTCCTAGAATGAACTCTACCCTGGAAAAATCAGTGACC   2767
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2768 CTAATGGAAGCTCTGGTTGGGTGTTTGTCATTTCTTTCCTCAGCTGATTT   2817
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2818 CTCCCCTCACTGTCCTTTCTTGATTCTCAAACCCTCTTTCCTTTGGCAGG   2867
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2868 ATCGCTGCAGAGCAGAGCAGTAGATTGGCAAAATATAGGACACTACGGTA   2917
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2918 AAGATGAAGGGCGGACTCATCCCAGAAGCAGGGTCCCTTCCCCGTCTTGC   2967
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   2968 CCGCCTCATGCATGTCAGTTATCTCTCTAGTTTTCAGCCCACTTGCTCCT   3017
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3018 CCCACCCCTCCCTAAGCCACAGCTGAATTCTGAGGCTGCTTTTCAACTTG   3067
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3068 CTAGATGAGGTTGTGACTGGACCAGGGCAAAAGCTTCCTGAGTTAGCCCA   3117
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3118 GCTGATGGGATAACTTTGCAGTGAGCAGCTTTGGCCTGGCTTTGACTGTA   3167
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3168 TAAGACTTCATTCTCCCTTATATCCCGTGGGGTACTTACTTATTTATAGA   3217
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3218 CAAGCCTCTCTCTCTGTTTCCAGGACAGCTGAGATGAGGATAAGACAAAT   3267
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3268 CCAAAATTCATTAAATGACGGTCCCATGGCAAATCCTGGCACACCTTGTC   3317
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3318 ACTGTTTCTAGACTTTTCTGTAACACCGATCTCTAGTTGGGCTAAACATT   3367
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3368 GTGGTCTGGGGAGACTGTAATTTATGAAGGACTGATGGCCACAGATCAAA   3417
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3418 GCCAGCATCAGAATCCAGGTTCCTAGCACTCAGGGTATGTTAAAAGGGCT   3467
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3468 GCTCCCCATGTGACTAAAATGTGAAGTGAGATTCCACTCATTCTCCTTCT   3517
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3518 GCATATCAGTCCTAGGATGGGAGGGAAGTGGAGGGAAGGAGAAGGAGAGT   3567
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3568 CTGATGCTTCACTGATCTGCTCCGCTAGACCAGGGTCTGGCAAAAGTTTT   3617
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3618 CTGTAAAGAGCCAGACAGTATTTTAGGCTTAACTGGCCATATGGTCTCTT   3667
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3668 GGCACCAACTACTCAACTCTGTCACTGTCATGTGAAAGCAGCCATAGACT   3717
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3718 GTATAAACAAATGGGTGTGGCTGTGTTCCAACAAAACTTTATTCACCAAG   3767
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3768 ACAGGTGGTGGGCTGGATTTGGCCTGAGTGGCACAGTTTGCTGACCCCTG   3817
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3818 CCCTAGACCAACAAAGGGAGGGGAGGTATTTGAATTTTCAAGTCATGTTC   3867
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3868 TCCTTTATCCTTTGCCTTGGAAATGGCTTTCCCTGCCAAAGCCACAAAAC   3917
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3918 CATCTAATTTCTAATCCTCTGAAAATAGGAGAGATCAACAAAAGCATAGT   3967
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   3968 ATTTGGAGCCTTTCCATGGATGTGTGAGCATAAGCTGGGTCACCTAGTCC   4017
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4018 TCAACACAGAAGGGAACTGCATTTGTTTGTTTGTTTGTTTGTTTGTTTGT   4067
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4068 TTGTTTCCAGGTTTAATGGAGTTGTAATTTATCTGCAGAAAAATGTACCC   4117
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4118 TTTTTAGTGTACAATTCTGTGAATCCTGAAAAACCTCTGTAGTCATGTAG   4167
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4168 CCACCACCTCAGTCAAGATATAGGTATTGCCACTCTCCAGAGAGCTCCCC   4217
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4218 GGTGCCCCTTTTAGAGTCCGACCCTTCTCCCACCCCCACTCCCTGGCTAT   4267
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4268 GCCCGTTTGGTTTCATCCTACATTATAGTCACTCTGTCTGAGATTTGCTT   4317
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4318 TCAGCAACTGTCCTTGCTGCTACATGTTGAGTTCTTTAATTCTTTAAATA   4367
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4368 AGTCGATTTCTTTTCTTGATTAAAAAGAACTTTTTTTATAGAGATGGGGT   4417
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4418 CTCATTATGTTGCCCAAGCTGGTCTCAAGCTCCTGGGCTCAAGCAATCCT   4467
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4468 CCTGCTTTGGCCCCTAAAAGTGCTGGGATTATAGACGTGAGCCACCTTAC   4517
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4518 TCAGTCTCTTGAGTTTTAAAGTCCGTTCCCACCCTGCTATCCCCAAATCA   4567
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4568 TTGCTTGAGGAAGAGGAAAGTCACTTGATCATTTGGACATTTGGCATTTC   4617
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4618 CTAGCATTTGAAAGGAAACCCCCTGGTAGCAAAGTGTTCTTGATCTGAGG   4667
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4668 GCAGACATTGATTTGAGCAGACATAATGTGGGACGTAAGTTCTAGCCGCA   4717
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4718 GTCAAGAGTTGTGGGCCACTACCCTTCGGCTGTTCTTATTTCATACTCAT   4767
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4768 GCCATCCTTTCTGCATGAACATTTCTGAATGCCCACATATTAGTGTACCT   4817
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4818 AAGAACCTCTGAATACTGGCAAGGAATTAGGGGTGCACACCCCAGCCCTC   4867
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4868 AAGATTAATTCCATGCCTGTGCATGTCTTTTGGAACTGCTTTATTAATGG   4917
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4918 GTTTGGAGTCTGCCATTCTGCAAGACTGGATCATTATCACCTTAGTCCTC   4967
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   4968 ACCCCTGGGAAGAGCTGCCACTGAAGGATGGTGTGTGTGTGTCAGCAACC   5017
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5018 CTGCCTCTGCTTGCTGGAGCCTGCTGGGATCAGTTACTCACTGCAGTCAC   5067
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5068 CTCCTCAGCTTCACAGTCTGTCTAGATTGTCATTTTCATTCATTGTGCTT   5117
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5118 CCCCATCCCTCCTTAGAGTCTAGGGAAAGGCAGCGGAGGGGAAACAAAGA   5167
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5168 GTACAGGAGATAGGTTCTTATCCCCTTTAACACTTTCTGTGAGCTGAGTC   5217
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5218 CCATTTTTGAGAATCTTTCTGTGTTAGGTTAGATGCTGAGTGTGACTTGG   5267
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5268 CAAGAACACGGCCACACGGCAGGAATGTGCAGGTTTCTGTAATGAATGGT   5317
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5318 CAGGATGTCATGTTCTAAGCTACAGAAGGGCCAAGTGTTGGTTGGCAGAG   5367
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5368 CTGGAGTCTGGGAGATTGATGATGAGCATTATTTAAACTTTGCTCTTTGT   5417
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5418 TCATCTAATTGAAATTTACACTGTGTTTTTGGCCTTGCACTGTGAGAGGT   5467
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5468 GTGCCTGGAATTACCTCATCTCCTTATGTTGTCACATACCACTTTCTTAG   5517
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5518 TTATTATTGAGTTTGTTTTGTTATTTGTATTTAAGTTGTCATCAGCTTAA   5567
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5568 TTATGAACTAGCTGTCTCACATTCTTTTGTAAAATGAGATGGGGCATACA   5617
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5618 TAAATAGACTTGGGAGATAAATGATTATTCCCTTATAAATGGGATCTTAG   5667
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5668 AGCGGGAGAGTACCTTAGTCTCTCTGTTGTCACCAGTTAGGAACTGTAAC   5717
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5718 TGTGAACTGAAACCTTCAGTAATTCTGTGTTTGTCTCCATTTTCTTTCAG   5767
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5768 AACAGCACATTAGTTCCAGAAGAAAGATGGAAATTCTGAAAACTGAATGT   5817
+
+EMBOSS_001      1896 --------------------------------------------------   1896
+                                                                       
+be69ee18-f700   5818 CAAGAAAAGGAGTCAAGAACAATTCACAGTATGAGAAGAAAAATGGAAAA   5867
+
+EMBOSS_001      1896 ---------------------------   1896
+                                                
+be69ee18-f700   5868 AAAAAACTTTATTTAAAAAAGAAAAAA   5894
+
+
+#---------------------------------------
+#---------------------------------------

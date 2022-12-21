@@ -1,0 +1,57 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 01:04:45
+# Commandline: needle
+#    -outfile needle/ENSG00000215386_f3647173-da9e-49dc-81a1-53ef9fc8415b.needleall
+#    -asequence SA/ENSG00000215386.fa
+#    -bsequence SB/f3647173-da9e-49dc-81a1-53ef9fc8415b.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000215386_f3647173-da9e-49dc-81a1-53ef9fc8415b.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: f3647173-da9e-49dc-81a1-53ef9fc8415b_ENSG00000215386.14
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:       3/213 ( 1.4%)
+# Similarity:     6/213 ( 2.8%)
+# Gaps:         196/213 (92.0%)
+# Score: 11.5
+# 
+#
+#=======================================
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+f3647173-da9e      1 CCAGGACATCCATAAAAATTCATCAGAGAGCATTTTACTACTGAGCTGCA     50
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+f3647173-da9e     51 AAGATGACAAGAGCACCTCAAAGGCAGCAGCCTCAAGGAGCAGCCATGGC    100
+
+EMBOSS_001         0 --------------------------------------------------      0
+                                                                       
+f3647173-da9e    101 CCCAGACTTGTCGCACGGATGCAGAAAACTTAATGGAGGAGGCTGAGGTC    150
+
+EMBOSS_001         1 ----------Sequenceunavailable---------------------     19
+                               .  :    : | |  |                        
+f3647173-da9e    151 AGAATGGGAAGAGTT--TTTAAAAAATAAAAAGGGGAGCTAATATGTGAG    198
+
+EMBOSS_001        19 -------------     19
+                                  
+f3647173-da9e    199 GAACTGATTGCTG    211
+
+
+#---------------------------------------
+#---------------------------------------

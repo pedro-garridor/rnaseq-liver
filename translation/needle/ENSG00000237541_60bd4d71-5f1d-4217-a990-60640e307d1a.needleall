@@ -1,0 +1,105 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 18:33:58
+# Commandline: needle
+#    -outfile needle/ENSG00000237541_60bd4d71-5f1d-4217-a990-60640e307d1a.needleall
+#    -asequence SA/ENSG00000237541.fa
+#    -bsequence SB/60bd4d71-5f1d-4217-a990-60640e307d1a.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000237541_60bd4d71-5f1d-4217-a990-60640e307d1a.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 60bd4d71-5f1d-4217-a990-60640e307d1a_ENSG00000196735.13
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 829
+# Identity:     724/829 (87.3%)
+# Similarity:   724/829 (87.3%)
+# Gaps:          61/829 ( 7.4%)
+# Score: 3444.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ---------------------------------------ATGATCCTAAA     11
+                                                            |||||||||||
+60bd4d71-5f1d      1 GCTCAGAACACCAACTGCTGAGGCTGCCTTGGGAAGAGGATGATCCTAAA     50
+
+EMBOSS_001        12 CAAAGCTCTGCTGCTGGGGGCCCTCGCCCTGACTGCCGTGATGAGCCCCT     61
+                     |||||||||||||||||||||||||||.|||||..|||||||||||||||
+60bd4d71-5f1d     51 CAAAGCTCTGCTGCTGGGGGCCCTCGCTCTGACCACCGTGATGAGCCCCT    100
+
+EMBOSS_001        62 GTGGAGGTGAAGACATTGTGGCTGACCATGTTGCCTCCTATGGTGTGAAC    111
+                     ||||||||||||||||||||||||||||.||||||||.|.||||||.|||
+60bd4d71-5f1d    101 GTGGAGGTGAAGACATTGTGGCTGACCACGTTGCCTCTTGTGGTGTAAAC    150
+
+EMBOSS_001       112 TTCTACCAGTCTCACGGTCCCTCTGGCCAGTACACCCATGAATTTGATGG    161
+                     ||.|||||||.|.|||||||||||||||||||||||||||||||||||||
+60bd4d71-5f1d    151 TTGTACCAGTTTTACGGTCCCTCTGGCCAGTACACCCATGAATTTGATGG    200
+
+EMBOSS_001       162 AGACGAGGAGTTCTATGTGGACCTGGAGACGAAAGAGACTGTCTGGCAGT    211
+                     |||.|||.|||||||.|||||||||||||.|||.|||||||.|||||.||
+60bd4d71-5f1d    201 AGATGAGCAGTTCTACGTGGACCTGGAGAGGAAGGAGACTGCCTGGCGGT    250
+
+EMBOSS_001       212 TGCCTATGTTTAGCAAATTTATAAGTTTTGACCCGCAGAGTGCACTGAGA    261
+                     .||||..|||.|||||||||..|.||||||||||||||.|||||||||||
+60bd4d71-5f1d    251 GGCCTGAGTTCAGCAAATTTGGAGGTTTTGACCCGCAGGGTGCACTGAGA    300
+
+EMBOSS_001       262 AATATGGCTGTGGGAAAACACACCTTGGAATTCATGATGAGACAGTCCAA    311
+                     ||.||||||||||.||||||||.||||.|..|||||||.|.||..|.|||
+60bd4d71-5f1d    301 AACATGGCTGTGGCAAAACACAACTTGAACATCATGATTAAACGCTACAA    350
+
+EMBOSS_001       312 CTCTACCGCTGCCACCAATGAGGTTCCTGAGGTCACAGTGTTTTCCAAGT    361
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+60bd4d71-5f1d    351 CTCTACCGCTGCTACCAATGAGGTTCCTGAGGTCACAGTGTTTTCCAAGT    400
+
+EMBOSS_001       362 TTCCTGTGACGCTGGGTCAGCCCAACACCCTCATCTGTCTTGTGGACAAC    411
+                     .|||.|||||.|||||||||||||||||||||||.|||||||||||||||
+60bd4d71-5f1d    401 CTCCCGTGACACTGGGTCAGCCCAACACCCTCATTTGTCTTGTGGACAAC    450
+
+EMBOSS_001       412 ATCTTTCCTCCTGTGGTCAACATCACCTGGCTGAGCAATGGGCACTCAGT    461
+                     ||||||||||||||||||||||||||.|||||||||||||||||.|||||
+60bd4d71-5f1d    451 ATCTTTCCTCCTGTGGTCAACATCACATGGCTGAGCAATGGGCAGTCAGT    500
+
+EMBOSS_001       462 CACAGAAGGTGTTTCTGAGACCAGCTTCCTCTCCAAGAGTGATCATTCCT    511
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+60bd4d71-5f1d    501 CACAGAAGGTGTTTCTGAGACCAGCTTCCTCTCCAAGAGTGATCATTCCT    550
+
+EMBOSS_001       512 TCTTCAAGATCAGTTACCTCACCTTCCTCCCTTCTGCTGATGAGATTTAT    561
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+60bd4d71-5f1d    551 TCTTCAAGATCAGTTACCTCACCTTCCTCCCTTCTGCTGATGAGATTTAT    600
+
+EMBOSS_001       562 GACTGCAAGGTGGAGCACTGGGGCCTGGACGAGCCTCTTCTGAAACACTG    611
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+60bd4d71-5f1d    601 GACTGCAAGGTGGAGCACTGGGGCCTGGACCAGCCTCTTCTGAAACACTG    650
+
+EMBOSS_001       612 GGAGCCTGAGATTCCAGCCCCTATGTCAGAGCTCACAGAGACTTTGGTCT    661
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+60bd4d71-5f1d    651 GGAGCCTGAGATTCCAGCCCCTATGTCAGAGCTCACAGAGACTTTGGTCT    700
+
+EMBOSS_001       662 GCGCCCTGGGGTTGTCTGTGGGCCTCATGGGCATTGTGGTGGGCACTGTC    711
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+60bd4d71-5f1d    701 GCGCCCTGGGGTTGTCTGTGGGCCTCATGGGCATTGTGGTGGGCACTGTC    750
+
+EMBOSS_001       712 TTCATCATCCAAGGCCTGCGTTCAGTTGGTGCTTCCAGACACCAAGGGCT    761
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+60bd4d71-5f1d    751 TTCATCATCCAAGGCCTGCGTTCAGTTGGTGCTTCCAGACACCAAGGGCT    800
+
+EMBOSS_001       762 CTTATGA----------------------    768
+                     |||||||                      
+60bd4d71-5f1d    801 CTTATGAATCCCATCCTGAAAAGGAAGGT    829
+
+
+#---------------------------------------
+#---------------------------------------

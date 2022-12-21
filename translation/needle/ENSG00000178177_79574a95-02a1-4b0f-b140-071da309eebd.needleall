@@ -1,0 +1,489 @@
+########################################
+# Program: needle
+# Rundate: Fri  2 Sep 2022 10:14:09
+# Commandline: needle
+#    -outfile needle/ENSG00000178177_79574a95-02a1-4b0f-b140-071da309eebd.needleall
+#    -asequence SA/ENSG00000178177.fa
+#    -bsequence SB/79574a95-02a1-4b0f-b140-071da309eebd.fa
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EDNAFULL
+#    -endopen 10.0
+#    -endextend 0.5
+# Align_format: srspair
+# Report_file: needle/ENSG00000178177_79574a95-02a1-4b0f-b140-071da309eebd.needleall
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: 79574a95-02a1-4b0f-b140-071da309eebd_ENSG00000178177.16
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5645
+# Identity:     861/5645 (15.3%)
+# Similarity:   861/5645 (15.3%)
+# Gaps:        4738/5645 (83.9%)
+# Score: 3670.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 ATGGACAAGGGAAGAGAGAGAATGGCCGCTGCCGCCGCCGCTGCTGCCGC     50
+                             ||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1      1 --------GGGAAGAGAGAGAATGGCCGCTGCCGCCGCCGCTGCTGCCGC     42
+
+EMBOSS_001        51 CGCCGCCGCCGCCGCTCAGTGCCGGAGCCCTCGGTGCGCGGCGGAGAGAA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1     43 CGCCGCCGCCGCCGCTCAGTGCCGGAGCCCTCGGTGCGCGGCGGAGAGAA     92
+
+EMBOSS_001       101 GAGGATTCCGGCGGGAACTCGACTCTTGGCGCCACCGCCTCATGCACTGT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1     93 GAGGATTCCGGCGGGAACTCGACTCTTGGCGCCACCGCCTCATGCACTGT    142
+
+EMBOSS_001       151 GTAGGTTTTGAGAGTATTTTAGAAGGGCTTTATGGACCACGGCTACGAAG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    143 GTAGGTTTTGAGAGTATTTTAGAAGGGCTTTATGGACCACGGCTACGAAG    192
+
+EMBOSS_001       201 AGACCTCAGTTTATTTGAAGACTGTGAACCAGAAGAGCTGACTGACTGGT    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    193 AGACCTCAGTTTATTTGAAGACTGTGAACCAGAAGAGCTGACTGACTGGT    242
+
+EMBOSS_001       251 CTATGGATGAAAAATGTTCATTTTGTAACCTACAGAGAGAAGCAGTCAGT    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    243 CTATGGATGAAAAATGTTCATTTTGTAACCTACAGAGAGAAGCAGTCAGT    292
+
+EMBOSS_001       301 GATTGTATACCATCTCTTGATTCTTCACAGTCAACACCAACAGAGGAGCT    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    293 GATTGTATACCATCTCTTGATTCTTCACAGTCAACACCAACAGAGGAGCT    342
+
+EMBOSS_001       351 ATCATCTCAGGGCCAGTCCAACACTGATAAGATTGAATGCCAAGCAGAAA    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    343 ATCATCTCAGGGCCAGTCCAACACTGATAAGATTGAATGCCAAGCAGAAA    392
+
+EMBOSS_001       401 ATTACCTAAATGCACTCTTTCGAAAGAAAGATCTTCCTCAGAACTGTGAT    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    393 ATTACCTAAATGCACTCTTTCGAAAGAAAGATCTTCCTCAGAACTGTGAT    442
+
+EMBOSS_001       451 CCTAACATTCCCCTAGTTGCTCAGGAATTAATGAAAAAGATGATACGTCA    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    443 CCTAACATTCCCCTAGTTGCTCAGGAATTAATGAAAAAGATGATACGTCA    492
+
+EMBOSS_001       501 ATTTGCGATTGAGTACATTTCAAAAAGTGGTAAAACTCAAGAGAATAGAA    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    493 ATTTGCGATTGAGTACATTTCAAAAAGTGGTAAAACTCAAGAGAATAGAA    542
+
+EMBOSS_001       551 ATGGTTCAATTGGACCAAGTATAGTATGTAAAAGTATCCAAATGAATCAA    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    543 ATGGTTCAATTGGACCAAGTATAGTATGTAAAAGTATCCAAATGAATCAA    592
+
+EMBOSS_001       601 GCAGAAAACTCCCTTCAGGAAGAGCAGGAAGGCCCCTTAGACCTCACTGT    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+79574a95-02a1    593 GCAGAAAACTCCCTTCAGGAAGAGCAGGAAGGCCCCTTAGACCTCACTGT    642
+
+EMBOSS_001       651 GAATCGAATGCAAGAACAAAATACTCAGCAAGGGGATGGAGTGTTAGATC    700
+                     |||||||||||||||||||||||||||||||  |.|||            
+79574a95-02a1    643 GAATCGAATGCAAGAACAAAATACTCAGCAA--GCATG------------    678
+
+EMBOSS_001       701 TCTCTACAA-AGAAAACCAGCAT----AAAATCTGAAGAGTCATCCATAT    745
+                        |||||| .||||||     |    |.||.||||            ||
+79574a95-02a1    679 ---CTACAAGTGAAAAC-----TGATGAGAAACTGA------------AT    708
+
+EMBOSS_001       746 GTGATCCTTCTTCTGAAAATTCAGTGGCTGGTTCAACTGTTGATGCAAAA    795
+                     |||     |||..|||.|||.||   ||..|||...|| ||||..|    
+79574a95-02a1    709 GTG-----TCTGATGAGAATACA---GCAAGTTGCCCT-TTGAGCC----    745
+
+EMBOSS_001       796 TCAGAGGAAGCTACTAAAATGGAAAAAAGAAAATCAGCATTAAACAAAGT    845
+                               |.|.|||.|||              .||.||||.|   ||
+79574a95-02a1    746 ----------CCATTAAGATG--------------TGCCTTAATC---GT    768
+
+EMBOSS_001       846 ----TT---TGGAATCTTTGTGCATACATCACCAGCAACAAGTTTTGGCT    888
+                         ||   |||||||    ||.||                         
+79574a95-02a1    769 CCCATTGAATGGAATC----TGAAT-------------------------    789
+
+EMBOSS_001       889 ATGTTGAAATTTCTAGTCCAAGAGCAGAATGCTGCTTCTCT---TTGCTG    935
+                        ||||           |||.||||          |||||   ..||||
+79574a95-02a1    790 ---TTGA-----------CAACAGCA----------TCTCTAACGAGCTG    815
+
+EMBOSS_001       936 TTGTAATACATCATGTGTTGTGTCTT---CAGAATCTCAAAAGCCCTTAA    982
+                           ||||    ||      ||.|   ||.|||||||||||       
+79574a95-02a1    816 ------TACA----GT------TCATAACCAAAATCTCAAAAG-------    842
+
+EMBOSS_001       983 TCGAAGATGATTTATGTGGTCTGTTCTGTAGTTGTGAATATAGGCTGGCA   1032
+                      |||||| ||..||..|.| |.|||||                .||.|||
+79574a95-02a1    843 -CGAAGA-GAAATAGATTG-CAGTTCT----------------TCTTGCA    873
+
+EMBOSS_001      1033 GAAAGAGGTTGTTTACAAAACGAAAAACAAAGCCCTGGTTTAGAACCTCT   1082
+                     ..|      |.||||                       |||.|    |.|
+79574a95-02a1    874 CTA------TCTTTA-----------------------TTTTG----TAT    890
+
+EMBOSS_001      1083 GCCAG-------TCTG--TATTAAAGATTTA--CATTGTTTATCTTGCCA   1121
+                     |.|||       ||||  .|.|||..|||||  .||||   ||||||  |
+79574a95-02a1    891 GTCAGTATTCCTTCTGAACAATAAGCATTTATCAATTG---ATCTTG--A    935
+
+EMBOSS_001      1122 AACTGTAACTGTTGAACACGTTAAGCCAGTAGTGAATAGAGGAATTGCAG   1171
+                     |                                                 
+79574a95-02a1    936 A-------------------------------------------------    936
+
+EMBOSS_001      1172 ACAGTTATAATTCTCACAGGTGCTGTTCTGGACTGTTACCAAACATTCAC   1221
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1222 TCTACAAAATCAGCCTTTCGTAGTCCTCTTTTGTCAAAGGAAGTATGTGA   1271
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1272 TCTTTCAGTCACTCTTAAAGATGCCTGTAGATCTCGAAGTCCCTCACCCC   1321
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1322 CACCATTATCACCTATAGAAACTGAAGGATTTGAAAAATTGAAAGACGTC   1371
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1372 ATCTCAGAGATTTCAGCCTTAGAAAATAACAAACTTGAAGCAAACATTAA   1421
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1422 CCAGCCTCCATCTCTCACACCAGCAGAAATCAGCAGCAATAAGAGTGATC   1471
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1472 ATCAAGATAAAATACTTAAAACTAAAAAATCCAGTAACTCTTATTCTTTA   1521
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1522 CTCTCAAATGACAGCAATAATTCTACTACAAATCATGAAAAAGGTGAAAC   1571
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1572 TGCTGTAATTTTTCAAGATTTAATGGATCGCATTAATGAAAAACTAAAAT   1621
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1622 CAATAGAAACCACGGATATGACAAGCCTTGTAAAATTATCTAGCAGTGAT   1671
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1672 TATAATACATATAATGATTTAAAATTGGGAGATTTCATAACATCTCTCTT   1721
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1722 GCATAATGCAAAAGCCAGTGATTATAGTTTTATGGAATTATTGAGTCAAC   1771
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1772 ATGATAAAAAGGTAGAAAATAAAATTATTCAGACAAGATTTCGAAAGCGT   1821
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1822 CAAGAAACTTTATTTGCAATGCGCAACTCCTCTGATTCACCCATGTTTAG   1871
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1872 AAGGCAGTCTTTACAGATAAAAAGAGAACTTGCTAGTCTTGATGAAAATT   1921
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1922 TTACAAGAAAAAAATACACCGAAAAAAGTTCAAGGAAATTGACACAAAAC   1971
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      1972 AATGAGATATCTTCATCAGACAAAGGAGAATTCTATCATGACCAAGGGCC   2021
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2022 TTCTTTACAAAATTCTAAAAGACTTCAAGGTAAAAATCATGCTGAAACAT   2071
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2072 CATTTTCACCAAATTATGCATTACAGTCACTGCAACTACCTCTTCATAGT   2121
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2122 TCAGAAACTAACTTGTCTTTTAATGAATTTTCAGAAAGCTTTAAAACAAC   2171
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2172 TTCCCCTGAGAAAATGAGCATAAGAAAGCCACAGGAGAAATCTGCAGATG   2221
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2222 GAAAACAATTTTTGCAAAATGATAGGAAAAATCCAAAGTTAGGTAATACT   2271
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2272 CAAACTCTTTTGAGAAATGATGTTTCTGGACTTTTGAGCAGAACTAAACG   2321
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2322 AAATATTGTGCCTCCAGGGTGGTATTCTGTATATGTAACAAATAATTATG   2371
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2372 TTTTTAAAAAATCCCCTAAAGCCAAAAAAGTATCCGAATCCACAACAAAA   2421
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2422 AACGATCCAGTGAAAAATATTCACATTGAAAGCTCACACAATATAGACCT   2471
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2472 AAACAAAATTGCAATGAATTCTAATTTACAAGTGGTTGTGAAGCGTTTGG   2521
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2522 AAGATACAATAAGTATAGCCAAAAAATCCTGGAATAATCAGCCATTATCA   2571
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2572 GAAGGATATAAAGCATCCAAGAAATTGATAGAAATTGATGGTAAAGACCA   2621
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2622 ACATGCTGACAGAAATATGACTCTTACTCTAAATAGAATGACATGCAAAG   2671
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2672 AACAGAGCTTATCAAAATCTGTGGTAGCATCCGGCAATATTATCAATAGT   2721
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2722 CACTGCATGCCTACAGTGGATTTGAATAACAAAAGACTTGAAAATCTGAA   2771
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2772 AAAGTCATCTATTTTAGATATGGGTCGCTTGATTTCCAGTGTTGAAAATG   2821
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2822 TACCAGCAAAATATGAAGGTACTGAAAGTTCATCTGTTTCCAACTATTCT   2871
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2872 AGTCCTATCAAACTCATGTTTTTATCTGAGGTTAAAAGTAGTGAAGGGGT   2921
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2922 CAAATATACTTTAACTTCAGTTGGCACTTCCCATTCAAATGTTGTTCTCC   2971
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      2972 CTTCTGAAAAACCTACAACCCATCACGTAACTGAAGAAAAAACAGAAACA   3021
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3022 AATGAGGATATCTCAAATGCGAACTCTGAAAATTATCACTCCAGTCATTA   3071
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3072 TGATACTGATACTTTTCAAAGAGAACTAAACAAATTCAGTCATGCAAAAG   3121
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3122 AAACTGCAGGATCCTCTACAATGTTTATAGGTGATATAAATAGTGATAAG   3171
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3172 CCACAAGAAGAACCTAAGGACAATTCAAGCAGTGCTACTGATCCATCTTT   3221
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3222 TAAAAGAAAACCAGGTAGACCAAAAAAAATAGGTCCCCAAGTTGTGAAAC   3271
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3272 AGATTAAGCGACCAATTGGAAGACCACCAAAGCCTAAAATTGATCAAACA   3321
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3322 AACATCACTGTTTGCCAGAATGAGCCCTTTAGTGCTGGAAGGAAAAGCCC   3371
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3372 AGAATGTCTCATATCAGAAGTAAAAGAAGGTATTTATAAAAAGAGTATTA   3421
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3422 CAGTAACTGTTATTTACGGAAGGTCAAGAAGAACTAAAAGGCATGTTTCT   3471
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3472 GAAGGAAGGGTAAACATAAGCAACCTTATGTCTTTAAACAATAATGCTGG   3521
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3522 TGATTTTCCAACTGAATATAATAGTCCCAGAAATATTAGTGAAGACAAAA   3571
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3572 TTGACTTGGGTGAAAGAATAAGTGCTGTAGCAAGCTTGACTACTGAAAGT   3621
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3622 GAGATCTTGGGGTCTGGCTTTGAATATGTGAGACCCATCAAGAACAAATC   3671
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3672 TGTGATACCTCAGCCTTCCAAGAACATTATTCGACCAAATCAGAAGCCTT   3721
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3722 TGGCAATAAGTAGGAAGCCTGGTAGACCGGCAAAAGTGAAAATCTCTGGC   3771
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3772 ATATCTGTGACTATTAATAGAACTTCACCTCAGGAAAGAGAAGTAAGTAT   3821
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3822 TAGCAGCTGCTTGCCTCCTTTAGAACAGGATAATACGTCAGGAAAAAATC   3871
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3872 TGCCTGAAGAAAAGTATGACCAACAGTGCACTCAAATGGATAAAATAAGG   3921
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3922 CACACTGAAGCTGATATATTTAAAAATGGATCAAAACGTATGATTGCTAC   3971
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      3972 TGTACCTTTGAGACATTCTATTAGGGATAGAAAACCATCTCTGCATTTCT   4021
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4022 TACATTCATTAGCATCTTCTAGCTCACTTATTTATAGAAACGCTCTGCTC   4071
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4072 CATAAATCATATAAACTGCATTTGCAGAAAAATAAAAGTCAGAAGGAAAA   4121
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4122 ACATAGGCACTCAAAGATGAAAATAGCTTACAAAGATACCCCAAGAAACA   4171
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4172 GACTTTCGCGGAATGCAAAAAAGTGTTTGGAAGATAATAAATTAGTACCT   4221
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4222 ATTTCTGAAGTATCCTTGGATCCTATAATTTCATCAAACCCTTTGCTCAG   4271
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4272 GTGGTGGGCTACTTCTGCTTCAAATGATTCCTTATTAGAGGAATTAAACA   4321
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4322 ATAGATTTGAGCAAATAACAAATGCTTGGGTGCAAGTAAGTGGAGATGAA   4371
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4372 GCTGAAAATTGTATTCATAAAAAAAGAGAACACATTGAAAATGATCATTT   4421
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4422 CAAAGTAGCAAGCCCTTTGGAAACTTGTCTTTTAGAACTTGAAGTTTCAC   4471
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4472 CTGTAAAAATGCTTTTTCAGAAAAAGTATGATTTGAATGAACTCTGTACT   4521
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4522 TGGTTTATGCAAACAACAGAAACACAGTCTCTTTCACTAGTTAGAAAAGC   4571
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4572 AAATGCCCGAAACCCTTTGGAAGTAATAAATACCAGGGGAATCAAATTAG   4621
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4622 GGACCAAATATTCTGACTTTAATGCCAGCCCCTTCAGAAAGCACTTTAAA   4671
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4672 AAATTTGCACTCTCTTCTCCTTCAAAATCAGCAGAGAAATTGCATATACT   4721
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4722 GCATAAAGTGGCTAACTCTCCACTCTTAAATGTGAAAAGTAATTTAGCAA   4771
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4772 TAGCTAGATTAAAAAGGACTGAGTTTAAGAGGTTGCATCATGAAAGGTGG   4821
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4822 AAAAGAGAGGGAAAGCTGCACAACCATGGAACAGTTGACTGGAACTCTAA   4871
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4872 AAGGAGAAACTTAAGATTTTTCTGCCAGAACCAATTTTTAAATAAGACTG   4921
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4922 AGGGAGAAACAAATGCTGACATCCCACTCCAAGGAAAAAGCATAGTAGAT   4971
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      4972 AATCAGTGTGTTTTGCCACCTGAGATCAGGGGTGACTTGCAGCAGAGGGT   5021
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5022 AGTAATGCCTGACTTCAAAATACATGCTAGTTTTGAGAATAAATTTAAGT   5071
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5072 CAGAAGCAAAAGAGAATGGAACAAATTGCAGCCAAAAAGACTTTCAAAAG   5121
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5122 GGACCAAGACTAGAAAATGTATGTCCTAATAGTTGGAGGTCAAAAACCTT   5171
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5172 AAAAGACTGTAGAATATTTTTGAGGAAGCTCAACTGTCTTGAACACAGAA   5221
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5222 ATACTTTTAAGCTAAATACAATCATTTACTCTCCTGAATCTACTGACAGT   5271
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5272 GGAAATACTCATCAGACTCATATGGAAGAATCAAAGCGCTTTACTTTAAG   5321
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5322 ATCTCATTCTGCTAGGCAAAATTCTTTTAAAAAGCAATCTAAAGAAATAG   5371
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5372 AAAATGCTAACACAAATAATCCTTCAGCTGATGAATTTGCTGACCATCTT   5421
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5422 GGCAATAGTAAATTAAGCAAATGTGTTAACTTTGACAAGAATCCTGATAG   5471
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5472 TTTTGAAGTTCTTAGCAATTTGAACAAAAGAAAAAGACCACCATGGAAGA   5521
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5522 TCACAGAAATGTCAACAAAAAGACATAAACGACAGTCTTGCAACAGTGGA   5571
+                                                                       
+79574a95-02a1    936 --------------------------------------------------    936
+
+EMBOSS_001      5572 CAAATGGCAAACTATTTTTCCAAATCCCTAGCATGCTACAAGTGA   5616
+                                                                  
+79574a95-02a1    936 ---------------------------------------------    936
+
+
+#---------------------------------------
+#---------------------------------------
